@@ -153,8 +153,6 @@ class CountryGenerator {
 			fwrite($fp, "var ".$country['unique_name']." = &Country{\n");
 			fwrite($fp, "\tName: ".self::goescape($country['name']).",\n");
 			fwrite($fp, "\tUniqueName: ".self::goescape($country['unique_name']).",\n");
-			if (isset($country['official_name'])) fwrite($fp, "\tOfficialName: ".self::goescape($country["official_name"]).",\n");
-			if (isset($country['common_name'])) fwrite($fp, "\tCommonName: ".self::goescape($country["common_name"]).",\n");
 			fwrite($fp, "\tISO3166_Alpha2: ".self::goescape($country['alpha_2']).",\n");
 			fwrite($fp, "\tISO3166_Alpha3: ".self::goescape($country['alpha_3']).",\n");
 			fwrite($fp, "\tNumeric: ".((int)$country['numeric']).",\n");

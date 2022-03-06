@@ -3,7 +3,6 @@ package countrydb
 var Egypt = &Country{
 	Name:           "Egypt",
 	UniqueName:     "Egypt",
-	OfficialName:   "Arab Republic of Egypt",
 	ISO3166_Alpha2: "EG",
 	ISO3166_Alpha3: "EGY",
 	Numeric:        818,

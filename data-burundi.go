@@ -3,7 +3,6 @@ package countrydb
 var Burundi = &Country{
 	Name:           "Burundi",
 	UniqueName:     "Burundi",
-	OfficialName:   "Republic of Burundi",
 	ISO3166_Alpha2: "BI",
 	ISO3166_Alpha3: "BDI",
 	Numeric:        108,
