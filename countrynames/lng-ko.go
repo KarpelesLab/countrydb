@@ -1,6 +1,6 @@
 package countrynames
 
-var Localeko = map[string]Translated{
+var Korean = map[string]Translated{
 	"AW": Translated{
 		Name: "아루바",
 	},

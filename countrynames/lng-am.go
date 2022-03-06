@@ -1,6 +1,6 @@
 package countrynames
 
-var Localeam = map[string]Translated{
+var Amharic = map[string]Translated{
 	"AW": Translated{
 		Name: "አሩባ",
 	},

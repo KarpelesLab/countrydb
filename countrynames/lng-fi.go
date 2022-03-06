@@ -1,6 +1,6 @@
 package countrynames
 
-var Localefi = map[string]Translated{
+var Finnish = map[string]Translated{
 	"AW": Translated{
 		Name: "Aruba",
 	},

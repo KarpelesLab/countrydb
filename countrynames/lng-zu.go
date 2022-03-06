@@ -1,6 +1,6 @@
 package countrynames
 
-var Localezu = map[string]Translated{
+var Zulu = map[string]Translated{
 	"AF": Translated{
 		Name:         "I-Afganistani",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominikhani",

@@ -1,6 +1,6 @@
 package countrynames
 
-var Localemy = map[string]Translated{
+var Burmese = map[string]Translated{
 	"AF": Translated{
 		Name: "အာဖဂန်နစ္စတန်နိုင်ငံ",
 	},

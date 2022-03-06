@@ -1,6 +1,6 @@
 package countrynames
 
-var Localegu = map[string]Translated{
+var Gujarati = map[string]Translated{
 	"AW": Translated{
 		Name: "અરૂબા",
 	},

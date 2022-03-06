@@ -1,6 +1,6 @@
 package countrynames
 
-var Localeja = map[string]Translated{
+var Japanese = map[string]Translated{
 	"AW": Translated{
 		Name: "アルーバ",
 	},

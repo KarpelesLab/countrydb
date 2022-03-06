@@ -1,6 +1,6 @@
 package countrynames
 
-var Localeaz = map[string]Translated{
+var Azerbaijani = map[string]Translated{
 	"AW": Translated{
 		Name: "Aruba",
 	},

@@ -1,6 +1,6 @@
 package countrynames
 
-var Localemr = map[string]Translated{
+var Marathi = map[string]Translated{
 	"AW": Translated{
 		Name: "अरुबा",
 	},

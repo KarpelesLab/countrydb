@@ -1,6 +1,6 @@
 package countrynames
 
-var Localede = map[string]Translated{
+var German = map[string]Translated{
 	"AW": Translated{
 		Name: "Aruba",
 	},

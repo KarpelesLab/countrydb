@@ -1,6 +1,6 @@
 package countrynames
 
-var Localeth = map[string]Translated{
+var Thai = map[string]Translated{
 	"AW": Translated{
 		Name: "อารูบา",
 	},

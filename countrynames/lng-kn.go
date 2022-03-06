@@ -1,6 +1,6 @@
 package countrynames
 
-var Localekn = map[string]Translated{
+var Kannada = map[string]Translated{
 	"AW": Translated{
 		Name: "ಅರುಬಾ",
 	},

@@ -1,6 +1,6 @@
 package countrynames
 
-var Localekm = map[string]Translated{
+var Khmer = map[string]Translated{
 	"AW": Translated{
 		Name: "អារូបា",
 	},

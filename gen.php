@@ -140,7 +140,7 @@ class CountryGenerator {
 		while(!feof($fp)) {
 			$lin = fgetcsv($fp);
 			if ($lin === false) break;
-			$this->golng[$lin[0]] = $lin[1]; // English => en
+			$this->golng[$lin[1]] = $lin[0]; // en => English
 		}
 		fclose($fp);
 	}
@@ -214,56 +214,71 @@ class CountryGenerator {
 	}
 
 	public function genLanguagesData() {
+		$this->writeLanguage('en', function($a) { return $a; });
+
 		// generate languages
 		foreach(glob('iso-codes/iso_3166-1/*.po') as $file) {
 			$lng = basename($file, '.po'); // remove path & .po
-			// some cases: we may have "ln" "lng" "ln@var" "ln_XX"
-			// all of these will parse as language.Tag
-			$uniqueName = str_replace('@', '_', $lng);
-			$lngVar = 'Locale'.str_replace('_', '', $uniqueName); // var containing this language
-			$this->lngIndex[$lng] = $lngVar;
-
-			// let's read all translations
-			$po_data = file_get_contents($file);
-			preg_match_all('/\nmsgid "(.+?)"\nmsgstr "(.+?)"/m', $po_data, $trans, PREG_SET_ORDER);
-
-			// index translations
-			$trans_idx = [];
-			foreach($trans as $t)
-				$trans_idx[$t[1]] = stripslashes($t[2]);
-
-			// create file
-			$fp = fopen('countrynames/lng-'.strtolower(str_replace('_', '', $uniqueName)).'.go', 'w');
-			fwrite($fp, "package countrynames\n\n");
-			fwrite($fp, "var $lngVar = map[string]Translated{\n");
-
-			// analyse which country has which translation
-			$vars = [
-				'name' => 'Name',
-				'official_name' => 'OfficialName',
-				'common_name' => 'CommonName',
-			];
-
-			foreach($this->country_data as &$country) {
-				$local = [];
-				foreach($vars as $key => $gokey) {
-					if (!isset($country[$key])) continue; // not existing
-					if (!isset($trans_idx[$country[$key]])) continue; // not translated
-					$local[$gokey] = $trans_idx[$country[$key]];
-				}
-				if (!$local) continue; // no translations for this country
-
-				// output translations
-				fwrite($fp, "\t".self::goescape($country['alpha_2']).": Translated{\n");
-				foreach($local as $k => $v) {
-					fwrite($fp, "\t\t$k: ".self::goescape($v).",\n");
-				}
-				fwrite($fp, "\t},\n");
-			}
-
-			fwrite($fp, "}\n");
-			fclose($fp);
+			$this->writeLanguage($lng, $this->loadLanguage($file));
 		}
+	}
+
+	public function loadLanguage($file) {
+		// let's read all translations
+		$po_data = file_get_contents($file);
+		preg_match_all('/\nmsgid "(.+?)"\nmsgstr "(.+?)"/m', $po_data, $trans, PREG_SET_ORDER);
+
+		// index translations
+		$trans_idx = [];
+		foreach($trans as $t)
+			$trans_idx[$t[1]] = stripslashes($t[2]);
+
+		return function($a) use (&$trans_idx) { if (!isset($trans_idx[$a])) return NULL; return $trans_idx[$a]; };
+	}
+
+	public function writeLanguage($lng, $translate) {
+		// some cases: we may have "ln" "lng" "ln@var" "ln_XX"
+		// all of these will parse as language.Tag
+		$uniqueName = str_replace('@', '_', $lng);
+		if (isset($this->golng[$lng])) {
+			$lngVar = $this->golng[$lng];
+		} else {
+			$lngVar = 'Locale'.str_replace('_', '', $uniqueName); // var containing this language
+		}
+		$this->lngIndex[$lng] = $lngVar;
+
+		// create file
+		$fp = fopen('countrynames/lng-'.strtolower(str_replace('_', '', $uniqueName)).'.go', 'w');
+		fwrite($fp, "package countrynames\n\n");
+		fwrite($fp, "var $lngVar = map[string]Translated{\n");
+
+		// analyse which country has which translation
+		$vars = [
+			'name' => 'Name',
+			'official_name' => 'OfficialName',
+			'common_name' => 'CommonName',
+		];
+
+		foreach($this->country_data as &$country) {
+			$local = [];
+			foreach($vars as $key => $gokey) {
+				if (!isset($country[$key])) continue; // not existing
+				$v = $translate($country[$key]);
+				if (is_null($v)) continue; // not translated
+				$local[$gokey] = $v;
+			}
+			if (!$local) continue; // no translations for this country
+
+			// output translations
+			fwrite($fp, "\t".self::goescape($country['alpha_2']).": Translated{\n");
+			foreach($local as $k => $v) {
+				fwrite($fp, "\t\t$k: ".self::goescape($v).",\n");
+			}
+			fwrite($fp, "\t},\n");
+		}
+
+		fwrite($fp, "}\n");
+		fclose($fp);
 	}
 
 	public function genLanguagesIndex() {
@@ -282,7 +297,7 @@ class CountryGenerator {
 		fwrite($fp, "package countrynames\n\n");
 		fwrite($fp, "import \"golang.org/x/text/language\"\n\n");
 		fwrite($fp, "var LocaleByTag = map[language.Tag]map[string]Translated{\n");
-		foreach($this->golng as $tagname => $lng) {
+		foreach($this->golng as $lng => $tagname) {
 			if (!isset($this->lngIndex[$lng])) continue;
 			fwrite($fp, "\tlanguage.$tagname: ".$this->lngIndex[$lng].",\n");
 		}

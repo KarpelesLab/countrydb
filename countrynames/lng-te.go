@@ -1,6 +1,6 @@
 package countrynames
 
-var Localete = map[string]Translated{
+var Telugu = map[string]Translated{
 	"AW": Translated{
 		Name: "అరుబా",
 	},

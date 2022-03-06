@@ -1,6 +1,6 @@
 package countrynames
 
-var Localevi = map[string]Translated{
+var Vietnamese = map[string]Translated{
 	"AW": Translated{
 		Name: "Ă-ru-ba",
 	},

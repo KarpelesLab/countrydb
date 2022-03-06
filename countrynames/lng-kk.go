@@ -1,6 +1,6 @@
 package countrynames
 
-var Localekk = map[string]Translated{
+var Kazakh = map[string]Translated{
 	"AW": Translated{
 		Name: "Аруба аралдары",
 	},

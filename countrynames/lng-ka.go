@@ -1,6 +1,6 @@
 package countrynames
 
-var Localeka = map[string]Translated{
+var Georgian = map[string]Translated{
 	"AW": Translated{
 		Name: "არუბა",
 	},

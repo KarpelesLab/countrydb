@@ -1,6 +1,6 @@
 package countrynames
 
-var LocalezhCN = map[string]Translated{
+var SimplifiedChinese = map[string]Translated{
 	"AW": Translated{
 		Name: "阿鲁巴",
 	},

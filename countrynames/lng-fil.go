@@ -1,6 +1,6 @@
 package countrynames
 
-var Localefil = map[string]Translated{
+var Filipino = map[string]Translated{
 	"AW": Translated{
 		Name: "Aruba",
 	},

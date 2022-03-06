@@ -1,7 +1,7 @@
 Afrikaans,af
 Amharic,am
 Arabic,ar
-ModernStandardArabic,ar
+ModernStandardArabic,arb
 Azerbaijani,az
 Bulgarian,bg
 Bengali,bn
@@ -15,7 +15,7 @@ AmericanEnglish,en_US
 BritishEnglish,en_GB
 Spanish,es
 EuropeanSpanish,es_EU
-LatinAmericanSpanish,es
+LatinAmericanSpanish,es-419
 Estonian,et
 Persian,fa
 Finnish,fi

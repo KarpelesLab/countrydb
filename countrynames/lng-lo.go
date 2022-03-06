@@ -1,6 +1,6 @@
 package countrynames
 
-var Localelo = map[string]Translated{
+var Lao = map[string]Translated{
 	"AO": Translated{
 		Name: "ປະເທດອັງໂກລາ",
 	},

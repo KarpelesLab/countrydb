@@ -1,6 +1,6 @@
 package countrynames
 
-var Localeml = map[string]Translated{
+var Malayalam = map[string]Translated{
 	"AW": Translated{
 		Name: "അറൂബ",
 	},
