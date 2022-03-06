@@ -8,4 +8,5 @@ var Bahrain = &Country{
 	ISO3166_Alpha3: "BHR",
 	Numeric:        48,
 	CcTLD:          ".bh",
+	FIPS:           "BA",
 }

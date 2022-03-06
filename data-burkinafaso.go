@@ -7,4 +7,5 @@ var BurkinaFaso = &Country{
 	ISO3166_Alpha3: "BFA",
 	Numeric:        854,
 	CcTLD:          ".bf",
+	FIPS:           "UV",
 }

@@ -8,4 +8,5 @@ var Eswatini = &Country{
 	ISO3166_Alpha3: "SWZ",
 	Numeric:        748,
 	CcTLD:          ".sz",
+	FIPS:           "WZ",
 }

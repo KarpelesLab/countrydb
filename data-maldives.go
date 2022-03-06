@@ -8,4 +8,5 @@ var Maldives = &Country{
 	ISO3166_Alpha3: "MDV",
 	Numeric:        462,
 	CcTLD:          ".mv",
+	FIPS:           "MV",
 }

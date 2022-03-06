@@ -7,4 +7,5 @@ var Mayotte = &Country{
 	ISO3166_Alpha3: "MYT",
 	Numeric:        175,
 	CcTLD:          ".yt",
+	FIPS:           "MF",
 }

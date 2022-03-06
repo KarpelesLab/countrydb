@@ -7,4 +7,5 @@ var SvalbardandJanMayen = &Country{
 	ISO3166_Alpha3: "SJM",
 	Numeric:        744,
 	CcTLD:          ".sj",
+	FIPS:           "SV",
 }

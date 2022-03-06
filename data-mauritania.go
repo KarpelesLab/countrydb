@@ -8,4 +8,5 @@ var Mauritania = &Country{
 	ISO3166_Alpha3: "MRT",
 	Numeric:        478,
 	CcTLD:          ".mr",
+	FIPS:           "MR",
 }

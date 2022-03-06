@@ -7,4 +7,5 @@ var SaintPierreandMiquelon = &Country{
 	ISO3166_Alpha3: "SPM",
 	Numeric:        666,
 	CcTLD:          ".pm",
+	FIPS:           "SB",
 }

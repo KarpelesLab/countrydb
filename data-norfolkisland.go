@@ -7,4 +7,5 @@ var NorfolkIsland = &Country{
 	ISO3166_Alpha3: "NFK",
 	Numeric:        574,
 	CcTLD:          ".nf",
+	FIPS:           "NF",
 }

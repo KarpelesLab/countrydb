@@ -7,4 +7,5 @@ var Turkmenistan = &Country{
 	ISO3166_Alpha3: "TKM",
 	Numeric:        795,
 	CcTLD:          ".tm",
+	FIPS:           "TX",
 }

@@ -8,4 +8,5 @@ var Malta = &Country{
 	ISO3166_Alpha3: "MLT",
 	Numeric:        470,
 	CcTLD:          ".mt",
+	FIPS:           "MT",
 }

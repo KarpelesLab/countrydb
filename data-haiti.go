@@ -8,4 +8,5 @@ var Haiti = &Country{
 	ISO3166_Alpha3: "HTI",
 	Numeric:        332,
 	CcTLD:          ".ht",
+	FIPS:           "HA",
 }

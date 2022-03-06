@@ -8,4 +8,5 @@ var Philippines = &Country{
 	ISO3166_Alpha3: "PHL",
 	Numeric:        608,
 	CcTLD:          ".ph",
+	FIPS:           "RP",
 }

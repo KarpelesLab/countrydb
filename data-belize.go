@@ -7,4 +7,5 @@ var Belize = &Country{
 	ISO3166_Alpha3: "BLZ",
 	Numeric:        84,
 	CcTLD:          ".bz",
+	FIPS:           "BH",
 }

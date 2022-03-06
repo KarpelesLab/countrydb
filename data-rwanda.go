@@ -8,4 +8,5 @@ var Rwanda = &Country{
 	ISO3166_Alpha3: "RWA",
 	Numeric:        646,
 	CcTLD:          ".rw",
+	FIPS:           "RW",
 }

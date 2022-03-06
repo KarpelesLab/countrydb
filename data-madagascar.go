@@ -8,4 +8,5 @@ var Madagascar = &Country{
 	ISO3166_Alpha3: "MDG",
 	Numeric:        450,
 	CcTLD:          ".mg",
+	FIPS:           "MA",
 }

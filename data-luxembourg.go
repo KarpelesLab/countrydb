@@ -8,4 +8,5 @@ var Luxembourg = &Country{
 	ISO3166_Alpha3: "LUX",
 	Numeric:        442,
 	CcTLD:          ".lu",
+	FIPS:           "LU",
 }

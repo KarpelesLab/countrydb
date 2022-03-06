@@ -8,4 +8,5 @@ var Nauru = &Country{
 	ISO3166_Alpha3: "NRU",
 	Numeric:        520,
 	CcTLD:          ".nr",
+	FIPS:           "NR",
 }

@@ -7,4 +7,5 @@ var Grenada = &Country{
 	ISO3166_Alpha3: "GRD",
 	Numeric:        308,
 	CcTLD:          ".gd",
+	FIPS:           "GJ",
 }

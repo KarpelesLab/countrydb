@@ -8,4 +8,5 @@ var Cyprus = &Country{
 	ISO3166_Alpha3: "CYP",
 	Numeric:        196,
 	CcTLD:          ".cy",
+	FIPS:           "CY",
 }

@@ -8,4 +8,5 @@ var Belarus = &Country{
 	ISO3166_Alpha3: "BLR",
 	Numeric:        112,
 	CcTLD:          ".by",
+	FIPS:           "BO",
 }

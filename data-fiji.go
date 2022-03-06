@@ -8,4 +8,5 @@ var Fiji = &Country{
 	ISO3166_Alpha3: "FJI",
 	Numeric:        242,
 	CcTLD:          ".fj",
+	FIPS:           "FJ",
 }

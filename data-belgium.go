@@ -8,4 +8,5 @@ var Belgium = &Country{
 	ISO3166_Alpha3: "BEL",
 	Numeric:        56,
 	CcTLD:          ".be",
+	FIPS:           "BE",
 }

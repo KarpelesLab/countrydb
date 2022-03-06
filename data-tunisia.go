@@ -8,4 +8,5 @@ var Tunisia = &Country{
 	ISO3166_Alpha3: "TUN",
 	Numeric:        788,
 	CcTLD:          ".tn",
+	FIPS:           "TS",
 }

@@ -7,4 +7,5 @@ var BritishIndianOceanTerritory = &Country{
 	ISO3166_Alpha3: "IOT",
 	Numeric:        86,
 	CcTLD:          ".io",
+	FIPS:           "IO",
 }

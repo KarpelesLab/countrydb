@@ -8,4 +8,5 @@ var Kiribati = &Country{
 	ISO3166_Alpha3: "KIR",
 	Numeric:        296,
 	CcTLD:          ".ki",
+	FIPS:           "KR",
 }

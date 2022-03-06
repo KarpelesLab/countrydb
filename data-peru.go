@@ -8,4 +8,5 @@ var Peru = &Country{
 	ISO3166_Alpha3: "PER",
 	Numeric:        604,
 	CcTLD:          ".pe",
+	FIPS:           "PE",
 }

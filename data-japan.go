@@ -7,4 +7,5 @@ var Japan = &Country{
 	ISO3166_Alpha3: "JPN",
 	Numeric:        392,
 	CcTLD:          ".jp",
+	FIPS:           "JA",
 }

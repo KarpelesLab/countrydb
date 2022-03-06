@@ -7,4 +7,5 @@ var SaintBarthelemy = &Country{
 	ISO3166_Alpha3: "BLM",
 	Numeric:        652,
 	CcTLD:          ".bl",
+	FIPS:           "TB",
 }

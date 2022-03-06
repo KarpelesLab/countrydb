@@ -8,4 +8,5 @@ var Samoa = &Country{
 	ISO3166_Alpha3: "WSM",
 	Numeric:        882,
 	CcTLD:          ".ws",
+	FIPS:           "WS",
 }

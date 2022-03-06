@@ -8,4 +8,5 @@ var Bahamas = &Country{
 	ISO3166_Alpha3: "BHS",
 	Numeric:        44,
 	CcTLD:          ".bs",
+	FIPS:           "BF",
 }

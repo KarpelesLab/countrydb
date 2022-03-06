@@ -8,4 +8,5 @@ var Turkey = &Country{
 	ISO3166_Alpha3: "TUR",
 	Numeric:        792,
 	CcTLD:          ".tr",
+	FIPS:           "TU",
 }

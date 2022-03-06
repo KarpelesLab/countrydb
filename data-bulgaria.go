@@ -8,4 +8,5 @@ var Bulgaria = &Country{
 	ISO3166_Alpha3: "BGR",
 	Numeric:        100,
 	CcTLD:          ".bg",
+	FIPS:           "BU",
 }

@@ -8,4 +8,5 @@ var Morocco = &Country{
 	ISO3166_Alpha3: "MAR",
 	Numeric:        504,
 	CcTLD:          ".ma",
+	FIPS:           "MO",
 }

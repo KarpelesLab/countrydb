@@ -7,4 +7,5 @@ var AntiguaandBarbuda = &Country{
 	ISO3166_Alpha3: "ATG",
 	Numeric:        28,
 	CcTLD:          ".ag",
+	FIPS:           "AC",
 }

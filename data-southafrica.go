@@ -8,4 +8,5 @@ var SouthAfrica = &Country{
 	ISO3166_Alpha3: "ZAF",
 	Numeric:        710,
 	CcTLD:          ".za",
+	FIPS:           "SF",
 }

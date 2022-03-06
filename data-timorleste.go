@@ -8,4 +8,5 @@ var TimorLeste = &Country{
 	ISO3166_Alpha3: "TLS",
 	Numeric:        626,
 	CcTLD:          ".tl",
+	FIPS:           "TT",
 }

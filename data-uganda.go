@@ -8,4 +8,5 @@ var Uganda = &Country{
 	ISO3166_Alpha3: "UGA",
 	Numeric:        800,
 	CcTLD:          ".ug",
+	FIPS:           "UG",
 }

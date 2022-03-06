@@ -8,4 +8,5 @@ var GuineaBissau = &Country{
 	ISO3166_Alpha3: "GNB",
 	Numeric:        624,
 	CcTLD:          ".gw",
+	FIPS:           "PU",
 }

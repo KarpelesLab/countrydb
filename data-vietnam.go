@@ -9,4 +9,5 @@ var Vietnam = &Country{
 	ISO3166_Alpha3: "VNM",
 	Numeric:        704,
 	CcTLD:          ".vn",
+	FIPS:           "VM",
 }

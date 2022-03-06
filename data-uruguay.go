@@ -8,4 +8,5 @@ var Uruguay = &Country{
 	ISO3166_Alpha3: "URY",
 	Numeric:        858,
 	CcTLD:          ".uy",
+	FIPS:           "UY",
 }

@@ -8,4 +8,5 @@ var Chile = &Country{
 	ISO3166_Alpha3: "CHL",
 	Numeric:        152,
 	CcTLD:          ".cl",
+	FIPS:           "CI",
 }

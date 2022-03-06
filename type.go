@@ -9,4 +9,5 @@ type Country struct {
 	ISO3166_Alpha3 string
 	Numeric        int
 	CcTLD          string
+	FIPS           string // FIPS 10 / GEC code
 }

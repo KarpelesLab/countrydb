@@ -8,4 +8,5 @@ var Slovakia = &Country{
 	ISO3166_Alpha3: "SVK",
 	Numeric:        703,
 	CcTLD:          ".sk",
+	FIPS:           "LO",
 }

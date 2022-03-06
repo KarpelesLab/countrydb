@@ -8,4 +8,5 @@ var Colombia = &Country{
 	ISO3166_Alpha3: "COL",
 	Numeric:        170,
 	CcTLD:          ".co",
+	FIPS:           "CO",
 }

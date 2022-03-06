@@ -8,4 +8,5 @@ var Netherlands = &Country{
 	ISO3166_Alpha3: "NLD",
 	Numeric:        528,
 	CcTLD:          ".nl",
+	FIPS:           "NL",
 }

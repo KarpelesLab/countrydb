@@ -8,4 +8,5 @@ var Nigeria = &Country{
 	ISO3166_Alpha3: "NGA",
 	Numeric:        566,
 	CcTLD:          ".ng",
+	FIPS:           "NI",
 }

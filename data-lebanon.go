@@ -8,4 +8,5 @@ var Lebanon = &Country{
 	ISO3166_Alpha3: "LBN",
 	Numeric:        422,
 	CcTLD:          ".lb",
+	FIPS:           "LE",
 }

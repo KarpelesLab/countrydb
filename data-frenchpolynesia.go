@@ -7,4 +7,5 @@ var FrenchPolynesia = &Country{
 	ISO3166_Alpha3: "PYF",
 	Numeric:        258,
 	CcTLD:          ".pf",
+	FIPS:           "FP",
 }

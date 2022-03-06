@@ -7,4 +7,5 @@ var Canada = &Country{
 	ISO3166_Alpha3: "CAN",
 	Numeric:        124,
 	CcTLD:          ".ca",
+	FIPS:           "CA",
 }

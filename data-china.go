@@ -8,4 +8,5 @@ var China = &Country{
 	ISO3166_Alpha3: "CHN",
 	Numeric:        156,
 	CcTLD:          ".cn",
+	FIPS:           "CH",
 }

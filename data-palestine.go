@@ -8,4 +8,5 @@ var Palestine = &Country{
 	ISO3166_Alpha3: "PSE",
 	Numeric:        275,
 	CcTLD:          ".ps",
+	FIPS:           "WE",
 }

@@ -8,4 +8,5 @@ var Montenegro = &Country{
 	ISO3166_Alpha3: "MNE",
 	Numeric:        499,
 	CcTLD:          ".me",
+	FIPS:           "MJ",
 }

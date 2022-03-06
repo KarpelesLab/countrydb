@@ -7,4 +7,5 @@ var Malaysia = &Country{
 	ISO3166_Alpha3: "MYS",
 	Numeric:        458,
 	CcTLD:          ".my",
+	FIPS:           "MY",
 }

@@ -8,4 +8,5 @@ var Croatia = &Country{
 	ISO3166_Alpha3: "HRV",
 	Numeric:        191,
 	CcTLD:          ".hr",
+	FIPS:           "HR",
 }

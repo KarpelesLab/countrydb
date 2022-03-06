@@ -8,4 +8,5 @@ var Sweden = &Country{
 	ISO3166_Alpha3: "SWE",
 	Numeric:        752,
 	CcTLD:          ".se",
+	FIPS:           "SW",
 }

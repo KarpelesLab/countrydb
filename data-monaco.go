@@ -8,4 +8,5 @@ var Monaco = &Country{
 	ISO3166_Alpha3: "MCO",
 	Numeric:        492,
 	CcTLD:          ".mc",
+	FIPS:           "MN",
 }

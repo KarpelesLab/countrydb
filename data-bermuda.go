@@ -7,4 +7,5 @@ var Bermuda = &Country{
 	ISO3166_Alpha3: "BMU",
 	Numeric:        60,
 	CcTLD:          ".bm",
+	FIPS:           "BD",
 }

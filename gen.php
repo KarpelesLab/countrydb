@@ -15,6 +15,7 @@ echo 'Loaded '.count($country_data).' countries and '.count($region_data).' regi
 
 // compute unique names for countries based on "common_name" or "name" (or special if needed)
 $unique_names = [];
+$alpha2_index = [];
 $special = [
 	'CD' => 'DemocraticCongo',
 	'VG' => 'BritishVirginIslands',
@@ -33,6 +34,7 @@ foreach($country_data as &$country) {
 	if (isset($unique_names[strtolower($name)])) die("name not unique: $name\n");
 	$unique_names[strtolower($name)] = true;
 	$country['unique_name'] = $name;
+	$alpha2_index[$country['alpha_2']] = &$country;
 }
 
 // ccTLD filling
@@ -45,6 +47,17 @@ foreach($country_data as &$country) {
 	case 'UM': $cctld = null; break;
 	}
 	$country['cctld'] = $cctld;
+}
+
+// fips 10 filling
+$fp = fopen('data/fips-10-4-to-iso-country-codes.csv', 'r');
+while(!feof($fp)) {
+	$lin = fgetcsv($fp);
+	// "FIPS 10-4","ISO 3166",Name
+	if ($lin === false) break;
+	if (strlen($lin[0]) != 2) continue;
+	if (strlen($lin[1]) != 2) continue;
+	$alpha2_index[$lin[1]]['fips'] = $lin[0];
 }
 
 // generate files
@@ -60,6 +73,7 @@ foreach($country_data as &$country) {
 	fwrite($fp, "\tISO3166_Alpha3: ".goescape($country['alpha_3']).",\n");
 	fwrite($fp, "\tNumeric: ".((int)$country['numeric']).",\n");
 	fwrite($fp, "\tCcTLD: ".goescape($country['cctld']).",\n");
+	if (isset($country['fips'])) fwrite($fp, "\tFIPS: ".goescape($country['fips']).",\n");
 
 	fwrite($fp, "}\n");
 	fclose($fp);
@@ -72,6 +86,7 @@ $indices = [
 	'ByNumeric' => 'numeric',
 	'ByUniqueName' => 'unique_name',
 	'ByCcTLD' => 'cctld',
+	'ByFIPS' => 'fips',
 ];
 foreach($indices as $name => $col) {
 	$fp = fopen('index-'.strtolower($name).'.go', 'w');
@@ -80,7 +95,7 @@ foreach($indices as $name => $col) {
 	if ($col == 'numeric') $type = 'int';
 	fwrite($fp, "var $name = map[$type]*Country{\n");
 	foreach($country_data as &$country) {
-		$k = $country[$col];
+		$k = $country[$col]??null;
 		if (is_null($k)) continue;
 		if ($col == 'numeric') {
 			$k = (int)$k;

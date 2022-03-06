@@ -8,4 +8,5 @@ var Botswana = &Country{
 	ISO3166_Alpha3: "BWA",
 	Numeric:        72,
 	CcTLD:          ".bw",
+	FIPS:           "BC",
 }

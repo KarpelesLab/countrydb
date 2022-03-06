@@ -8,4 +8,5 @@ var Senegal = &Country{
 	ISO3166_Alpha3: "SEN",
 	Numeric:        686,
 	CcTLD:          ".sn",
+	FIPS:           "SG",
 }

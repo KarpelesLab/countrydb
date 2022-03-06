@@ -8,4 +8,5 @@ var Tonga = &Country{
 	ISO3166_Alpha3: "TON",
 	Numeric:        776,
 	CcTLD:          ".to",
+	FIPS:           "TN",
 }

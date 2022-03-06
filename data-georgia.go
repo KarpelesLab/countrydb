@@ -7,4 +7,5 @@ var Georgia = &Country{
 	ISO3166_Alpha3: "GEO",
 	Numeric:        268,
 	CcTLD:          ".ge",
+	FIPS:           "GG",
 }

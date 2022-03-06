@@ -8,4 +8,5 @@ var Djibouti = &Country{
 	ISO3166_Alpha3: "DJI",
 	Numeric:        262,
 	CcTLD:          ".dj",
+	FIPS:           "DJ",
 }

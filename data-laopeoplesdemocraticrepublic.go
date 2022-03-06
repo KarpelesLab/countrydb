@@ -7,4 +7,5 @@ var LaoPeoplesDemocraticRepublic = &Country{
 	ISO3166_Alpha3: "LAO",
 	Numeric:        418,
 	CcTLD:          ".la",
+	FIPS:           "LA",
 }

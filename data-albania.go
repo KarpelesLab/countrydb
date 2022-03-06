@@ -8,4 +8,5 @@ var Albania = &Country{
 	ISO3166_Alpha3: "ALB",
 	Numeric:        8,
 	CcTLD:          ".al",
+	FIPS:           "AL",
 }

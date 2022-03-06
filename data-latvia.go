@@ -8,4 +8,5 @@ var Latvia = &Country{
 	ISO3166_Alpha3: "LVA",
 	Numeric:        428,
 	CcTLD:          ".lv",
+	FIPS:           "LG",
 }

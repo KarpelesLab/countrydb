@@ -8,4 +8,5 @@ var Suriname = &Country{
 	ISO3166_Alpha3: "SUR",
 	Numeric:        740,
 	CcTLD:          ".sr",
+	FIPS:           "NS",
 }

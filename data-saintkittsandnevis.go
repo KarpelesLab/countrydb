@@ -7,4 +7,5 @@ var SaintKittsandNevis = &Country{
 	ISO3166_Alpha3: "KNA",
 	Numeric:        659,
 	CcTLD:          ".kn",
+	FIPS:           "SC",
 }

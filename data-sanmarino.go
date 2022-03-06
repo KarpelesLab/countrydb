@@ -8,4 +8,5 @@ var SanMarino = &Country{
 	ISO3166_Alpha3: "SMR",
 	Numeric:        674,
 	CcTLD:          ".sm",
+	FIPS:           "SM",
 }

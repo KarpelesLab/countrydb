@@ -8,4 +8,5 @@ var Armenia = &Country{
 	ISO3166_Alpha3: "ARM",
 	Numeric:        51,
 	CcTLD:          ".am",
+	FIPS:           "AM",
 }

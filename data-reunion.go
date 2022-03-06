@@ -7,4 +7,5 @@ var Reunion = &Country{
 	ISO3166_Alpha3: "REU",
 	Numeric:        638,
 	CcTLD:          ".re",
+	FIPS:           "RE",
 }

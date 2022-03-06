@@ -7,4 +7,5 @@ var Ireland = &Country{
 	ISO3166_Alpha3: "IRL",
 	Numeric:        372,
 	CcTLD:          ".ie",
+	FIPS:           "EI",
 }

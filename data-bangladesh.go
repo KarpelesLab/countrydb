@@ -8,4 +8,5 @@ var Bangladesh = &Country{
 	ISO3166_Alpha3: "BGD",
 	Numeric:        50,
 	CcTLD:          ".bd",
+	FIPS:           "BG",
 }

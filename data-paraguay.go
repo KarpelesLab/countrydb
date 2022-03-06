@@ -8,4 +8,5 @@ var Paraguay = &Country{
 	ISO3166_Alpha3: "PRY",
 	Numeric:        600,
 	CcTLD:          ".py",
+	FIPS:           "PA",
 }

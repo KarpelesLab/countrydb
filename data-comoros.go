@@ -8,4 +8,5 @@ var Comoros = &Country{
 	ISO3166_Alpha3: "COM",
 	Numeric:        174,
 	CcTLD:          ".km",
+	FIPS:           "CN",
 }

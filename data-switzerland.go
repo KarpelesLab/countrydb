@@ -8,4 +8,5 @@ var Switzerland = &Country{
 	ISO3166_Alpha3: "CHE",
 	Numeric:        756,
 	CcTLD:          ".ch",
+	FIPS:           "SZ",
 }

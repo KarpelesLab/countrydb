@@ -8,4 +8,5 @@ var Kenya = &Country{
 	ISO3166_Alpha3: "KEN",
 	Numeric:        404,
 	CcTLD:          ".ke",
+	FIPS:           "KE",
 }

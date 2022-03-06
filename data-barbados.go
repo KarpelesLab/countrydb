@@ -7,4 +7,5 @@ var Barbados = &Country{
 	ISO3166_Alpha3: "BRB",
 	Numeric:        52,
 	CcTLD:          ".bb",
+	FIPS:           "BB",
 }

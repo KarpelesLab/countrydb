@@ -7,4 +7,5 @@ var Guam = &Country{
 	ISO3166_Alpha3: "GUM",
 	Numeric:        316,
 	CcTLD:          ".gu",
+	FIPS:           "GQ",
 }

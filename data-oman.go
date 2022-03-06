@@ -8,4 +8,5 @@ var Oman = &Country{
 	ISO3166_Alpha3: "OMN",
 	Numeric:        512,
 	CcTLD:          ".om",
+	FIPS:           "MU",
 }

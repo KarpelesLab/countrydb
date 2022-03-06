@@ -8,4 +8,5 @@ var Cambodia = &Country{
 	ISO3166_Alpha3: "KHM",
 	Numeric:        116,
 	CcTLD:          ".kh",
+	FIPS:           "CB",
 }

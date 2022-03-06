@@ -7,4 +7,5 @@ var HolySeeVaticanCityState = &Country{
 	ISO3166_Alpha3: "VAT",
 	Numeric:        336,
 	CcTLD:          ".va",
+	FIPS:           "VT",
 }

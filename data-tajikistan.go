@@ -8,4 +8,5 @@ var Tajikistan = &Country{
 	ISO3166_Alpha3: "TJK",
 	Numeric:        762,
 	CcTLD:          ".tj",
+	FIPS:           "TI",
 }

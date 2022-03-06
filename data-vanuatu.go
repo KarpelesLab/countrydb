@@ -8,4 +8,5 @@ var Vanuatu = &Country{
 	ISO3166_Alpha3: "VUT",
 	Numeric:        548,
 	CcTLD:          ".vu",
+	FIPS:           "NH",
 }

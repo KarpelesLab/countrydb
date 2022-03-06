@@ -7,4 +7,5 @@ var SaintLucia = &Country{
 	ISO3166_Alpha3: "LCA",
 	Numeric:        662,
 	CcTLD:          ".lc",
+	FIPS:           "ST",
 }

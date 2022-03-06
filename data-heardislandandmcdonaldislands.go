@@ -7,4 +7,5 @@ var HeardIslandandMcDonaldIslands = &Country{
 	ISO3166_Alpha3: "HMD",
 	Numeric:        334,
 	CcTLD:          ".hm",
+	FIPS:           "HM",
 }

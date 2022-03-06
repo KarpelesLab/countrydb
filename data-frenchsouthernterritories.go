@@ -7,4 +7,5 @@ var FrenchSouthernTerritories = &Country{
 	ISO3166_Alpha3: "ATF",
 	Numeric:        260,
 	CcTLD:          ".tf",
+	FIPS:           "FS",
 }

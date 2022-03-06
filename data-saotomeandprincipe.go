@@ -8,4 +8,5 @@ var SaoTomeandPrincipe = &Country{
 	ISO3166_Alpha3: "STP",
 	Numeric:        678,
 	CcTLD:          ".st",
+	FIPS:           "TP",
 }

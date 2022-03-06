@@ -8,4 +8,5 @@ var Ethiopia = &Country{
 	ISO3166_Alpha3: "ETH",
 	Numeric:        231,
 	CcTLD:          ".et",
+	FIPS:           "ET",
 }

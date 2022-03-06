@@ -8,4 +8,5 @@ var Guinea = &Country{
 	ISO3166_Alpha3: "GIN",
 	Numeric:        324,
 	CcTLD:          ".gn",
+	FIPS:           "GV",
 }

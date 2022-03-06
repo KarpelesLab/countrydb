@@ -8,4 +8,5 @@ var Malawi = &Country{
 	ISO3166_Alpha3: "MWI",
 	Numeric:        454,
 	CcTLD:          ".mw",
+	FIPS:           "MI",
 }

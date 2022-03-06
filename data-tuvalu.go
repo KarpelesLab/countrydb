@@ -7,4 +7,5 @@ var Tuvalu = &Country{
 	ISO3166_Alpha3: "TUV",
 	Numeric:        798,
 	CcTLD:          ".tv",
+	FIPS:           "TV",
 }

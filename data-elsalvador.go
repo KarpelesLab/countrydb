@@ -8,4 +8,5 @@ var ElSalvador = &Country{
 	ISO3166_Alpha3: "SLV",
 	Numeric:        222,
 	CcTLD:          ".sv",
+	FIPS:           "ES",
 }

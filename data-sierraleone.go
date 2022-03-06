@@ -8,4 +8,5 @@ var SierraLeone = &Country{
 	ISO3166_Alpha3: "SLE",
 	Numeric:        694,
 	CcTLD:          ".sl",
+	FIPS:           "SL",
 }

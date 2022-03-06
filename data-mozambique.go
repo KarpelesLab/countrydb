@@ -8,4 +8,5 @@ var Mozambique = &Country{
 	ISO3166_Alpha3: "MOZ",
 	Numeric:        508,
 	CcTLD:          ".mz",
+	FIPS:           "MZ",
 }

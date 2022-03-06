@@ -8,4 +8,5 @@ var TrinidadandTobago = &Country{
 	ISO3166_Alpha3: "TTO",
 	Numeric:        780,
 	CcTLD:          ".tt",
+	FIPS:           "TD",
 }

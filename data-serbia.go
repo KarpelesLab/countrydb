@@ -8,4 +8,5 @@ var Serbia = &Country{
 	ISO3166_Alpha3: "SRB",
 	Numeric:        688,
 	CcTLD:          ".rs",
+	FIPS:           "RI",
 }

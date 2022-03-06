@@ -8,4 +8,5 @@ var Cameroon = &Country{
 	ISO3166_Alpha3: "CMR",
 	Numeric:        120,
 	CcTLD:          ".cm",
+	FIPS:           "CM",
 }

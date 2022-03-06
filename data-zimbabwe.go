@@ -8,4 +8,5 @@ var Zimbabwe = &Country{
 	ISO3166_Alpha3: "ZWE",
 	Numeric:        716,
 	CcTLD:          ".zw",
+	FIPS:           "ZI",
 }

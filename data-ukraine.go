@@ -7,4 +7,5 @@ var Ukraine = &Country{
 	ISO3166_Alpha3: "UKR",
 	Numeric:        804,
 	CcTLD:          ".ua",
+	FIPS:           "UP",
 }

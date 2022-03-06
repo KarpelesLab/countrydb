@@ -8,4 +8,5 @@ var Niger = &Country{
 	ISO3166_Alpha3: "NER",
 	Numeric:        562,
 	CcTLD:          ".ne",
+	FIPS:           "NG",
 }

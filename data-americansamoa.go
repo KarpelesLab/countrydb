@@ -7,4 +7,5 @@ var AmericanSamoa = &Country{
 	ISO3166_Alpha3: "ASM",
 	Numeric:        16,
 	CcTLD:          ".as",
+	FIPS:           "AQ",
 }

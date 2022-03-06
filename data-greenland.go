@@ -7,4 +7,5 @@ var Greenland = &Country{
 	ISO3166_Alpha3: "GRL",
 	Numeric:        304,
 	CcTLD:          ".gl",
+	FIPS:           "GL",
 }

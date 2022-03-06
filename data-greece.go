@@ -8,4 +8,5 @@ var Greece = &Country{
 	ISO3166_Alpha3: "GRC",
 	Numeric:        300,
 	CcTLD:          ".gr",
+	FIPS:           "GR",
 }

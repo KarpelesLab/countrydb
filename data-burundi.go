@@ -8,4 +8,5 @@ var Burundi = &Country{
 	ISO3166_Alpha3: "BDI",
 	Numeric:        108,
 	CcTLD:          ".bi",
+	FIPS:           "BY",
 }

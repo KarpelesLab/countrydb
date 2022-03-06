@@ -8,4 +8,5 @@ var Dominica = &Country{
 	ISO3166_Alpha3: "DMA",
 	Numeric:        212,
 	CcTLD:          ".dm",
+	FIPS:           "DO",
 }

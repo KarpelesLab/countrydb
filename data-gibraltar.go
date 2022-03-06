@@ -7,4 +7,5 @@ var Gibraltar = &Country{
 	ISO3166_Alpha3: "GIB",
 	Numeric:        292,
 	CcTLD:          ".gi",
+	FIPS:           "GI",
 }

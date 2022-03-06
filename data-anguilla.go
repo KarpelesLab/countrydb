@@ -7,4 +7,5 @@ var Anguilla = &Country{
 	ISO3166_Alpha3: "AIA",
 	Numeric:        660,
 	CcTLD:          ".ai",
+	FIPS:           "AV",
 }

@@ -8,4 +8,5 @@ var Iraq = &Country{
 	ISO3166_Alpha3: "IRQ",
 	Numeric:        368,
 	CcTLD:          ".iq",
+	FIPS:           "IZ",
 }

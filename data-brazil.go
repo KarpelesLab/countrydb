@@ -8,4 +8,5 @@ var Brazil = &Country{
 	ISO3166_Alpha3: "BRA",
 	Numeric:        76,
 	CcTLD:          ".br",
+	FIPS:           "BR",
 }

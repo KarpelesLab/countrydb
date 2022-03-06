@@ -7,4 +7,5 @@ var SouthGeorgiaandtheSouthSandwichIslands = &Country{
 	ISO3166_Alpha3: "SGS",
 	Numeric:        239,
 	CcTLD:          ".gs",
+	FIPS:           "SX",
 }

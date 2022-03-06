@@ -8,4 +8,5 @@ var Guyana = &Country{
 	ISO3166_Alpha3: "GUY",
 	Numeric:        328,
 	CcTLD:          ".gy",
+	FIPS:           "GY",
 }

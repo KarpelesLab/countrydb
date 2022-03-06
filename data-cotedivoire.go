@@ -8,4 +8,5 @@ var CotedIvoire = &Country{
 	ISO3166_Alpha3: "CIV",
 	Numeric:        384,
 	CcTLD:          ".ci",
+	FIPS:           "IV",
 }

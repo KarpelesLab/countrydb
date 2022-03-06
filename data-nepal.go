@@ -8,4 +8,5 @@ var Nepal = &Country{
 	ISO3166_Alpha3: "NPL",
 	Numeric:        524,
 	CcTLD:          ".np",
+	FIPS:           "NP",
 }

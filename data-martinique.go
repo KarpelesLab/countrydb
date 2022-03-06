@@ -7,4 +7,5 @@ var Martinique = &Country{
 	ISO3166_Alpha3: "MTQ",
 	Numeric:        474,
 	CcTLD:          ".mq",
+	FIPS:           "MB",
 }

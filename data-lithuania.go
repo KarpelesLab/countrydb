@@ -8,4 +8,5 @@ var Lithuania = &Country{
 	ISO3166_Alpha3: "LTU",
 	Numeric:        440,
 	CcTLD:          ".lt",
+	FIPS:           "LH",
 }

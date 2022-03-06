@@ -8,4 +8,5 @@ var EquatorialGuinea = &Country{
 	ISO3166_Alpha3: "GNQ",
 	Numeric:        226,
 	CcTLD:          ".gq",
+	FIPS:           "EK",
 }

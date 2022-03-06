@@ -8,4 +8,5 @@ var Denmark = &Country{
 	ISO3166_Alpha3: "DNK",
 	Numeric:        208,
 	CcTLD:          ".dk",
+	FIPS:           "DA",
 }

@@ -7,4 +7,5 @@ var CentralAfricanRepublic = &Country{
 	ISO3166_Alpha3: "CAF",
 	Numeric:        140,
 	CcTLD:          ".cf",
+	FIPS:           "CT",
 }

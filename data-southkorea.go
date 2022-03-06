@@ -8,4 +8,5 @@ var SouthKorea = &Country{
 	ISO3166_Alpha3: "KOR",
 	Numeric:        410,
 	CcTLD:          ".kr",
+	FIPS:           "KS",
 }

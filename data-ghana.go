@@ -8,4 +8,5 @@ var Ghana = &Country{
 	ISO3166_Alpha3: "GHA",
 	Numeric:        288,
 	CcTLD:          ".gh",
+	FIPS:           "GH",
 }

@@ -7,4 +7,5 @@ var WesternSahara = &Country{
 	ISO3166_Alpha3: "ESH",
 	Numeric:        732,
 	CcTLD:          "",
+	FIPS:           "WI",
 }

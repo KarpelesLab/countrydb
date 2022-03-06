@@ -8,4 +8,5 @@ var SouthSudan = &Country{
 	ISO3166_Alpha3: "SSD",
 	Numeric:        728,
 	CcTLD:          ".ss",
+	FIPS:           "OD",
 }

@@ -7,4 +7,5 @@ var Pitcairn = &Country{
 	ISO3166_Alpha3: "PCN",
 	Numeric:        612,
 	CcTLD:          ".pn",
+	FIPS:           "PC",
 }

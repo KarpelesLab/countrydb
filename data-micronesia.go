@@ -8,4 +8,5 @@ var Micronesia = &Country{
 	ISO3166_Alpha3: "FSM",
 	Numeric:        583,
 	CcTLD:          ".fm",
+	FIPS:           "FM",
 }

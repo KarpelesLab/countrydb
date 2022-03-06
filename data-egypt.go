@@ -8,4 +8,5 @@ var Egypt = &Country{
 	ISO3166_Alpha3: "EGY",
 	Numeric:        818,
 	CcTLD:          ".eg",
+	FIPS:           "EG",
 }

@@ -8,4 +8,5 @@ var Seychelles = &Country{
 	ISO3166_Alpha3: "SYC",
 	Numeric:        690,
 	CcTLD:          ".sc",
+	FIPS:           "SE",
 }

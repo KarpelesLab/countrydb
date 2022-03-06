@@ -7,4 +7,5 @@ var CaymanIslands = &Country{
 	ISO3166_Alpha3: "CYM",
 	Numeric:        136,
 	CcTLD:          ".ky",
+	FIPS:           "CJ",
 }

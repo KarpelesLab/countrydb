@@ -8,4 +8,5 @@ var Honduras = &Country{
 	ISO3166_Alpha3: "HND",
 	Numeric:        340,
 	CcTLD:          ".hn",
+	FIPS:           "HO",
 }

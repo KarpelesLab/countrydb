@@ -8,4 +8,5 @@ var Macao = &Country{
 	ISO3166_Alpha3: "MAC",
 	Numeric:        446,
 	CcTLD:          ".mo",
+	FIPS:           "MC",
 }

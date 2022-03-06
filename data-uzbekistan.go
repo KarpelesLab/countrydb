@@ -8,4 +8,5 @@ var Uzbekistan = &Country{
 	ISO3166_Alpha3: "UZB",
 	Numeric:        860,
 	CcTLD:          ".uz",
+	FIPS:           "UZ",
 }

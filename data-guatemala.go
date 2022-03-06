@@ -8,4 +8,5 @@ var Guatemala = &Country{
 	ISO3166_Alpha3: "GTM",
 	Numeric:        320,
 	CcTLD:          ".gt",
+	FIPS:           "GT",
 }

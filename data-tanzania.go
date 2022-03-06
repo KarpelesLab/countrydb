@@ -9,4 +9,5 @@ var Tanzania = &Country{
 	ISO3166_Alpha3: "TZA",
 	Numeric:        834,
 	CcTLD:          ".tz",
+	FIPS:           "TZ",
 }

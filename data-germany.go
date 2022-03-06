@@ -8,4 +8,5 @@ var Germany = &Country{
 	ISO3166_Alpha3: "DEU",
 	Numeric:        276,
 	CcTLD:          ".de",
+	FIPS:           "GM",
 }

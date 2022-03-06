@@ -7,4 +7,5 @@ var Guadeloupe = &Country{
 	ISO3166_Alpha3: "GLP",
 	Numeric:        312,
 	CcTLD:          ".gp",
+	FIPS:           "GP",
 }

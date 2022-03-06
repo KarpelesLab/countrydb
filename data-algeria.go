@@ -8,4 +8,5 @@ var Algeria = &Country{
 	ISO3166_Alpha3: "DZA",
 	Numeric:        12,
 	CcTLD:          ".dz",
+	FIPS:           "AG",
 }

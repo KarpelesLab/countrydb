@@ -7,4 +7,5 @@ var PuertoRico = &Country{
 	ISO3166_Alpha3: "PRI",
 	Numeric:        630,
 	CcTLD:          ".pr",
+	FIPS:           "RQ",
 }

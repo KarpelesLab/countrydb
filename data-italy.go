@@ -8,4 +8,5 @@ var Italy = &Country{
 	ISO3166_Alpha3: "ITA",
 	Numeric:        380,
 	CcTLD:          ".it",
+	FIPS:           "IT",
 }

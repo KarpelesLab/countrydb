@@ -7,4 +7,5 @@ var SaintVincentandtheGrenadines = &Country{
 	ISO3166_Alpha3: "VCT",
 	Numeric:        670,
 	CcTLD:          ".vc",
+	FIPS:           "VC",
 }

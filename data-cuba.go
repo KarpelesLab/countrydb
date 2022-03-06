@@ -8,4 +8,5 @@ var Cuba = &Country{
 	ISO3166_Alpha3: "CUB",
 	Numeric:        192,
 	CcTLD:          ".cu",
+	FIPS:           "CU",
 }

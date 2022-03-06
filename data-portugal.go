@@ -8,4 +8,5 @@ var Portugal = &Country{
 	ISO3166_Alpha3: "PRT",
 	Numeric:        620,
 	CcTLD:          ".pt",
+	FIPS:           "PO",
 }

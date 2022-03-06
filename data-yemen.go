@@ -8,4 +8,5 @@ var Yemen = &Country{
 	ISO3166_Alpha3: "YEM",
 	Numeric:        887,
 	CcTLD:          ".ye",
+	FIPS:           "YM",
 }

@@ -7,4 +7,5 @@ var DemocraticCongo = &Country{
 	ISO3166_Alpha3: "COD",
 	Numeric:        180,
 	CcTLD:          ".cd",
+	FIPS:           "CG",
 }

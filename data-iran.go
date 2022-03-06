@@ -8,4 +8,5 @@ var Iran = &Country{
 	ISO3166_Alpha3: "IRN",
 	Numeric:        364,
 	CcTLD:          ".ir",
+	FIPS:           "IR",
 }

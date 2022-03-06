@@ -8,4 +8,5 @@ var Palau = &Country{
 	ISO3166_Alpha3: "PLW",
 	Numeric:        585,
 	CcTLD:          ".pw",
+	FIPS:           "PS",
 }

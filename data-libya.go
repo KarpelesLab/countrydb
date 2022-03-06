@@ -8,4 +8,5 @@ var Libya = &Country{
 	ISO3166_Alpha3: "LBY",
 	Numeric:        434,
 	CcTLD:          ".ly",
+	FIPS:           "LY",
 }

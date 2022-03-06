@@ -9,4 +9,5 @@ var Bolivia = &Country{
 	ISO3166_Alpha3: "BOL",
 	Numeric:        68,
 	CcTLD:          ".bo",
+	FIPS:           "BL",
 }

@@ -8,4 +8,5 @@ var Ecuador = &Country{
 	ISO3166_Alpha3: "ECU",
 	Numeric:        218,
 	CcTLD:          ".ec",
+	FIPS:           "EC",
 }
