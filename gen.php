@@ -219,6 +219,27 @@ foreach($lngIndex as $k => $v)
 fwrite($fp, "}\n");
 fclose($fp);
 
+// write languages index using language.Tag
+$fp = fopen('data/golanguages.csv', 'r');
+$golng = [];
+while(!feof($fp)) {
+	$lin = fgetcsv($fp);
+	if ($lin === false) break;
+	$golng[$lin[0]] = $lin[1]; // English => en
+}
+fclose($fp);
+
+$fp = fopen('index-lngtag.go', 'w');
+fwrite($fp, "package countrydb\n\n");
+fwrite($fp, "import \"golang.org/x/text/language\"\n\n");
+fwrite($fp, "var LocaleByTag = map[language.Tag]map[string]Translated{\n");
+foreach($golng as $tagname => $lng) {
+	if (!isset($lngIndex[$lng])) continue;
+	fwrite($fp, "\tlanguage.$tagname: ".$lngIndex[$lng].",\n");
+}
+fwrite($fp, "}\n");
+fclose($fp);
+
 function asciify($var) {
 	return transliterator_transliterate('Latin-ASCII', transliterator_transliterate('Any-Latin', $var));
 }
