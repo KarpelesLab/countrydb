@@ -11,4 +11,5 @@ var Morocco = &Country{
 	FIPS:           "MO",
 	Currency:       "MAD",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "212",
 }

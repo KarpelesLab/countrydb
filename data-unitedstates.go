@@ -11,4 +11,5 @@ var UnitedStates = &Country{
 	FIPS:           "US",
 	Currency:       "USD",
 	ICANN_Region:   "NA",
+	PhonePrefix:    "1",
 }

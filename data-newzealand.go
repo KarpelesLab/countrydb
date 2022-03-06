@@ -10,4 +10,5 @@ var NewZealand = &Country{
 	FIPS:           "NZ",
 	Currency:       "NZD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "64",
 }

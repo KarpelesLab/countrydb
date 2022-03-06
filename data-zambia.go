@@ -11,4 +11,5 @@ var Zambia = &Country{
 	FIPS:           "ZA",
 	Currency:       "ZMW",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "260",
 }

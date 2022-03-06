@@ -11,4 +11,5 @@ var Namibia = &Country{
 	FIPS:           "WA",
 	Currency:       "NAD",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "264",
 }

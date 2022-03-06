@@ -11,4 +11,5 @@ var Oman = &Country{
 	FIPS:           "MU",
 	Currency:       "OMR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "968",
 }

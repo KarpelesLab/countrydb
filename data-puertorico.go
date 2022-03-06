@@ -10,4 +10,5 @@ var PuertoRico = &Country{
 	FIPS:           "RQ",
 	Currency:       "USD",
 	ICANN_Region:   "NA",
+	PhonePrefix:    "1",
 }

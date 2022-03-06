@@ -11,4 +11,5 @@ var Paraguay = &Country{
 	FIPS:           "PA",
 	Currency:       "PYG",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "595",
 }

@@ -10,4 +10,5 @@ var Guam = &Country{
 	FIPS:           "GQ",
 	Currency:       "USD",
 	ICANN_Region:   "NA",
+	PhonePrefix:    "1",
 }

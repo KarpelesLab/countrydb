@@ -11,4 +11,5 @@ var Cuba = &Country{
 	FIPS:           "CU",
 	Currency:       "CUP",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "53",
 }

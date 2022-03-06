@@ -10,4 +10,5 @@ var Mongolia = &Country{
 	FIPS:           "MG",
 	Currency:       "MNT",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "976",
 }

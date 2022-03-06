@@ -11,4 +11,5 @@ var Cyprus = &Country{
 	FIPS:           "CY",
 	Currency:       "EUR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "357",
 }

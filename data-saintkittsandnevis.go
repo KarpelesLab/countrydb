@@ -10,4 +10,5 @@ var SaintKittsandNevis = &Country{
 	FIPS:           "SC",
 	Currency:       "XCD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

@@ -10,4 +10,5 @@ var Ireland = &Country{
 	FIPS:           "EI",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "353",
 }

@@ -11,4 +11,5 @@ var Tajikistan = &Country{
 	FIPS:           "TI",
 	Currency:       "TJS",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "992",
 }

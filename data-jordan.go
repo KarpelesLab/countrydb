@@ -11,4 +11,5 @@ var Jordan = &Country{
 	FIPS:           "JO",
 	Currency:       "JOD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "962",
 }

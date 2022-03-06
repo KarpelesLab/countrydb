@@ -10,4 +10,5 @@ var Bonaire = &Country{
 	CcTLD:          ".bq",
 	Currency:       "USD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "599",
 }

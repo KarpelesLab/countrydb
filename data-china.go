@@ -11,4 +11,5 @@ var China = &Country{
 	FIPS:           "CH",
 	Currency:       "CNY",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "86",
 }

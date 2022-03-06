@@ -12,4 +12,5 @@ var Vietnam = &Country{
 	FIPS:           "VM",
 	Currency:       "VND",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "84",
 }

@@ -11,4 +11,5 @@ var Philippines = &Country{
 	FIPS:           "RP",
 	Currency:       "PHP",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "63",
 }

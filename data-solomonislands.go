@@ -10,4 +10,5 @@ var SolomonIslands = &Country{
 	FIPS:           "BP",
 	Currency:       "SBD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "677",
 }

@@ -11,4 +11,5 @@ var Egypt = &Country{
 	FIPS:           "EG",
 	Currency:       "EGP",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "20",
 }

@@ -11,4 +11,5 @@ var Djibouti = &Country{
 	FIPS:           "DJ",
 	Currency:       "DJF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "253",
 }

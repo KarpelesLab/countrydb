@@ -11,4 +11,5 @@ var Kuwait = &Country{
 	FIPS:           "KU",
 	Currency:       "KWD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "965",
 }

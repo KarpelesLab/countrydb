@@ -11,4 +11,5 @@ var Ghana = &Country{
 	FIPS:           "GH",
 	Currency:       "GHS",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "233",
 }

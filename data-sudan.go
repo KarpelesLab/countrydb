@@ -11,4 +11,5 @@ var Sudan = &Country{
 	FIPS:           "SU",
 	Currency:       "SDG",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "249",
 }

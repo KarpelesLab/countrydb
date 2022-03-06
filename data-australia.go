@@ -10,4 +10,5 @@ var Australia = &Country{
 	FIPS:           "CR",
 	Currency:       "AUD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "61",
 }

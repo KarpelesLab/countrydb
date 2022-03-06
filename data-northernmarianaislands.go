@@ -11,4 +11,5 @@ var NorthernMarianaIslands = &Country{
 	FIPS:           "CQ",
 	Currency:       "USD",
 	ICANN_Region:   "NA",
+	PhonePrefix:    "1",
 }

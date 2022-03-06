@@ -11,4 +11,5 @@ var Czechia = &Country{
 	FIPS:           "EZ",
 	Currency:       "CZK",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "420",
 }

@@ -11,4 +11,5 @@ var Kiribati = &Country{
 	FIPS:           "KR",
 	Currency:       "AUD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "686",
 }

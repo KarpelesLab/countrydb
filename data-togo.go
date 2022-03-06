@@ -11,4 +11,5 @@ var Togo = &Country{
 	FIPS:           "TO",
 	Currency:       "XOF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "228",
 }

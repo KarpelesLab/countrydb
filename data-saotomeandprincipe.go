@@ -11,4 +11,5 @@ var SaoTomeandPrincipe = &Country{
 	FIPS:           "TP",
 	Currency:       "STD",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "239",
 }

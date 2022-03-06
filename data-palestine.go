@@ -11,4 +11,5 @@ var Palestine = &Country{
 	FIPS:           "WE",
 	Currency:       "JOD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "970",
 }

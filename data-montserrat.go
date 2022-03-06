@@ -10,4 +10,5 @@ var Montserrat = &Country{
 	FIPS:           "MH",
 	Currency:       "XCD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "1",
 }

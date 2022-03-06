@@ -10,4 +10,5 @@ var Canada = &Country{
 	FIPS:           "CA",
 	Currency:       "CAD",
 	ICANN_Region:   "NA",
+	PhonePrefix:    "1",
 }

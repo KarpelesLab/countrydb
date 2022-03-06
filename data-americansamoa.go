@@ -10,4 +10,5 @@ var AmericanSamoa = &Country{
 	FIPS:           "AQ",
 	Currency:       "USD",
 	ICANN_Region:   "NA",
+	PhonePrefix:    "1",
 }

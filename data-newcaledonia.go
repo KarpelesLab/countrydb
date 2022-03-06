@@ -10,4 +10,5 @@ var NewCaledonia = &Country{
 	FIPS:           "NC",
 	Currency:       "XPF",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "687",
 }

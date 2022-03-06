@@ -11,4 +11,5 @@ var ElSalvador = &Country{
 	FIPS:           "ES",
 	Currency:       "USD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "503",
 }

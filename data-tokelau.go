@@ -10,4 +10,5 @@ var Tokelau = &Country{
 	FIPS:           "TL",
 	Currency:       "NZD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "690",
 }

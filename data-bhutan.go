@@ -11,4 +11,5 @@ var Bhutan = &Country{
 	FIPS:           "BT",
 	Currency:       "INR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "975",
 }

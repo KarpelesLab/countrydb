@@ -11,4 +11,5 @@ var NorthMacedonia = &Country{
 	FIPS:           "MK",
 	Currency:       "MKD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "389",
 }

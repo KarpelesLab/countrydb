@@ -11,4 +11,5 @@ var Algeria = &Country{
 	FIPS:           "AG",
 	Currency:       "DZD",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "213",
 }

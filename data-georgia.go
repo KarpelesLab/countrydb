@@ -10,4 +10,5 @@ var Georgia = &Country{
 	FIPS:           "GG",
 	Currency:       "GEL",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "995",
 }

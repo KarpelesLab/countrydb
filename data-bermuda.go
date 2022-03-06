@@ -10,4 +10,5 @@ var Bermuda = &Country{
 	FIPS:           "BD",
 	Currency:       "BMD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "1",
 }

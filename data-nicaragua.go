@@ -11,4 +11,5 @@ var Nicaragua = &Country{
 	FIPS:           "NU",
 	Currency:       "NIO",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "505",
 }

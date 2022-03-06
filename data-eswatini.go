@@ -11,4 +11,5 @@ var Eswatini = &Country{
 	FIPS:           "WZ",
 	Currency:       "SZL",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "268",
 }

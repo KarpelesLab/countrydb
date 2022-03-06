@@ -11,4 +11,5 @@ var Senegal = &Country{
 	FIPS:           "SG",
 	Currency:       "XOF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "221",
 }

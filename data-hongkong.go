@@ -11,4 +11,5 @@ var HongKong = &Country{
 	FIPS:           "HK",
 	Currency:       "HKD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "852",
 }

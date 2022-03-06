@@ -11,4 +11,5 @@ var Cambodia = &Country{
 	FIPS:           "CB",
 	Currency:       "KHR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "855",
 }

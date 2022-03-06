@@ -9,4 +9,5 @@ var WesternSahara = &Country{
 	CcTLD:          "",
 	FIPS:           "WI",
 	Currency:       "MAD",
+	PhonePrefix:    "212",
 }

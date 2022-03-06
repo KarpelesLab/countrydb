@@ -10,4 +10,5 @@ var AntiguaandBarbuda = &Country{
 	FIPS:           "AC",
 	Currency:       "XCD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

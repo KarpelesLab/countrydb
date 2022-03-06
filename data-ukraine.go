@@ -10,4 +10,5 @@ var Ukraine = &Country{
 	FIPS:           "UP",
 	Currency:       "UAH",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "380",
 }

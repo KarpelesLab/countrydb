@@ -10,4 +10,5 @@ var UnitedArabEmirates = &Country{
 	FIPS:           "AE",
 	Currency:       "AED",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "971",
 }

@@ -9,4 +9,5 @@ var IsleofMan = &Country{
 	CcTLD:          ".im",
 	Currency:       "GBP",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "44",
 }

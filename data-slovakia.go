@@ -11,4 +11,5 @@ var Slovakia = &Country{
 	FIPS:           "LO",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "421",
 }

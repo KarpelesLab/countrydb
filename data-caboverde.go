@@ -11,4 +11,5 @@ var CaboVerde = &Country{
 	FIPS:           "CV",
 	Currency:       "CVE",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "238",
 }

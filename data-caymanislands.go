@@ -10,4 +10,5 @@ var CaymanIslands = &Country{
 	FIPS:           "CJ",
 	Currency:       "KYD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "1",
 }

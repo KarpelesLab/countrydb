@@ -11,4 +11,5 @@ var Macao = &Country{
 	FIPS:           "MC",
 	Currency:       "MOP",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "853",
 }

@@ -11,4 +11,5 @@ var Mali = &Country{
 	FIPS:           "ML",
 	Currency:       "XOF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "223",
 }

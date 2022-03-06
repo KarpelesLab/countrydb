@@ -11,4 +11,5 @@ var Maldives = &Country{
 	FIPS:           "MV",
 	Currency:       "MVR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "960",
 }

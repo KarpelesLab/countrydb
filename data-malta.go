@@ -11,4 +11,5 @@ var Malta = &Country{
 	FIPS:           "MT",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "356",
 }

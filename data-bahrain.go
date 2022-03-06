@@ -11,4 +11,5 @@ var Bahrain = &Country{
 	FIPS:           "BA",
 	Currency:       "BHD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "973",
 }

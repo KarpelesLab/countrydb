@@ -11,4 +11,5 @@ var Uganda = &Country{
 	FIPS:           "UG",
 	Currency:       "UGX",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "256",
 }

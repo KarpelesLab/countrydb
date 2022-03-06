@@ -11,4 +11,5 @@ var Curacao = &Country{
 	FIPS:           "UC",
 	Currency:       "ANG",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "599",
 }

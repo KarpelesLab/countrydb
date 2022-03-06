@@ -11,4 +11,5 @@ var Nauru = &Country{
 	FIPS:           "NR",
 	Currency:       "AUD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "674",
 }

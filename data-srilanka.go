@@ -11,4 +11,5 @@ var SriLanka = &Country{
 	FIPS:           "CE",
 	Currency:       "LKR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "94",
 }

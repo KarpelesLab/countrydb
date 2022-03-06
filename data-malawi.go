@@ -11,4 +11,5 @@ var Malawi = &Country{
 	FIPS:           "MI",
 	Currency:       "MWK",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "265",
 }

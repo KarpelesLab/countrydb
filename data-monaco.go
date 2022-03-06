@@ -11,4 +11,5 @@ var Monaco = &Country{
 	FIPS:           "MN",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "377",
 }

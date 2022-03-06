@@ -11,4 +11,5 @@ var Micronesia = &Country{
 	FIPS:           "FM",
 	Currency:       "USD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "691",
 }

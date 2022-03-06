@@ -11,4 +11,5 @@ var Indonesia = &Country{
 	FIPS:           "ID",
 	Currency:       "IDR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "62",
 }

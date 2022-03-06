@@ -10,4 +10,5 @@ var Anguilla = &Country{
 	FIPS:           "AV",
 	Currency:       "XCD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "1",
 }

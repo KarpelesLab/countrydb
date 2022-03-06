@@ -11,4 +11,5 @@ var Bulgaria = &Country{
 	FIPS:           "BU",
 	Currency:       "BGN",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "359",
 }

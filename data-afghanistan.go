@@ -11,4 +11,5 @@ var Afghanistan = &Country{
 	FIPS:           "AF",
 	Currency:       "AFN",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "93",
 }

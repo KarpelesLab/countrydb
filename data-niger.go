@@ -11,4 +11,5 @@ var Niger = &Country{
 	FIPS:           "NG",
 	Currency:       "XOF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "227",
 }

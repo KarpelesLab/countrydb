@@ -11,4 +11,5 @@ var Lithuania = &Country{
 	FIPS:           "LH",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "370",
 }

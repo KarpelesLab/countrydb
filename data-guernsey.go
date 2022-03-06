@@ -9,4 +9,5 @@ var Guernsey = &Country{
 	CcTLD:          ".gg",
 	Currency:       "GGP",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "44",
 }

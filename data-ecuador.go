@@ -11,4 +11,5 @@ var Ecuador = &Country{
 	FIPS:           "EC",
 	Currency:       "USD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "593",
 }

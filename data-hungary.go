@@ -11,4 +11,5 @@ var Hungary = &Country{
 	FIPS:           "HU",
 	Currency:       "HUF",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "36",
 }

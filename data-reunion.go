@@ -10,4 +10,5 @@ var Reunion = &Country{
 	FIPS:           "RE",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "262",
 }

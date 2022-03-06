@@ -11,4 +11,5 @@ var Madagascar = &Country{
 	FIPS:           "MA",
 	Currency:       "MGA",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "261",
 }

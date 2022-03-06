@@ -10,4 +10,5 @@ var SaintBarthelemy = &Country{
 	FIPS:           "TB",
 	Currency:       "EUR",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "590",
 }

@@ -10,4 +10,5 @@ var Turkmenistan = &Country{
 	FIPS:           "TX",
 	Currency:       "TMT",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "993",
 }

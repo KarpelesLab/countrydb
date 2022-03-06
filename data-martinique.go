@@ -10,4 +10,5 @@ var Martinique = &Country{
 	FIPS:           "MB",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "596",
 }

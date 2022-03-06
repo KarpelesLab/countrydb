@@ -11,4 +11,5 @@ var Niue = &Country{
 	FIPS:           "NE",
 	Currency:       "NZD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "683",
 }

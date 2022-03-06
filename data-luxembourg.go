@@ -11,4 +11,5 @@ var Luxembourg = &Country{
 	FIPS:           "LU",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "352",
 }

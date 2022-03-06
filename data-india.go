@@ -11,4 +11,5 @@ var India = &Country{
 	FIPS:           "IN",
 	Currency:       "INR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "91",
 }

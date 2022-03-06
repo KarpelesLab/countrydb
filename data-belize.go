@@ -10,4 +10,5 @@ var Belize = &Country{
 	FIPS:           "BH",
 	Currency:       "BZD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "501",
 }

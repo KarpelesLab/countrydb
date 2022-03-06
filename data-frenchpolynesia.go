@@ -10,4 +10,5 @@ var FrenchPolynesia = &Country{
 	FIPS:           "FP",
 	Currency:       "XPF",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "689",
 }

@@ -12,4 +12,5 @@ var Bolivia = &Country{
 	FIPS:           "BL",
 	Currency:       "BOB",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "591",
 }

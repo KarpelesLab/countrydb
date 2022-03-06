@@ -11,4 +11,5 @@ var Bahamas = &Country{
 	FIPS:           "BF",
 	Currency:       "BSD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

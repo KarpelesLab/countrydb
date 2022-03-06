@@ -11,4 +11,5 @@ var Benin = &Country{
 	FIPS:           "BN",
 	Currency:       "XOF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "229",
 }

@@ -11,4 +11,5 @@ var SanMarino = &Country{
 	FIPS:           "SM",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "378",
 }

@@ -10,4 +10,5 @@ var Grenada = &Country{
 	FIPS:           "GJ",
 	Currency:       "XCD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

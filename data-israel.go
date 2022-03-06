@@ -11,4 +11,5 @@ var Israel = &Country{
 	FIPS:           "IS",
 	Currency:       "ILS",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "972",
 }

@@ -11,4 +11,5 @@ var Comoros = &Country{
 	FIPS:           "CN",
 	Currency:       "KMF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "269",
 }

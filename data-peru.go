@@ -11,4 +11,5 @@ var Peru = &Country{
 	FIPS:           "PE",
 	Currency:       "PEN",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "51",
 }

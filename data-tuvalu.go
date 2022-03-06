@@ -10,4 +10,5 @@ var Tuvalu = &Country{
 	FIPS:           "TV",
 	Currency:       "AUD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "688",
 }

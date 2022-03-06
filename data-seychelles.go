@@ -11,4 +11,5 @@ var Seychelles = &Country{
 	FIPS:           "SE",
 	Currency:       "SCR",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "248",
 }

@@ -11,4 +11,5 @@ var Serbia = &Country{
 	FIPS:           "RI",
 	Currency:       "RSD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "381",
 }

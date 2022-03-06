@@ -10,4 +10,5 @@ var SaintPierreandMiquelon = &Country{
 	FIPS:           "SB",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "508",
 }

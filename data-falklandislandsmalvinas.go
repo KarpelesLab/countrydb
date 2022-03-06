@@ -10,4 +10,5 @@ var FalklandIslandsMalvinas = &Country{
 	FIPS:           "FK",
 	Currency:       "FKP",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "500",
 }

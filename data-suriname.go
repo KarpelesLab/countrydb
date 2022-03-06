@@ -11,4 +11,5 @@ var Suriname = &Country{
 	FIPS:           "NS",
 	Currency:       "SRD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "597",
 }

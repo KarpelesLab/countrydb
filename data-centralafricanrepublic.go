@@ -10,4 +10,5 @@ var CentralAfricanRepublic = &Country{
 	FIPS:           "CT",
 	Currency:       "XAF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "236",
 }

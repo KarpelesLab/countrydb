@@ -10,4 +10,5 @@ var Barbados = &Country{
 	FIPS:           "BB",
 	Currency:       "BBD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

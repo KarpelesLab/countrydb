@@ -11,4 +11,5 @@ var Yemen = &Country{
 	FIPS:           "YM",
 	Currency:       "YER",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "967",
 }

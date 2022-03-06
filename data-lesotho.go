@@ -11,4 +11,5 @@ var Lesotho = &Country{
 	FIPS:           "LT",
 	Currency:       "LSL",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "266",
 }

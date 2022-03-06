@@ -11,4 +11,5 @@ var Fiji = &Country{
 	FIPS:           "FJ",
 	Currency:       "FJD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "679",
 }

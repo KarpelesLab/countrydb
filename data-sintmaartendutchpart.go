@@ -11,4 +11,5 @@ var SintMaartenDutchpart = &Country{
 	FIPS:           "NN",
 	Currency:       "ANG",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

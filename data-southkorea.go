@@ -11,4 +11,5 @@ var SouthKorea = &Country{
 	FIPS:           "KS",
 	Currency:       "KRW",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "82",
 }

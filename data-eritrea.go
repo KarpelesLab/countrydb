@@ -11,4 +11,5 @@ var Eritrea = &Country{
 	FIPS:           "ER",
 	Currency:       "ERN",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "291",
 }

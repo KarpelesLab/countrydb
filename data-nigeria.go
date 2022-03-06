@@ -11,4 +11,5 @@ var Nigeria = &Country{
 	FIPS:           "NI",
 	Currency:       "NGN",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "234",
 }

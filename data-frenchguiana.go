@@ -10,4 +10,5 @@ var FrenchGuiana = &Country{
 	FIPS:           "FG",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "594",
 }

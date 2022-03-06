@@ -11,4 +11,5 @@ var Qatar = &Country{
 	FIPS:           "QA",
 	Currency:       "QAR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "974",
 }

@@ -11,4 +11,5 @@ var Burundi = &Country{
 	FIPS:           "BY",
 	Currency:       "BIF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "257",
 }

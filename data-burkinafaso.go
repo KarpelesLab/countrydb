@@ -10,4 +10,5 @@ var BurkinaFaso = &Country{
 	FIPS:           "UV",
 	Currency:       "XOF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "226",
 }

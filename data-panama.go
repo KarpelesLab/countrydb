@@ -11,4 +11,5 @@ var Panama = &Country{
 	FIPS:           "PM",
 	Currency:       "PAB",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "507",
 }

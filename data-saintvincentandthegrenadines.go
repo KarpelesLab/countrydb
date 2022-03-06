@@ -10,4 +10,5 @@ var SaintVincentandtheGrenadines = &Country{
 	FIPS:           "VC",
 	Currency:       "XCD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

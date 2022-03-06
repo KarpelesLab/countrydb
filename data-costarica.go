@@ -11,4 +11,5 @@ var CostaRica = &Country{
 	FIPS:           "CS",
 	Currency:       "CRC",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "506",
 }

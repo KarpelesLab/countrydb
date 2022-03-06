@@ -10,4 +10,5 @@ var WallisandFutuna = &Country{
 	FIPS:           "WF",
 	Currency:       "XPF",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "681",
 }

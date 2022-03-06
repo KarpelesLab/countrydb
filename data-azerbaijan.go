@@ -11,4 +11,5 @@ var Azerbaijan = &Country{
 	FIPS:           "AJ",
 	Currency:       "AZN",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "994",
 }

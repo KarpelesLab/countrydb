@@ -11,4 +11,5 @@ var Mauritania = &Country{
 	FIPS:           "MR",
 	Currency:       "MRO",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "222",
 }

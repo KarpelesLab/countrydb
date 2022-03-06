@@ -11,4 +11,5 @@ var Kazakhstan = &Country{
 	FIPS:           "KZ",
 	Currency:       "KZT",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "7",
 }

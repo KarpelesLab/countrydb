@@ -11,4 +11,5 @@ var Montenegro = &Country{
 	FIPS:           "MJ",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "382",
 }

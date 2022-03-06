@@ -11,4 +11,5 @@ var Kenya = &Country{
 	FIPS:           "KE",
 	Currency:       "KES",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "254",
 }

@@ -11,4 +11,5 @@ var Myanmar = &Country{
 	FIPS:           "BM",
 	Currency:       "MMK",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "95",
 }

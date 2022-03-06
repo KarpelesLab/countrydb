@@ -10,4 +10,5 @@ var DemocraticCongo = &Country{
 	FIPS:           "CG",
 	Currency:       "CDF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "243",
 }

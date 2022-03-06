@@ -72,6 +72,16 @@ while(!feof($fp)) {
 }
 fclose($fp);
 
+// phone codes filling
+$fp = fopen('data/phone_codes.csv', 'r');
+while(!feof($fp)) {
+	$lin = fgetcsv($fp);
+	if ($lin === false) break;
+	if (strlen($lin[0]) != 2) continue;
+	$alpha2_index[$lin[0]]['phone_prefix'] = $lin[1];
+}
+fclose($fp);
+
 // icann regions
 $icann_regions = [];
 $fp = fopen('data/icann_regions.csv', 'r');
@@ -101,6 +111,7 @@ foreach($country_data as &$country) {
 	if (isset($country['fips'])) fwrite($fp, "\tFIPS: ".goescape($country['fips']).",\n");
 	if (isset($country['currency'])) fwrite($fp, "\tCurrency: ".goescape($country['currency']).",\n");
 	if (isset($country['icann_region'])) fwrite($fp, "\tICANN_Region: ".goescape($country['icann_region']).",\n");
+	if (isset($country['phone_prefix'])) fwrite($fp, "\tPhonePrefix: ".goescape($country['phone_prefix']).",\n");
 
 	fwrite($fp, "}\n");
 	fclose($fp);

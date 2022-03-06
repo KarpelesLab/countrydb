@@ -12,4 +12,5 @@ var Venezuela = &Country{
 	FIPS:           "VE",
 	Currency:       "VEF",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "58",
 }

@@ -11,4 +11,5 @@ var Congo = &Country{
 	FIPS:           "CF",
 	Currency:       "XAF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "242",
 }

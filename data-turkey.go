@@ -11,4 +11,5 @@ var Turkey = &Country{
 	FIPS:           "TU",
 	Currency:       "TRY",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "90",
 }

@@ -11,4 +11,5 @@ var Vanuatu = &Country{
 	FIPS:           "NH",
 	Currency:       "VUV",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "678",
 }

@@ -11,4 +11,5 @@ var SouthAfrica = &Country{
 	FIPS:           "SF",
 	Currency:       "ZAR",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "27",
 }

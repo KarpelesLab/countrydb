@@ -11,4 +11,5 @@ var Chad = &Country{
 	FIPS:           "CD",
 	Currency:       "XAF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "235",
 }

@@ -11,4 +11,5 @@ var Gambia = &Country{
 	FIPS:           "GA",
 	Currency:       "GMD",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "220",
 }

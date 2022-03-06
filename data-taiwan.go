@@ -12,4 +12,5 @@ var Taiwan = &Country{
 	FIPS:           "TW",
 	Currency:       "TWD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "886",
 }

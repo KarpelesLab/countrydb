@@ -9,4 +9,5 @@ var AlandIslands = &Country{
 	CcTLD:          ".ax",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "358",
 }

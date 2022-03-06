@@ -11,4 +11,5 @@ var Gabon = &Country{
 	FIPS:           "GB",
 	Currency:       "XAF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "241",
 }

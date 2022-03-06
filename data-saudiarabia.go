@@ -11,4 +11,5 @@ var SaudiArabia = &Country{
 	FIPS:           "SA",
 	Currency:       "SAR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "966",
 }

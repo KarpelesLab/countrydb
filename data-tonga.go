@@ -11,4 +11,5 @@ var Tonga = &Country{
 	FIPS:           "TN",
 	Currency:       "TOP",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "676",
 }

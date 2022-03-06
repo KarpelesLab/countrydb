@@ -11,4 +11,5 @@ var Albania = &Country{
 	FIPS:           "AL",
 	Currency:       "ALL",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "355",
 }

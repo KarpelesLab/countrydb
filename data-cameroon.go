@@ -11,4 +11,5 @@ var Cameroon = &Country{
 	FIPS:           "CM",
 	Currency:       "XAF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "237",
 }

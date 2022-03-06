@@ -11,4 +11,5 @@ var Guatemala = &Country{
 	FIPS:           "GT",
 	Currency:       "GTQ",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "502",
 }

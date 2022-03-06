@@ -12,4 +12,5 @@ var Tanzania = &Country{
 	FIPS:           "TZ",
 	Currency:       "TZS",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "255",
 }

@@ -10,4 +10,5 @@ var Malaysia = &Country{
 	FIPS:           "MY",
 	Currency:       "MYR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "60",
 }

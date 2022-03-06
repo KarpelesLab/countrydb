@@ -11,4 +11,5 @@ var Thailand = &Country{
 	FIPS:           "TH",
 	Currency:       "THB",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "66",
 }

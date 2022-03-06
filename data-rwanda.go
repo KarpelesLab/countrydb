@@ -11,4 +11,5 @@ var Rwanda = &Country{
 	FIPS:           "RW",
 	Currency:       "RWF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "250",
 }

@@ -11,4 +11,5 @@ var Liberia = &Country{
 	FIPS:           "LI",
 	Currency:       "LRD",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "231",
 }

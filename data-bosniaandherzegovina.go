@@ -11,4 +11,5 @@ var BosniaandHerzegovina = &Country{
 	FIPS:           "BK",
 	Currency:       "BAM",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "387",
 }

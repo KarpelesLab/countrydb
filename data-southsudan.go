@@ -11,4 +11,5 @@ var SouthSudan = &Country{
 	FIPS:           "OD",
 	Currency:       "SSP",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "211",
 }

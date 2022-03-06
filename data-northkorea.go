@@ -12,4 +12,5 @@ var NorthKorea = &Country{
 	FIPS:           "KN",
 	Currency:       "KPW",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "850",
 }

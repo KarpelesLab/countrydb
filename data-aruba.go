@@ -10,4 +10,5 @@ var Aruba = &Country{
 	FIPS:           "AA",
 	Currency:       "AWG",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "297",
 }

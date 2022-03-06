@@ -10,4 +10,5 @@ var BruneiDarussalam = &Country{
 	FIPS:           "BX",
 	Currency:       "BND",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "673",
 }

@@ -10,4 +10,5 @@ var DominicanRepublic = &Country{
 	FIPS:           "DR",
 	Currency:       "DOP",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

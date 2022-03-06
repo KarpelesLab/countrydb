@@ -11,4 +11,5 @@ var Iraq = &Country{
 	FIPS:           "IZ",
 	Currency:       "IQD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "964",
 }

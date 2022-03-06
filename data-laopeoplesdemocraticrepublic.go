@@ -10,4 +10,5 @@ var LaoPeoplesDemocraticRepublic = &Country{
 	FIPS:           "LA",
 	Currency:       "LAK",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "856",
 }

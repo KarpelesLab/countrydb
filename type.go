@@ -12,4 +12,5 @@ type Country struct {
 	FIPS           string // FIPS 10 / GEC code
 	Currency       string // 3 letters currency code (may be empty)
 	ICANN_Region   string // icann region as defined by https://meetings.icann.org/en/regions
+	PhonePrefix    string
 }

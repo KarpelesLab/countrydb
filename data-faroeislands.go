@@ -10,4 +10,5 @@ var FaroeIslands = &Country{
 	FIPS:           "FO",
 	Currency:       "DKK",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "298",
 }

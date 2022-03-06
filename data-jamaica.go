@@ -10,4 +10,5 @@ var Jamaica = &Country{
 	FIPS:           "JM",
 	Currency:       "JMD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

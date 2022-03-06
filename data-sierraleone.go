@@ -11,4 +11,5 @@ var SierraLeone = &Country{
 	FIPS:           "SL",
 	Currency:       "SLL",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "232",
 }

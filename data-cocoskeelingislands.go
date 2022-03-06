@@ -10,4 +10,5 @@ var CocosKeelingIslands = &Country{
 	FIPS:           "CK",
 	Currency:       "AUD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "61",
 }

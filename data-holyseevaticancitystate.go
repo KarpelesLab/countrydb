@@ -10,4 +10,5 @@ var HolySeeVaticanCityState = &Country{
 	FIPS:           "VT",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "39",
 }

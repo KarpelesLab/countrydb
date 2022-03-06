@@ -10,4 +10,5 @@ var Guadeloupe = &Country{
 	FIPS:           "GP",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "590",
 }

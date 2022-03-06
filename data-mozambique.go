@@ -11,4 +11,5 @@ var Mozambique = &Country{
 	FIPS:           "MZ",
 	Currency:       "MZN",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "258",
 }

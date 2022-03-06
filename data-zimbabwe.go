@@ -11,4 +11,5 @@ var Zimbabwe = &Country{
 	FIPS:           "ZI",
 	Currency:       "USD",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "263",
 }

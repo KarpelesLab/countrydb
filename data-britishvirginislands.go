@@ -11,4 +11,5 @@ var BritishVirginIslands = &Country{
 	FIPS:           "VI",
 	Currency:       "USD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "1",
 }

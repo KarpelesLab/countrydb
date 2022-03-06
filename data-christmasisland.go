@@ -10,4 +10,5 @@ var ChristmasIsland = &Country{
 	FIPS:           "KT",
 	Currency:       "AUD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "61",
 }

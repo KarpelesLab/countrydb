@@ -10,4 +10,5 @@ var SyrianArabRepublic = &Country{
 	FIPS:           "SY",
 	Currency:       "SYP",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "963",
 }

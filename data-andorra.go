@@ -11,4 +11,5 @@ var Andorra = &Country{
 	FIPS:           "AN",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "376",
 }

@@ -11,4 +11,5 @@ var Liechtenstein = &Country{
 	FIPS:           "LS",
 	Currency:       "CHF",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "423",
 }

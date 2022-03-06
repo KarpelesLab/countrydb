@@ -10,4 +10,5 @@ var Greenland = &Country{
 	FIPS:           "GL",
 	Currency:       "DKK",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "299",
 }

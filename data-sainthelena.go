@@ -10,4 +10,5 @@ var SaintHelena = &Country{
 	FIPS:           "SH",
 	Currency:       "SHP",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "290",
 }

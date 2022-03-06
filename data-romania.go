@@ -10,4 +10,5 @@ var Romania = &Country{
 	FIPS:           "RO",
 	Currency:       "RON",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "40",
 }

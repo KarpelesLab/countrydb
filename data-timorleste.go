@@ -11,4 +11,5 @@ var TimorLeste = &Country{
 	FIPS:           "TT",
 	Currency:       "USD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "670",
 }

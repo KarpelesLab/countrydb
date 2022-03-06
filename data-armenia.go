@@ -11,4 +11,5 @@ var Armenia = &Country{
 	FIPS:           "AM",
 	Currency:       "AMD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "374",
 }

@@ -11,4 +11,5 @@ var Colombia = &Country{
 	FIPS:           "CO",
 	Currency:       "COP",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "57",
 }

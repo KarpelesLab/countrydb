@@ -11,4 +11,5 @@ var MarshallIslands = &Country{
 	FIPS:           "RM",
 	Currency:       "USD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "692",
 }

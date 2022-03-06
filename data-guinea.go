@@ -11,4 +11,5 @@ var Guinea = &Country{
 	FIPS:           "GV",
 	Currency:       "GNF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "224",
 }

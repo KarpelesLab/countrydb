@@ -11,4 +11,5 @@ var PapuaNewGuinea = &Country{
 	FIPS:           "PP",
 	Currency:       "PGK",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "675",
 }

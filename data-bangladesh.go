@@ -11,4 +11,5 @@ var Bangladesh = &Country{
 	FIPS:           "BG",
 	Currency:       "BDT",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "880",
 }

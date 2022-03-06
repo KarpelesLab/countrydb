@@ -11,4 +11,5 @@ var Tunisia = &Country{
 	FIPS:           "TS",
 	Currency:       "TND",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "216",
 }

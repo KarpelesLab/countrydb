@@ -11,4 +11,5 @@ var Pakistan = &Country{
 	FIPS:           "PK",
 	Currency:       "PKR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "92",
 }

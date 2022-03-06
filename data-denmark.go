@@ -11,4 +11,5 @@ var Denmark = &Country{
 	FIPS:           "DA",
 	Currency:       "DKK",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "45",
 }

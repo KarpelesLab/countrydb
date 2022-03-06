@@ -11,4 +11,5 @@ var Guyana = &Country{
 	FIPS:           "GY",
 	Currency:       "GYD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "592",
 }

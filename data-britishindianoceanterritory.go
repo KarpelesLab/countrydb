@@ -10,4 +10,5 @@ var BritishIndianOceanTerritory = &Country{
 	FIPS:           "IO",
 	Currency:       "USD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "246",
 }

@@ -11,4 +11,5 @@ var Lebanon = &Country{
 	FIPS:           "LE",
 	Currency:       "LBP",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "961",
 }

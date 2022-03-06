@@ -11,4 +11,5 @@ var Estonia = &Country{
 	FIPS:           "EN",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "372",
 }

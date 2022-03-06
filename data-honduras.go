@@ -11,4 +11,5 @@ var Honduras = &Country{
 	FIPS:           "HO",
 	Currency:       "HNL",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "504",
 }

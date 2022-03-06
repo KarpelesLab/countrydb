@@ -11,4 +11,5 @@ var Botswana = &Country{
 	FIPS:           "BC",
 	Currency:       "BWP",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "267",
 }

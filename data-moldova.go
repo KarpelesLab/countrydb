@@ -12,4 +12,5 @@ var Moldova = &Country{
 	FIPS:           "MD",
 	Currency:       "MDL",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "373",
 }

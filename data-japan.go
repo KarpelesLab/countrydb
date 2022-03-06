@@ -10,4 +10,5 @@ var Japan = &Country{
 	FIPS:           "JA",
 	Currency:       "JPY",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "81",
 }

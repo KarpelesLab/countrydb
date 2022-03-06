@@ -10,4 +10,5 @@ var Mayotte = &Country{
 	FIPS:           "MF",
 	Currency:       "EUR",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "262",
 }

@@ -11,4 +11,5 @@ var Nepal = &Country{
 	FIPS:           "NP",
 	Currency:       "NPR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "977",
 }

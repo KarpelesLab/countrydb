@@ -11,4 +11,5 @@ var Belarus = &Country{
 	FIPS:           "BO",
 	Currency:       "BYN",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "375",
 }

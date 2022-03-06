@@ -11,4 +11,5 @@ var Croatia = &Country{
 	FIPS:           "HR",
 	Currency:       "HRK",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "385",
 }

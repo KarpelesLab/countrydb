@@ -10,4 +10,5 @@ var NorfolkIsland = &Country{
 	FIPS:           "NF",
 	Currency:       "AUD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "672",
 }

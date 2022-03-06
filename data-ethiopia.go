@@ -11,4 +11,5 @@ var Ethiopia = &Country{
 	FIPS:           "ET",
 	Currency:       "ETB",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "251",
 }

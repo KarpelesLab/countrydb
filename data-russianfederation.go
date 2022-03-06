@@ -10,4 +10,5 @@ var RussianFederation = &Country{
 	FIPS:           "RS",
 	Currency:       "RUB",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "7",
 }

@@ -10,4 +10,5 @@ var SaintMartinFrenchpart = &Country{
 	FIPS:           "RN",
 	Currency:       "EUR",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "590",
 }

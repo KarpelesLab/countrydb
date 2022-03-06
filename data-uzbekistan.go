@@ -11,4 +11,5 @@ var Uzbekistan = &Country{
 	FIPS:           "UZ",
 	Currency:       "UZS",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "998",
 }

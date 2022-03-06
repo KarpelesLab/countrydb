@@ -11,4 +11,5 @@ var Libya = &Country{
 	FIPS:           "LY",
 	Currency:       "LYD",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "218",
 }

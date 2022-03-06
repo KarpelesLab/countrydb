@@ -11,4 +11,5 @@ var Uruguay = &Country{
 	FIPS:           "UY",
 	Currency:       "UYU",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "598",
 }

@@ -11,4 +11,5 @@ var Angola = &Country{
 	FIPS:           "AO",
 	Currency:       "AOA",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "244",
 }

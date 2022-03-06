@@ -11,4 +11,5 @@ var Singapore = &Country{
 	FIPS:           "SN",
 	Currency:       "SGD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "65",
 }

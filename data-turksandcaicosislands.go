@@ -10,4 +10,5 @@ var TurksandCaicosIslands = &Country{
 	FIPS:           "TK",
 	Currency:       "USD",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "1",
 }

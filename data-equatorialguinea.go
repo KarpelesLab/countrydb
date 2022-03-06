@@ -11,4 +11,5 @@ var EquatorialGuinea = &Country{
 	FIPS:           "EK",
 	Currency:       "XAF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "240",
 }

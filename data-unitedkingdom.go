@@ -11,4 +11,5 @@ var UnitedKingdom = &Country{
 	FIPS:           "UK",
 	Currency:       "GBP",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "44",
 }

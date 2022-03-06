@@ -10,4 +10,5 @@ var SaintLucia = &Country{
 	FIPS:           "ST",
 	Currency:       "XCD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

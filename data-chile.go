@@ -11,4 +11,5 @@ var Chile = &Country{
 	FIPS:           "CI",
 	Currency:       "CLP",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "56",
 }

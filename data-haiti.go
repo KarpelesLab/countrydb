@@ -11,4 +11,5 @@ var Haiti = &Country{
 	FIPS:           "HA",
 	Currency:       "HTG",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "509",
 }

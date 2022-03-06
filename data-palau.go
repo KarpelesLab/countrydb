@@ -11,4 +11,5 @@ var Palau = &Country{
 	FIPS:           "PS",
 	Currency:       "USD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "680",
 }

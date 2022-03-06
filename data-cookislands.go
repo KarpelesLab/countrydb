@@ -10,4 +10,5 @@ var CookIslands = &Country{
 	FIPS:           "CW",
 	Currency:       "NZD",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "682",
 }

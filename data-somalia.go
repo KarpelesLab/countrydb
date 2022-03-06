@@ -11,4 +11,5 @@ var Somalia = &Country{
 	FIPS:           "SO",
 	Currency:       "SOS",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "252",
 }

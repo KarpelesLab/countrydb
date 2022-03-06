@@ -11,4 +11,5 @@ var CotedIvoire = &Country{
 	FIPS:           "IV",
 	Currency:       "XOF",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "225",
 }

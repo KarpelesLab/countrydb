@@ -11,4 +11,5 @@ var Samoa = &Country{
 	FIPS:           "WS",
 	Currency:       "EUR",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "685",
 }

@@ -11,4 +11,5 @@ var TrinidadandTobago = &Country{
 	FIPS:           "TD",
 	Currency:       "TTD",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "1",
 }

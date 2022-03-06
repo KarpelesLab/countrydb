@@ -11,4 +11,5 @@ var Kyrgyzstan = &Country{
 	FIPS:           "KG",
 	Currency:       "KGS",
 	ICANN_Region:   "AP",
+	PhonePrefix:    "996",
 }

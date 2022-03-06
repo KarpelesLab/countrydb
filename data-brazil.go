@@ -11,4 +11,5 @@ var Brazil = &Country{
 	FIPS:           "BR",
 	Currency:       "BRL",
 	ICANN_Region:   "LAC",
+	PhonePrefix:    "55",
 }

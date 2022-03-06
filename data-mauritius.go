@@ -11,4 +11,5 @@ var Mauritius = &Country{
 	FIPS:           "MP",
 	Currency:       "MUR",
 	ICANN_Region:   "AF",
+	PhonePrefix:    "230",
 }
