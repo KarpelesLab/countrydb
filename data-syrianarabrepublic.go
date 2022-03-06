@@ -8,4 +8,5 @@ var SyrianArabRepublic = &Country{
 	Numeric:        760,
 	CcTLD:          ".sy",
 	FIPS:           "SY",
+	Currency:       "SYP",
 }

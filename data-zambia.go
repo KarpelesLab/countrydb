@@ -9,4 +9,5 @@ var Zambia = &Country{
 	Numeric:        894,
 	CcTLD:          ".zm",
 	FIPS:           "ZA",
+	Currency:       "ZMW",
 }

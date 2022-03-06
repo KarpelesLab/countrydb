@@ -9,4 +9,5 @@ var Estonia = &Country{
 	Numeric:        233,
 	CcTLD:          ".ee",
 	FIPS:           "EN",
+	Currency:       "EUR",
 }

@@ -9,4 +9,5 @@ var Togo = &Country{
 	Numeric:        768,
 	CcTLD:          ".tg",
 	FIPS:           "TO",
+	Currency:       "XOF",
 }

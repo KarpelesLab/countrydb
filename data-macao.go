@@ -9,4 +9,5 @@ var Macao = &Country{
 	Numeric:        446,
 	CcTLD:          ".mo",
 	FIPS:           "MC",
+	Currency:       "MOP",
 }

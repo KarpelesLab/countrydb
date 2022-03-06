@@ -9,4 +9,5 @@ var Chad = &Country{
 	Numeric:        148,
 	CcTLD:          ".td",
 	FIPS:           "CD",
+	Currency:       "XAF",
 }

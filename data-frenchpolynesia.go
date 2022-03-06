@@ -8,4 +8,5 @@ var FrenchPolynesia = &Country{
 	Numeric:        258,
 	CcTLD:          ".pf",
 	FIPS:           "FP",
+	Currency:       "XPF",
 }

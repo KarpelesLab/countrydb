@@ -9,4 +9,5 @@ var Algeria = &Country{
 	Numeric:        12,
 	CcTLD:          ".dz",
 	FIPS:           "AG",
+	Currency:       "DZD",
 }

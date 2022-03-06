@@ -9,4 +9,5 @@ var Libya = &Country{
 	Numeric:        434,
 	CcTLD:          ".ly",
 	FIPS:           "LY",
+	Currency:       "LYD",
 }

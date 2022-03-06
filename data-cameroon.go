@@ -9,4 +9,5 @@ var Cameroon = &Country{
 	Numeric:        120,
 	CcTLD:          ".cm",
 	FIPS:           "CM",
+	Currency:       "XAF",
 }

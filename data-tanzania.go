@@ -10,4 +10,5 @@ var Tanzania = &Country{
 	Numeric:        834,
 	CcTLD:          ".tz",
 	FIPS:           "TZ",
+	Currency:       "TZS",
 }

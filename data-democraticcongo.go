@@ -8,4 +8,5 @@ var DemocraticCongo = &Country{
 	Numeric:        180,
 	CcTLD:          ".cd",
 	FIPS:           "CG",
+	Currency:       "CDF",
 }

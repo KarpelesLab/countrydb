@@ -9,4 +9,5 @@ var EquatorialGuinea = &Country{
 	Numeric:        226,
 	CcTLD:          ".gq",
 	FIPS:           "EK",
+	Currency:       "XAF",
 }

@@ -9,4 +9,5 @@ var Egypt = &Country{
 	Numeric:        818,
 	CcTLD:          ".eg",
 	FIPS:           "EG",
+	Currency:       "EGP",
 }

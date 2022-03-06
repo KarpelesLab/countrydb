@@ -9,4 +9,5 @@ var Senegal = &Country{
 	Numeric:        686,
 	CcTLD:          ".sn",
 	FIPS:           "SG",
+	Currency:       "XOF",
 }

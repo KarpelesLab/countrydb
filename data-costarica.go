@@ -9,4 +9,5 @@ var CostaRica = &Country{
 	Numeric:        188,
 	CcTLD:          ".cr",
 	FIPS:           "CS",
+	Currency:       "CRC",
 }

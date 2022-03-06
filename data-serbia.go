@@ -9,4 +9,5 @@ var Serbia = &Country{
 	Numeric:        688,
 	CcTLD:          ".rs",
 	FIPS:           "RI",
+	Currency:       "RSD",
 }

@@ -8,4 +8,5 @@ var Malaysia = &Country{
 	Numeric:        458,
 	CcTLD:          ".my",
 	FIPS:           "MY",
+	Currency:       "MYR",
 }

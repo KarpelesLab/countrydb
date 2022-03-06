@@ -8,4 +8,5 @@ var SaintVincentandtheGrenadines = &Country{
 	Numeric:        670,
 	CcTLD:          ".vc",
 	FIPS:           "VC",
+	Currency:       "XCD",
 }

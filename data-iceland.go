@@ -9,4 +9,5 @@ var Iceland = &Country{
 	Numeric:        352,
 	CcTLD:          ".is",
 	FIPS:           "IC",
+	Currency:       "ISK",
 }

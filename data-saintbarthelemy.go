@@ -8,4 +8,5 @@ var SaintBarthelemy = &Country{
 	Numeric:        652,
 	CcTLD:          ".bl",
 	FIPS:           "TB",
+	Currency:       "EUR",
 }

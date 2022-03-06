@@ -9,4 +9,5 @@ var Oman = &Country{
 	Numeric:        512,
 	CcTLD:          ".om",
 	FIPS:           "MU",
+	Currency:       "OMR",
 }

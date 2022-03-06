@@ -9,4 +9,5 @@ var Bulgaria = &Country{
 	Numeric:        100,
 	CcTLD:          ".bg",
 	FIPS:           "BU",
+	Currency:       "BGN",
 }

@@ -9,4 +9,5 @@ var MarshallIslands = &Country{
 	Numeric:        584,
 	CcTLD:          ".mh",
 	FIPS:           "RM",
+	Currency:       "USD",
 }

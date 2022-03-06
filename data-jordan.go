@@ -9,4 +9,5 @@ var Jordan = &Country{
 	Numeric:        400,
 	CcTLD:          ".jo",
 	FIPS:           "JO",
+	Currency:       "JOD",
 }

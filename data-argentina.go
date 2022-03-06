@@ -9,4 +9,5 @@ var Argentina = &Country{
 	Numeric:        32,
 	CcTLD:          ".ar",
 	FIPS:           "AR",
+	Currency:       "ARS",
 }

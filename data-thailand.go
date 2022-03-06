@@ -9,4 +9,5 @@ var Thailand = &Country{
 	Numeric:        764,
 	CcTLD:          ".th",
 	FIPS:           "TH",
+	Currency:       "THB",
 }

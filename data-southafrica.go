@@ -9,4 +9,5 @@ var SouthAfrica = &Country{
 	Numeric:        710,
 	CcTLD:          ".za",
 	FIPS:           "SF",
+	Currency:       "ZAR",
 }

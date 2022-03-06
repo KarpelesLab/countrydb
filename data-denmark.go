@@ -9,4 +9,5 @@ var Denmark = &Country{
 	Numeric:        208,
 	CcTLD:          ".dk",
 	FIPS:           "DA",
+	Currency:       "DKK",
 }

@@ -9,4 +9,5 @@ var Comoros = &Country{
 	Numeric:        174,
 	CcTLD:          ".km",
 	FIPS:           "CN",
+	Currency:       "KMF",
 }

@@ -9,4 +9,5 @@ var Mexico = &Country{
 	Numeric:        484,
 	CcTLD:          ".mx",
 	FIPS:           "MX",
+	Currency:       "MXN",
 }

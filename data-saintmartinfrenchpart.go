@@ -8,4 +8,5 @@ var SaintMartinFrenchpart = &Country{
 	Numeric:        663,
 	CcTLD:          ".mf",
 	FIPS:           "RN",
+	Currency:       "EUR",
 }

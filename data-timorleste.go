@@ -9,4 +9,5 @@ var TimorLeste = &Country{
 	Numeric:        626,
 	CcTLD:          ".tl",
 	FIPS:           "TT",
+	Currency:       "USD",
 }

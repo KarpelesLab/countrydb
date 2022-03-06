@@ -9,4 +9,5 @@ var Guyana = &Country{
 	Numeric:        328,
 	CcTLD:          ".gy",
 	FIPS:           "GY",
+	Currency:       "GYD",
 }

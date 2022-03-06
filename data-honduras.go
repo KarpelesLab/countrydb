@@ -9,4 +9,5 @@ var Honduras = &Country{
 	Numeric:        340,
 	CcTLD:          ".hn",
 	FIPS:           "HO",
+	Currency:       "HNL",
 }

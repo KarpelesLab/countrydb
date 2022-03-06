@@ -59,6 +59,18 @@ while(!feof($fp)) {
 	if (strlen($lin[1]) != 2) continue;
 	$alpha2_index[$lin[1]]['fips'] = $lin[0];
 }
+fclose($fp);
+
+// currency filling
+$fp = fopen('data/country-to-currency.csv', 'r');
+while(!feof($fp)) {
+	$lin = fgetcsv($fp);
+	if ($lin === false) break;
+	if (strlen($lin[0]) != 2) continue;
+	if (strlen($lin[1]) != 3) continue;
+	$alpha2_index[$lin[0]]['currency'] = $lin[1];
+}
+fclose($fp);
 
 // generate files
 foreach($country_data as &$country) {
@@ -74,6 +86,7 @@ foreach($country_data as &$country) {
 	fwrite($fp, "\tNumeric: ".((int)$country['numeric']).",\n");
 	fwrite($fp, "\tCcTLD: ".goescape($country['cctld']).",\n");
 	if (isset($country['fips'])) fwrite($fp, "\tFIPS: ".goescape($country['fips']).",\n");
+	if (isset($country['currency'])) fwrite($fp, "\tCurrency: ".goescape($country['currency']).",\n");
 
 	fwrite($fp, "}\n");
 	fclose($fp);
@@ -108,6 +121,15 @@ foreach($indices as $name => $col) {
 	fwrite($fp, "}\n");
 	fclose($fp);
 }
+// generate all
+$fp = fopen('all.go', 'w');
+fwrite($fp, "package countrydb\n\n");
+fwrite($fp, "var All = []*Country{\n");
+foreach($country_data as &$country) {
+	fwrite($fp, "\t".$country['unique_name'].",\n");
+}
+fwrite($fp, "}\n");
+fclose($fp);
 
 function asciify($var) {
 	return transliterator_transliterate('Latin-ASCII', transliterator_transliterate('Any-Latin', $var));

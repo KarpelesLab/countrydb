@@ -9,4 +9,5 @@ var Tajikistan = &Country{
 	Numeric:        762,
 	CcTLD:          ".tj",
 	FIPS:           "TI",
+	Currency:       "TJS",
 }

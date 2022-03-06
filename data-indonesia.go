@@ -9,4 +9,5 @@ var Indonesia = &Country{
 	Numeric:        360,
 	CcTLD:          ".id",
 	FIPS:           "ID",
+	Currency:       "IDR",
 }

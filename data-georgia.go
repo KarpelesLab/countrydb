@@ -8,4 +8,5 @@ var Georgia = &Country{
 	Numeric:        268,
 	CcTLD:          ".ge",
 	FIPS:           "GG",
+	Currency:       "GEL",
 }

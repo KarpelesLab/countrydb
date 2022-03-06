@@ -8,4 +8,5 @@ var Mongolia = &Country{
 	Numeric:        496,
 	CcTLD:          ".mn",
 	FIPS:           "MG",
+	Currency:       "MNT",
 }

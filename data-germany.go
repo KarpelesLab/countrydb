@@ -9,4 +9,5 @@ var Germany = &Country{
 	Numeric:        276,
 	CcTLD:          ".de",
 	FIPS:           "GM",
+	Currency:       "EUR",
 }

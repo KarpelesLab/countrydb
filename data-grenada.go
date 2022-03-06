@@ -8,4 +8,5 @@ var Grenada = &Country{
 	Numeric:        308,
 	CcTLD:          ".gd",
 	FIPS:           "GJ",
+	Currency:       "XCD",
 }

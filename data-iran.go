@@ -9,4 +9,5 @@ var Iran = &Country{
 	Numeric:        364,
 	CcTLD:          ".ir",
 	FIPS:           "IR",
+	Currency:       "IRR",
 }

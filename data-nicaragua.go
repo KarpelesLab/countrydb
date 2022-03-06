@@ -9,4 +9,5 @@ var Nicaragua = &Country{
 	Numeric:        558,
 	CcTLD:          ".ni",
 	FIPS:           "NU",
+	Currency:       "NIO",
 }

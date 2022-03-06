@@ -8,4 +8,5 @@ var FaroeIslands = &Country{
 	Numeric:        234,
 	CcTLD:          ".fo",
 	FIPS:           "FO",
+	Currency:       "DKK",
 }

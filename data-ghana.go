@@ -9,4 +9,5 @@ var Ghana = &Country{
 	Numeric:        288,
 	CcTLD:          ".gh",
 	FIPS:           "GH",
+	Currency:       "GHS",
 }

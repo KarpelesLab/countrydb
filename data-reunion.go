@@ -8,4 +8,5 @@ var Reunion = &Country{
 	Numeric:        638,
 	CcTLD:          ".re",
 	FIPS:           "RE",
+	Currency:       "EUR",
 }

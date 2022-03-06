@@ -10,4 +10,5 @@ var Taiwan = &Country{
 	Numeric:        158,
 	CcTLD:          ".tw",
 	FIPS:           "TW",
+	Currency:       "TWD",
 }

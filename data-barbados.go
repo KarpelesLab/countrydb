@@ -8,4 +8,5 @@ var Barbados = &Country{
 	Numeric:        52,
 	CcTLD:          ".bb",
 	FIPS:           "BB",
+	Currency:       "BBD",
 }

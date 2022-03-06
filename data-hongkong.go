@@ -9,4 +9,5 @@ var HongKong = &Country{
 	Numeric:        344,
 	CcTLD:          ".hk",
 	FIPS:           "HK",
+	Currency:       "HKD",
 }

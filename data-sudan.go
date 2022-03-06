@@ -9,4 +9,5 @@ var Sudan = &Country{
 	Numeric:        729,
 	CcTLD:          ".sd",
 	FIPS:           "SU",
+	Currency:       "SDG",
 }

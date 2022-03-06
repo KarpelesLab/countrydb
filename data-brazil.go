@@ -9,4 +9,5 @@ var Brazil = &Country{
 	Numeric:        76,
 	CcTLD:          ".br",
 	FIPS:           "BR",
+	Currency:       "BRL",
 }

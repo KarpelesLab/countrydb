@@ -9,4 +9,5 @@ var Armenia = &Country{
 	Numeric:        51,
 	CcTLD:          ".am",
 	FIPS:           "AM",
+	Currency:       "AMD",
 }

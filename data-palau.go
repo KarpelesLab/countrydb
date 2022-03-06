@@ -9,4 +9,5 @@ var Palau = &Country{
 	Numeric:        585,
 	CcTLD:          ".pw",
 	FIPS:           "PS",
+	Currency:       "USD",
 }

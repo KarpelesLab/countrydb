@@ -9,4 +9,5 @@ var Rwanda = &Country{
 	Numeric:        646,
 	CcTLD:          ".rw",
 	FIPS:           "RW",
+	Currency:       "RWF",
 }

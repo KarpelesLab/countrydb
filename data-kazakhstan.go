@@ -9,4 +9,5 @@ var Kazakhstan = &Country{
 	Numeric:        398,
 	CcTLD:          ".kz",
 	FIPS:           "KZ",
+	Currency:       "KZT",
 }

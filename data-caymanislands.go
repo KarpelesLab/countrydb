@@ -8,4 +8,5 @@ var CaymanIslands = &Country{
 	Numeric:        136,
 	CcTLD:          ".ky",
 	FIPS:           "CJ",
+	Currency:       "KYD",
 }

@@ -9,4 +9,5 @@ var Uganda = &Country{
 	Numeric:        800,
 	CcTLD:          ".ug",
 	FIPS:           "UG",
+	Currency:       "UGX",
 }

@@ -9,4 +9,5 @@ var Philippines = &Country{
 	Numeric:        608,
 	CcTLD:          ".ph",
 	FIPS:           "RP",
+	Currency:       "PHP",
 }

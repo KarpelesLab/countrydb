@@ -8,4 +8,5 @@ var Pitcairn = &Country{
 	Numeric:        612,
 	CcTLD:          ".pn",
 	FIPS:           "PC",
+	Currency:       "NZD",
 }

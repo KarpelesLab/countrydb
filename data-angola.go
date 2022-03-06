@@ -9,4 +9,5 @@ var Angola = &Country{
 	Numeric:        24,
 	CcTLD:          ".ao",
 	FIPS:           "AO",
+	Currency:       "AOA",
 }

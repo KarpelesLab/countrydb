@@ -9,4 +9,5 @@ var Mali = &Country{
 	Numeric:        466,
 	CcTLD:          ".ml",
 	FIPS:           "ML",
+	Currency:       "XOF",
 }

@@ -9,4 +9,5 @@ var Kenya = &Country{
 	Numeric:        404,
 	CcTLD:          ".ke",
 	FIPS:           "KE",
+	Currency:       "KES",
 }

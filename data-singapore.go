@@ -9,4 +9,5 @@ var Singapore = &Country{
 	Numeric:        702,
 	CcTLD:          ".sg",
 	FIPS:           "SN",
+	Currency:       "SGD",
 }

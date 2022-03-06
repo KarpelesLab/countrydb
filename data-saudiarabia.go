@@ -9,4 +9,5 @@ var SaudiArabia = &Country{
 	Numeric:        682,
 	CcTLD:          ".sa",
 	FIPS:           "SA",
+	Currency:       "SAR",
 }

@@ -8,4 +8,5 @@ var Tuvalu = &Country{
 	Numeric:        798,
 	CcTLD:          ".tv",
 	FIPS:           "TV",
+	Currency:       "AUD",
 }

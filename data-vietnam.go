@@ -10,4 +10,5 @@ var Vietnam = &Country{
 	Numeric:        704,
 	CcTLD:          ".vn",
 	FIPS:           "VM",
+	Currency:       "VND",
 }

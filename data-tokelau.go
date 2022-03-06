@@ -8,4 +8,5 @@ var Tokelau = &Country{
 	Numeric:        772,
 	CcTLD:          ".tk",
 	FIPS:           "TL",
+	Currency:       "NZD",
 }

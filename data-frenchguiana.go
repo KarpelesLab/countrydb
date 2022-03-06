@@ -8,4 +8,5 @@ var FrenchGuiana = &Country{
 	Numeric:        254,
 	CcTLD:          ".gf",
 	FIPS:           "FG",
+	Currency:       "EUR",
 }

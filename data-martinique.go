@@ -8,4 +8,5 @@ var Martinique = &Country{
 	Numeric:        474,
 	CcTLD:          ".mq",
 	FIPS:           "MB",
+	Currency:       "EUR",
 }

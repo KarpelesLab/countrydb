@@ -8,4 +8,5 @@ var FalklandIslandsMalvinas = &Country{
 	Numeric:        238,
 	CcTLD:          ".fk",
 	FIPS:           "FK",
+	Currency:       "FKP",
 }

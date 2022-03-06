@@ -9,4 +9,5 @@ var Tonga = &Country{
 	Numeric:        776,
 	CcTLD:          ".to",
 	FIPS:           "TN",
+	Currency:       "TOP",
 }

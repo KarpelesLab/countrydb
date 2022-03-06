@@ -8,4 +8,5 @@ var Guam = &Country{
 	Numeric:        316,
 	CcTLD:          ".gu",
 	FIPS:           "GQ",
+	Currency:       "USD",
 }

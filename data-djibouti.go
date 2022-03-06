@@ -9,4 +9,5 @@ var Djibouti = &Country{
 	Numeric:        262,
 	CcTLD:          ".dj",
 	FIPS:           "DJ",
+	Currency:       "DJF",
 }

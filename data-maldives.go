@@ -9,4 +9,5 @@ var Maldives = &Country{
 	Numeric:        462,
 	CcTLD:          ".mv",
 	FIPS:           "MV",
+	Currency:       "MVR",
 }

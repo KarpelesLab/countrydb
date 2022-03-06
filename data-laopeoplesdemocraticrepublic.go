@@ -8,4 +8,5 @@ var LaoPeoplesDemocraticRepublic = &Country{
 	Numeric:        418,
 	CcTLD:          ".la",
 	FIPS:           "LA",
+	Currency:       "LAK",
 }

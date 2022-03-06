@@ -9,4 +9,5 @@ var Eritrea = &Country{
 	Numeric:        232,
 	CcTLD:          ".er",
 	FIPS:           "ER",
+	Currency:       "ERN",
 }

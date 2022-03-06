@@ -9,4 +9,5 @@ var Kuwait = &Country{
 	Numeric:        414,
 	CcTLD:          ".kw",
 	FIPS:           "KU",
+	Currency:       "KWD",
 }

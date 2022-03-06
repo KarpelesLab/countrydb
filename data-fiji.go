@@ -9,4 +9,5 @@ var Fiji = &Country{
 	Numeric:        242,
 	CcTLD:          ".fj",
 	FIPS:           "FJ",
+	Currency:       "FJD",
 }

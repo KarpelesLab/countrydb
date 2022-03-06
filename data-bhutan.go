@@ -9,4 +9,5 @@ var Bhutan = &Country{
 	Numeric:        64,
 	CcTLD:          ".bt",
 	FIPS:           "BT",
+	Currency:       "INR",
 }

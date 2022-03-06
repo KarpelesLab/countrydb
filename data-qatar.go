@@ -9,4 +9,5 @@ var Qatar = &Country{
 	Numeric:        634,
 	CcTLD:          ".qa",
 	FIPS:           "QA",
+	Currency:       "QAR",
 }

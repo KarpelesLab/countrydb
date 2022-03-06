@@ -9,4 +9,5 @@ var Latvia = &Country{
 	Numeric:        428,
 	CcTLD:          ".lv",
 	FIPS:           "LG",
+	Currency:       "EUR",
 }

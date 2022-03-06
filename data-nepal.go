@@ -9,4 +9,5 @@ var Nepal = &Country{
 	Numeric:        524,
 	CcTLD:          ".np",
 	FIPS:           "NP",
+	Currency:       "NPR",
 }

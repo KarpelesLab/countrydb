@@ -8,4 +8,5 @@ var CentralAfricanRepublic = &Country{
 	Numeric:        140,
 	CcTLD:          ".cf",
 	FIPS:           "CT",
+	Currency:       "XAF",
 }

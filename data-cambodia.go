@@ -9,4 +9,5 @@ var Cambodia = &Country{
 	Numeric:        116,
 	CcTLD:          ".kh",
 	FIPS:           "CB",
+	Currency:       "KHR",
 }

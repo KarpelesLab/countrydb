@@ -9,4 +9,5 @@ var Curacao = &Country{
 	Numeric:        531,
 	CcTLD:          ".cw",
 	FIPS:           "UC",
+	Currency:       "ANG",
 }

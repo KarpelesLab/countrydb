@@ -9,4 +9,5 @@ var Mozambique = &Country{
 	Numeric:        508,
 	CcTLD:          ".mz",
 	FIPS:           "MZ",
+	Currency:       "MZN",
 }

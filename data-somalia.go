@@ -9,4 +9,5 @@ var Somalia = &Country{
 	Numeric:        706,
 	CcTLD:          ".so",
 	FIPS:           "SO",
+	Currency:       "SOS",
 }

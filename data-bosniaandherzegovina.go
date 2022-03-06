@@ -9,4 +9,5 @@ var BosniaandHerzegovina = &Country{
 	Numeric:        70,
 	CcTLD:          ".ba",
 	FIPS:           "BK",
+	Currency:       "BAM",
 }

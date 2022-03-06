@@ -9,4 +9,5 @@ var Samoa = &Country{
 	Numeric:        882,
 	CcTLD:          ".ws",
 	FIPS:           "WS",
+	Currency:       "EUR",
 }

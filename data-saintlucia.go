@@ -8,4 +8,5 @@ var SaintLucia = &Country{
 	Numeric:        662,
 	CcTLD:          ".lc",
 	FIPS:           "ST",
+	Currency:       "XCD",
 }

@@ -9,4 +9,5 @@ var Kiribati = &Country{
 	Numeric:        296,
 	CcTLD:          ".ki",
 	FIPS:           "KR",
+	Currency:       "AUD",
 }

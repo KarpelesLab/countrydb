@@ -9,4 +9,5 @@ var Peru = &Country{
 	Numeric:        604,
 	CcTLD:          ".pe",
 	FIPS:           "PE",
+	Currency:       "PEN",
 }

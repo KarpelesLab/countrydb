@@ -9,4 +9,5 @@ var Andorra = &Country{
 	Numeric:        20,
 	CcTLD:          ".ad",
 	FIPS:           "AN",
+	Currency:       "EUR",
 }

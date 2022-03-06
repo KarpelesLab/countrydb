@@ -9,4 +9,5 @@ var Ecuador = &Country{
 	Numeric:        218,
 	CcTLD:          ".ec",
 	FIPS:           "EC",
+	Currency:       "USD",
 }

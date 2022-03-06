@@ -9,4 +9,5 @@ var Liberia = &Country{
 	Numeric:        430,
 	CcTLD:          ".lr",
 	FIPS:           "LI",
+	Currency:       "LRD",
 }

@@ -9,4 +9,5 @@ var China = &Country{
 	Numeric:        156,
 	CcTLD:          ".cn",
 	FIPS:           "CH",
+	Currency:       "CNY",
 }

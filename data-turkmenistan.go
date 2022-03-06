@@ -8,4 +8,5 @@ var Turkmenistan = &Country{
 	Numeric:        795,
 	CcTLD:          ".tm",
 	FIPS:           "TX",
+	Currency:       "TMT",
 }

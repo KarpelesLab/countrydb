@@ -8,4 +8,5 @@ var TurksandCaicosIslands = &Country{
 	Numeric:        796,
 	CcTLD:          ".tc",
 	FIPS:           "TK",
+	Currency:       "USD",
 }

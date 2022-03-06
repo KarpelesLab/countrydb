@@ -8,4 +8,5 @@ var NewCaledonia = &Country{
 	Numeric:        540,
 	CcTLD:          ".nc",
 	FIPS:           "NC",
+	Currency:       "XPF",
 }

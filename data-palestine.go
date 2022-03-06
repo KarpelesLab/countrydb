@@ -9,4 +9,5 @@ var Palestine = &Country{
 	Numeric:        275,
 	CcTLD:          ".ps",
 	FIPS:           "WE",
+	Currency:       "JOD",
 }

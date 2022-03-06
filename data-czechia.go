@@ -9,4 +9,5 @@ var Czechia = &Country{
 	Numeric:        203,
 	CcTLD:          ".cz",
 	FIPS:           "EZ",
+	Currency:       "CZK",
 }

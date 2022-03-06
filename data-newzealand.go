@@ -8,4 +8,5 @@ var NewZealand = &Country{
 	Numeric:        554,
 	CcTLD:          ".nz",
 	FIPS:           "NZ",
+	Currency:       "NZD",
 }

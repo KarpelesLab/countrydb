@@ -8,4 +8,5 @@ var Jamaica = &Country{
 	Numeric:        388,
 	CcTLD:          ".jm",
 	FIPS:           "JM",
+	Currency:       "JMD",
 }

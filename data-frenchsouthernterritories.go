@@ -8,4 +8,5 @@ var FrenchSouthernTerritories = &Country{
 	Numeric:        260,
 	CcTLD:          ".tf",
 	FIPS:           "FS",
+	Currency:       "EUR",
 }

@@ -9,4 +9,5 @@ var Montenegro = &Country{
 	Numeric:        499,
 	CcTLD:          ".me",
 	FIPS:           "MJ",
+	Currency:       "EUR",
 }

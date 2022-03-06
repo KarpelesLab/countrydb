@@ -10,4 +10,5 @@ type Country struct {
 	Numeric        int
 	CcTLD          string
 	FIPS           string // FIPS 10 / GEC code
+	Currency       string // 3 letters currency code (may be empty)
 }

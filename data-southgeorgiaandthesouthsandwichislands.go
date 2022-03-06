@@ -8,4 +8,5 @@ var SouthGeorgiaandtheSouthSandwichIslands = &Country{
 	Numeric:        239,
 	CcTLD:          ".gs",
 	FIPS:           "SX",
+	Currency:       "GBP",
 }

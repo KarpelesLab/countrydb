@@ -9,4 +9,5 @@ var Sweden = &Country{
 	Numeric:        752,
 	CcTLD:          ".se",
 	FIPS:           "SW",
+	Currency:       "SEK",
 }

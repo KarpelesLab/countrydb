@@ -9,4 +9,5 @@ var Panama = &Country{
 	Numeric:        591,
 	CcTLD:          ".pa",
 	FIPS:           "PM",
+	Currency:       "PAB",
 }

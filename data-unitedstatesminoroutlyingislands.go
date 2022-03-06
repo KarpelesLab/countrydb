@@ -8,4 +8,5 @@ var UnitedStatesMinorOutlyingIslands = &Country{
 	Numeric:        581,
 	CcTLD:          "",
 	FIPS:           "WQ",
+	Currency:       "USD",
 }

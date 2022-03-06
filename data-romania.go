@@ -8,4 +8,5 @@ var Romania = &Country{
 	Numeric:        642,
 	CcTLD:          ".ro",
 	FIPS:           "RO",
+	Currency:       "RON",
 }

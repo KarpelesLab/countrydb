@@ -10,4 +10,5 @@ var Bolivia = &Country{
 	Numeric:        68,
 	CcTLD:          ".bo",
 	FIPS:           "BL",
+	Currency:       "BOB",
 }

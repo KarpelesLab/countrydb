@@ -9,4 +9,5 @@ var Bahrain = &Country{
 	Numeric:        48,
 	CcTLD:          ".bh",
 	FIPS:           "BA",
+	Currency:       "BHD",
 }

@@ -7,4 +7,5 @@ var Guernsey = &Country{
 	ISO3166_Alpha3: "GGY",
 	Numeric:        831,
 	CcTLD:          ".gg",
+	Currency:       "GGP",
 }

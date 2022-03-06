@@ -9,4 +9,5 @@ var Mauritania = &Country{
 	Numeric:        478,
 	CcTLD:          ".mr",
 	FIPS:           "MR",
+	Currency:       "MRO",
 }

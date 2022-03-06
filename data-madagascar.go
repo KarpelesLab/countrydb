@@ -9,4 +9,5 @@ var Madagascar = &Country{
 	Numeric:        450,
 	CcTLD:          ".mg",
 	FIPS:           "MA",
+	Currency:       "MGA",
 }

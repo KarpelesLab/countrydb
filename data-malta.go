@@ -9,4 +9,5 @@ var Malta = &Country{
 	Numeric:        470,
 	CcTLD:          ".mt",
 	FIPS:           "MT",
+	Currency:       "EUR",
 }

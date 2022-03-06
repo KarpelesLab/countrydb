@@ -8,4 +8,5 @@ var SaintKittsandNevis = &Country{
 	Numeric:        659,
 	CcTLD:          ".kn",
 	FIPS:           "SC",
+	Currency:       "XCD",
 }

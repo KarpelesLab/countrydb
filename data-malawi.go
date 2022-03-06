@@ -9,4 +9,5 @@ var Malawi = &Country{
 	Numeric:        454,
 	CcTLD:          ".mw",
 	FIPS:           "MI",
+	Currency:       "MWK",
 }

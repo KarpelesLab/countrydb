@@ -9,4 +9,5 @@ var Gambia = &Country{
 	Numeric:        270,
 	CcTLD:          ".gm",
 	FIPS:           "GA",
+	Currency:       "GMD",
 }

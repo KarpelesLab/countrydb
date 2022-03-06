@@ -8,4 +8,5 @@ var BouvetIsland = &Country{
 	Numeric:        74,
 	CcTLD:          "",
 	FIPS:           "BV",
+	Currency:       "NOK",
 }

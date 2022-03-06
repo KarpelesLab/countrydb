@@ -9,4 +9,5 @@ var Turkey = &Country{
 	Numeric:        792,
 	CcTLD:          ".tr",
 	FIPS:           "TU",
+	Currency:       "TRY",
 }

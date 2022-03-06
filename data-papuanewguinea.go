@@ -9,4 +9,5 @@ var PapuaNewGuinea = &Country{
 	Numeric:        598,
 	CcTLD:          ".pg",
 	FIPS:           "PP",
+	Currency:       "PGK",
 }

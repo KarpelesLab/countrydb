@@ -9,4 +9,5 @@ var Slovakia = &Country{
 	Numeric:        703,
 	CcTLD:          ".sk",
 	FIPS:           "LO",
+	Currency:       "EUR",
 }

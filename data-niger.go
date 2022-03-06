@@ -9,4 +9,5 @@ var Niger = &Country{
 	Numeric:        562,
 	CcTLD:          ".ne",
 	FIPS:           "NG",
+	Currency:       "XOF",
 }

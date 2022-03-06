@@ -8,4 +8,5 @@ var SaintHelena = &Country{
 	Numeric:        654,
 	CcTLD:          ".sh",
 	FIPS:           "SH",
+	Currency:       "SHP",
 }

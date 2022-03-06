@@ -9,4 +9,5 @@ var Pakistan = &Country{
 	Numeric:        586,
 	CcTLD:          ".pk",
 	FIPS:           "PK",
+	Currency:       "PKR",
 }

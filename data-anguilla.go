@@ -8,4 +8,5 @@ var Anguilla = &Country{
 	Numeric:        660,
 	CcTLD:          ".ai",
 	FIPS:           "AV",
+	Currency:       "XCD",
 }

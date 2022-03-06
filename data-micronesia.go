@@ -9,4 +9,5 @@ var Micronesia = &Country{
 	Numeric:        583,
 	CcTLD:          ".fm",
 	FIPS:           "FM",
+	Currency:       "USD",
 }

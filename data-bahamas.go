@@ -9,4 +9,5 @@ var Bahamas = &Country{
 	Numeric:        44,
 	CcTLD:          ".bs",
 	FIPS:           "BF",
+	Currency:       "BSD",
 }

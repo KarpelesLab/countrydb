@@ -9,4 +9,5 @@ var Guatemala = &Country{
 	Numeric:        320,
 	CcTLD:          ".gt",
 	FIPS:           "GT",
+	Currency:       "GTQ",
 }

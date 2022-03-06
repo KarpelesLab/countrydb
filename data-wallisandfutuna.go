@@ -8,4 +8,5 @@ var WallisandFutuna = &Country{
 	Numeric:        876,
 	CcTLD:          ".wf",
 	FIPS:           "WF",
+	Currency:       "XPF",
 }

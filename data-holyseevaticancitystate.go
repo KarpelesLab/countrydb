@@ -8,4 +8,5 @@ var HolySeeVaticanCityState = &Country{
 	Numeric:        336,
 	CcTLD:          ".va",
 	FIPS:           "VT",
+	Currency:       "EUR",
 }

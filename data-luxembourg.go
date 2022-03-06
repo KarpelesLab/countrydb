@@ -9,4 +9,5 @@ var Luxembourg = &Country{
 	Numeric:        442,
 	CcTLD:          ".lu",
 	FIPS:           "LU",
+	Currency:       "EUR",
 }

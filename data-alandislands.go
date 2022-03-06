@@ -7,4 +7,5 @@ var AlandIslands = &Country{
 	ISO3166_Alpha3: "ALA",
 	Numeric:        248,
 	CcTLD:          ".ax",
+	Currency:       "EUR",
 }

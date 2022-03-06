@@ -10,4 +10,5 @@ var NorthKorea = &Country{
 	Numeric:        408,
 	CcTLD:          ".kp",
 	FIPS:           "KN",
+	Currency:       "KPW",
 }

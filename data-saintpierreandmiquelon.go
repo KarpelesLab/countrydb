@@ -8,4 +8,5 @@ var SaintPierreandMiquelon = &Country{
 	Numeric:        666,
 	CcTLD:          ".pm",
 	FIPS:           "SB",
+	Currency:       "EUR",
 }

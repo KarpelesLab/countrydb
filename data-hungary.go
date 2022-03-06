@@ -9,4 +9,5 @@ var Hungary = &Country{
 	Numeric:        348,
 	CcTLD:          ".hu",
 	FIPS:           "HU",
+	Currency:       "HUF",
 }

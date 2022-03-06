@@ -9,4 +9,5 @@ var Haiti = &Country{
 	Numeric:        332,
 	CcTLD:          ".ht",
 	FIPS:           "HA",
+	Currency:       "HTG",
 }

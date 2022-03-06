@@ -9,4 +9,5 @@ var Namibia = &Country{
 	Numeric:        516,
 	CcTLD:          ".na",
 	FIPS:           "WA",
+	Currency:       "NAD",
 }

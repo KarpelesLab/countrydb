@@ -9,4 +9,5 @@ var Switzerland = &Country{
 	Numeric:        756,
 	CcTLD:          ".ch",
 	FIPS:           "SZ",
+	Currency:       "CHF",
 }

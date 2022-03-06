@@ -9,4 +9,5 @@ var Guinea = &Country{
 	Numeric:        324,
 	CcTLD:          ".gn",
 	FIPS:           "GV",
+	Currency:       "GNF",
 }

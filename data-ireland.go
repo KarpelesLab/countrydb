@@ -8,4 +8,5 @@ var Ireland = &Country{
 	Numeric:        372,
 	CcTLD:          ".ie",
 	FIPS:           "EI",
+	Currency:       "EUR",
 }

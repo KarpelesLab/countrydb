@@ -9,4 +9,5 @@ var Albania = &Country{
 	Numeric:        8,
 	CcTLD:          ".al",
 	FIPS:           "AL",
+	Currency:       "ALL",
 }

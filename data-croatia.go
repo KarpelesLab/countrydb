@@ -9,4 +9,5 @@ var Croatia = &Country{
 	Numeric:        191,
 	CcTLD:          ".hr",
 	FIPS:           "HR",
+	Currency:       "HRK",
 }

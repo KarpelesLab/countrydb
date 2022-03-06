@@ -9,4 +9,5 @@ var ElSalvador = &Country{
 	Numeric:        222,
 	CcTLD:          ".sv",
 	FIPS:           "ES",
+	Currency:       "USD",
 }

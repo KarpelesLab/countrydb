@@ -9,4 +9,5 @@ var Nigeria = &Country{
 	Numeric:        566,
 	CcTLD:          ".ng",
 	FIPS:           "NI",
+	Currency:       "NGN",
 }

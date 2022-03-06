@@ -9,4 +9,5 @@ var Portugal = &Country{
 	Numeric:        620,
 	CcTLD:          ".pt",
 	FIPS:           "PO",
+	Currency:       "EUR",
 }

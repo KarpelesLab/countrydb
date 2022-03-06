@@ -9,4 +9,5 @@ var Lebanon = &Country{
 	Numeric:        422,
 	CcTLD:          ".lb",
 	FIPS:           "LE",
+	Currency:       "LBP",
 }

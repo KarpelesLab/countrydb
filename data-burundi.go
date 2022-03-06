@@ -9,4 +9,5 @@ var Burundi = &Country{
 	Numeric:        108,
 	CcTLD:          ".bi",
 	FIPS:           "BY",
+	Currency:       "BIF",
 }

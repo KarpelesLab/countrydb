@@ -9,4 +9,5 @@ var Finland = &Country{
 	Numeric:        246,
 	CcTLD:          ".fi",
 	FIPS:           "FI",
+	Currency:       "EUR",
 }

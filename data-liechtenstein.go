@@ -9,4 +9,5 @@ var Liechtenstein = &Country{
 	Numeric:        438,
 	CcTLD:          ".li",
 	FIPS:           "LS",
+	Currency:       "CHF",
 }

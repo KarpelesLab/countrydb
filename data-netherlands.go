@@ -9,4 +9,5 @@ var Netherlands = &Country{
 	Numeric:        528,
 	CcTLD:          ".nl",
 	FIPS:           "NL",
+	Currency:       "EUR",
 }

@@ -9,4 +9,5 @@ var SriLanka = &Country{
 	Numeric:        144,
 	CcTLD:          ".lk",
 	FIPS:           "CE",
+	Currency:       "LKR",
 }

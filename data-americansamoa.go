@@ -8,4 +8,5 @@ var AmericanSamoa = &Country{
 	Numeric:        16,
 	CcTLD:          ".as",
 	FIPS:           "AQ",
+	Currency:       "USD",
 }

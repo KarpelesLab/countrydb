@@ -9,4 +9,5 @@ var Paraguay = &Country{
 	Numeric:        600,
 	CcTLD:          ".py",
 	FIPS:           "PA",
+	Currency:       "PYG",
 }

@@ -10,4 +10,5 @@ var Venezuela = &Country{
 	Numeric:        862,
 	CcTLD:          ".ve",
 	FIPS:           "VE",
+	Currency:       "VEF",
 }

@@ -9,4 +9,5 @@ var Vanuatu = &Country{
 	Numeric:        548,
 	CcTLD:          ".vu",
 	FIPS:           "NH",
+	Currency:       "VUV",
 }

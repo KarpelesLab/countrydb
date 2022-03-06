@@ -9,4 +9,5 @@ var SaoTomeandPrincipe = &Country{
 	Numeric:        678,
 	CcTLD:          ".st",
 	FIPS:           "TP",
+	Currency:       "STD",
 }

@@ -9,4 +9,5 @@ var Benin = &Country{
 	Numeric:        204,
 	CcTLD:          ".bj",
 	FIPS:           "BN",
+	Currency:       "XOF",
 }

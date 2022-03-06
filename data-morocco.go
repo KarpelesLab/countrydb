@@ -9,4 +9,5 @@ var Morocco = &Country{
 	Numeric:        504,
 	CcTLD:          ".ma",
 	FIPS:           "MO",
+	Currency:       "MAD",
 }

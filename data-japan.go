@@ -8,4 +8,5 @@ var Japan = &Country{
 	Numeric:        392,
 	CcTLD:          ".jp",
 	FIPS:           "JA",
+	Currency:       "JPY",
 }

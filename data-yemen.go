@@ -9,4 +9,5 @@ var Yemen = &Country{
 	Numeric:        887,
 	CcTLD:          ".ye",
 	FIPS:           "YM",
+	Currency:       "YER",
 }

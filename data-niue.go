@@ -9,4 +9,5 @@ var Niue = &Country{
 	Numeric:        570,
 	CcTLD:          ".nu",
 	FIPS:           "NE",
+	Currency:       "NZD",
 }

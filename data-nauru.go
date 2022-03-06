@@ -9,4 +9,5 @@ var Nauru = &Country{
 	Numeric:        520,
 	CcTLD:          ".nr",
 	FIPS:           "NR",
+	Currency:       "AUD",
 }

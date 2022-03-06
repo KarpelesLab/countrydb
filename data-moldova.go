@@ -10,4 +10,5 @@ var Moldova = &Country{
 	Numeric:        498,
 	CcTLD:          ".md",
 	FIPS:           "MD",
+	Currency:       "MDL",
 }

@@ -9,4 +9,5 @@ var SintMaartenDutchpart = &Country{
 	Numeric:        534,
 	CcTLD:          ".sx",
 	FIPS:           "NN",
+	Currency:       "ANG",
 }

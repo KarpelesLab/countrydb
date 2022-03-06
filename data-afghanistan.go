@@ -9,4 +9,5 @@ var Afghanistan = &Country{
 	Numeric:        4,
 	CcTLD:          ".af",
 	FIPS:           "AF",
+	Currency:       "AFN",
 }

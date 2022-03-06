@@ -8,4 +8,5 @@ var RussianFederation = &Country{
 	Numeric:        643,
 	CcTLD:          ".ru",
 	FIPS:           "RS",
+	Currency:       "RUB",
 }

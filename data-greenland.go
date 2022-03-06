@@ -8,4 +8,5 @@ var Greenland = &Country{
 	Numeric:        304,
 	CcTLD:          ".gl",
 	FIPS:           "GL",
+	Currency:       "DKK",
 }

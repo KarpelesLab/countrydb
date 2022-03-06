@@ -9,4 +9,5 @@ var Cuba = &Country{
 	Numeric:        192,
 	CcTLD:          ".cu",
 	FIPS:           "CU",
+	Currency:       "CUP",
 }

@@ -9,4 +9,5 @@ var UnitedStates = &Country{
 	Numeric:        840,
 	CcTLD:          ".us",
 	FIPS:           "US",
+	Currency:       "USD",
 }

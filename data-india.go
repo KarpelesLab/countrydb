@@ -9,4 +9,5 @@ var India = &Country{
 	Numeric:        356,
 	CcTLD:          ".in",
 	FIPS:           "IN",
+	Currency:       "INR",
 }

@@ -9,4 +9,5 @@ var Chile = &Country{
 	Numeric:        152,
 	CcTLD:          ".cl",
 	FIPS:           "CI",
+	Currency:       "CLP",
 }

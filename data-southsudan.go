@@ -9,4 +9,5 @@ var SouthSudan = &Country{
 	Numeric:        728,
 	CcTLD:          ".ss",
 	FIPS:           "OD",
+	Currency:       "SSP",
 }

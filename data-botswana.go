@@ -9,4 +9,5 @@ var Botswana = &Country{
 	Numeric:        72,
 	CcTLD:          ".bw",
 	FIPS:           "BC",
+	Currency:       "BWP",
 }

@@ -9,4 +9,5 @@ var Myanmar = &Country{
 	Numeric:        104,
 	CcTLD:          ".mm",
 	FIPS:           "BM",
+	Currency:       "MMK",
 }

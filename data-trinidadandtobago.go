@@ -9,4 +9,5 @@ var TrinidadandTobago = &Country{
 	Numeric:        780,
 	CcTLD:          ".tt",
 	FIPS:           "TD",
+	Currency:       "TTD",
 }

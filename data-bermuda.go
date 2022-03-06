@@ -8,4 +8,5 @@ var Bermuda = &Country{
 	Numeric:        60,
 	CcTLD:          ".bm",
 	FIPS:           "BD",
+	Currency:       "BMD",
 }

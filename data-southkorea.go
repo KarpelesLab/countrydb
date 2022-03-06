@@ -9,4 +9,5 @@ var SouthKorea = &Country{
 	Numeric:        410,
 	CcTLD:          ".kr",
 	FIPS:           "KS",
+	Currency:       "KRW",
 }

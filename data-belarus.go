@@ -9,4 +9,5 @@ var Belarus = &Country{
 	Numeric:        112,
 	CcTLD:          ".by",
 	FIPS:           "BO",
+	Currency:       "BYN",
 }

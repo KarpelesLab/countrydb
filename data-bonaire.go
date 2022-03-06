@@ -8,4 +8,5 @@ var Bonaire = &Country{
 	ISO3166_Alpha3: "BES",
 	Numeric:        535,
 	CcTLD:          ".bq",
+	Currency:       "USD",
 }

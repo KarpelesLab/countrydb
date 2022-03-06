@@ -9,4 +9,5 @@ var SierraLeone = &Country{
 	Numeric:        694,
 	CcTLD:          ".sl",
 	FIPS:           "SL",
+	Currency:       "SLL",
 }

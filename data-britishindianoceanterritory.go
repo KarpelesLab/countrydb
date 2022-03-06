@@ -8,4 +8,5 @@ var BritishIndianOceanTerritory = &Country{
 	Numeric:        86,
 	CcTLD:          ".io",
 	FIPS:           "IO",
+	Currency:       "USD",
 }

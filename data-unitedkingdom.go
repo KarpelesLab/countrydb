@@ -9,4 +9,5 @@ var UnitedKingdom = &Country{
 	Numeric:        826,
 	CcTLD:          ".uk",
 	FIPS:           "UK",
+	Currency:       "GBP",
 }

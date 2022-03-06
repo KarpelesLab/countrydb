@@ -9,4 +9,5 @@ var Colombia = &Country{
 	Numeric:        170,
 	CcTLD:          ".co",
 	FIPS:           "CO",
+	Currency:       "COP",
 }

@@ -9,4 +9,5 @@ var Azerbaijan = &Country{
 	Numeric:        31,
 	CcTLD:          ".az",
 	FIPS:           "AJ",
+	Currency:       "AZN",
 }

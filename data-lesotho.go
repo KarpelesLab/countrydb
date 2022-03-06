@@ -9,4 +9,5 @@ var Lesotho = &Country{
 	Numeric:        426,
 	CcTLD:          ".ls",
 	FIPS:           "LT",
+	Currency:       "LSL",
 }

@@ -8,4 +8,5 @@ var DominicanRepublic = &Country{
 	Numeric:        214,
 	CcTLD:          ".do",
 	FIPS:           "DR",
+	Currency:       "DOP",
 }

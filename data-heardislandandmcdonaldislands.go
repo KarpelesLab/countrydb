@@ -8,4 +8,5 @@ var HeardIslandandMcDonaldIslands = &Country{
 	Numeric:        334,
 	CcTLD:          ".hm",
 	FIPS:           "HM",
+	Currency:       "AUD",
 }

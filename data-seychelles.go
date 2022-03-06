@@ -9,4 +9,5 @@ var Seychelles = &Country{
 	Numeric:        690,
 	CcTLD:          ".sc",
 	FIPS:           "SE",
+	Currency:       "SCR",
 }

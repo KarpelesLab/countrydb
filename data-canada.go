@@ -8,4 +8,5 @@ var Canada = &Country{
 	Numeric:        124,
 	CcTLD:          ".ca",
 	FIPS:           "CA",
+	Currency:       "CAD",
 }

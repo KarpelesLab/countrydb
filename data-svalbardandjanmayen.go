@@ -8,4 +8,5 @@ var SvalbardandJanMayen = &Country{
 	Numeric:        744,
 	CcTLD:          ".sj",
 	FIPS:           "SV",
+	Currency:       "NOK",
 }

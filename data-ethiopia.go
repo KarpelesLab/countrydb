@@ -9,4 +9,5 @@ var Ethiopia = &Country{
 	Numeric:        231,
 	CcTLD:          ".et",
 	FIPS:           "ET",
+	Currency:       "ETB",
 }

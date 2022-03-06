@@ -9,4 +9,5 @@ var Mauritius = &Country{
 	Numeric:        480,
 	CcTLD:          ".mu",
 	FIPS:           "MP",
+	Currency:       "MUR",
 }

@@ -8,4 +8,5 @@ var Mayotte = &Country{
 	Numeric:        175,
 	CcTLD:          ".yt",
 	FIPS:           "MF",
+	Currency:       "EUR",
 }

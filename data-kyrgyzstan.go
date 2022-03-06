@@ -9,4 +9,5 @@ var Kyrgyzstan = &Country{
 	Numeric:        417,
 	CcTLD:          ".kg",
 	FIPS:           "KG",
+	Currency:       "KGS",
 }

@@ -8,4 +8,5 @@ var Ukraine = &Country{
 	Numeric:        804,
 	CcTLD:          ".ua",
 	FIPS:           "UP",
+	Currency:       "UAH",
 }

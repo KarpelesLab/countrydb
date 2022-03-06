@@ -9,4 +9,5 @@ var VirginIslands = &Country{
 	Numeric:        850,
 	CcTLD:          ".vi",
 	FIPS:           "VQ",
+	Currency:       "USD",
 }

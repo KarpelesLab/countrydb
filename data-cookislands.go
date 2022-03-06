@@ -8,4 +8,5 @@ var CookIslands = &Country{
 	Numeric:        184,
 	CcTLD:          ".ck",
 	FIPS:           "CW",
+	Currency:       "NZD",
 }

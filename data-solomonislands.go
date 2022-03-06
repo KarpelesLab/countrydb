@@ -8,4 +8,5 @@ var SolomonIslands = &Country{
 	Numeric:        90,
 	CcTLD:          ".sb",
 	FIPS:           "BP",
+	Currency:       "SBD",
 }

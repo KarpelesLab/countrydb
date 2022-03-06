@@ -9,4 +9,5 @@ var Uruguay = &Country{
 	Numeric:        858,
 	CcTLD:          ".uy",
 	FIPS:           "UY",
+	Currency:       "UYU",
 }

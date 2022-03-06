@@ -8,4 +8,5 @@ var Australia = &Country{
 	Numeric:        36,
 	CcTLD:          ".au",
 	FIPS:           "CR",
+	Currency:       "AUD",
 }

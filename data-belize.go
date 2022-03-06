@@ -8,4 +8,5 @@ var Belize = &Country{
 	Numeric:        84,
 	CcTLD:          ".bz",
 	FIPS:           "BH",
+	Currency:       "BZD",
 }

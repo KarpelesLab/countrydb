@@ -9,4 +9,5 @@ var Monaco = &Country{
 	Numeric:        492,
 	CcTLD:          ".mc",
 	FIPS:           "MN",
+	Currency:       "EUR",
 }

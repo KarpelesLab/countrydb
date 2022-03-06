@@ -8,4 +8,5 @@ var UnitedArabEmirates = &Country{
 	Numeric:        784,
 	CcTLD:          ".ae",
 	FIPS:           "AE",
+	Currency:       "AED",
 }

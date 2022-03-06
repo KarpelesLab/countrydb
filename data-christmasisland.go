@@ -8,4 +8,5 @@ var ChristmasIsland = &Country{
 	Numeric:        162,
 	CcTLD:          ".cx",
 	FIPS:           "KT",
+	Currency:       "AUD",
 }

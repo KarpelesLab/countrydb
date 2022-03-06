@@ -8,4 +8,5 @@ var Aruba = &Country{
 	Numeric:        533,
 	CcTLD:          ".aw",
 	FIPS:           "AA",
+	Currency:       "AWG",
 }

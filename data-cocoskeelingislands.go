@@ -8,4 +8,5 @@ var CocosKeelingIslands = &Country{
 	Numeric:        166,
 	CcTLD:          ".cc",
 	FIPS:           "CK",
+	Currency:       "AUD",
 }

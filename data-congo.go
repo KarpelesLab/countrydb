@@ -9,4 +9,5 @@ var Congo = &Country{
 	Numeric:        178,
 	CcTLD:          ".cg",
 	FIPS:           "CF",
+	Currency:       "XAF",
 }

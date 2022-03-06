@@ -8,4 +8,5 @@ var Guadeloupe = &Country{
 	Numeric:        312,
 	CcTLD:          ".gp",
 	FIPS:           "GP",
+	Currency:       "EUR",
 }

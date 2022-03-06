@@ -9,4 +9,5 @@ var Bangladesh = &Country{
 	Numeric:        50,
 	CcTLD:          ".bd",
 	FIPS:           "BG",
+	Currency:       "BDT",
 }

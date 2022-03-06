@@ -7,4 +7,5 @@ var Jersey = &Country{
 	ISO3166_Alpha3: "JEY",
 	Numeric:        832,
 	CcTLD:          ".je",
+	Currency:       "GBP",
 }

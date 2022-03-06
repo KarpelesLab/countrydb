@@ -8,4 +8,5 @@ var BruneiDarussalam = &Country{
 	Numeric:        96,
 	CcTLD:          ".bn",
 	FIPS:           "BX",
+	Currency:       "BND",
 }

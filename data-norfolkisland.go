@@ -8,4 +8,5 @@ var NorfolkIsland = &Country{
 	Numeric:        574,
 	CcTLD:          ".nf",
 	FIPS:           "NF",
+	Currency:       "AUD",
 }

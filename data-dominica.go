@@ -9,4 +9,5 @@ var Dominica = &Country{
 	Numeric:        212,
 	CcTLD:          ".dm",
 	FIPS:           "DO",
+	Currency:       "XCD",
 }

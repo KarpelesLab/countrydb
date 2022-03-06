@@ -9,4 +9,5 @@ var NorthernMarianaIslands = &Country{
 	Numeric:        580,
 	CcTLD:          ".mp",
 	FIPS:           "CQ",
+	Currency:       "USD",
 }

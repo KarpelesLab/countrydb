@@ -8,4 +8,5 @@ var BurkinaFaso = &Country{
 	Numeric:        854,
 	CcTLD:          ".bf",
 	FIPS:           "UV",
+	Currency:       "XOF",
 }

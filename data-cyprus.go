@@ -9,4 +9,5 @@ var Cyprus = &Country{
 	Numeric:        196,
 	CcTLD:          ".cy",
 	FIPS:           "CY",
+	Currency:       "EUR",
 }

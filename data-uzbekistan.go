@@ -9,4 +9,5 @@ var Uzbekistan = &Country{
 	Numeric:        860,
 	CcTLD:          ".uz",
 	FIPS:           "UZ",
+	Currency:       "UZS",
 }

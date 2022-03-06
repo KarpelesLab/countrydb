@@ -9,4 +9,5 @@ var GuineaBissau = &Country{
 	Numeric:        624,
 	CcTLD:          ".gw",
 	FIPS:           "PU",
+	Currency:       "XOF",
 }

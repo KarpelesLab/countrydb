@@ -8,4 +8,5 @@ var AntiguaandBarbuda = &Country{
 	Numeric:        28,
 	CcTLD:          ".ag",
 	FIPS:           "AC",
+	Currency:       "XCD",
 }

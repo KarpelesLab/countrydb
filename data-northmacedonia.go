@@ -9,4 +9,5 @@ var NorthMacedonia = &Country{
 	Numeric:        807,
 	CcTLD:          ".mk",
 	FIPS:           "MK",
+	Currency:       "MKD",
 }

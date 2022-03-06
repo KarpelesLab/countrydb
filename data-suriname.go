@@ -9,4 +9,5 @@ var Suriname = &Country{
 	Numeric:        740,
 	CcTLD:          ".sr",
 	FIPS:           "NS",
+	Currency:       "SRD",
 }

@@ -8,4 +8,5 @@ var PuertoRico = &Country{
 	Numeric:        630,
 	CcTLD:          ".pr",
 	FIPS:           "RQ",
+	Currency:       "USD",
 }

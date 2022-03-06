@@ -9,4 +9,5 @@ var Iraq = &Country{
 	Numeric:        368,
 	CcTLD:          ".iq",
 	FIPS:           "IZ",
+	Currency:       "IQD",
 }

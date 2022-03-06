@@ -9,4 +9,5 @@ var Zimbabwe = &Country{
 	Numeric:        716,
 	CcTLD:          ".zw",
 	FIPS:           "ZI",
+	Currency:       "USD",
 }

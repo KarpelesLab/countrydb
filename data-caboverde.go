@@ -9,4 +9,5 @@ var CaboVerde = &Country{
 	Numeric:        132,
 	CcTLD:          ".cv",
 	FIPS:           "CV",
+	Currency:       "CVE",
 }

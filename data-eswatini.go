@@ -9,4 +9,5 @@ var Eswatini = &Country{
 	Numeric:        748,
 	CcTLD:          ".sz",
 	FIPS:           "WZ",
+	Currency:       "SZL",
 }

@@ -8,4 +8,5 @@ var Gibraltar = &Country{
 	Numeric:        292,
 	CcTLD:          ".gi",
 	FIPS:           "GI",
+	Currency:       "GIP",
 }

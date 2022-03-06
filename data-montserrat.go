@@ -8,4 +8,5 @@ var Montserrat = &Country{
 	Numeric:        500,
 	CcTLD:          ".ms",
 	FIPS:           "MH",
+	Currency:       "XCD",
 }

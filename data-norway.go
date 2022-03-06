@@ -9,4 +9,5 @@ var Norway = &Country{
 	Numeric:        578,
 	CcTLD:          ".no",
 	FIPS:           "NO",
+	Currency:       "NOK",
 }

@@ -9,4 +9,5 @@ var Tunisia = &Country{
 	Numeric:        788,
 	CcTLD:          ".tn",
 	FIPS:           "TS",
+	Currency:       "TND",
 }
