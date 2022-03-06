@@ -95,6 +95,16 @@ foreach($country_data as &$country) {
 		$country['icann_region'] = $icann_regions[$country['cctld']];
 }
 
+// load list of languages known to go
+$fp = fopen('data/golanguages.csv', 'r');
+$golng = [];
+while(!feof($fp)) {
+	$lin = fgetcsv($fp);
+	if ($lin === false) break;
+	$golng[$lin[0]] = $lin[1]; // English => en
+}
+fclose($fp);
+
 // generate files
 foreach($country_data as &$country) {
 	$fp = fopen(strtolower('data-'.strtolower($country['unique_name']).'.go'), 'w');
@@ -176,8 +186,8 @@ foreach(glob('iso-codes/iso_3166-1/*.po') as $file) {
 		$trans_idx[$t[1]] = stripslashes($t[2]);
 
 	// create file
-	$fp = fopen('lng-'.strtolower(str_replace('_', '', $uniqueName)).'.go', 'w');
-	fwrite($fp, "package countrydb\n\n");
+	$fp = fopen('countrynames/lng-'.strtolower(str_replace('_', '', $uniqueName)).'.go', 'w');
+	fwrite($fp, "package countrynames\n\n");
 	fwrite($fp, "var $lngVar = map[string]Translated{\n");
 
 	// analyse which country has which translation
@@ -209,8 +219,8 @@ foreach(glob('iso-codes/iso_3166-1/*.po') as $file) {
 }
 
 // write language index
-$fp = fopen('index-lng.go', 'w');
-fwrite($fp, "package countrydb\n\n");
+$fp = fopen('countrynames/index-lng.go', 'w');
+fwrite($fp, "package countrynames\n\n");
 fwrite($fp, "var Locale = map[string]map[string]Translated{\n");
 
 foreach($lngIndex as $k => $v)
@@ -219,18 +229,8 @@ foreach($lngIndex as $k => $v)
 fwrite($fp, "}\n");
 fclose($fp);
 
-// write languages index using language.Tag
-$fp = fopen('data/golanguages.csv', 'r');
-$golng = [];
-while(!feof($fp)) {
-	$lin = fgetcsv($fp);
-	if ($lin === false) break;
-	$golng[$lin[0]] = $lin[1]; // English => en
-}
-fclose($fp);
-
-$fp = fopen('index-lngtag.go', 'w');
-fwrite($fp, "package countrydb\n\n");
+$fp = fopen('countrynames/index-lngtag.go', 'w');
+fwrite($fp, "package countrynames\n\n");
 fwrite($fp, "import \"golang.org/x/text/language\"\n\n");
 fwrite($fp, "var LocaleByTag = map[language.Tag]map[string]Translated{\n");
 foreach($golng as $tagname => $lng) {

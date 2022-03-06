@@ -14,9 +14,3 @@ type Country struct {
 	ICANN_Region   string // icann region as defined by https://meetings.icann.org/en/regions
 	PhonePrefix    string
 }
-
-type Translated struct {
-	Name         string
-	OfficialName string // optional
-	CommonName   string // optional
-}
