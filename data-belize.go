@@ -1,0 +1,9 @@
+package countrydb
+
+var Belize = &Country{
+	Name:           "Belize",
+	UniqueName:     "Belize",
+	ISO3166_Alpha2: "BZ",
+	ISO3166_Alpha3: "BLZ",
+	Numeric:        84,
+}

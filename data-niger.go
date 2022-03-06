@@ -1,0 +1,10 @@
+package countrydb
+
+var Niger = &Country{
+	Name:           "Niger",
+	UniqueName:     "Niger",
+	OfficialName:   "Republic of the Niger",
+	ISO3166_Alpha2: "NE",
+	ISO3166_Alpha3: "NER",
+	Numeric:        562,
+}

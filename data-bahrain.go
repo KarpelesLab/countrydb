@@ -1,0 +1,10 @@
+package countrydb
+
+var Bahrain = &Country{
+	Name:           "Bahrain",
+	UniqueName:     "Bahrain",
+	OfficialName:   "Kingdom of Bahrain",
+	ISO3166_Alpha2: "BH",
+	ISO3166_Alpha3: "BHR",
+	Numeric:        48,
+}
