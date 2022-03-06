@@ -156,11 +156,74 @@ foreach($country_data as &$country) {
 fwrite($fp, "}\n");
 fclose($fp);
 
+// generate languages
+$lngIndex = [];
+foreach(glob('iso-codes/iso_3166-1/*.po') as $file) {
+	$lng = basename($file, '.po'); // remove path & .po
+	// some cases: we may have "ln" "lng" "ln@var" "ln_XX"
+	// all of these will parse as language.Tag
+	$uniqueName = str_replace('@', '_', $lng);
+	$lngVar = 'Locale'.str_replace('_', '', $uniqueName); // var containing this language
+	$lngIndex[$lng] = $lngVar;
+
+	// let's read all translations
+	$po_data = file_get_contents($file);
+	preg_match_all('/\nmsgid "(.+?)"\nmsgstr "(.+?)"/m', $po_data, $trans, PREG_SET_ORDER);
+
+	// index translations
+	$trans_idx = [];
+	foreach($trans as $t)
+		$trans_idx[$t[1]] = stripslashes($t[2]);
+
+	// create file
+	$fp = fopen('lng-'.strtolower(str_replace('_', '', $uniqueName)).'.go', 'w');
+	fwrite($fp, "package countrydb\n\n");
+	fwrite($fp, "var $lngVar = map[*Country]*Translated{\n");
+
+	// analyse which country has which translation
+	$vars = [
+		'name' => 'Name',
+		'official_name' => 'OfficialName',
+		'common_name' => 'CommonName',
+	];
+
+	foreach($country_data as &$country) {
+		$local = [];
+		foreach($vars as $key => $gokey) {
+			if (!isset($country[$key])) continue; // not existing
+			if (!isset($trans_idx[$country[$key]])) continue; // not translated
+			$local[$gokey] = $trans_idx[$country[$key]];
+		}
+		if (!$local) continue; // no translations for this country
+
+		// output translations
+		fwrite($fp, "\t".$country['unique_name'].": &Translated{\n");
+		foreach($local as $k => $v) {
+			fwrite($fp, "\t\t$k: ".goescape($v).",\n");
+		}
+		fwrite($fp, "\t},\n");
+	}
+
+	fwrite($fp, "}\n");
+	fclose($fp);
+}
+
+// write language index
+$fp = fopen('index-lng.go', 'w');
+fwrite($fp, "package countrydb\n\n");
+fwrite($fp, "var Locale = map[string]map[*Country]*Translated{\n");
+
+foreach($lngIndex as $k => $v)
+	fwrite($fp, "\t".goescape($k).": $v,\n");
+
+fwrite($fp, "}\n");
+fclose($fp);
+
 function asciify($var) {
 	return transliterator_transliterate('Latin-ASCII', transliterator_transliterate('Any-Latin', $var));
 }
 
 function goescape($str) {
 	if (is_null($str)) return '""';
-	return '"'.addcslashes($str, "\0..\37\"").'"';
+	return '"'.addcslashes($str, "\0..\37\"\\").'"';
 }
