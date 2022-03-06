@@ -1,248 +1,248 @@
 package countrydb
 
-var Localelo = map[*Country]*Translated{
-	Angola: &Translated{
+var Localelo = map[string]Translated{
+	"AO": Translated{
 		Name: "ປະເທດອັງໂກລາ",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name: "ປະເທດອັງດອກ",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name: "ອາກຊັງຕີນ",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "ປະເທດອາກເມນີ",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "ປະເທດອົດສະຕາລີ",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "ປະເທດໂອຕະລິດ",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name: "ປະເທດອາແຊກບາຍຊັງ",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name: "ປະເທດແບນຊິກ",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name: "ປະເທດບັງກະລາເທດ",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "ປະເທດບູນກາລີ",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name: "ປະເທດບົດສະນີແຮກເຊໂກວີນ",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name: "ປະເທດບີເອໂລລຸດ",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		CommonName: "ປະເທດໂບລີວີ",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "ປະເທດບະເລຊິນ",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "ປະເທດການາດາ",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name: "ປະເທດສະວິດ",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name: "Chile",
 	},
-	China: &Translated{
+	"CN": Translated{
 		OfficialName: "ປະເທດຈີນ",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name: "ປະເທດໂກລົມບີ",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		Name: "ປະເທດກົດສະຕາລິກາ",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name: "ປະເທດຊີບ",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "ສາທາລະນະລັດແຊັກ",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "ປະເທດເຢັຽລະມັນ",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name: "ປະເທດດານມາກ",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name: "ປະເທດເອກົວເຕີ",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "ປະເທດແອສະປາຍ",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name: "ເອທິໂອເປຍ",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "ປະເທດແຟງລັງ",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "ປະເທດຝະລັ່ງ",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name: "ສະຫະລາຊະອານາຈັກ",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "ປະເທດເຊອັອກຊີ",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		OfficialName: "ປະເທດຈີນ",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name: "ປະເທດກະແລັດ",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name: "ປະເທດກົວເຕມາລາ",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name: "ປະເທດກຸຍຢານ",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name: "ຮົງກົງ",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name: "ປະເທດກະໂລອາຊີ",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "ປະເທດຮົງກະລີ",
 		OfficialName: "ປະເທດຮົງກະລີ",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name: "ປະເທດອິນໂດເນເຊຍ",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "ປະເທດອຽກລັງ",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name: "ອິດສະລັງ",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "ອິຕາລີ",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "ປະເທດຍີ່ປຸ່ນ",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name: "ປະເທດກຳປູເຈຍ",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name: "ປະເທດລິກເຕນສະຕາຍ",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name: "ປະເທດສີລັງກາ",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "ປະເທດລີຕົວນີ",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name: "ປະເທດລູກຊຳບວກ",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name: "ປະເທດແລດໂຕນີ",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name: "ປະເທດໂມນາໂກ",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name: "ປະເທດເມັກຊິກ",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		OfficialName: "ປະເທດຈີນ",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name: "ປະເທດມັນ",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name: "ປະເທດມຽນມາ",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "ປະເທດມາເລເຊຍ",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name: "ປະເທດໂຮນລັງ",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "ປະເທດນອກແວດ",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "ປະເທດນູແວນ ເຊລັງ",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name: "ປະເທດເປຣູ",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name: "ປະເທດຟີລິບປິນ",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name: "ປະເທດປາປົວຊີນູແວນກີເນ",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "ປະເທດໂປໂລຍ",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name: "ປະເທດປອກຕຸຍການ",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name: "ປະເທດປາຣາກວາຍ",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name: "ປະເທດກາຕາ",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "ປະເທດລູມານີ",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name: "ປະເທດສິງກະໂປ",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name: "ປະເທດແຊັງມາແລງ",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name: "ປະເທດແຊກບີ",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name: "ປະເທດຊູຣີນາມ",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name: "ປະເທດສະໂລວາກີ",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name: "ປະເທດສະໂລເວນີ",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "ປະເທດຊູແອດ",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name: "ປະເທດໄທ",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "ປະເທດຕວກກີ",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		CommonName: "Tâi-oân",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "ປະເທດອູກະແລນ",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name: "ປະເທດອູຣູກວາຍ",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "ສະຫະລັດອາເມລິກາ",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		CommonName: "ປະເທດເວເນຊູເອລາ",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		CommonName: "ປະເທດຫວຽດນາມ",
 	},
 }

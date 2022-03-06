@@ -1,87 +1,87 @@
 package countrydb
 
-var Localemo = map[*Country]*Translated{
-	Afghanistan: &Translated{
+var Localemo = map[string]Translated{
+	"AF": Translated{
 		Name: "Афганистан",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "Армения",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "Аустрия",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name: "Азербаиӂан",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "Булгария",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name: "Беларус",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "Ӂермания",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "Франца",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name: "Кроация",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Унгария",
 		OfficialName: "Унгария",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Жапония",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name: "Казахстан",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name: "Кыргызстан",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "Santa Lúcia",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "Литуания",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name: "Летония",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		CommonName: "Молдова",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Montenegro",
 		OfficialName: "Montenegro",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "Монголия",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "Полония",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name: "Португалия",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Ромыния",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name: "Словачия",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name: "Tailândia",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "Турчия",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "Украина",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "Стателе Уните але Америчий",
 	},
 }

@@ -1,928 +1,928 @@
 package countrydb
 
-var Localevi = map[*Country]*Translated{
-	Aruba: &Translated{
+var Localevi = map[string]Translated{
+	"AW": Translated{
 		Name: "Ă-ru-ba",
 	},
-	Afghanistan: &Translated{
+	"AF": Translated{
 		Name:         "A Phú Hãn",
 		OfficialName: "Cộng Hoà Hồi Giáo A Phú Hãn",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		Name:         "Ăng-gô-la",
 		OfficialName: "Cộng hoà Ăng-gô-la",
 	},
-	Anguilla: &Translated{
+	"AI": Translated{
 		Name: "Ăng-ouí-la",
 	},
-	AlandIslands: &Translated{
+	"AX": Translated{
 		Name: "Quần đảo A-lanh",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name:         "An-ba-ni",
 		OfficialName: "Cộng Hoà An-ba-ni",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name:         "Ăn-đoa-râ",
 		OfficialName: "Chức vương Ăn-đoa-râ",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "Các Tiểu Vương Quốc A-rập Thống Nhất",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name:         "Á-căn-đình",
 		OfficialName: "Cộng hoà Á-căn-đình",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name:         "Ac-mê-ni",
 		OfficialName: "Nước Cộng Hoà Ac-mê-ni",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "Xa-mô-a Mỹ",
 	},
-	Antarctica: &Translated{
+	"AQ": Translated{
 		Name: "Nam Cực",
 	},
-	FrenchSouthernTerritories: &Translated{
+	"TF": Translated{
 		Name: "Miền Nam Pháp",
 	},
-	AntiguaandBarbuda: &Translated{
+	"AG": Translated{
 		Name: "Ănh-thí-gua và Ba-bu-đa",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "Úc",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name:         "Ao",
 		OfficialName: "Cộng hoà Ao",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name:         "Ai-xợ-bai-gianh",
 		OfficialName: "Nước Cộng Hoà Ai-xợ-bai-gianh",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name:         "Bu-run-đi",
 		OfficialName: "Cộng hoà Bu-run-đi",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name:         "Bỉ",
 		OfficialName: "Vương quốc Bỉ",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name:         "Bê-ninh",
 		OfficialName: "Cộng hoà Bê-ninh",
 	},
-	Bonaire: &Translated{
+	"BQ": Translated{
 		Name:         "Bông-Ne, Xin E-u-xờ-ta-ti-tút và Xa-ba",
 		OfficialName: "Bông-Ne, Xin E-u-xờ-ta-ti-tút và Xa-ba",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "Buốc-khi-na Pha-xô",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name:         "Bang-la-đesợ",
 		OfficialName: "Nước Cộng Hoà Nhân Dân Bang-la-đesợ",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name:         "Bua-ga-ri",
 		OfficialName: "Nước Cộng Hoà Bua-ga-ri",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name:         "Ba-rainh",
 		OfficialName: "Vương Quốc Ba-rainh",
 	},
-	Bahamas: &Translated{
+	"BS": Translated{
 		Name:         "Ba-ha-ma",
 		OfficialName: "Liên bang Ba-ha-ma",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name:         "Bô-xni-a và Hẻ-xê-gô-vi-na",
 		OfficialName: "Nước Cộng Hoà Bô-xni-a và Hẻ-xê-gô-vi-na",
 	},
-	SaintBarthelemy: &Translated{
+	"BL": Translated{
 		Name: "Saint Barthélemy",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name:         "Be-la-ruxợ",
 		OfficialName: "Nước Cộng Hoà Be-la-ruxợ",
 	},
-	Belize: &Translated{
+	"BZ": Translated{
 		Name: "Bê-li-xê",
 	},
-	Bermuda: &Translated{
+	"BM": Translated{
 		Name: "Be-mu-đa",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		Name:         "Bô-li-vi-a, Quốc gia Đa Dân tộc",
 		OfficialName: "Quốc gia Đa Dân tộc Bô-li-vi-a",
 		CommonName:   "Bô-li-vi-a",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name:         "Bra-xin",
 		OfficialName: "Cộng hoà Liên bang Bra-xin",
 	},
-	Barbados: &Translated{
+	"BB": Translated{
 		Name: "Bă-ba-đôxợ",
 	},
-	BruneiDarussalam: &Translated{
+	"BN": Translated{
 		Name: "Bợru-này Đa-ru-xa-làm",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name:         "Bu-thănh",
 		OfficialName: "Vương Quốc Bu-thănh",
 	},
-	BouvetIsland: &Translated{
+	"BV": Translated{
 		Name: "Quần đảo Bu-vê",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name:         "Bốt-xoă-na",
 		OfficialName: "Nước Cộng Hoà Bốt-xoă-na",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "Nước Cộng Hoà Trung Phi",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "Ca-na-đa",
 	},
-	CocosKeelingIslands: &Translated{
+	"CC": Translated{
 		Name: "Quần đảo Co-co-xợ (Khi-lịng)",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name:         "Thụy Sĩ",
 		OfficialName: "Liên Bang Thụy Sĩ",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name:         "Chi-lê",
 		OfficialName: "Cộng hoà Chi-lê",
 	},
-	China: &Translated{
+	"CN": Translated{
 		Name:         "Trung Quốc",
 		OfficialName: "Nước Cộng Hoà Nhân Dân Trung Quốc",
 	},
-	CotedIvoire: &Translated{
+	"CI": Translated{
 		Name:         "Cốt đi-vouă",
 		OfficialName: "Cộng Hoà Cốt đi-vouă",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name:         "Ca-mơ-runh",
 		OfficialName: "Nước Cộng Hoà Ca-mơ-runh",
 	},
-	DemocraticCongo: &Translated{
+	"CD": Translated{
 		Name: "Cộng hoà Dân chủ Công-gô",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		Name:         "Công-gô",
 		OfficialName: "Cộng hoà Công-gô",
 	},
-	CookIslands: &Translated{
+	"CK": Translated{
 		Name: "Quần đảo Khu-khợ",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name:         "Cô-lôm-bi-a",
 		OfficialName: "Cộng hoà Cô-lôm-bi-a",
 	},
-	Comoros: &Translated{
+	"KM": Translated{
 		Name:         "Cô-mô-rô-xợ",
 		OfficialName: "Liên Bang Cô-mô-rô-xợ",
 	},
-	CaboVerde: &Translated{
+	"CV": Translated{
 		Name:         "Cáp-ve-đẹ",
 		OfficialName: "Nước Cộng Hoà Cáp-ve-đẹ",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		Name:         "Cốt-x-tha Ri-ca",
 		OfficialName: "Cộng hoà Cốt-x-tha Ri-ca",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name:         "Cu-ba",
 		OfficialName: "Cộng hoà Cu-ba",
 	},
-	Curacao: &Translated{
+	"CW": Translated{
 		Name:         "Cu-ra-cao",
 		OfficialName: "Cu-ra-cao",
 	},
-	ChristmasIsland: &Translated{
+	"CX": Translated{
 		Name: "Đảo Kh-ri-xợ-mà-xợ",
 	},
-	CaymanIslands: &Translated{
+	"KY": Translated{
 		Name: "Quần đảo Cay-man",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name:         "Síp",
 		OfficialName: "Cộng hoà Síp",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "Cộng hoà Séc",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name:         "Đức",
 		OfficialName: "Cộng hoà Liên bang Đức",
 	},
-	Djibouti: &Translated{
+	"DJ": Translated{
 		Name:         "Gi-bu-ti",
 		OfficialName: "Cộng hoà Gi-bu-ti",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name:         "Đô-mi-ni-cạ",
 		OfficialName: "Liên bang Đô-mi-ni-cạ",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name:         "Đan Mạch",
 		OfficialName: "Vương Quốc Đan Mạch",
 	},
-	DominicanRepublic: &Translated{
+	"DO": Translated{
 		Name: "Cộng hoà Đô-mi-ni-cạ",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name:         "An-giê-ri",
 		OfficialName: "Cộng Hoà Dân Chủ Nhân Dân An-giê-ri",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name:         "Ê-cu-a-đoa",
 		OfficialName: "Cộng hoà Ê-cu-a-đoa",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name:         "Ai Cập",
 		OfficialName: "Cộng hoà A-rập Ai-cập",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name:         "Ê-ri-tơ-rê-a",
 		OfficialName: "Quốc gia Eritrea",
 	},
-	WesternSahara: &Translated{
+	"EH": Translated{
 		Name: "Tây Sa-ha-ra",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name:         "Tây Ban Nha",
 		OfficialName: "Vương Quốc Tay Ban Nha",
 	},
-	Estonia: &Translated{
+	"EE": Translated{
 		Name:         "E-xợ-tô-ni-a",
 		OfficialName: "Nước Cộng Hoà E-xợ-tô-ni-a",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name:         "Ê-ti-ô-pi-a",
 		OfficialName: "Cộng hoà Nhân dân Liên bang Ê-ti-ô-pi-a",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name:         "Phần Lan",
 		OfficialName: "Nước Cộng Hoà Phần Lan",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		Name:         "Phi-gi",
 		OfficialName: "Cộng hoà Phi gi",
 	},
-	FalklandIslandsMalvinas: &Translated{
+	"FK": Translated{
 		Name: "Quần Đảo Phoa-kh-lận-đợ (Man-vi-na)",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name:         "Pháp",
 		OfficialName: "Cộng hoà Pháp",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "Quần đảo Pha-rô",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		Name:         "Mi-khợ-rô-nê-xi-a, Liên Bang",
 		OfficialName: "Liên Bang Mi-khợ-rô-nê-xi-a",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name:         "Ga-bon",
 		OfficialName: "Nước Cộng Hoà Ga-bon",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name:         "Vương Quốc Anh Thống Nhất",
 		OfficialName: "Vương Quốc Thống Nhất Anh va Bắc Ái Nhĩ Lan",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "Gi-oa-gi-a",
 	},
-	Guernsey: &Translated{
+	"GG": Translated{
 		Name: "Gơnh-xị",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name:         "Ga-na",
 		OfficialName: "Cộng hoà Ga-na",
 	},
-	Gibraltar: &Translated{
+	"GI": Translated{
 		Name: "Gi-boa-tha",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		Name:         "Ghi-nê",
 		OfficialName: "Cộng hoà Ghi-nê",
 	},
-	Guadeloupe: &Translated{
+	"GP": Translated{
 		Name: "Gu-a-đe-lup",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		Name:         "Găm-bi-a",
 		OfficialName: "Nước Cộng Hoà Xam-bi-a",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name:         "Ghi-nê Bi-xau",
 		OfficialName: "Nước Cộng Hoà Ghi-nê Bi-xau",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name:         "Ghi-nê Xích Đạo",
 		OfficialName: "Nước Cộng Hoà Ghi-nê Xích Đạo",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name:         "Hy Lạp",
 		OfficialName: "Nước Cộng Hoà Hy Lạp",
 	},
-	Grenada: &Translated{
+	"GD": Translated{
 		Name: "Gợ-rê-na-đa",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "Đảo Băng",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name:         "Gua-tê-ma-la",
 		OfficialName: "Cộng hoà Gua-tê-ma-la",
 	},
-	FrenchGuiana: &Translated{
+	"GF": Translated{
 		Name: "Ghi-a-na Pháp",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "Gu-ăm",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name:         "Guy-a-na",
 		OfficialName: "Cộng hoà Guy-a-na",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name:         "Hông Kông",
 		OfficialName: "Miền Quản Lý Đặc Biệt Hông Kông của Trung Quốc",
 	},
-	HeardIslandandMcDonaldIslands: &Translated{
+	"HM": Translated{
 		Name: "Đảo He-ợ-đợ và Quần Đảo Mợc-đo-nậ-đợ",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		Name:         "Hôn-đu-ra-xợ",
 		OfficialName: "Nước Cộng Hoà Hôn-đu-ra-xợ",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name:         "Cợ-rô-a-ti-a",
 		OfficialName: "Nước Cộng Hoà Cợ-rô-a-ti-a",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		Name:         "Ha-i-ti",
 		OfficialName: "Cộng hoà Ha-i-ti",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Hun-ga-ri",
 		OfficialName: "Hun-ga-ri",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name:         "Nam Dương",
 		OfficialName: "Cộng hoà Nam Dương",
 	},
-	IsleofMan: &Translated{
+	"IM": Translated{
 		Name: "Đảo Man",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name:         "Ấn-độ",
 		OfficialName: "Cộng hoà Ấn-độ",
 	},
-	BritishIndianOceanTerritory: &Translated{
+	"IO": Translated{
 		Name: "Miền Đại Dương Ấn-độ Anh",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "Ái Nhĩ Lan",
 	},
-	Iran: &Translated{
+	"IR": Translated{
 		Name:         "Ba Tư, Cộng hoà Hồi giáo",
 		OfficialName: "Cộng hoà Hồi giáo Ba Tư",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name:         "I-rắc",
 		OfficialName: "Cộng hoà I-rắc",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name:         "Băng Đảo",
 		OfficialName: "Nước Cộng Hoà Băng Đảo",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name:         "Do Thái",
 		OfficialName: "Quốc Gia Do Thái",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name:         "Ý",
 		OfficialName: "Nước Cộng Hoà Ý",
 	},
-	Jamaica: &Translated{
+	"JM": Translated{
 		Name: "Gia-mê-ca",
 	},
-	Jersey: &Translated{
+	"JE": Translated{
 		Name: "Giơ-xị",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name:         "Gi-oa-đanh",
 		OfficialName: "Vương Quốc Ha-se-mai-th Gi-oa-đanh",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Nhật",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name:         "Kha-xa-kh-x-thanh",
 		OfficialName: "Nước Cộng Hoà Kha-xa-kh-x-thanh",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name:         "Khi-ni-a",
 		OfficialName: "Cộng hoà Khi-nia",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name:         "Khư-rơ-gư-xtanh",
 		OfficialName: "Nước Cộng Hoà Khư-rơ-gư-xtanh",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name:         "Căm Bốt",
 		OfficialName: "Vương Quốc Căm Bốt",
 	},
-	Kiribati: &Translated{
+	"KI": Translated{
 		Name:         "Ki-ri-ba-ti",
 		OfficialName: "Cộng hoà Ki-ri-ba-ti",
 	},
-	SaintKittsandNevis: &Translated{
+	"KN": Translated{
 		Name: "Xan-kít và Nê-vi",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		Name:       "Cộng hoà Nam Hàn",
 		CommonName: "Nam Phi",
 	},
-	Kuwait: &Translated{
+	"KW": Translated{
 		Name:         "Cu-ouai-thợ",
 		OfficialName: "Quốc Gia Cu-ouai-thợ",
 	},
-	LaoPeoplesDemocraticRepublic: &Translated{
+	"LA": Translated{
 		Name: "Cộng hoà Nhân dân Dân chủ Lào",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		Name:         "Le-ba-non",
 		OfficialName: "Nước Cộng Hoà Le-ba-non",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name:         "Li-bê-ri-a",
 		OfficialName: "Cộng hoà Li-bê-ri-a",
 	},
-	Libya: &Translated{
+	"LY": Translated{
 		Name:         "Li-bi",
 		OfficialName: "Li-bi",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "Xan Lu-xi",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name:         "Likh-ten-xtainh",
 		OfficialName: "Chức Vương Likh-ten-xtainh",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name:         "Tích Lan",
 		OfficialName: "Cộng Hoà Xã hội Nhân Dân Tích Lan",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		Name:         "Lê-xô-thô",
 		OfficialName: "Vương quốc Lê-xô-thô",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name:         "Li-tu-a-ni-a",
 		OfficialName: "Cộng hoà Li-tu-a-ni-a",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name:         "Lục Xâm Bảo",
 		OfficialName: "Đất công tước trên Lục Xâm Bảo",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name:         "Lát-vi-a",
 		OfficialName: "Cộng hoà Lát-vi-a",
 	},
-	Macao: &Translated{
+	"MO": Translated{
 		Name:         "Ma-cao",
 		OfficialName: "Miền Quản Lý Đặc Biệt Ma-cao của Trung Quốc",
 	},
-	SaintMartinFrenchpart: &Translated{
+	"MF": Translated{
 		Name: "Saint Martin (vùng Pháp)",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name:         "Mo-ro-cô",
 		OfficialName: "Vương Quốc Mo-ro-cô",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name:         "Mo-na-cô",
 		OfficialName: "Chức Vương Mo-na-cô",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		Name:         "Nước Cộng Hoà Mổ-đô-vạ",
 		OfficialName: "Cộng hoà Moa-đô-va",
 		CommonName:   "Mon-đô-va",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name:         "Ma-đa-ga-xợ-ca",
 		OfficialName: "Nước Cộng Hoà Ma-đa-ga-xợ-ca",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name:         "Mal-đi-vợx",
 		OfficialName: "Cộng hoà Mal-đi-vợx",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name:         "Mê-hi-cô",
 		OfficialName: "Liên Bang Mê-hi-cô",
 	},
-	MarshallIslands: &Translated{
+	"MH": Translated{
 		Name:         "Quần Đảo Ma-san",
 		OfficialName: "Nước Cộng Hoà Quần Đảo Ma-san",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		Name:         "Niu Ca-lê-đô-ni-a",
 		OfficialName: "Cộng hoà Li-tu-a-ni-a",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name:         "Ma-li",
 		OfficialName: "Cộng hoà Ma-li",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name:         "Moa-ta",
 		OfficialName: "Cộng hoà Moa-ta",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name:         "Miến Điện",
 		OfficialName: "Cộng hoà Miến Điện",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Mon-te-nê-gợ-rô",
 		OfficialName: "Mon-te-nê-gợ-rô",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "Mông Cổ",
 	},
-	NorthernMarianaIslands: &Translated{
+	"MP": Translated{
 		Name:         "Bắc Quần Đảo Ma-ri-a-na",
 		OfficialName: "Liên Bang Bắc Quần Đảo Ma-ri-a-na",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name:         "Mô-xam-bí-khợ",
 		OfficialName: "Nước Cộng Hoà Mô-xam-bí-khợ",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name:         "Mô-ri-ta-ni-a",
 		OfficialName: "Cộng hoà Hồi giáo Mô-ri-ta-ni-a",
 	},
-	Montserrat: &Translated{
+	"MS": Translated{
 		Name: "Mon-xe-rạc",
 	},
-	Martinique: &Translated{
+	"MQ": Translated{
 		Name: "Ma-thi-ni-khợ",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name:         "Mô-ri-sơ-xợ",
 		OfficialName: "Nước Cộng Hoà Mô-ri-sơ-xợ",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name:         "Ma-la-uy",
 		OfficialName: "Cộng hoà Ma-la-uy",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "Ma-lai-xi-a",
 	},
-	Mayotte: &Translated{
+	"YT": Translated{
 		Name: "May-o-thợ",
 	},
-	Namibia: &Translated{
+	"NA": Translated{
 		Name:         "Na-mi-bi-a",
 		OfficialName: "Cộng hoà Na-mi-bi-a",
 	},
-	NewCaledonia: &Translated{
+	"NC": Translated{
 		Name: "Niu Ca-lê-đô-ni-a",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		Name:         "Ni-gie",
 		OfficialName: "Nước Cộng Hoà Ni-gie",
 	},
-	NorfolkIsland: &Translated{
+	"NF": Translated{
 		Name: "Đảo Noa-phọ-khợ",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name:         "Ni-giê-ri-a",
 		OfficialName: "Cộng hoà Liên bang Ni-giê-ri-a",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name:         "Ni-ca-ra-gua",
 		OfficialName: "Cộng hoà Ni-ca-ra-gua",
 	},
-	Niue: &Translated{
+	"NU": Translated{
 		Name:         "Ni-u-e",
 		OfficialName: "Ni-u-e",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name:         "Hoà Lan",
 		OfficialName: "Vương Quốc Hoà Lan",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name:         "Na Uy",
 		OfficialName: "Vương Quốc Na Uy",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name:         "Nê-pan",
 		OfficialName: "Cộng hoà Nhân dân Liên bang Ne-pan",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name:         "Nau-ru",
 		OfficialName: "Cộng hoà Nau-ru",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "Niu Xi-lân",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name:         "Ô-man",
 		OfficialName: "Ngôi vua Ô-man",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name:         "Pa-ki-xợ-thănh",
 		OfficialName: "Nước Cộng Hoà Hồi Giáo Pa-ki-xợ-thănh",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name:         "Pa-na-ma",
 		OfficialName: "Nước Cộng Hoà Pa-na-ma",
 	},
-	Pitcairn: &Translated{
+	"PN": Translated{
 		Name: "Pi-thợ-khenh",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name:         "Pê-ru",
 		OfficialName: "Cộng hoà Pê-ru",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name:         "Phi-li-pi-nợ",
 		OfficialName: "Công hóa Phi-li-pi-nợ",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		Name:         "Pa-lau",
 		OfficialName: "Nước Cộng Hoà Pa-lau",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name:         "Pa-pu-a Niu Ghi-nê",
 		OfficialName: "Quốc Gia Độc Lập Papua New Guinea",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name:         "Ba Lan",
 		OfficialName: "Nước Cộng Hoà Ba Lan",
 	},
-	PuertoRico: &Translated{
+	"PR": Translated{
 		Name: "Pu-éc-thô Ri-cô",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		Name:         "Bắc Hàn, Cộng hoà Nhân dân Dân chủ",
 		OfficialName: "Cộng hoà Nhân dân Dân chủ Bắc Hàn",
 		CommonName:   "Niu Ca-lê-đô-ni-a",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name:         "Bồ Đào Nha",
 		OfficialName: "Nước Cộng Hoà Bồ Đào Nha",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name:         "Pa-ra-guay",
 		OfficialName: "Nước Cộng Hoà Pa-ra-guay",
 	},
-	Palestine: &Translated{
+	"PS": Translated{
 		Name:         "Palestine, quốc gia",
 		OfficialName: "Quốc gia Palestine",
 	},
-	FrenchPolynesia: &Translated{
+	"PF": Translated{
 		Name: "Pô-li-nê-xi Pháp",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name:         "Ca-tă",
 		OfficialName: "Quốc gia Ca-tă",
 	},
-	Reunion: &Translated{
+	"RE": Translated{
 		Name: "Rê-u-ni-ợnh",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Rô-ma-ni",
 	},
-	RussianFederation: &Translated{
+	"RU": Translated{
 		Name: "Liên Bang Nga",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name:         "Ru-oanh-đa",
 		OfficialName: "Cộng hoà Ru-oanh-đa",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name:         "A-rập Xau-đi",
 		OfficialName: "Vương quốc A-rập Xau-đi",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name:         "Xu-đanh",
 		OfficialName: "Nước Cộng Hoà Xu-đanh",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		Name:         "Xê-nê-gan",
 		OfficialName: "Cộng hoà Xê-nê-gan",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name:         "Xin-ga-po",
 		OfficialName: "Cộng hoà Xin-ga-po",
 	},
-	SouthGeorgiaandtheSouthSandwichIslands: &Translated{
+	"GS": Translated{
 		Name: "Nam Gi-oa-gi-a va Nam Quần Đảo Xan-oui-chợ",
 	},
-	SaintHelena: &Translated{
+	"SH": Translated{
 		Name: "Xan He-lê-na, A-xen-siónh và Tợ-rí-x-tan đa Cun-ha",
 	},
-	SvalbardandJanMayen: &Translated{
+	"SJ": Translated{
 		Name: "Xợ-van-bat và Ian-may-en",
 	},
-	SolomonIslands: &Translated{
+	"SB": Translated{
 		Name: "Quần đảo Xô-lô-mông",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name:         "Xi-ê-ra Lê-ô-nê",
 		OfficialName: "Nước Cộng Hoà Xi-ê-ra Lê-ô-nê",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		Name:         "En-xan-va-đoa",
 		OfficialName: "Nước Cộng Hoà En-xan-va-đoa",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name:         "Xan Ma-ri-nô",
 		OfficialName: "Cộng hoà Xan Ma-ri-nô",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name:         "Xo-ma-li",
 		OfficialName: "Cộng hoà Liên bang Xo-ma-li",
 	},
-	SaintPierreandMiquelon: &Translated{
+	"PM": Translated{
 		Name: "Xan Pi-e và Mi-quê-lon",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name:         "Xéc-bi",
 		OfficialName: "Cộng hoà Xéc-bi",
 	},
-	SouthSudan: &Translated{
+	"SS": Translated{
 		Name:         "Nam Xu-đăng",
 		OfficialName: "Nước Cộng Hoà Nam Xu-đăng",
 	},
-	SaoTomeandPrincipe: &Translated{
+	"ST": Translated{
 		Name:         "Xao Tô-mê và Pợ-rin-xi-pê",
 		OfficialName: "Nước Cộng Hoà Nhân Dân Xao Tô-mê và Pợ-rin-xi-pê",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name:         "Xu-ri-na-me",
 		OfficialName: "Nước Cộng Hoà Xu-ri-na-me",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name:         "Xlô-vác",
 		OfficialName: "Cộng hoà Xlô-vác",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name:         "Xlô-ven",
 		OfficialName: "Cộng hoà Xlô-ven",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name:         "Thuỵ Điển",
 		OfficialName: "Vương quốc Thuỵ Điển",
 	},
-	Eswatini: &Translated{
+	"SZ": Translated{
 		OfficialName: "Vương Quốc Tay Ban Nha",
 	},
-	SintMaartenDutchpart: &Translated{
+	"SX": Translated{
 		Name:         "Xin Mác-Ten (vùng Hà Lan)",
 		OfficialName: "Xin Mác-Ten (vùng Hà Lan)",
 	},
-	Seychelles: &Translated{
+	"SC": Translated{
 		Name:         "Xây-sen",
 		OfficialName: "Cộng hoà Xây-sen",
 	},
-	SyrianArabRepublic: &Translated{
+	"SY": Translated{
 		Name: "Cộng hoà A-rập Xi-ri-a",
 	},
-	TurksandCaicosIslands: &Translated{
+	"TC": Translated{
 		Name: "Quần Đảo Tuốc và Cai-cox",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		Name:         "Chê-đ",
 		OfficialName: "Nước Cộng Hoà Chê-đ",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name:         "Tô-gô",
 		OfficialName: "Cộng hoà Tô-gô",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name:         "Thái Lan",
 		OfficialName: "Vương Quốc Thái Lan",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name:         "Tha-gi-ki-xthanh",
 		OfficialName: "Nước Cộng Hoà Tha-gi-ki-xthanh",
 	},
-	Tokelau: &Translated{
+	"TK": Translated{
 		Name: "To-ke-lau",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "Tuốc-mê-ni-xtanh",
 	},
-	TimorLeste: &Translated{
+	"TL": Translated{
 		Name:         "Thi-moa Le-xợ-te",
 		OfficialName: "Nước Cộng Hoà Dân Chủ Thi-moa Le-xợ-te",
 	},
-	Tonga: &Translated{
+	"TO": Translated{
 		Name:         "Tông-ga",
 		OfficialName: "Vương quốc Tông-ga",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		Name:         "Trinh-i-đat và To-ba-gô",
 		OfficialName: "Cộng hoà Trinh-i-đat và To-ba-gô",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name:         "Tu-ni-xi-a",
 		OfficialName: "Cộng hoà Tu-ni-xi-a",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name:         "Thổ Nhĩ Kỳ",
 		OfficialName: "Nước Cộng Hoà Thổ Nhĩ Kỳ",
 	},
-	Tuvalu: &Translated{
+	"TV": Translated{
 		Name: "Tu-va-lu",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		Name:         "Đài Loan, Tỉnh Trung Quốc",
 		OfficialName: "Đài Loan, Tỉnh Trung Quốc",
 		CommonName:   "Đài Loan",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		Name:         "Nước Cộng Hoà Thống Nhất Than-xa-ni-a",
 		OfficialName: "Nước Cộng Hoà Thống Nhất Than-xa-ni-a",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name:         "U-gan-đa",
 		OfficialName: "Cộng hoà U-gan-đa",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "U-cờ-rai-na",
 	},
-	UnitedStatesMinorOutlyingIslands: &Translated{
+	"UM": Translated{
 		Name: "Quần Đảo ở xa nhỏ Mỹ",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name:         "U-ru-guay",
 		OfficialName: "Cộng hoà Đông U-ru-guay",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		Name:         "Mỹ",
 		OfficialName: "Mỹ",
 	},
-	Uzbekistan: &Translated{
+	"UZ": Translated{
 		Name:         "U-xợ-bê-khi-xtanh",
 		OfficialName: "Nước Cộng Hoà U-xợ-bê-khi-xtanh",
 	},
-	HolySeeVaticanCityState: &Translated{
+	"VA": Translated{
 		Name: "Toà Thánh (Bang Thành Phố Va-ti-canh)",
 	},
-	SaintVincentandtheGrenadines: &Translated{
+	"VC": Translated{
 		Name: "Xan Vinh-xen và Gou-en-a-đinh",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		Name:         "Nước Cộng Hoà Bo-li-va-ri Vê-nê-xu-ê-la",
 		OfficialName: "Nước Cộng Hoà Bo-li-va-ri Vê-nê-xu-ê-la",
 		CommonName:   "Ve-ne-xu-ê-la",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		Name:         "Quần Đảo Vơ-chin Anh",
 		OfficialName: "Quần Đảo Vơ-chin Anh",
 	},
-	VirginIslands: &Translated{
+	"VI": Translated{
 		Name:         "Quần Đảo Vơ-chin Mỹ",
 		OfficialName: "Quần Đảo Vơ-chin Mỹ",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		Name:         "Việt Nam",
 		OfficialName: "Nước Cộng Hoà Xã Hội Việt Nam",
 		CommonName:   "Việt Nam",
 	},
-	Vanuatu: &Translated{
+	"VU": Translated{
 		Name:         "Va-nu-a-tu",
 		OfficialName: "Cộng hoà Va-nu-a-tu",
 	},
-	WallisandFutuna: &Translated{
+	"WF": Translated{
 		Name: "Oua-li-xợ va Phu-tu-na",
 	},
-	Samoa: &Translated{
+	"WS": Translated{
 		Name:         "Xa-mô-a",
 		OfficialName: "Quốc Gia Độc Lập Xa-mô-a",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name:         "Y-ê-men",
 		OfficialName: "Cộng hoà Y-ê-men",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name:         "Nam Phi",
 		OfficialName: "Cộng hoà Nam Phi",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		Name:         "Xam-bi-a",
 		OfficialName: "Nước Cộng Hoà Xam-bi-a",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		Name:         "Xim-ba-bu-ê",
 		OfficialName: "Nước Cộng Hoà Xim-ba-bu-ê",
 	},

@@ -1,258 +1,258 @@
 package countrydb
 
-var Localeff = map[*Country]*Translated{
-	Angola: &Translated{
+var Localeff = map[string]Translated{
+	"AO": Translated{
 		Name: "Anngolaa",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name: "Albaniya",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name: "Anndoora",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "Armaaniya",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "Otiris",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name: "Aserbayjan",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name: "Burunndi",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name: "Beljik",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name: "Benen",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "Burkina Faso",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "Bulgariya",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name: "Bosniya",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name: "Belaruusiya",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "Barazil",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name: "Botswana",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name: "Suwis",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name: "Ciile",
 	},
-	China: &Translated{
+	"CN": Translated{
 		OfficialName: "Ciina",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name: "Kamerun",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name: "Kibris",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "Cekiya",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "Almaanya",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name: "Danemark",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name: "Aljeri",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name: "Eritereya",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "Hispaanya",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "Finland",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		Name: "Fiiji",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "Faransi",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name: "Gabon",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name: "Biritaani-Mawndi",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "Jorjiya",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name: "Gana",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		Name: "Gine",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		OfficialName: "Ciina",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name: "Gine-Bisaawo",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name: "Gine Ekwatoriyal",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name: "Yunan",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name: "Korowaasiya",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Hunngariya",
 		OfficialName: "Hunngariya",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "Irlannda",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name: "Islannda",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "Italiya",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name: "Kenya",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name: "Kammbooja",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name: "Labiriyaa",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name: "Liechtenstein",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "Lituwaniya",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name: "Luksammbuur",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name: "Latvia",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name: "Monako",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		CommonName: "Moldowa",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		OfficialName: "Ciina",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name: "Maali",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name: "Malta",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Montenegro",
 		OfficialName: "Montenegro",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name: "Mozammbik",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name: "Muritani",
 	},
-	Namibia: &Translated{
+	"NA": Translated{
 		Name: "Namibiya",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		Name: "Niiser",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name: "Niiseriya",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name: "Holannda",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "Norwees",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name: "Nepal",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name: "Nawru",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name: "Peru",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "Poloonya",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name: "Portokeesi",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Romaniya",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		Name: "Senegaal",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name: "Sinngapuur",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name: "Sarliyon",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name: "San Marino",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name: "Somaaliya",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name: "Serbiya",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name: "Sulowakiya",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name: "Suloweniya",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "Suwed",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name: "Togo",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name: "Tailannde",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "Türkiye",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "Ukrayiina",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "Dowlaaji Dentuɗi",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		CommonName: "Vietnam",
 	},
 }

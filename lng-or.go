@@ -1,931 +1,931 @@
 package countrydb
 
-var Localeor = map[*Country]*Translated{
-	Aruba: &Translated{
+var Localeor = map[string]Translated{
+	"AW": Translated{
 		Name: "ଆଋବା",
 	},
-	Afghanistan: &Translated{
+	"AF": Translated{
 		Name:         "ଆଫଗାନିସ୍ତାନ",
 		OfficialName: "ଆଫଗାନିସ୍ତାନ ଇସଲାମିକ ଗଣତନ୍ତ୍ର",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		Name:         "ଆଙ୍ଗୋଲା",
 		OfficialName: "ଆଙ୍ଗୋଲା ଗଣତନ୍ତ୍ର",
 	},
-	Anguilla: &Translated{
+	"AI": Translated{
 		Name: "ଆଙ୍ଗୋଲୀୟା",
 	},
-	AlandIslands: &Translated{
+	"AX": Translated{
 		Name: "ଆଲାଣ୍ଡ ଦ୍ବୀପ",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name:         "ଅଲ୍ବାନୀୟା",
 		OfficialName: "ଅଲବାନିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name:         "ଅଣ୍ଟୋରା",
 		OfficialName: "ଆଣ୍ଡୋରାର ରାଜା",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "ସଂଯୁକ୍ତ ଆରବ ଏମିରେଟ",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name:         "ଅାର୍ଜେଣ୍ଟୀନା",
 		OfficialName: "ଆରଜେଣ୍ଟାଇନ ଗଣତନ୍ତ୍ର",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name:         "ଆର୍ମେନିୟା",
 		OfficialName: "ଆର୍ମେନିୟା ଗଣତନ୍ତ୍ର",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "ଆମେରିକୀୟ ସାମୋଆ",
 	},
-	Antarctica: &Translated{
+	"AQ": Translated{
 		Name: "ଆଣ୍ଟାର୍କଟିକା",
 	},
-	FrenchSouthernTerritories: &Translated{
+	"TF": Translated{
 		Name: "ଫ୍ରେଞ୍ଚ ଦାକ୍ଷିଣାତ୍ମକ କ୍ଷେତ୍ର",
 	},
-	AntiguaandBarbuda: &Translated{
+	"AG": Translated{
 		Name: "ଏଣ୍ଟିଗୁଆ ଏବଂ ବାର୍ବୁଡା",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "ଅଷ୍ଟ୍ରେଲିୟା",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name:         "ଅଷ୍ଟ୍ରିୟା",
 		OfficialName: "ଅଷ୍ଟ୍ରିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name:         "ଆଜର୍ବେଜାନ",
 		OfficialName: "ଆଜର୍ବେଜାନ ଗଣତନ୍ତ୍ର",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name:         "ବୁରୁଣ୍ଡି",
 		OfficialName: "ବୁରୁଣ୍ଡି ଗଣତନ୍ତ୍ର",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name:         "ବେଲଜିୟମ",
 		OfficialName: "ବେଲଜିୟମ ସାମ୍ରାଜ୍ୟ",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name:         "ବେନିନ୍",
 		OfficialName: "ବେନିନ୍ ଗଣତନ୍ତ୍ର",
 	},
-	Bonaire: &Translated{
+	"BQ": Translated{
 		Name:         "ବୋନେର୍, ସିଣ୍ଟ ୟୁଷ୍ଟାସିଅସ ଏବଂ ସାବା",
 		OfficialName: "ବୋନେର୍, ସିଣ୍ଟ ୟୁଷ୍ଟାସିଅସ ଏବଂ ସାବା",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "ବୁର୍କିନା ଫାସୋ",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name:         "ବାଙ୍ଗଲାଦେଶ",
 		OfficialName: "ବାଙ୍ଗଲାଦେଶ ଜନସାଧାରଣ ଗଣତନ୍ତ୍ର",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name:         "ବୁଲଗାରିୟା",
 		OfficialName: "ବୁଲଗେରିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name:         "ବାହାରୀନ",
 		OfficialName: "ବାହାରୀନ ସାମ୍ରାଜ୍ୟ",
 	},
-	Bahamas: &Translated{
+	"BS": Translated{
 		Name:         "ବାହାମା",
 		OfficialName: "ବାହାମା ସର୍ବସାଧାରଣ",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name:         "ବୋସନିଆ ଏବଂ ହର୍ଜେଗୋଭିନା",
 		OfficialName: "ବୋସନିଆ ଏବଂ ହର୍ଜେଗୋଭିନା ଗଣତନ୍ତ୍ର",
 	},
-	SaintBarthelemy: &Translated{
+	"BL": Translated{
 		Name: "ସେଣ୍ଟ ବାର୍ଥେଲେମୀ",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name:         "ବେଲାରୁଷ",
 		OfficialName: "ବେଲାଋଷ ଗଣତନ୍ତ୍ର",
 	},
-	Belize: &Translated{
+	"BZ": Translated{
 		Name: "ବେଲିଜ",
 	},
-	Bermuda: &Translated{
+	"BM": Translated{
 		Name: "ବର୍ମୁଡା",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		Name:         "ବୋଲିଭିଆ, ପ୍ଲୁରିନେସଲଲାନ ରାଜ୍ଯ",
 		OfficialName: "ବୋଲିଭିଆ ପ୍ଲୁରିନେସନାଲ ରାଜ୍ଯ",
 		CommonName:   "ବୋଲିଭିଆ",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name:         "ବ୍ରାଜୀଲ",
 		OfficialName: "ବ୍ରାଜିଲ ଫେଡେରେଟିଭ ଗଣତନ୍ତ୍ର",
 	},
-	Barbados: &Translated{
+	"BB": Translated{
 		Name: "ବାର୍ବାଡୋସ",
 	},
-	BruneiDarussalam: &Translated{
+	"BN": Translated{
 		Name: "ବ୍ରୁନେଈ ଦାଋସାଲମ",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name:         "ଭୁଟାନ",
 		OfficialName: "ଭୁଟାନ ସାମ୍ରାଜ୍ୟ",
 	},
-	BouvetIsland: &Translated{
+	"BV": Translated{
 		Name: "ବୁଭେଟ୍ ଦ୍ବୀପ",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name:         "ବୋସ୍ତ୍ବାନା",
 		OfficialName: "ବୋସ୍ତ୍ବାନା ଗଣତନ୍ତ୍ର",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "ମଦ୍ଦ୍ଯବର୍ତ୍ତୀ ଆଫ୍ରୀକିୟ ସାଧାରଣତନ୍ତ୍ର",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "କାନାଡା",
 	},
-	CocosKeelingIslands: &Translated{
+	"CC": Translated{
 		Name: "କୋକୋସ (କିଲିଙ୍ଗ) ଦ୍ବୀପ",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name:         "ସ୍ବିଟ୍ଜରଲ୍ଯାଣ୍ଡ",
 		OfficialName: "ସ୍ୱିସ ରାଜ୍ୟମଣ୍ଡଳ",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name:         "ଚିଲୀ",
 		OfficialName: "ଚିଲୀ ଗଣତନ୍ତ୍ର",
 	},
-	China: &Translated{
+	"CN": Translated{
 		Name:         "ଚୀନ",
 		OfficialName: "ଚୀନ ଜନସାଧାରଣ ଗଣତନ୍ତ୍ର",
 	},
-	CotedIvoire: &Translated{
+	"CI": Translated{
 		Name:         "କୋଟ ଡି'ଭୋର",
 		OfficialName: "କୋଟ ଡିଭଏର ଗଣତନ୍ତ୍ର",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name:         "କାମେଋନ",
 		OfficialName: "କାମେଋନ ଗଣତନ୍ତ୍ର",
 	},
-	DemocraticCongo: &Translated{
+	"CD": Translated{
 		Name: "କୋଙ୍ଗୋ, ମଧ୍ଯ ଆଫ୍ରିକାର",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		Name:         "କଙ୍ଗୋ",
 		OfficialName: "କଙ୍ଗୋ ଗଣତନ୍ତ୍ର",
 	},
-	CookIslands: &Translated{
+	"CK": Translated{
 		Name: "କୁକ ଦ୍ବୀପ",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name:         "କୋଲୋମ୍ବିୟା",
 		OfficialName: "କୋଲମ୍ବିଆ ଗଣତନ୍ତ୍ର",
 	},
-	Comoros: &Translated{
+	"KM": Translated{
 		Name:         "କୋମୋରୋସ",
 		OfficialName: "ମିଳିତ କୋମୋରୋସ",
 	},
-	CaboVerde: &Translated{
+	"CV": Translated{
 		Name:         "କାବୋ ଭଡ୍ରି",
 		OfficialName: "କାବୋ ଭଡ୍ରି ଗଣତନ୍ତ୍ର",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		Name:         "କୋଷ୍ଟା ରିକା",
 		OfficialName: "କୋଷ୍ଟା ରିକା ଗଣତନ୍ତ୍ର",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name:         "କ୍ଯୁବା",
 		OfficialName: "କ୍ଯୁବା ଗଣତନ୍ତ୍ର",
 	},
-	Curacao: &Translated{
+	"CW": Translated{
 		Name:         "କୁରାକୋ",
 		OfficialName: "କୁରାକୋ",
 	},
-	ChristmasIsland: &Translated{
+	"CX": Translated{
 		Name: "କ୍ରିସ୍ଟମାସ ଦ୍ବୀପ",
 	},
-	CaymanIslands: &Translated{
+	"KY": Translated{
 		Name: "କୈମେନ ଦ୍ବୀପ",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name:         "ସାଇପ୍ରସ",
 		OfficialName: "ସାଇପ୍ରୋସ ଗଣତନ୍ତ୍ର",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		Name:         "ଚେସିଆ",
 		OfficialName: "ଚେକ ସାଧାରଣତନ୍ତ୍ର",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name:         "ଜର୍ମାନୀ",
 		OfficialName: "ଜର୍ମାନୀ ଫେଡେରାଲ ଗଣତନ୍ତ୍ର",
 	},
-	Djibouti: &Translated{
+	"DJ": Translated{
 		Name:         "ଡିଜବୌଟୀ",
 		OfficialName: "ଡିଜବୌଟୀ ଗଣତନ୍ତ୍ର",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name:         "ଡୋମିନୀକା",
 		OfficialName: "ଡୋମିନୀକା ସର୍ବସାଧାରଣ",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name:         "ଡେନମାର୍କ",
 		OfficialName: "ଡେନମାର୍କ ସାମ୍ରାଜ୍ୟ",
 	},
-	DominicanRepublic: &Translated{
+	"DO": Translated{
 		Name: "ଡୋମିନୀକାନ ଗଣରାଜ୍ଯ",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name:         "ଆଲଜେରିୟା",
 		OfficialName: "ଅଲଜେରୀୟା ଜନସାଧାରଣ ପ୍ରଜାତାନ୍ତ୍ରିକ ଗଣତନ୍ତ୍ର",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name:         "ଏକ୍ଯୁଡୋର",
 		OfficialName: "ଏକ୍ଯୁଡୋର ଗଣତନ୍ତ୍ର",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name:         "ମିଶର",
 		OfficialName: "ଇଜିପ୍ଟର ଆରବ ଗଣତନ୍ତ୍ର",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name:         "ଇରୀଟ୍ରିୟା",
 		OfficialName: "ଏରିଟିଆ ର ରାଜ୍ୟ",
 	},
-	WesternSahara: &Translated{
+	"EH": Translated{
 		Name: "ପଶ୍ଚିମୀ ସାହାରା",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name:         "ସ୍ପେନ",
 		OfficialName: "ସ୍ପେନ ଗଣତନ୍ତ୍ର",
 	},
-	Estonia: &Translated{
+	"EE": Translated{
 		Name:         "ଇଷ୍ଟୋନିୟା",
 		OfficialName: "ଇଷ୍ଟୋନିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name:         "ଇଥୋପିୟା",
 		OfficialName: "ଇଥୋପିୟା ଫେଡେରାଲ ସର୍ବସାଧାରଣ ଗଣତନ୍ତ୍ର",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name:         "ଫିନଲ୍ଯାଣ୍ଡ",
 		OfficialName: "ଫିନଲ୍ଯାଣ୍ଡ ଗଣତନ୍ତ୍ର",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		Name:         "ଫିଜୀ",
 		OfficialName: "ଫିଜୀ ଗଣତନ୍ତ୍ର",
 	},
-	FalklandIslandsMalvinas: &Translated{
+	"FK": Translated{
 		Name: "ଫାଲ୍କଲ୍ଯାଣ୍ଡ ଦ୍ବୀପ(ମାଲ୍ଭିନାସ)",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name:         "ଫ୍ରାନ୍ସ",
 		OfficialName: "ଫରାସୀ ଗଣତନ୍ତ୍ର",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "ଫାରୋ ଦ୍ବୀପପୁଞ୍ଜ",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		Name:         "ମାଇକ୍ରୋନେସିୟା",
 		OfficialName: "ମାଇକ୍ରୋନେସିୟା ଫେଡେରେଟେଡ ରାଜ୍ୟ",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name:         "ଗୈବୋନ",
 		OfficialName: "ଗାବୋନିଜ ଗଣତନ୍ତ୍ର",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name:         "ଯୁକ୍ତ ରାଜ୍ଯ",
 		OfficialName: "ଗ୍ରେଟ ବ୍ରିଟେନ ଏବଂ ଉତ୍ତରି ଆୟରଲ୍ଯାଣ୍ଡ ସଂଯୁକ୍ତ ସାମ୍ରାଜ୍ୟ",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "ଜାର୍ଜିୟା",
 	},
-	Guernsey: &Translated{
+	"GG": Translated{
 		Name: "ଗୁୟେର୍ନସୀ",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name:         "ଘାନା",
 		OfficialName: "ଘାନା ଗଣତନ୍ତ୍ର ଗଣତନ୍",
 	},
-	Gibraltar: &Translated{
+	"GI": Translated{
 		Name: "ଜିବ୍ରାଲଟର",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		Name:         "ଗିନୀ",
 		OfficialName: "ଗିନୀ ଗଣତନ୍ତ୍ର",
 	},
-	Guadeloupe: &Translated{
+	"GP": Translated{
 		Name: "ଗୁଆଡେଲୋପ",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		Name:         "ଗାମ୍ବିୟା",
 		OfficialName: "ଜ୍ଞାମ୍ବିୟା ଗଣତନ୍ତ୍ର",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name:         "ଗିନୀ-ବିସୁ",
 		OfficialName: "ଗିନୀ-ବିସାଉ ଗଣତନ୍ତ୍ର",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name:         "ବିଷୁବରେଖୀୟ ଗିନୀ",
 		OfficialName: "ବିଷୁବାଞ୍ଚଳ ଗିନୀ ଗଣତନ୍ତ୍ର",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name:         "ଗ୍ରୀସ",
 		OfficialName: "ହେଲେନିକ ଗଣତନ୍ତ୍ର",
 	},
-	Grenada: &Translated{
+	"GD": Translated{
 		Name: "ଗ୍ରେନେଡା",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "ଗ୍ରୀନଲ୍ଯାଣ୍ଡ",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name:         "ଗ୍ବାଟେମାଲା",
 		OfficialName: "ଗ୍ବାଟେମାଲା ଗ୍ୱାତେମାଲା",
 	},
-	FrenchGuiana: &Translated{
+	"GF": Translated{
 		Name: "ଫ୍ରେଞ୍ଚ ଗୁଆନା",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "ଗୁଆମ",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name:         "ଗୁୟାନା",
 		OfficialName: "ଗୁୟାନା ଗଣତନ୍ତ୍ର",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name:         "ହଙ୍ଗ କଙ୍ଗ",
 		OfficialName: "ହଙ୍ଗ କଙ୍ଗ ଚୀନର ବିଶେଷ ପ୍ରଶାସନ ଅଞ୍ଚଳ",
 	},
-	HeardIslandandMcDonaldIslands: &Translated{
+	"HM": Translated{
 		Name: "ହାର୍ଡ ଦ୍ୱୀପ ଏବଂ ମାକ ଡନାଲ୍ଡ ଦ୍ୱୀପ",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		Name:         "ହୋଣ୍ଡୁରାସ",
 		OfficialName: "ହୋଣ୍ଡୁରାସ ଗଣତନ୍ତ୍ର",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name:         "କ୍ରୋଏଶିଆ",
 		OfficialName: "କ୍ରୋଏସିଆ ଗଣତନ୍ତ୍ର",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		Name:         "ହୈତି",
 		OfficialName: "ହୈତି ଗଣତନ୍ତ୍ର",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "ହଙ୍ଗାରୀ",
 		OfficialName: "ହଙ୍ଗାରୀ",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name:         "ଇଣ୍ଡୋନେଶିୟା",
 		OfficialName: "ଇଣ୍ଡୋନେଶିୟା ଗଣତନ୍ତ୍ର",
 	},
-	IsleofMan: &Translated{
+	"IM": Translated{
 		Name: "ଇସ୍ଲେ ଅଫ ମେନ",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name:         "ଭାରତ",
 		OfficialName: "ଭାରତୀୟ ଗଣତନ୍ତ୍ର",
 	},
-	BritishIndianOceanTerritory: &Translated{
+	"IO": Translated{
 		Name: "ବ୍ରିଟିଶ ଇଣ୍ଡିୟାନ ସାମୁଦ୍ରୀକ କ୍ଷେତ୍ର",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "ଆୟରଲ୍ଯାଣ୍ଡ",
 	},
-	Iran: &Translated{
+	"IR": Translated{
 		Name:         "ଇରାନ, ଇସଲାମିକ ଗଣତନ୍ତ୍ର",
 		OfficialName: "ଇରାନ ଇସଲାମିକ ଗଣତନ୍ତ୍ର",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name:         "ଇରାକ",
 		OfficialName: "ଇରାକ ଗଣତନ୍ତ୍ର",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name:         "ଆଇସଲ୍ଯାଣ୍ଡ",
 		OfficialName: "ଆଇସଲ୍ଯାଣ୍ଡ ଗଣତନ୍ତ୍ର",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name:         "ଇଜ୍ରାଇଲ",
 		OfficialName: "ଇଜରାଈଲ ରାଜ୍ଯ",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name:         "ଇଟାଲୀ",
 		OfficialName: "ଇଟାଲିଆନ ଗଣତନ୍ତ୍ର",
 	},
-	Jamaica: &Translated{
+	"JM": Translated{
 		Name: "ଜାମୈକା",
 	},
-	Jersey: &Translated{
+	"JE": Translated{
 		Name: "ଜର୍ସୀ",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name:         "ଜୋର୍ଡାନ",
 		OfficialName: "ଜୋର୍ଡାନ ହାସେମାଇତ ସାମ୍ରାଜ୍ୟ",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "ଜାପାନ",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name:         "କାଜାଖସ୍ତାନ",
 		OfficialName: "କାଜାଖସ୍ତାନ ଗଣତନ୍ତ୍ର",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name:         "କେନିୟା",
 		OfficialName: "କେନିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name:         "କିର୍ଗିଜସ୍ତାନ",
 		OfficialName: "କିରଗିଜ ଗଣତନ୍ତ୍ର",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name:         "କାମ୍ବୋଡିୟା",
 		OfficialName: "କାମ୍ବୋଡିୟା ସାମ୍ରାଜ୍ୟ",
 	},
-	Kiribati: &Translated{
+	"KI": Translated{
 		Name:         "କୀରିବତୀ",
 		OfficialName: "କୀରିବତୀ ଗଣତନ୍ତ୍ର",
 	},
-	SaintKittsandNevis: &Translated{
+	"KN": Translated{
 		Name: "ସେଣ୍ଟ କିଟ୍ସ ଏବଂ ନେଭିସ",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		Name:       "କୋରିଆ, ଗଣତନ୍ତ୍ର",
 		CommonName: "ଦକ୍ଷିଣ ଆଫ୍ରିକା",
 	},
-	Kuwait: &Translated{
+	"KW": Translated{
 		Name:         "କୁଏତ",
 		OfficialName: "କୁଏତର ରାଜ୍ଯ",
 	},
-	LaoPeoplesDemocraticRepublic: &Translated{
+	"LA": Translated{
 		Name: "ଲାଓ ଜନସମାଜ ସର୍ବସାଧାରଣ ଗଣତନ୍ତ୍ର",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		Name:         "ଲେବାନୋନ",
 		OfficialName: "ଲାବାନିଜ ଗଣତନ୍ତ୍ର",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name:         "ଲାଇବେରିୟା",
 		OfficialName: "ଲାଇବେରିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Libya: &Translated{
+	"LY": Translated{
 		Name:         "ଲୀବିୟା",
 		OfficialName: "ଲୀବିୟା",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "ସେଣ୍ଟ ଲୁସିୟା",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name:         "ଲିଚେଂଷ୍ଟାଇନ",
 		OfficialName: "ଲେଚେଷ୍ଟାଇନ ରାଜ୍ୟ",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name:         "ଶ୍ରୀଲଙ୍କା",
 		OfficialName: "ଶ୍ରିଲଙ୍କା ପ୍ରଜାତାନ୍ତ୍ରିକ ସମାଜବାଦୀ ଗଣତନ୍ତ୍ର",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		Name:         "ଲେସୋଥୋ",
 		OfficialName: "ଲେସୋଥୋ ସାମ୍ରାଜ୍ୟ",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name:         "ଲିଥୁଆନିୟା",
 		OfficialName: "ଲିଥୁଆନିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name:         "ଲେକଜେମ୍ବର୍ଗ",
 		OfficialName: "ଲେକ୍ସମ୍ବର୍ଗ ଗ୍ରାଣ୍ଡ ଡଚି",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name:         "ଲାଟଭିୟା",
 		OfficialName: "ଲାଟଭିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Macao: &Translated{
+	"MO": Translated{
 		Name:         "ମାକାଓ",
 		OfficialName: "ଚୀନର ମାକାଓ ବିଶେଷ ପ୍ରଶାସନିକ ଅଞ୍ଚଳ",
 	},
-	SaintMartinFrenchpart: &Translated{
+	"MF": Translated{
 		Name: "ସେଣ୍ଟ ମାର୍ଟିନ (ଫରାସୀ ଅଂଶ)",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name:         "ମୋରକ୍କୋ",
 		OfficialName: "ମୋରକ୍କୋ ସାମ୍ରାଜ୍ୟ",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name:         "ମୋନାକୋ",
 		OfficialName: "ମୋନାକୋ ରାଜ୍ୟ",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		Name:         "ମାଲଡୋଭା, ଗଣତନ୍ତ୍ର",
 		OfficialName: "ମାଲଡୋଭା ଗଣତନ୍ତ୍ର",
 		CommonName:   "ମାଲଡୋଭା",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name:         "ମାଡାଗାସ୍କାର",
 		OfficialName: "ମାଡାଗାସ୍କାର ଗଣତନ୍ତ୍ର",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name:         "ମାଲଦୀଭ",
 		OfficialName: "ମାଲଦୀଭ ଗଣତନ୍ତ୍ର",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name:         "ମେକ୍ସିକୋ",
 		OfficialName: "ସଂଯୁକ୍ତ ମେକ୍ସିକାନ ରାଜ୍ୟ",
 	},
-	MarshallIslands: &Translated{
+	"MH": Translated{
 		Name:         "ମାର୍ଶଲ ଦ୍ବୀପ",
 		OfficialName: "ମାର୍ଶାଲ ଦ୍ୱିପ ଗଣତନ୍ତ୍ର",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		Name:         "ନର୍ଥ ମ୍ୟାସିଡୋନିୟା",
 		OfficialName: "ନର୍ଥ ମ୍ୟାସିଡୋନିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name:         "ମାଲୀ",
 		OfficialName: "ମାଲୀ ଗଣତନ୍ତ୍ର",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name:         "ମାଲ୍ଟା",
 		OfficialName: "ମାଲଟା ଗଣତନ୍ତ୍ର",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name:         "ବର୍ମା/ମ୍ଯାଂମାର",
 		OfficialName: "ମ୍ୟାନମାର୍ ଗଣତନ୍ତ୍ର",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "ମୋଣ୍ଟେନୀଗ୍ରୋ",
 		OfficialName: "ମୋଣ୍ଟେନୀଗ୍ରୋ",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "ମଙ୍ଗୋଲିୟା",
 	},
-	NorthernMarianaIslands: &Translated{
+	"MP": Translated{
 		Name:         "ଉତ୍ତରୀୟ ମାରୀୟାନା ଦ୍ବୀପ",
 		OfficialName: "ସର୍ବସାଧାରଣ ଉତ୍ତରୀ ମେରିଆନା ଦ୍ୱୀପପୁଞ୍ଜ",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name:         "ମୋଜାମ୍ବିକ",
 		OfficialName: "ମୋଜାମ୍ବିକ ଗଣତନ୍ତ୍ର",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name:         "ମାରୀଟୋନିୟା",
 		OfficialName: "ମାରୀଟୋନିୟା ଇସଲାମିକ ଗଣତନ୍ତ୍ର",
 	},
-	Montserrat: &Translated{
+	"MS": Translated{
 		Name: "ମୋଣ୍ଟସେରାଟ",
 	},
-	Martinique: &Translated{
+	"MQ": Translated{
 		Name: "ମାର୍ଟିନୀକ",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name:         "ମରୀଶସ",
 		OfficialName: "ମରୀସିଓସ ଗଣତନ୍ତ୍ର",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name:         "ମାଲାଓ୍ବି",
 		OfficialName: "ମାଲାୱି ଗଣତନ୍ତ୍ର",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "ମାଲେଶିୟା",
 	},
-	Mayotte: &Translated{
+	"YT": Translated{
 		Name: "ମେୟୋଟ",
 	},
-	Namibia: &Translated{
+	"NA": Translated{
 		Name:         "ନାମୀବିୟା",
 		OfficialName: "ନାମୀବିୟା ଗଣତନ୍ତ୍ର",
 	},
-	NewCaledonia: &Translated{
+	"NC": Translated{
 		Name: "ନ୍ଯୁ କାଲେଡୋନିୟା",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		Name:         "ନାଇଜର",
 		OfficialName: "ନାଇଜର ଗଣତନ୍ତ୍ର",
 	},
-	NorfolkIsland: &Translated{
+	"NF": Translated{
 		Name: "ନୋରଫୋକ ଦ୍ବୀପ",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name:         "ନିଈଜୀରିୟା",
 		OfficialName: "ନିଈଜୀରିୟା ଫେଡେରାଲ ଗଣତନ୍ତ୍ର",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name:         "ନିକାରାଗୁଆ",
 		OfficialName: "ନିକାରାଗୁଆ ଗଣତନ୍ତ୍ର",
 	},
-	Niue: &Translated{
+	"NU": Translated{
 		Name:         "ନୀଓ୍ବେ",
 		OfficialName: "ନୀଓ୍ବେ",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name:         "ନେଦରଲ୍ଯାଣ୍ଡ",
 		OfficialName: "ନେଦରଲ୍ଯାଣ୍ଡ ସାମ୍ରାଜ୍ୟ",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name:         "ନରୱେ",
 		OfficialName: "ନରୱେ ସାମ୍ରାଜ୍ୟ",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name:         "ନେପାଳ",
 		OfficialName: "ନେପାଳର ଫେଡେରାଲ ସର୍ବସାଧାରଣ ଗଣତନ୍ତ୍ର",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name:         "ନୌରୁ",
 		OfficialName: "ନୌରୁ ଗଣତନ୍ତ୍ର",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "ନ୍ଯୁଜୀଲ୍ଯାଣ୍ଡ",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name:         "ଓମାନ",
 		OfficialName: "ଓମାନ ସୁଲତାନେତ",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name:         "ପାକିସ୍ତାନ",
 		OfficialName: "ପାକିସ୍ତାନ ଇସଲାମିକ ଗଣତନ୍ତ୍ର",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name:         "ପାନାମା",
 		OfficialName: "ପାନାମା ଗଣତନ୍ତ୍ର",
 	},
-	Pitcairn: &Translated{
+	"PN": Translated{
 		Name: "ପିଟକେର୍ନ",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name:         "ପେରୁ",
 		OfficialName: "ପେରୁ ଗଣତନ୍ତ୍ର",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name:         "ଫିଲିପାଇନ୍ସ",
 		OfficialName: "ଫିଲୀପୀନ୍ସ ଗଣତନ୍ତ୍ର",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		Name:         "ପଲାଊ",
 		OfficialName: "ପାଲାଉ ଗଣତନ୍ତ୍ର",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name:         "ପାପୁଆ ନ୍ଯୁ ଗିନୀ",
 		OfficialName: "ପାପ୍ୟୁଆ ନୂଆ ଗିନି ସ୍ୱାଧିନ ରାଜ୍ୟ",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name:         "ପୋଲାଣ୍ଡ",
 		OfficialName: "ପୋଲାଣ୍ଡ ଗଣତନ୍ତ୍ର",
 	},
-	PuertoRico: &Translated{
+	"PR": Translated{
 		Name: "ପ୍ଯୂରେଟୋ ରିକୋ",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		Name:         "କୋରିଆ, ସର୍ବସାଧାରଣ ଜନସମାଜ ଗଣତନ୍ତ୍ର",
 		OfficialName: "କୋରିଆ ସର୍ବସାଧାରଣ ଜନସମାଜ ଗଣତନ୍ତ୍ର",
 		CommonName:   "ନର୍ଥ ମ୍ୟାସିଡୋନିୟା",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name:         "ପର୍ତୁଗାଲ",
 		OfficialName: "ପର୍ତୁଗୀଜ ଗଣତନ୍ତ୍ର",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name:         "ପାରାଗ୍ବେ",
 		OfficialName: "ପାରାଗୁଏ ଗଣତନ୍ତ୍ର",
 	},
-	Palestine: &Translated{
+	"PS": Translated{
 		Name:         "ପାଲେଷ୍ଟାଇନ ରାଜ୍ୟ",
 		OfficialName: "ପ୍ୟାଲେଷ୍ଟାଇନ୍ ରାଜ୍ୟ",
 	},
-	FrenchPolynesia: &Translated{
+	"PF": Translated{
 		Name: "ଫ୍ରେଞ୍ଚ ପୋଲୀନେସିୟା",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name:         "କତାର",
 		OfficialName: "କତାର ରାଜ୍ୟ",
 	},
-	Reunion: &Translated{
+	"RE": Translated{
 		Name: "ରିୟୁନିୟନ",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "ରୋମାନିୟା",
 	},
-	RussianFederation: &Translated{
+	"RU": Translated{
 		Name: "ଋଷୀ ଫେଡରେଶନ",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name:         "ରଓ୍ବାଣ୍ଡା",
 		OfficialName: "ରୁୱାଣ୍ଡା ଗଣତନ୍ତ୍ର",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name:         "ସାଉଦୀ ଆରବ",
 		OfficialName: "ସାଉଦି ଆରବ ସାମ୍ରାଜ୍ୟ",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name:         "ସୂଡାନ",
 		OfficialName: "ସୂଡାନ ଗଣତନ୍ତ୍ର",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		Name:         "ସେନେଗାଲ",
 		OfficialName: "ସେନେଗାଲ ଗଣତନ୍ତ୍ର",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name:         "ସିଙ୍ଗାପୁର",
 		OfficialName: "ସିଙ୍ଗାପୁର ଗଣତନ୍ତ୍ର",
 	},
-	SouthGeorgiaandtheSouthSandwichIslands: &Translated{
+	"GS": Translated{
 		Name: "ଦକ୍ଷିଣ ଜାର୍ଜିୟା ଏବଂ ଦକ୍ଷିଣ ସେଣ୍ଡୱିଚ ଦ୍ବୀପପୁଞ୍ଜ",
 	},
-	SaintHelena: &Translated{
+	"SH": Translated{
 		Name: "ସେଣ୍ଟ ହେଲେନା, ଏସେନସନ ଏବଂ ତ୍ରିସ୍ଥାନ ଡା କୁନାହ",
 	},
-	SvalbardandJanMayen: &Translated{
+	"SJ": Translated{
 		Name: "ଭାଲବର୍ଗ ଏବଂ ଜାନ ମାଏନ",
 	},
-	SolomonIslands: &Translated{
+	"SB": Translated{
 		Name: "ସୋଲୋମୋନ ଦ୍ବୀପ",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name:         "ସିୟେରା ଲିୟୋନ",
 		OfficialName: "ସିଏରା ଲିଓନ ଗଣତନ୍ତ୍ର",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		Name:         "ଅଲ ସଲ୍ଭାଡୋର",
 		OfficialName: "ଏଲ ସାଲଭାଡୋର ଗଣତନ୍ତ୍ର",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name:         "ସେନ ମେରୀନୋ",
 		OfficialName: "ସାନ ମେରିନୋ ଗଣତନ୍ତ୍ର",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name:         "ସୋମାଲିୟା",
 		OfficialName: "ଶୋମାଲି ସଂଘଶାସନ ଗଣତନ୍ତ୍ର",
 	},
-	SaintPierreandMiquelon: &Translated{
+	"PM": Translated{
 		Name: "ସେଣ୍ଟ ପିୟେରୀ ଏବଂ ମିକ୍ବୀଲୋନ",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name:         "ସର୍ବିଆ",
 		OfficialName: "ସର୍ବିଆ ଗଣତନ୍ତ୍ର",
 	},
-	SouthSudan: &Translated{
+	"SS": Translated{
 		Name:         "ଦକ୍ଷିଣ ସୂଡାନ",
 		OfficialName: "ଦକ୍ଷିଣ ସୂଡାନ ଗଣତନ୍ତ୍ର",
 	},
-	SaoTomeandPrincipe: &Translated{
+	"ST": Translated{
 		Name:         "ସାଓ ଟୋମ ଏବଂ ପ୍ରିନସୀପ",
 		OfficialName: "ସାଓ ତୋମ ଏବଂ ପ୍ରିନସିପ ପ୍ରଜାତାନ୍ତ୍ରିକ ଗଣତନ୍ତ୍ର",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name:         "ସୂରୀନାମ",
 		OfficialName: "ସୂରୀନାମ ଗଣତନ୍ତ୍ର",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name:         "ସ୍ଲୋଭାକିୟା",
 		OfficialName: "ସ୍ଲୋଭକ୍ ରିପବ୍ଳିକ",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name:         "ସ୍ଲୋଭାନିୟା",
 		OfficialName: "ସ୍ଲୋଭେନୀୟା ଗଣତନ୍ତ୍ର",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name:         "ସ୍ବୀଡେନ",
 		OfficialName: "ସ୍ବୀଡେନ ସାମ୍ରାଜ୍ୟ",
 	},
-	Eswatini: &Translated{
+	"SZ": Translated{
 		Name:         "ଏସୱଆଟିନି",
 		OfficialName: "ଏସୱଆଟିନି ସାମ୍ରାଜ୍ୟ",
 	},
-	SintMaartenDutchpart: &Translated{
+	"SX": Translated{
 		Name:         "ସିଣ୍ଟ ମାର୍ଟିନ (ଫରାସୀ ଅଂଶ)",
 		OfficialName: "ସିଣ୍ଟ ମାର୍ଟିନ (ଫରାସୀ ଅଂଶ)",
 	},
-	Seychelles: &Translated{
+	"SC": Translated{
 		Name:         "ସେଶେଲସ୍",
 		OfficialName: "ସେଚେଲସ ଗଣତନ୍ତ୍ର",
 	},
-	SyrianArabRepublic: &Translated{
+	"SY": Translated{
 		Name: "ସିରିଆନ ଆରବ ଗଣତନ୍ତ୍ର",
 	},
-	TurksandCaicosIslands: &Translated{
+	"TC": Translated{
 		Name: "ତୁର୍କ ଏବଂ କୈକୋସ ଦ୍ବୀପ",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		Name:         "ଚାଡ୍",
 		OfficialName: "ଚାଡ ଗଣତନ୍ତ୍ର",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name:         "ଟୋଗୋ",
 		OfficialName: "ତୋଗୋଲିଜ ଗଣତନ୍ତ୍ର",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name:         "ଥାଇଲ୍ଯାଣ୍ଡ",
 		OfficialName: "ଥାଇଲ୍ଯାଣ୍ଡ ସାମ୍ରାଜ୍ୟ",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name:         "ତାଜୀକିସ୍ତାନ",
 		OfficialName: "ତାଜୀକିସ୍ତାନ ଗଣତନ୍ତ୍ର",
 	},
-	Tokelau: &Translated{
+	"TK": Translated{
 		Name: "ଟୋକେଲୋ",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "ତୁର୍କମେନିସ୍ତାନ",
 	},
-	TimorLeste: &Translated{
+	"TL": Translated{
 		Name:         "ତିମୋର-ଲେଷ୍ଟେ",
 		OfficialName: "ତିମୋର-ଲେସ୍ତେ ପ୍ରଜାତାନ୍ତ୍ରିକ ଗଣତନ୍ତ୍ର",
 	},
-	Tonga: &Translated{
+	"TO": Translated{
 		Name:         "ଟୋଙ୍ଗା",
 		OfficialName: "ଟୋଙ୍ଗା ସାମ୍ରାଜ୍ୟ",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		Name:         "ତ୍ରିନିଦାଦ ଏବଂ ଟୋବାଗୋ",
 		OfficialName: "ତ୍ରିନୀଦାଦ ଏବଂ ତୋବାକୋ ପ୍ରଜାତନ୍ତ୍ର",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name:         "ଟ୍ଯୁନୀଶିୟା",
 		OfficialName: "ଟ୍ଯୁନୀଶିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name:         "ତୁର୍କୀ",
 		OfficialName: "ତୁର୍କୀ ଗଣତନ୍ତ୍ର",
 	},
-	Tuvalu: &Translated{
+	"TV": Translated{
 		Name: "ତୁଭାଲୂ",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		Name:         "ତାଇୱାନ, ଚୀନ ଅଧିକୃତ",
 		OfficialName: "ତାଇୱାନ, ଚୀନ ଅଧିକୃତ",
 		CommonName:   "ତାଇଓ୍ବାନ",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		Name:         "ତାଞ୍ଜାନିଆ, ୟୁକ୍ରେନ ସଂଯୁକ୍ତ",
 		OfficialName: "ତାଞ୍ଜେରୀୟା ସଂଯୁକ୍ତ ଗଣତନ୍ତ୍ର",
 		CommonName:   "ଟାନଯାନିୟା",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name:         "ୟୁଗାଣ୍ଡା",
 		OfficialName: "ଉଗାଣ୍ଡା ଗଣତନ୍ତ୍ର",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "ୟୁକ୍ରେନ",
 	},
-	UnitedStatesMinorOutlyingIslands: &Translated{
+	"UM": Translated{
 		Name: "ଯୁକ୍ତ ରାଷ୍ଟ୍ର ମାଈନର ଆଓଟଲେୟିଙ୍ଗ ଦ୍ବୀପ",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name:         "ଉରୁଗ୍ବେ",
 		OfficialName: "ଉରୁଗୁଏ ପୂର୍ବୀ ଗଣତନ୍ତ୍ର",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		Name:         "ଯୁକ୍ତରାଷ୍ଟ୍ର",
 		OfficialName: "ଯୁକ୍ତ ରାଷ୍ଟ୍ର ଆମେରିକା",
 	},
-	Uzbekistan: &Translated{
+	"UZ": Translated{
 		Name:         "ଉଜବେକିସ୍ତାନ",
 		OfficialName: "ଉଜବେକିସ୍ତାନ ଗଣତନ୍ତ୍ର",
 	},
-	HolySeeVaticanCityState: &Translated{
+	"VA": Translated{
 		Name: "ହୋଲି ସମୁଦ୍ର (ଭାଟିକାନ ନଗର ରାଜ୍ୟ)",
 	},
-	SaintVincentandtheGrenadines: &Translated{
+	"VC": Translated{
 		Name: "ସେଣ୍ଟ ଭିନସେଣ୍ଟ ଏବଂ ଗ୍ରେନେଡିସ",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		Name:         "ଭେନେଜୁଏଲା, ବୋଲଭେରିଆନ ଗଣତନ୍ତ୍ର",
 		OfficialName: "ଭେନେଜୁଏଲାର ବୋଲଭେରିଆନ ଗଣତନ୍ତ୍ର",
 		CommonName:   "ଭେନେଜୁଏଲା",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		Name:         "ଭର୍ଜିନ ଦ୍ବୀପପୁଞ୍ଜ, ବ୍ରିଟୀଶ",
 		OfficialName: "ବ୍ରିଟିଶ ଭର୍ଜିନ ଦ୍ବୀପ",
 	},
-	VirginIslands: &Translated{
+	"VI": Translated{
 		Name:         "ଭର୍ଜିନ ଦ୍ବୀପପୁଞ୍ଜ, ଯୁକ୍ତରାଷ୍ଟ୍ର",
 		OfficialName: "ଯୁକ୍ତରାଷ୍ଟ୍ର ଆମେରିକାର ଭିରଜିନ ଦ୍ୱିପପୁଞ୍ଜ",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		Name:         "ଭିୟେତନାମ",
 		OfficialName: "ଭିଏତନାମ ସମାଜତନ୍ତ୍ରବାଦୀ ଗଣତନ୍ତ୍ର",
 		CommonName:   "ଭିୟେତନାମ",
 	},
-	Vanuatu: &Translated{
+	"VU": Translated{
 		Name:         "ଭାନେତୁ",
 		OfficialName: "ଭାନେତୁ ଗଣତନ୍ତ୍ର",
 	},
-	WallisandFutuna: &Translated{
+	"WF": Translated{
 		Name: "ୱାଲିସ ଏବଂ ଫୁତୁନା",
 	},
-	Samoa: &Translated{
+	"WS": Translated{
 		Name:         "ସାମୋଆ",
 		OfficialName: "ସାମୋଆ ସ୍ୱାଧିନ ରାଜ୍ୟ",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name:         "ୟମନ",
 		OfficialName: "ୟେମନ ଗଣତନ୍ତ୍ର",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name:         "ଦକ୍ଷିଣ ଆଫ୍ରିକା",
 		OfficialName: "ଦକ୍ଷିଣ ଆଫ୍ରିକା ଗଣତନ୍ତ୍ର",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		Name:         "ଜାମ୍ବିୟା",
 		OfficialName: "ଜାମ୍ବିୟା ଗଣତନ୍ତ୍ର",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		Name:         "ଜିମ୍ବାଓ୍ବେ",
 		OfficialName: "ଜିମ୍ବାୱେ ଗଣତନ୍ତ୍ର",
 	},

@@ -1,320 +1,320 @@
 package countrydb
 
-var Localehaw = map[*Country]*Translated{
-	Afghanistan: &Translated{
+var Localehaw = map[string]Translated{
+	"AF": Translated{
 		Name: "‘Apekanikana",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name: "ʻAlepania",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name: "ʻAnakola",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "Aupuni ʻEmira ʻAlapia Hui Pū ʻia",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name: "‘Alekina",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "‘Āmēnia",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "Nūhōlani",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "ʻAukekulia",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name: "‘Akepaikana",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name: "Pelekiuma",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "Burakina Faso",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name: "Banagaladesa",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "Pulukalia",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name: "Baharaina",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name: "Bosenia me Hesegowina",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name: "Belarusa",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "Palakila",
 	},
-	BruneiDarussalam: &Translated{
+	"BN": Translated{
 		Name: "Brunei",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name: "Butana",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "Kanakā",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name: "Kuikilani",
 	},
-	China: &Translated{
+	"CN": Translated{
 		Name: "Kina",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name: "Kupelo",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "Lepupalika ‘o Tieka",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "Kelemānia",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name: "Kenemaka",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name: "‘Alekelia",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name: "‘Aikupika",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name: "ʻElikilea",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "Kepania",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name: "‘Aikiopia",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "Pinilana",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "Palani",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name: "Aupuni Mōʻī Hui Pū ʻIa",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "Keokia",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name: "Helene",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name: "Koloatia",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		Name: "Heiti",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Hunakalia",
 		OfficialName: "Hunakalia",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name: "‘Inidonesia",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name: "ʻĪnia",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "ʻIlelani",
 	},
-	Iran: &Translated{
+	"IR": Translated{
 		Name: "‘Ilana",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name: "‘Ilaka",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name: "ʻĀina Hau",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name: "ʻIseraʻela",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "ʻĪkālia",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name: "Ioredāne",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Iāpana",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name: "Kasakana",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name: "Kenia",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name: "Kaikikana",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name: "Kamabodia",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		Name: "Kōlea Hema",
 	},
-	Kuwait: &Translated{
+	"KW": Translated{
 		Name: "Kuete",
 	},
-	LaoPeoplesDemocraticRepublic: &Translated{
+	"LA": Translated{
 		Name: "Laosa",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		Name: "Lepanona",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name: "Likenekaina",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name: "Sililanaka",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "Lituania",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name: "Lukemapuka",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name: "Lakawia",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name: "Monako",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		CommonName: "Molodowa",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name: "Maladiwa",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name: "Mekiko",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name: "Puruma",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Montenegero",
 		OfficialName: "Montenegero",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "Monokolia",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name: "Mauritiusa",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "Malaisia",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name: "Hōlani",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "Nolewai",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name: "Nepala",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "Aotearoa",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name: "ʻOmana",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name: "Pakitana",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name: "Panamā",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name: "ʻĀina Pilipino",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "Pōlani",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		OfficialName: "Kōlea ʻĀkau",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name: "Potugala",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name: "Katala",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Romānia",
 	},
-	RussianFederation: &Translated{
+	"RU": Translated{
 		Name: "Rūsia",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name: "Saudi ʻAlapia",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name: "Sinapoa",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name: "Sana Marino",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name: "Seripia",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name: "Solowakia",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name: "Solowenia",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "Kuekene",
 	},
-	SyrianArabRepublic: &Translated{
+	"SY": Translated{
 		Name: "Suria",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name: "Tailani",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name: "Takisitana",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "Tukemenikana",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name: "Tunisia",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "Tureke",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		CommonName: "Taiuana",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "ʻUkelena",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		Name:         "ʻAmelika Hui Pū ʻIa",
 		OfficialName: "‘Amelika Hui Pū ‘ia",
 	},
-	HolySeeVaticanCityState: &Translated{
+	"VA": Translated{
 		Name: "Wakikana",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		Name:       "Wiekanama",
 		CommonName: "Wiekanama",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name: "Iemene",
 	},
 }

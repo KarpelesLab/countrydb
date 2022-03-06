@@ -1,73 +1,73 @@
 package countrydb
 
-var Localech = map[*Country]*Translated{
-	Argentina: &Translated{
+var Localech = map[string]Translated{
+	"AR": Translated{
 		Name: "Argentina",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "Armenia",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "Austria",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "Bulgaria",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "Brazil",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name: "Chile",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "Alemaña",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "España",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "Finlandia",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "Francia",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		OfficialName: "Micronesia",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "Guåhån",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name: "Indonesia",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "Italia",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Chapan",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "Lituania",
 	},
-	NorthernMarianaIslands: &Translated{
+	"MP": Translated{
 		Name: "Notte Mariånas",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name: "Perú",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name: "Filipinas",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "Polaki",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "Turkey",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "Estados Unidus",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		CommonName: "Vietnam",
 	},
 }

@@ -1,7 +1,7 @@
 package countrydb
 
-var Localetzm = map[*Country]*Translated{
-	Aruba: &Translated{
+var Localetzm = map[string]Translated{
+	"AW": Translated{
 		Name: "Aruba",
 	},
 }

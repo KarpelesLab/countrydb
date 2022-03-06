@@ -1,925 +1,925 @@
 package countrydb
 
-var Localekmr = map[*Country]*Translated{
-	Aruba: &Translated{
+var Localekmr = map[string]Translated{
+	"AW": Translated{
 		Name: "Aruba",
 	},
-	Afghanistan: &Translated{
+	"AF": Translated{
 		Name:         "Efxanistan",
 		OfficialName: "Komara Îslamî ya Efxanistan",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		Name:         "Angola",
 		OfficialName: "Komara Angola",
 	},
-	Anguilla: &Translated{
+	"AI": Translated{
 		Name: "Angîla",
 	},
-	AlandIslands: &Translated{
+	"AX": Translated{
 		Name: "Giravên Åland",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name:         "Arnavût",
 		OfficialName: "Komara Arnavût",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name:         "Andora",
 		OfficialName: "Mîrtiya Andora",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "Mîrtiyên Ereb ên Yekbuyî",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name:         "Arjantîn",
 		OfficialName: "Komara Arjantîn",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name:         "Ermenistan",
 		OfficialName: "Komara Ermenistan",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "Samoya Emerîkî",
 	},
-	Antarctica: &Translated{
+	"AQ": Translated{
 		Name: "Antarktîka",
 	},
-	FrenchSouthernTerritories: &Translated{
+	"TF": Translated{
 		Name: "Herêma Basurî ya Fransî",
 	},
-	AntiguaandBarbuda: &Translated{
+	"AG": Translated{
 		Name: "Antîguya û Barbuda",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "Awustralya",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name:         "Awusturya",
 		OfficialName: "Komara Awusturya",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name:         "Azerbaycan",
 		OfficialName: "Komara Azerbaycan",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name:         "Bûrûndî",
 		OfficialName: "Komara Bûrûndî",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name:         "Belçîka",
 		OfficialName: "Şahiyetî ya Belçîka",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name:         "Benîn",
 		OfficialName: "Komara Benîn",
 	},
-	Bonaire: &Translated{
+	"BQ": Translated{
 		Name:         "Bonaire, Sint Eustatius û Saba",
 		OfficialName: "Bonaire, Sint Eustatius û Saba",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "Burkîna Faso",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name:         "Banglades",
 		OfficialName: "Komara Gelê Bangladeş",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name:         "Bulgaristan",
 		OfficialName: "Komara Bulgaristan",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name:         "Bahrayîn",
 		OfficialName: "Keyatiya Bahreyn",
 	},
-	Bahamas: &Translated{
+	"BS": Translated{
 		Name:         "Giravên Bahama",
 		OfficialName: "Commonwealth a Bahamas",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name:         "Bosna Hersek",
 		OfficialName: "Komara Bosna û Hersek",
 	},
-	SaintBarthelemy: &Translated{
+	"BL": Translated{
 		Name: "Saint Barthélemy",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name:         "Belarus",
 		OfficialName: "Komara Belarus",
 	},
-	Belize: &Translated{
+	"BZ": Translated{
 		Name: "Belîze",
 	},
-	Bermuda: &Translated{
+	"BM": Translated{
 		Name: "Bermûda",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		Name:         "Dewleta Pirneteweyî yê Bolîvyayê",
 		OfficialName: "Dewleta Pirneteweyî yê Bolîvyayê",
 		CommonName:   "Bolîvya",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name:         "Brezîlya",
 		OfficialName: "Komara Federatîf a Brezîlya",
 	},
-	Barbados: &Translated{
+	"BB": Translated{
 		Name: "Barbados",
 	},
-	BruneiDarussalam: &Translated{
+	"BN": Translated{
 		Name: "Brûney Darûssalam",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name:         "Bûtan",
 		OfficialName: "Şahiyetî ya Bûtan",
 	},
-	BouvetIsland: &Translated{
+	"BV": Translated{
 		Name: "Girava Boyuvet",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name:         "Botswana",
 		OfficialName: "Komara Botswana",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "Komara Afrikaya Navîn",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "Kanada",
 	},
-	CocosKeelingIslands: &Translated{
+	"CC": Translated{
 		Name: "Grava Kokos (Kîlîng)",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name:         "Swîsre",
 		OfficialName: "Konfederasyona Swîsre",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name:         "Sîlî",
 		OfficialName: "Komara Şîlî",
 	},
-	China: &Translated{
+	"CN": Translated{
 		Name:         "Çîn",
 		OfficialName: "Komara Gelê ya Çîn",
 	},
-	CotedIvoire: &Translated{
+	"CI": Translated{
 		Name:         "Sahila Diranên Fîlan",
 		OfficialName: "Komara Sahilên Diranên Fîlan",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name:         "Kamerûn",
 		OfficialName: "Komara Kamerûn",
 	},
-	DemocraticCongo: &Translated{
+	"CD": Translated{
 		Name: "Komara Demokratîk a Kongo",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		Name:         "Kongo",
 		OfficialName: "Komara Kongo",
 	},
-	CookIslands: &Translated{
+	"CK": Translated{
 		Name: "Giravên Cook",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name:         "Kolombiya",
 		OfficialName: "Komara Kolombiya",
 	},
-	Comoros: &Translated{
+	"KM": Translated{
 		Name:         "Komoros",
 		OfficialName: "Yekîtiya Komoran",
 	},
-	CaboVerde: &Translated{
+	"CV": Translated{
 		Name:         "Kap Verde",
 		OfficialName: "Komara Kap Verde",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		Name:         "Kosta Rîka",
 		OfficialName: "Komara Kosta Rîka",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name:         "Kûba",
 		OfficialName: "Komara Kûba",
 	},
-	Curacao: &Translated{
+	"CW": Translated{
 		Name:         "Curaçao",
 		OfficialName: "Curaçao",
 	},
-	ChristmasIsland: &Translated{
+	"CX": Translated{
 		Name: "Girava Noel",
 	},
-	CaymanIslands: &Translated{
+	"KY": Translated{
 		Name: "Giravên Kayman",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name:         "Kibris",
 		OfficialName: "Komara Kibris",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		Name:         "Çekistan",
 		OfficialName: "Komara Çek",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name:         "Almanya",
 		OfficialName: "Komara Federal a Almanya",
 	},
-	Djibouti: &Translated{
+	"DJ": Translated{
 		Name:         "Cîbutî",
 		OfficialName: "Komara Cîbûtî",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name:         "Domînîka",
 		OfficialName: "Commonwealth a Dominica",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name:         "Danîmarka",
 		OfficialName: "Şahiyetî ya Danîmarka",
 	},
-	DominicanRepublic: &Translated{
+	"DO": Translated{
 		Name: "Komara Domînîk",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name:         "Cezayîr",
 		OfficialName: "Komara Demokratîk a Gelê Cezayîr",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name:         "Ekvator",
 		OfficialName: "Komara Ekvator",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name:         "Misir",
 		OfficialName: "Komara Erebî ya Misir",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name:         "Erître",
 		OfficialName: "Dewleta Erîtrêyayê",
 	},
-	WesternSahara: &Translated{
+	"EH": Translated{
 		Name: "Sehraya Rojava",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name:         "Spanya",
 		OfficialName: "Şahiyetiya Spanya",
 	},
-	Estonia: &Translated{
+	"EE": Translated{
 		Name:         "Estonya",
 		OfficialName: "Komara Estonya",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name:         "Etîyopya",
 		OfficialName: "Komara Demokratîk a Federal a Etiyopya",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name:         "Fînlandiya",
 		OfficialName: "Komara Fînlandiya",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		Name:         "Fîjî",
 		OfficialName: "Komara Fîjî",
 	},
-	FalklandIslandsMalvinas: &Translated{
+	"FK": Translated{
 		Name: "Giravên Falkland (Malvin)",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name:         "Fransa",
 		OfficialName: "Komara Fransa",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "Giravên Faroye",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		Name:         "Mîkronesya, Dewletên Federal yên",
 		OfficialName: "Dewletên Federal yên Mîkronesya",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name:         "Gabon",
 		OfficialName: "Komara Gabon",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name:         "Şahitiya Yekbuyî",
 		OfficialName: "Brîtanyaya Mezin û Îrlandaya Bakûr",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "Gurcistan",
 	},
-	Guernsey: &Translated{
+	"GG": Translated{
 		Name: "Guernsey",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name:         "Gana",
 		OfficialName: "Komara Gana",
 	},
-	Gibraltar: &Translated{
+	"GI": Translated{
 		Name: "Cebelîtariq",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		Name:         "Gîne",
 		OfficialName: "Komara Gîne",
 	},
-	Guadeloupe: &Translated{
+	"GP": Translated{
 		Name: "Guadelûp",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		Name:         "Gambiya",
 		OfficialName: "Komara Zambiya",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name:         "Gîneya Bisoî",
 		OfficialName: "Komara Gîneya-Bîso",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name:         "Gîneya Ekvatorî",
 		OfficialName: "Komara Gîneya Ekvatorî",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name:         "Yewnanistan",
 		OfficialName: "Komara Helenîk",
 	},
-	Grenada: &Translated{
+	"GD": Translated{
 		Name: "Girava Grenada",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "Greenland",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name:         "Guatemala",
 		OfficialName: "Komara Guatemala",
 	},
-	FrenchGuiana: &Translated{
+	"GF": Translated{
 		Name: "Gîneya Fransî",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "Guam",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name:         "Guyana",
 		OfficialName: "Komara Guyana",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name:         "Hong Kong",
 		OfficialName: "Hong Kong Herêma Îdariya Taybet a Çîn",
 	},
-	HeardIslandandMcDonaldIslands: &Translated{
+	"HM": Translated{
 		Name: "Giravên Heard û McDonald",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		Name:         "Honduras",
 		OfficialName: "Komara Honduras",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name:         "Hirvatistan",
 		OfficialName: "Komara Hirvatistan",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		Name:         "Haîtî",
 		OfficialName: "Komara Haîtî",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Macaristan",
 		OfficialName: "Macaristan",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name:         "Endonezya",
 		OfficialName: "Komara Endonezya",
 	},
-	IsleofMan: &Translated{
+	"IM": Translated{
 		Name: "Girava Man",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name:         "Hindistan",
 		OfficialName: "Komara Hindistan",
 	},
-	BritishIndianOceanTerritory: &Translated{
+	"IO": Translated{
 		Name: "Herêma Îngîlîz a Deryaya Hindî",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "Îrlanda",
 	},
-	Iran: &Translated{
+	"IR": Translated{
 		Name:         "Îran, Komara Îslamî ya",
 		OfficialName: "Komara Îslamî ya Îran",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name:         "Iraq",
 		OfficialName: "Komara Iraq",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name:         "Îzlanda",
 		OfficialName: "Komara Îzlanda",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name:         "Îsraîl",
 		OfficialName: "Dewleta Îsraîl",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name:         "Îtalya",
 		OfficialName: "Komara Îtalî",
 	},
-	Jamaica: &Translated{
+	"JM": Translated{
 		Name: "Jamayîka",
 	},
-	Jersey: &Translated{
+	"JE": Translated{
 		Name: "Jersey",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name:         "Urdin",
 		OfficialName: "Şahiyetiya Haşemî ya Urdin",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Japonya",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name:         "Kazaxstan",
 		OfficialName: "Komara Kazaxstan",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name:         "Kenya",
 		OfficialName: "Komara Kenya",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name:         "Kirgîsistan",
 		OfficialName: "Komara Kirgîz",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name:         "Kamboca",
 		OfficialName: "Şahiyetî ya Kamboca",
 	},
-	Kiribati: &Translated{
+	"KI": Translated{
 		Name:         "Kirîbatî",
 		OfficialName: "Komara Kirîbatî",
 	},
-	SaintKittsandNevis: &Translated{
+	"KN": Translated{
 		Name: "Saint Kitts û Nevis",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		Name:       "Kore, Komara",
 		CommonName: "Koriya Başûr",
 	},
-	Kuwait: &Translated{
+	"KW": Translated{
 		Name:         "Kûveyt",
 		OfficialName: "Dewleta Kûveyt",
 	},
-	LaoPeoplesDemocraticRepublic: &Translated{
+	"LA": Translated{
 		Name: "Komara Demokratîka Gelê Lao",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		Name:         "Lubnan",
 		OfficialName: "Komara Lubnanî",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name:         "Lîberya",
 		OfficialName: "Komara Lîberya",
 	},
-	Libya: &Translated{
+	"LY": Translated{
 		Name:         "Lîbya",
 		OfficialName: "Lîbya",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "Saint Lucia",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name:         "Lihtenstayn",
 		OfficialName: "Mîrtiya Lîhtenştayn",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name:         "Srî Lanka",
 		OfficialName: "Komara Sosyalîst a Demokratîk a Srî Lanka",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		Name:         "Lesoto",
 		OfficialName: "Şahiyetî ya Lesoto",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name:         "Lîtvanya",
 		OfficialName: "Komara Lîtuaniya",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name:         "Luksemburg",
 		OfficialName: "Mîrtiya Mezin a Luksemburg",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name:         "Latviya",
 		OfficialName: "Komara Latviya",
 	},
-	Macao: &Translated{
+	"MO": Translated{
 		Name:         "Makao",
 		OfficialName: "Macao Herêma Îdariya Taybet a Çîn",
 	},
-	SaintMartinFrenchpart: &Translated{
+	"MF": Translated{
 		Name: "Saint Martin (beşa firansî)",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name:         "Fas",
 		OfficialName: "Şahiyetî ya Fas",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name:         "Monako",
 		OfficialName: "Mîrtiya Monako",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		Name:         "Komara Moldovayê",
 		OfficialName: "Komara Moldova",
 		CommonName:   "Moldova",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name:         "Madagaskar",
 		OfficialName: "Komrara Madagaskar",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name:         "Giravên Maldiv",
 		OfficialName: "Komara Maldîvan",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name:         "Mexîko",
 		OfficialName: "Dewletên Yekbuyî yên Mexiko",
 	},
-	MarshallIslands: &Translated{
+	"MH": Translated{
 		Name:         "Giravên Marsal",
 		OfficialName: "Komara Giravên Marşal",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		Name:         "Makedonyaya Bakur",
 		OfficialName: "Komara Lîtuaniya",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name:         "Malî",
 		OfficialName: "Komara Malî",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name:         "Malta",
 		OfficialName: "Komara Malta",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name:         "Miyanmar",
 		OfficialName: "Komara Miyanmarê",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Montenegro",
 		OfficialName: "Montenegro",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "Mongolya",
 	},
-	NorthernMarianaIslands: &Translated{
+	"MP": Translated{
 		Name:         "Giravên Marîyana Bakûr",
 		OfficialName: "Commonwealth a Giravên Mariana yên Bakur",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name:         "Mozambîk",
 		OfficialName: "Komara Mozambîk",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name:         "Morîtanya",
 		OfficialName: "Komara Îslamî ya Mauritanya",
 	},
-	Montserrat: &Translated{
+	"MS": Translated{
 		Name: "Montserat",
 	},
-	Martinique: &Translated{
+	"MQ": Translated{
 		Name: "Martinîk",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name:         "Morîtiyus",
 		OfficialName: "Komara Maurîtius",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name:         "Malawî",
 		OfficialName: "Komara Malawî",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "Malezya",
 	},
-	Mayotte: &Translated{
+	"YT": Translated{
 		Name: "Mayote",
 	},
-	Namibia: &Translated{
+	"NA": Translated{
 		Name:         "Namîbiya",
 		OfficialName: "Komara Namîbiya",
 	},
-	NewCaledonia: &Translated{
+	"NC": Translated{
 		Name: "Kaledonyaya Nû",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		Name:         "Nîjer",
 		OfficialName: "Komara Nîjer",
 	},
-	NorfolkIsland: &Translated{
+	"NF": Translated{
 		Name: "Girava Norfolk",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name:         "Nîjerya",
 		OfficialName: "Komara Federal a Nîjerya",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name:         "Nîkaragûa",
 		OfficialName: "Komara Nîkaragua",
 	},
-	Niue: &Translated{
+	"NU": Translated{
 		Name:         "Nîûe",
 		OfficialName: "Nîûe",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name:         "Holanda",
 		OfficialName: "Şahiyetî ya Holanda",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name:         "Norweç",
 		OfficialName: "Şahiyetî ya Norwec",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name:         "Nepal",
 		OfficialName: "Komara Demokratîk a Federal a Etiyopya",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name:         "Naûrû",
 		OfficialName: "Komara Naûrû",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "Zelandaya Nû",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name:         "Uman",
 		OfficialName: "Sultanata Uman",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name:         "Pakistan",
 		OfficialName: "Komara Îslamî ya Pakistan",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name:         "Panama",
 		OfficialName: "Komara Panama",
 	},
-	Pitcairn: &Translated{
+	"PN": Translated{
 		Name: "Pitkayirn",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name:         "Perû",
 		OfficialName: "Komara Perû",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name:         "Fîlîpîn",
 		OfficialName: "Komara Fîlîpînan",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		Name:         "Palawu",
 		OfficialName: "Komara Palau",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name:         "Papûa Gîneya Nû",
 		OfficialName: "Dewleta Serbixwe ya Samoa",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name:         "Polonya",
 		OfficialName: "Komara Polonya",
 	},
-	PuertoRico: &Translated{
+	"PR": Translated{
 		Name: "Porto Rîko",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		Name:         "Kore, Komara Demokratîk a Gelê",
 		OfficialName: "Komara Demokratîk a Gelê Kore",
 		CommonName:   "Kaledonyaya Nû",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name:         "Portekîz",
 		OfficialName: "Komara Portekiz",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name:         "Paraguay",
 		OfficialName: "Komara Paraguay",
 	},
-	Palestine: &Translated{
+	"PS": Translated{
 		OfficialName: "Dewletên Yekbûyî yên Emerîkayê",
 	},
-	FrenchPolynesia: &Translated{
+	"PF": Translated{
 		Name: "Polînesya Fransî",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name:         "Qatar",
 		OfficialName: "Dewleta Qatar",
 	},
-	Reunion: &Translated{
+	"RE": Translated{
 		Name: "Reûnyon",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Romanya",
 	},
-	RussianFederation: &Translated{
+	"RU": Translated{
 		Name: "Federasyona Rûsî",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name:         "Rûanda",
 		OfficialName: "Komara Rwanda",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name:         "Si'ûdî Erebistan",
 		OfficialName: "Şahitiya Si'ûdî Arabistan",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name:         "Sûdan",
 		OfficialName: "Komara Sûdan",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		Name:         "Senegal",
 		OfficialName: "Komara Senegal",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name:         "Sîngapur",
 		OfficialName: "Komara Sîngapor",
 	},
-	SouthGeorgiaandtheSouthSandwichIslands: &Translated{
+	"GS": Translated{
 		Name: "Georgiaya Basûr û Giravên Sandwicha Basûr",
 	},
-	SvalbardandJanMayen: &Translated{
+	"SJ": Translated{
 		Name: "Svalbard û Jan Mayen",
 	},
-	SolomonIslands: &Translated{
+	"SB": Translated{
 		Name: "Giravên Solomon",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name:         "Sîera Leone",
 		OfficialName: "Komara Siyera Leone",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		Name:         "El Salvador",
 		OfficialName: "Komara El Salvador",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name:         "San Marîno",
 		OfficialName: "Komara San Marîno",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name:         "Somalî",
 		OfficialName: "Komara Federal a Almanya",
 	},
-	SaintPierreandMiquelon: &Translated{
+	"PM": Translated{
 		Name: "Saint Pierre û Miquelon",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name:         "Sirbistan",
 		OfficialName: "Komara Sirbistan",
 	},
-	SouthSudan: &Translated{
+	"SS": Translated{
 		Name:         "Komara Sûdan",
 		OfficialName: "Komara Sûdan",
 	},
-	SaoTomeandPrincipe: &Translated{
+	"ST": Translated{
 		Name:         "Sao Tome û Prinsipe",
 		OfficialName: "Komara Demokratîk a Sao Tome û Prînsîpe",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name:         "Surînam",
 		OfficialName: "Komara Sûrînam",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name:         "Slovakya",
 		OfficialName: "Komara Silovakya",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name:         "Slovenya",
 		OfficialName: "Komara Slovenya",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name:         "Swêd",
 		OfficialName: "Şahiyetî ya Swêd",
 	},
-	Eswatini: &Translated{
+	"SZ": Translated{
 		OfficialName: "Şahiyetiya Spanya",
 	},
-	SintMaartenDutchpart: &Translated{
+	"SX": Translated{
 		Name:         "Saint Martin (beşa firansî)",
 		OfficialName: "Saint Martin (beşa firansî)",
 	},
-	Seychelles: &Translated{
+	"SC": Translated{
 		Name:         "Seyselan",
 		OfficialName: "Komara Seyşelan",
 	},
-	SyrianArabRepublic: &Translated{
+	"SY": Translated{
 		Name: "Sûriye",
 	},
-	TurksandCaicosIslands: &Translated{
+	"TC": Translated{
 		Name: "Giravên Turks û Caicos",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		Name:         "Çad",
 		OfficialName: "Komara Çad",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name:         "Togo",
 		OfficialName: "Komara Togo",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name:         "Tayland",
 		OfficialName: "Şahiyetî ya Tayland",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name:         "Tacîkistan",
 		OfficialName: "Komara Tacîkistan",
 	},
-	Tokelau: &Translated{
+	"TK": Translated{
 		Name: "Tokelau",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "Tirkmenîstan",
 	},
-	TimorLeste: &Translated{
+	"TL": Translated{
 		Name:         "Tîmora Rojhilat",
 		OfficialName: "Komara Demokratîk a Rojhilata Tîmor",
 	},
-	Tonga: &Translated{
+	"TO": Translated{
 		Name:         "Tonga",
 		OfficialName: "Şahiyetî ya Tonga",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		Name:         "Trînîdad û Tobago",
 		OfficialName: "Komara Trînîdad û Tobago",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name:         "Tûnis",
 		OfficialName: "Komara Tûnis",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name:         "Tirkiye",
 		OfficialName: "Komara Tirkiye",
 	},
-	Tuvalu: &Translated{
+	"TV": Translated{
 		Name: "Tûvalû",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		Name:         "Tayvan, Eyaleta Çîn",
 		OfficialName: "Tayvan, Eyaleta Çîn",
 		CommonName:   "Taywan",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		Name:         "Tanzanya, Komara Yekbuyî",
 		OfficialName: "Tanzaniya",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name:         "Ûganda",
 		OfficialName: "Komara Uganda",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "Ukrayna",
 	},
-	UnitedStatesMinorOutlyingIslands: &Translated{
+	"UM": Translated{
 		Name: "Giravên biçûk derve Emerîkayê",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name:         "Uruguay",
 		OfficialName: "Komara Rojhilat a Uruguay",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		Name:         "Dewletên Yekbûyî",
 		OfficialName: "Dewletên Yekbûyî yên Emerîkayê",
 	},
-	Uzbekistan: &Translated{
+	"UZ": Translated{
 		Name:         "Ozbekîstan",
 		OfficialName: "Komara Ozbekistan",
 	},
-	HolySeeVaticanCityState: &Translated{
+	"VA": Translated{
 		Name: "Texta Pîroz (Dewleta Bajarî ya Vatîkan)",
 	},
-	SaintVincentandtheGrenadines: &Translated{
+	"VC": Translated{
 		Name: "Saint Vincent û Grenadines",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		Name:         "Komara Bolîvarî ya Venezûela",
 		OfficialName: "Komara Bolîvarî ya Venezûela",
 		CommonName:   "Venezûela",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		Name:         "Giravên Virjin, Brîtanî",
 		OfficialName: "Giravên Virjin yên Brîtanî",
 	},
-	VirginIslands: &Translated{
+	"VI": Translated{
 		Name:         "Giravên Virjin, D.Y.",
 		OfficialName: "Giravên Virjin yên Dewletên Yekbuyî",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		Name:         "Viyetnam",
 		OfficialName: "Komara Sosyalîst a Viyetnam",
 		CommonName:   "Viyetnam",
 	},
-	Vanuatu: &Translated{
+	"VU": Translated{
 		Name:         "Vanûatû",
 		OfficialName: "Komara Vanûatû",
 	},
-	WallisandFutuna: &Translated{
+	"WF": Translated{
 		Name: "Walis û Futuna",
 	},
-	Samoa: &Translated{
+	"WS": Translated{
 		Name:         "Samoa",
 		OfficialName: "Dewleta Serbixwe ya Samoa",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name:         "Yemen",
 		OfficialName: "Komara Yemen",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name:         "Efrîka Basur",
 		OfficialName: "Komara Afrîkaya Başûr",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		Name:         "Zambiya",
 		OfficialName: "Komara Zambiya",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		Name:         "Zimbabwe",
 		OfficialName: "Komara Zimbabwe",
 	},

@@ -1,685 +1,685 @@
 package countrydb
 
-var Localemi = map[*Country]*Translated{
-	Afghanistan: &Translated{
+var Localemi = map[string]Translated{
+	"AF": Translated{
 		Name:         "Āwhekenetāna",
 		OfficialName: "Āwhekenetāna",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		Name:         "Anakora",
 		OfficialName: "Tūwehe Anakora",
 	},
-	AlandIslands: &Translated{
+	"AX": Translated{
 		Name: "Moutere Aaland",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name:         "Arapeinia",
 		OfficialName: "Tūwehe Arapeinia",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name:         "Andorra",
 		OfficialName: "Andorra",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name:         "Āketina",
 		OfficialName: "Tūwehe Āketina",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name:         "Āmenia",
 		OfficialName: "Tūwehe Āmenia",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "Hāmoa Amerikana",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "Ahitereiria",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name:         "Ateria",
 		OfficialName: "Tūwehe Ateria",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name:         "Atepaihānia",
 		OfficialName: "Tūwehe Atepaihānia",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name:         "Puruniti",
 		OfficialName: "Tūwehe Puruniti",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name:         "Pehiamu",
 		OfficialName: "Kīngitanga o Pehiamu",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name:         "Pēnina",
 		OfficialName: "Tūwehe Pēnina",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "Pūkina",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name:         "Pākaratēhi",
 		OfficialName: "Pākaratēhi",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name:         "Purukāria",
 		OfficialName: "Tūwehe Purukāria",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		OfficialName: "Kīngitanga o",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name:         "Pōngia-Herekōmina",
 		OfficialName: "Tūwehe Pōngia-Herekōmina",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name:         "Pērara",
 		OfficialName: "Tūwehe Pērara",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		Name:         "Poriwia",
 		OfficialName: "Poriwia",
 		CommonName:   "Poriwia",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name:         "Parīhi",
 		OfficialName: "Parīhi",
 	},
-	BruneiDarussalam: &Translated{
+	"BN": Translated{
 		Name: "Poronai",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name:         "Putāna",
 		OfficialName: "Kīngitanga o Putāna",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "Kānata",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name:         "Huiterangi",
 		OfficialName: "Huiterangi",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name:         "Hiri",
 		OfficialName: "Te Whenua Tū Wehe o Hiri",
 	},
-	China: &Translated{
+	"CN": Translated{
 		Name:         "Haina",
 		OfficialName: "Haina",
 	},
-	CotedIvoire: &Translated{
+	"CI": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name:         "Kamarūna",
 		OfficialName: "Tūwehe Kamarūna",
 	},
-	DemocraticCongo: &Translated{
+	"CD": Translated{
 		Name: "Kōngo",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		Name:         "Kōngo",
 		OfficialName: "Tūwehe Kōngo",
 	},
-	CookIslands: &Translated{
+	"CK": Translated{
 		Name: "Kuki Airani",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name:         "Koromōpia",
 		OfficialName: "Tūwehe Koromōpia",
 	},
-	CaboVerde: &Translated{
+	"CV": Translated{
 		OfficialName: "Tūwehe",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name:         "Kūpā",
 		OfficialName: "Tūwehe Kūpā",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name:         "Haipara",
 		OfficialName: "Tūwehe Haipara",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "Whenua Tīeke",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name:         "Tiamana",
 		OfficialName: "Tūwehe Whakaminenga o Tiamana",
 	},
-	Djibouti: &Translated{
+	"DJ": Translated{
 		Name:         "Tipūti",
 		OfficialName: "Tūwehe Tipūti",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name: "Tominika",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name:         "Tenemāka",
 		OfficialName: "Kīngitanga o Tenemāka",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name:         "Ekuatoa",
 		OfficialName: "Tūwehe Ekuatoa",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name:         "Eritēria",
 		OfficialName: "Eritēria",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name:         "Pāniora",
 		OfficialName: "Kīngitanga o Pāniora",
 	},
-	Estonia: &Translated{
+	"EE": Translated{
 		Name:         "Etonia",
 		OfficialName: "Tūwehe Etonia",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name:         "Etiopia",
 		OfficialName: "Etiopia",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name:         "Hinerangi",
 		OfficialName: "Tūwehe Hinerangi",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		OfficialName: "Tūwehe",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name:         "Wīwī",
 		OfficialName: "Tūwehe Wīwī",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "Moutere Faroe",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name:         "Kāpona",
 		OfficialName: "Kāpona",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name:         "Kīngitanga Kotahi",
 		OfficialName: "Kīngatanga Kotahi o Piritene Nui me Airangi ki te Raki",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "Hōria",
 	},
-	Guernsey: &Translated{
+	"GG": Translated{
 		Name: "Kōnihi",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name:         "Kāna",
 		OfficialName: "Tūwehe Kāna",
 	},
-	Gibraltar: &Translated{
+	"GI": Translated{
 		Name: "Kāmaka",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		OfficialName: "Tūwehe",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name:         "Kini Pihō",
 		OfficialName: "Whenua Tū Wehe o Kini Pihō",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name:         "Kini Ekuatoria",
 		OfficialName: "Tūwehe Kini Ekuatoria",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name:         "Kirihi",
 		OfficialName: "Kirihi",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "Greenland",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		OfficialName: "Tūwehe",
 	},
-	FrenchGuiana: &Translated{
+	"GF": Translated{
 		Name: "Kaiana Wīwī",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "Kuamu",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name:         "Kaiana",
 		OfficialName: "Tūwehe Kaiana",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name:         "Hongipua",
 		OfficialName: "Hongipua",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name:         "Koroātia",
 		OfficialName: "Tūwehe Koroātia",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Hanekari",
 		OfficialName: "Hanekari",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name:         "Initonīhia",
 		OfficialName: "Tūwehe Initonīhia",
 	},
-	IsleofMan: &Translated{
+	"IM": Translated{
 		Name: "Motu o Man",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name:         "Īnia",
 		OfficialName: "Tūwehe Īnia",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "Airangi",
 	},
-	Iran: &Translated{
+	"IR": Translated{
 		Name:         "Īrāna",
 		OfficialName: "Īrāna",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name:         "Īrāki",
 		OfficialName: "Tūwehe Īrāki",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name:         "Tiorangi",
 		OfficialName: "Tūwehe Tiorangi",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name:         "Iharaira",
 		OfficialName: "Iharaira",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name:         "Itāria",
 		OfficialName: "Tūwehe Itāria",
 	},
-	Jersey: &Translated{
+	"JE": Translated{
 		Name: "Tōrehe",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Nipono",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name:         "Katatānga",
 		OfficialName: "Tūwehe Katatānga",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name:         "Kēnia",
 		OfficialName: "Tūwehe Kēnia",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name:         "Kamapōtia",
 		OfficialName: "Kīngitanga o Kamapōtia",
 	},
-	Kiribati: &Translated{
+	"KI": Translated{
 		Name:         "Kiripati",
 		OfficialName: "Tūwehe Kiripati",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		Name:       "Kōrea-ki-te-tonga",
 		CommonName: "Āwherika-ki-te-tonga",
 	},
-	LaoPeoplesDemocraticRepublic: &Translated{
+	"LA": Translated{
 		Name: "Rāoho",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		OfficialName: "Tūwehe",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "Hato Ruiha",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name:         "Rīkeneteina",
 		OfficialName: "Rīkeneteina",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name:         "Hiri Rānaka",
 		OfficialName: "Hiri Rānaka",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		OfficialName: "Kīngitanga o",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name:         "Rituānia",
 		OfficialName: "Tūwehe Rituānia",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name:         "Rakapuō",
 		OfficialName: "Rakapuō",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name:         "Rāwhia",
 		OfficialName: "Tūwehe Rāwhia",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name:         "Moroko",
 		OfficialName: "Kīngitanga o Moroko",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name:         "Manako",
 		OfficialName: "Manako",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		Name:         "Morotawa",
 		OfficialName: "Tūwehe Morotawa",
 		CommonName:   "Morotawa",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name:         "Marakāhia",
 		OfficialName: "Whenua Tū Wehe o Marakāhia",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name:         "Mehiko",
 		OfficialName: "Mehiko",
 	},
-	MarshallIslands: &Translated{
+	"MH": Translated{
 		OfficialName: "Tūwehe",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		OfficialName: "Tūwehe Rituānia",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name:         "Māri",
 		OfficialName: "Tūwehe Māri",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name:         "Mārata",
 		OfficialName: "Tūwehe Mārata",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name:         "Pēma",
 		OfficialName: "Tūwehe Pēma",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Montenegro",
 		OfficialName: "Montenegro",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "Mongōria",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name:         "Mohapiki",
 		OfficialName: "Tūwehe Mohapiki",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name:         "Mauritānia",
 		OfficialName: "Mauritānia",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name:         "Maurituhi",
 		OfficialName: "Tūwehe",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name:         "Marāwi",
 		OfficialName: "Tūwehe Marāwi",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "Marēhia",
 	},
-	Namibia: &Translated{
+	"NA": Translated{
 		Name:         "Namīpia",
 		OfficialName: "Tūwehe Namīpia",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name:         "Nikarāhua",
 		OfficialName: "Tūwehe Nikarāhua",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name:         "Hōrana",
 		OfficialName: "Kīngitanga o Hōrana",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name:         "Nōwei",
 		OfficialName: "Kīngitanga o Nōwei",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name:         "Nepōra",
 		OfficialName: "Nepōra",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name:         "Nauru",
 		OfficialName: "Tūwehe Nauru",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "Aotearoa",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name:         "Ōmana",
 		OfficialName: "Ōmana",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name:         "Pakitāne",
 		OfficialName: "Pakitāne",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name:         "Perū",
 		OfficialName: "Tūwehe Perū",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name:         "Piripīni",
 		OfficialName: "Tūwehe Piripīni",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		OfficialName: "Tūwehe",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name:         "Papua Nūkini",
 		OfficialName: "Papua Nūkini",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name:         "Pōrana",
 		OfficialName: "Tūwehe Pōrana",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		Name:         "Kōrea-ki-te-raki",
 		OfficialName: "Kōrea-ki-te-raki",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name:         "Potukara",
 		OfficialName: "Tūwehe Potukara",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name:         "Parakai",
 		OfficialName: "Tūwehe Parakai",
 	},
-	FrenchPolynesia: &Translated{
+	"PF": Translated{
 		Name: "Porinīhia Wīwī",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Romeinia",
 	},
-	RussianFederation: &Translated{
+	"RU": Translated{
 		Name: "Rūhia",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name:         "Rāwana",
 		OfficialName: "Rāwana",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name:         "Hauri Arāpia",
 		OfficialName: "Hauri Arāpia",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name:         "Hūtāne",
 		OfficialName: "Tūwehe Hūtāne",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name:         "Hingapoa",
 		OfficialName: "Tūwehe Hingapoa",
 	},
-	SvalbardandJanMayen: &Translated{
+	"SJ": Translated{
 		Name: "Motu Svalbard me Jan Mayen",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name:         "Te Araone",
 		OfficialName: "Tūwehe Te Araone",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		OfficialName: "Tūwehe",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name:         "Hato Marino",
 		OfficialName: "Tūwehe Hato Marino",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		OfficialName: "Tūwehe Whakaminenga o Tiamana",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name:         "Serbia",
 		OfficialName: "Tūwehe Serbia",
 	},
-	SouthSudan: &Translated{
+	"SS": Translated{
 		Name:         "Hūtāne-ki-te-tonga",
 		OfficialName: "Tūwehe Hūtāne-ki-te-tonga",
 	},
-	SaoTomeandPrincipe: &Translated{
+	"ST": Translated{
 		Name:         "Ao Tomi me Pirinihipi",
 		OfficialName: "Ao Tomi me Pirinihipi",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name:         "Hūriname",
 		OfficialName: "Tūwehe Hūriname",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name:         "Horowākia",
 		OfficialName: "Tūwehe Horowāk",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name:         "Horowinia",
 		OfficialName: "Tūwehe Horowinia",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name:         "Huitene",
 		OfficialName: "Kīngitanga o Huitene",
 	},
-	Eswatini: &Translated{
+	"SZ": Translated{
 		OfficialName: "Kīngitanga o Pāniora",
 	},
-	Seychelles: &Translated{
+	"SC": Translated{
 		Name:         "Hehiri",
 		OfficialName: "Tūwehe",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name:         "Toko",
 		OfficialName: "Toko",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		OfficialName: "Kīngitanga o",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "Tukumanatānga",
 	},
-	Tonga: &Translated{
+	"TO": Translated{
 		OfficialName: "Kīngitanga o",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name:         "Tūnihia",
 		OfficialName: "Tūwehe Tūnihia",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name:         "Tākei",
 		OfficialName: "Tūwehe Tākei",
 	},
-	Tuvalu: &Translated{
+	"TV": Translated{
 		Name: "Tūwaru",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		CommonName: "Taiwana",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		Name:         "Tānahia",
 		OfficialName: "Tānahia",
 		CommonName:   "Tānahia",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name:         "Ukānga",
 		OfficialName: "Tūwehe Ukānga",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "Ūkareinga",
 	},
-	UnitedStatesMinorOutlyingIslands: &Translated{
+	"UM": Translated{
 		Name: "Amerika",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name:         "Urukuai",
 		OfficialName: "Urukuai",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		Name:         "Amerika",
 		OfficialName: "Hononga o Amerika",
 	},
-	Uzbekistan: &Translated{
+	"UZ": Translated{
 		Name:         "Uhipeketāne",
 		OfficialName: "Tūwehe Uhipeketāne",
 	},
-	HolySeeVaticanCityState: &Translated{
+	"VA": Translated{
 		Name: "Poho o Pita",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		Name:         "Wenehūera",
 		OfficialName: "Wenehūera",
 		CommonName:   "Wenehūera",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		OfficialName: "Whinarana",
 	},
-	VirginIslands: &Translated{
+	"VI": Translated{
 		Name:         "Whinarana",
 		OfficialName: "Whinarana",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		Name:         "Whitināmu",
 		OfficialName: "Whitināmu",
 		CommonName:   "Whitināmu",
 	},
-	Vanuatu: &Translated{
+	"VU": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Samoa: &Translated{
+	"WS": Translated{
 		Name:         "Hāmoa ki te Uru",
 		OfficialName: "Hāmoa ki te Uru",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		OfficialName: "Tūwehe",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name:         "Āwherika-ki-te-tonga",
 		OfficialName: "Tūwehe Āwherika-ki-te-tonga",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		OfficialName: "Tūwehe",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		OfficialName: "Tūwehe",
 	},
 }

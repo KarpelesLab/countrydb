@@ -1,270 +1,270 @@
 package countrydb
 
-var Localenv = map[*Country]*Translated{
-	Albania: &Translated{
+var Localenv = map[string]Translated{
+	"AL": Translated{
 		Name: "Dziłigaii Bikéyah",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "Ásáí Dineʼé Bikéyah Yázhí Ałhidadiidzooígíí",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "Aooméénii Bikéyah",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "Nahatʼeʼiitsoh Bikéyah",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "Óóswiya",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name: "Wóndii Dineʼé Bikéyah",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name: "Bélgii Bikéyah",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name: "Haʼaʼaahjí Naakaii Dootłʼizhí Bikéyah",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "Bálgaa Bikéyah",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name: "Bosna dóó Hetsog Bikéyah",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		CommonName: "Ałhidadiikʼą́ Dineʼé Bikéyah",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "Kintaaʼanéhé Dineʼé Bikéyah",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name: "Iiʼniʼ Tłʼiishtsoh Bikéyah",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name: "Tswana Dineʼé Bikéyah",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "Naakaii Łizhinii Bikéyah Beʼałnííʼ",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "Deeteel Bikéyah",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name: "Swis Bikéyah",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name: "Táłtłʼááh Chʼosh Daadánígíí Bitooh",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		OfficialName: "Kéyah Káango Náhookǫsjí Siʼánígíí",
 	},
-	Comoros: &Translated{
+	"KM": Translated{
 		Name: "Ooljééʼ Bikéyah Yázhí",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name: "Béésh Łichíiʼii Bikéyah",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "Chek Bikéyah",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "Béésh Bichʼahii Bikéyah",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name: "Ghą́ą́ʼaskʼidii Biłikahii Bikéyah Ntsaaígíí",
 	},
-	WesternSahara: &Translated{
+	"EH": Translated{
 		Name: "Kéyah Sahééwa Eʼeʼaahjí Siʼánígíí",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "Dibé Diníí Bikéyah",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "Nahoditsʼǫʼłání Dineʼé Bikéyah",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "Dáághahii Dinéʼiʼ Bikéyah",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		OfficialName: "Eʼeʼaahjí Tónteel Bikáaʼdi Kéyah Ałhidadiidzooígíí",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name: "Tó Táʼ Dinéʼiʼ Bikéyah",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		OfficialName: "Kéyah Káango Náhookǫsjí Siʼánígíí",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name: "Gíní Bisó",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name: "Gíní Nahasdzáán Ałníiʼgi Siʼánígíí",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name: "Gwíík Dineʼé Bikéyah",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "Haʼaʼaahjí Hakʼaz Dineʼé Bikéyah",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name: "Kwóóʼad Bikéyah",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Hángewii",
 		OfficialName: "Hángewii",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name: "Kéyah Dah Ndaaʼeełí Łání",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name: "Tó Wónaanídę́ę́ʼ Bitsįʼ Yishtłizhii Bikéyah",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "Bitsiighaʼ Łichííʼí Bikéyah",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name: "Tin Kéyah",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name: "Ízrel Bikéyah",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "Doohatsʼíí Yátiʼ Dineʼé Bikéyah",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Binaʼadaałtzózí Dinéʼiʼ Bikéyah",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name: "Bilį́į́ʼ Ńdeiltihii Dineʼé Bikéyah",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		CommonName: "Kéyah Naakaii Łizhinii Bikéyah Shádiʼááhjí Siʼánígíí",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name: "Łííhtensain",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name: "Naakaii Dootłʼizhí Bikéyah Dah Naaʼeełígíí",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		Name: "Sotho Dineʼé Bikéyah",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "Łitʼoowę́ęya",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name: "Látsębooʼ",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name: "Létbiiya",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name: "Eʼeʼaahjí Ghą́ą́ʼaskʼidii Biłikahii Bikéyah",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name: "Mágí Bitseeʼ Noodǫ́zí Bikéyah",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name: "Naakaii Dootłʼizhí Bikéyah Yázhí",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name: "Naakaii Bikéyah",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		OfficialName: "Kéyah Káango Náhookǫsjí Siʼánígíí",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Dziłizhin Bikéyah",
 		OfficialName: "Dziłizhin Bikéyah",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "Chʼah Diʼilii Bikéyah",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name: "Shádiʼááhjí Ghą́ą́ʼaskʼidii Biłikahii Bikéyah",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name: "Naakaii Łizhinii Biʼéénézí Bikéyah",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name: "Kéyah Wóyahgo Siʼánígíí",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "Kinghą́ą́ʼ Haltsooí Dineʼé Bikéyah",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name: "Dziłghą́ąʼdi Naakaii Dootłʼizhí Bikéyah",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name: "Eʼeʼaahjí Naakaii Dootłʼizhí Bikéyah",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name: "Dibénééz Bikéyah",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name: "Kéyah Dańlíinii",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name: "Chooyééł Dineʼé Bikéyah",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "Póolish Dineʼé Bikéyah",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Wooméiniya",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name: "Wánda Dineʼé Bikéyah",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name: "Ásáí Dineʼé Bikéyah Ntsaaígíí",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name: "Ásáí Dineʼé Daalzhiní Bikéyah",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name: "Náshdóítsoh Bitsiijįʼ Daditłʼooʼígíí Bidził",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name: "San Mawínoo Bikéyah",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name: "Soomáálii Bikéyah",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name: "Słóbaʼ Bikéyah",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name: "Słobíín Bikéyah",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "Chʼah Bideeʼí Dineʼé Bikéyah",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name: "Tʼajiʼ Bikéyah",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "Tʼóokmen Bikéyah",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "Tʼóok Bikéyah",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "Yóókwein",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "Wááshindoon Bikéyah Ałhidadiidzooígíí",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		CommonName: "Táłkááʼ Bighan Dineʼé Bikéyah",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name: "Shádiʼááhjí Ásáí Dineʼé Bikéyah",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name: "Kéyah Naakaii Łizhinii Bikéyah Shádiʼááhjí Siʼánígíí",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		Name: "Hooghan Tsé Bee Ádaalyaaí Bikéyah",
 	},
 }

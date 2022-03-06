@@ -1,929 +1,929 @@
 package countrydb
 
-var Localega = map[*Country]*Translated{
-	Aruba: &Translated{
+var Localega = map[string]Translated{
+	"AW": Translated{
 		Name: "Aruba",
 	},
-	Afghanistan: &Translated{
+	"AF": Translated{
 		Name:         "An Afganastáin",
 		OfficialName: "Poblacht Ioslamach na hAfganastáine",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		Name:         "Angóla",
 		OfficialName: "Poblacht Angóla",
 	},
-	Anguilla: &Translated{
+	"AI": Translated{
 		Name: "Anguilla",
 	},
-	AlandIslands: &Translated{
+	"AX": Translated{
 		Name: "Oileáin Åland",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name:         "An Albáin",
 		OfficialName: "Poblacht na hAlbáine",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name:         "Andóra",
 		OfficialName: "Prionsacht Andóra",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "Aontas na nÉimíríochtaí Arabacha",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name:         "An Airgintín",
 		OfficialName: "Poblacht na hAirgintín",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name:         "An Airméin",
 		OfficialName: "Poblacht na hAirméine",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "Samó Meiriceánach",
 	},
-	Antarctica: &Translated{
+	"AQ": Translated{
 		Name: "an Antartaice",
 	},
-	FrenchSouthernTerritories: &Translated{
+	"TF": Translated{
 		Name: "Críocha Francacha Theas",
 	},
-	AntiguaandBarbuda: &Translated{
+	"AG": Translated{
 		Name: "Antigua agus Barbuda",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "An Astráil",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name:         "An Ostair",
 		OfficialName: "Poblacht na hOstaire",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name:         "An Asarbaiseáin",
 		OfficialName: "Poblacht na hAsarbaiseáine",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name:         "An Bhurúin",
 		OfficialName: "Poblacht na Burúine",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name:         "An Bheilg",
 		OfficialName: "Ríocht na Beilge",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name:         "Beinin",
 		OfficialName: "Poblacht na Beinin",
 	},
-	Bonaire: &Translated{
+	"BQ": Translated{
 		Name:         "Bonaire, San Eustatius agus Saba",
 		OfficialName: "Bonaire, San Eustatius agus Saba",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "Buircíne Fasó",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name:         "An Bhanglaidéis",
 		OfficialName: "Daonphoblacht na Banglaidéise",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name:         "An Bhulgáir",
 		OfficialName: "Poblacht na Bulgáire",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name:         "Bairéin",
 		OfficialName: "Ríocht Bhairéin",
 	},
-	Bahamas: &Translated{
+	"BS": Translated{
 		Name:         "Na Bahámaí",
 		OfficialName: "Comhlathas na mBahámaí",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name:         "An Bhoisnia-Heirseagaivéin",
 		OfficialName: "Poblacht na Boisnia-Heirseagaivéin",
 	},
-	SaintBarthelemy: &Translated{
+	"BL": Translated{
 		Name: "San Parthalán",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name:         "An Bhílearúis",
 		OfficialName: "Poblacht na Bílearúise",
 	},
-	Belize: &Translated{
+	"BZ": Translated{
 		Name: "An Bheilís",
 	},
-	Bermuda: &Translated{
+	"BM": Translated{
 		Name: "Na Beirmiúdaí",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		Name:         "An Bholaiv, Stát Ilnáisiúnta",
 		OfficialName: "Stát Ilnáisiúnta na Bolaive",
 		CommonName:   "An Bholaiv",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name:         "An Bhrasaíl",
 		OfficialName: "Poblacht Chónascach na Brasaíle",
 	},
-	Barbados: &Translated{
+	"BB": Translated{
 		Name: "Barbadós",
 	},
-	BruneiDarussalam: &Translated{
+	"BN": Translated{
 		Name: "Brúiné Dárasalám",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name:         "An Bhútáin",
 		OfficialName: "Ríocht na Bútáine",
 	},
-	BouvetIsland: &Translated{
+	"BV": Translated{
 		Name: "Oileán Bouvet",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name:         "An Bhotsuáin",
 		OfficialName: "Poblacht na Botsuáine",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "Poblacht na hAfraice Láir",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "Ceanada",
 	},
-	CocosKeelingIslands: &Translated{
+	"CC": Translated{
 		Name: "Oileáin Cocos (Oileáin Keeling)",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name:         "An Eilvéis",
 		OfficialName: "Cónaidhm na hEilvéise",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name:         "An tSile",
 		OfficialName: "Poblacht na Sile",
 	},
-	China: &Translated{
+	"CN": Translated{
 		Name:         "An tSín",
 		OfficialName: "Daonphoblacht na Síne",
 	},
-	CotedIvoire: &Translated{
+	"CI": Translated{
 		Name:         "An Cósta Eabhair",
 		OfficialName: "Poblacht an Chósta Eabhair",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name:         "Camarún",
 		OfficialName: "Poblacht Chamarún",
 	},
-	DemocraticCongo: &Translated{
+	"CD": Translated{
 		Name: "Poblacht Dhaonlathach an Chongó",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		Name:         "An Congó",
 		OfficialName: "Poblacht an Chongó",
 	},
-	CookIslands: &Translated{
+	"CK": Translated{
 		Name: "Oileáin Cook",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name:         "An Cholóim",
 		OfficialName: "Poblacht na Colóime",
 	},
-	Comoros: &Translated{
+	"KM": Translated{
 		Name:         "Oileán Chomóra",
 		OfficialName: "Aontas Oileán Comóra",
 	},
-	CaboVerde: &Translated{
+	"CV": Translated{
 		Name:         "Rinn Verde",
 		OfficialName: "Poblacht Rinn Verde",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		Name:         "Cósta Rice",
 		OfficialName: "Poblacht an Chósta Rice",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name:         "Cúba",
 		OfficialName: "Poblacht Chúba",
 	},
-	Curacao: &Translated{
+	"CW": Translated{
 		Name:         "Curasao",
 		OfficialName: "Curasao",
 	},
-	ChristmasIsland: &Translated{
+	"CX": Translated{
 		Name: "Oileán na Nollag",
 	},
-	CaymanIslands: &Translated{
+	"KY": Translated{
 		Name: "Oileáin Cayman",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name:         "An Chipir",
 		OfficialName: "Poblacht na Cipire",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "Poblacht na Seice",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name:         "An Ghearmáin",
 		OfficialName: "Poblacht Chónaidhme na Gearmáine",
 	},
-	Djibouti: &Translated{
+	"DJ": Translated{
 		Name:         "Djibouti",
 		OfficialName: "Poblacht Djibouti",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name:         "Doiminice",
 		OfficialName: "Comhlathas Doiminice",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name:         "An Danmhairg",
 		OfficialName: "Ríocht na Danmhairge",
 	},
-	DominicanRepublic: &Translated{
+	"DO": Translated{
 		Name: "An Phoblacht Dhoiminiceach",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name:         "An Ailgéir",
 		OfficialName: "Poblacht Dhaonlathach an Chongó",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name:         "Eacuadór",
 		OfficialName: "Poblacht Eacuadór",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name:         "An Éigipt",
 		OfficialName: "Poblacht Arabach na hÉigipte",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name:         "An Eiritré",
 		OfficialName: "Stát na hEiritré",
 	},
-	WesternSahara: &Translated{
+	"EH": Translated{
 		Name: "An Sahára Thiar",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name:         "An Spáinn",
 		OfficialName: "Ríocht na Spáinne",
 	},
-	Estonia: &Translated{
+	"EE": Translated{
 		Name:         "An Eastóin",
 		OfficialName: "Poblacht na hEastóine",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name:         "An Aetóip",
 		OfficialName: "Poblacht Dhaonlathach Chónascach na hAetóipe",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name:         "An Fhionlainn",
 		OfficialName: "Poblacht na Fionlainne",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		Name:         "Fidsí",
 		OfficialName: "Poblacht Fhidsí",
 	},
-	FalklandIslandsMalvinas: &Translated{
+	"FK": Translated{
 		Name: "Oileáin Fháclainne (Malvinas)",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name:         "An Fhrainc",
 		OfficialName: "Poblacht na Fraince",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "Oileáin Fharó",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		Name:         "An Mhicrinéis",
 		OfficialName: "Stáit Chónaidhme na Micrinéise",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name:         "An Ghabúin",
 		OfficialName: "Poblacht na Gabúine",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name:         "An Ríocht Aontaithe",
 		OfficialName: "Ríocht Aontaithe na Breataine Móire agus Thuaisceart Éireann",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "An tSeoirsia",
 	},
-	Guernsey: &Translated{
+	"GG": Translated{
 		Name: "Geansaí",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name:         "Gána",
 		OfficialName: "Poblacht Ghána",
 	},
-	Gibraltar: &Translated{
+	"GI": Translated{
 		Name: "Giobráltar",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		Name:         "An Ghuine",
 		OfficialName: "Poblacht na Guine",
 	},
-	Guadeloupe: &Translated{
+	"GP": Translated{
 		Name: "Guadalúip",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		Name:         "An Ghaimbia",
 		OfficialName: "Poblacht na Saimbia",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name:         "An Ghuine-Bhissau",
 		OfficialName: "Poblacht na Guine-Bhissau",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name:         "An Ghuine Mheánchiorclach",
 		OfficialName: "Poblacht na Guine Meánchiorclaí",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name:         "An Ghréig",
 		OfficialName: "An Phoblacht Heilléanach",
 	},
-	Grenada: &Translated{
+	"GD": Translated{
 		Name: "Grenada",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "An Ghraonlainn",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name:         "Guatamala",
 		OfficialName: "Poblacht Ghuatamala",
 	},
-	FrenchGuiana: &Translated{
+	"GF": Translated{
 		Name: "An Ghuáin Fhrancach",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "Guam",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name:         "An Ghuáin",
 		OfficialName: "Poblacht na Guáine",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name:         "Hong Cong",
 		OfficialName: "Réigiún Speisialta Riaracháin Hong Cong na Síne",
 	},
-	HeardIslandandMcDonaldIslands: &Translated{
+	"HM": Translated{
 		Name: "Oileán Heard agus Oileáin McDonald",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		Name:         "Hondúras",
 		OfficialName: "Poblacht Hondúras",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name:         "An Chróit",
 		OfficialName: "Poblacht na Cróite",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		Name:         "Háítí",
 		OfficialName: "Poblacht Háítí",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "An Ungáir",
 		OfficialName: "An Ungáir",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name:         "An Indinéis",
 		OfficialName: "Poblacht na hIndinéise",
 	},
-	IsleofMan: &Translated{
+	"IM": Translated{
 		Name: "Oileán Mhanann",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name:         "An India",
 		OfficialName: "Poblacht na hIndia",
 	},
-	BritishIndianOceanTerritory: &Translated{
+	"IO": Translated{
 		Name: "Críocha Briotanacha an Aigéin Indiaigh",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "Éire",
 	},
-	Iran: &Translated{
+	"IR": Translated{
 		Name:         "An Iaráin",
 		OfficialName: "Poblacht Ioslamach na hIaráine",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name:         "An Iaráic",
 		OfficialName: "Poblacht na hIaráice",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name:         "An Íoslainn",
 		OfficialName: "Poblacht na hÍoslainne",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name:         "Iosrael",
 		OfficialName: "Stát Iosrael",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name:         "An Iodáil",
 		OfficialName: "Poblacht na hIodáile",
 	},
-	Jamaica: &Translated{
+	"JM": Translated{
 		Name: "Iamáice",
 	},
-	Jersey: &Translated{
+	"JE": Translated{
 		Name: "Geirsí",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name:         "An Iordáin",
 		OfficialName: "Ríocht Haisimíteach na hIordáine",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "An tSeapáin",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name:         "An Chasacstáin",
 		OfficialName: "Poblacht na Casacstáine",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name:         "An Chéinia",
 		OfficialName: "Poblacht na Céinia",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name:         "An Chirgeastáin",
 		OfficialName: "Poblacht na Cirgeastáine",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name:         "An Chambóid",
 		OfficialName: "Ríocht na Cambóide",
 	},
-	Kiribati: &Translated{
+	"KI": Translated{
 		Name:         "Cireabaití",
 		OfficialName: "Poblacht Chireabaití",
 	},
-	SaintKittsandNevis: &Translated{
+	"KN": Translated{
 		Name: "Saint Kitts agus Nevis",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		Name:       "Poblacht na Cóiré",
 		CommonName: "An Afraic Theas",
 	},
-	Kuwait: &Translated{
+	"KW": Translated{
 		Name:         "Cuáit",
 		OfficialName: "Stát Cuáit",
 	},
-	LaoPeoplesDemocraticRepublic: &Translated{
+	"LA": Translated{
 		Name: "Daonphoblacht Dhaonlathach Laoch",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		Name:         "An Liobáin",
 		OfficialName: "Poblacht na Liobáine",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name:         "An Libéir",
 		OfficialName: "Poblacht na Libéire",
 	},
-	Libya: &Translated{
+	"LY": Translated{
 		Name:         "An Libia",
 		OfficialName: "An Libia",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "Saint Lucia",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name:         "Lichtinstéin",
 		OfficialName: "Prionsacht Lichtinstéin",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name:         "Srí Lanca",
 		OfficialName: "Daonphoblacht Dhaonlathach Shóisialach Srí Lanca",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		Name:         "Leosóta",
 		OfficialName: "Ríocht Leosóta",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name:         "An Liotuáin",
 		OfficialName: "Poblacht na Liotuáine",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name:         "Lucsamburg",
 		OfficialName: "Ard-Diúcacht Lucsamburg",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name:         "An Laitvia",
 		OfficialName: "Poblacht na Laitvia",
 	},
-	Macao: &Translated{
+	"MO": Translated{
 		Name:         "Macao",
 		OfficialName: "Réigiún Speisialta Riaracháin Macao na Síne",
 	},
-	SaintMartinFrenchpart: &Translated{
+	"MF": Translated{
 		Name: "Saint Martin (An Fhrainc)",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name:         "Maracó",
 		OfficialName: "Ríocht Mharacó",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name:         "Monacó",
 		OfficialName: "Prionsacht Mhonacó",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		Name:         "Moldóive, Poblacht na",
 		OfficialName: "Poblacht na Moldóive",
 		CommonName:   "An Mholdóiv",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name:         "Madagascar",
 		OfficialName: "Poblacht Mhadagascar",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name:         "Oileáin Mhaildíve",
 		OfficialName: "Poblacht Mhaildíve",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name:         "Meicsiceo",
 		OfficialName: "Stáit Aontaithe Mheicsiceo",
 	},
-	MarshallIslands: &Translated{
+	"MH": Translated{
 		Name:         "Oileáin Marshall",
 		OfficialName: "Poblacht Oileán Marshall",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		Name:         "An Nua-Chaladóin",
 		OfficialName: "Poblacht na Liotuáine",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name:         "Mailí",
 		OfficialName: "Poblacht Mhailí",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name:         "Málta",
 		OfficialName: "Poblacht Mhálta",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name:         "Maenmar",
 		OfficialName: "Poblacht Mhaenmar",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Montainéagró",
 		OfficialName: "Montainéagró",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "An Mhongóil",
 	},
-	NorthernMarianaIslands: &Translated{
+	"MP": Translated{
 		Name:         "Oileáin Mariana Thuaidh",
 		OfficialName: "Comhlathas Oileáin Mariana Thuaidh",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name:         "Mósaimbíc",
 		OfficialName: "Poblacht Mhósaimbíc",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name:         "An Mháratáin",
 		OfficialName: "Poblacht Ioslamach na Máratáine",
 	},
-	Montserrat: &Translated{
+	"MS": Translated{
 		Name: "Montsarat",
 	},
-	Martinique: &Translated{
+	"MQ": Translated{
 		Name: "Martainíc",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name:         "Oileán Mhuirís",
 		OfficialName: "Poblacht Mhuirís",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name:         "An Mhaláiv",
 		OfficialName: "Poblacht na Maláive",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "An Mhalaeisia",
 	},
-	Mayotte: &Translated{
+	"YT": Translated{
 		Name: "Mayotte",
 	},
-	Namibia: &Translated{
+	"NA": Translated{
 		Name:         "An Namaib",
 		OfficialName: "Poblacht na Namaibe",
 	},
-	NewCaledonia: &Translated{
+	"NC": Translated{
 		Name: "An Nua-Chaladóin",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		Name:         "An Nígir",
 		OfficialName: "Poblacht na Nígire",
 	},
-	NorfolkIsland: &Translated{
+	"NF": Translated{
 		Name: "Oileán Norfolk",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name:         "An Nigéir",
 		OfficialName: "Poblacht Chónaidhme na Nigéire",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name:         "Nicearagua",
 		OfficialName: "Poblacht Nicearagua",
 	},
-	Niue: &Translated{
+	"NU": Translated{
 		Name:         "Niue",
 		OfficialName: "Niue",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name:         "An Ísiltír",
 		OfficialName: "Ríocht na hÍsiltíre",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name:         "An Iorua",
 		OfficialName: "Ríocht na hIorua",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name:         "Neipeal",
 		OfficialName: "Poblacht Dhaonlathach Chónascach Neipeal",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name:         "Nárú",
 		OfficialName: "Poblacht Nárú",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "An Nua-Shéalainn",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name:         "Oman",
 		OfficialName: "Sabhdánacht Oman",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name:         "An Phacastáin",
 		OfficialName: "Poblacht Ioslamach na Pacastáine",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name:         "Panama",
 		OfficialName: "Poblacht Phanama",
 	},
-	Pitcairn: &Translated{
+	"PN": Translated{
 		Name: "Pitcairn",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name:         "Peiriú",
 		OfficialName: "Poblacht Pheiriú",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name:         "Na hOileáin Fhilipíneacha",
 		OfficialName: "Poblacht na nOileán Filipíneach",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		Name:         "Palau",
 		OfficialName: "Poblacht Phalau",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name:         "Papua Nua-Ghuine",
 		OfficialName: "Stát Neamhspleách Samó",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name:         "An Pholainn",
 		OfficialName: "Poblacht na Polainne",
 	},
-	PuertoRico: &Translated{
+	"PR": Translated{
 		Name: "Portó Ríce",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		Name:         "Daonphoblacht Dhaonlathach na Cóiré",
 		OfficialName: "Daonphoblacht Dhaonlathach na Cóiré",
 		CommonName:   "An Nua-Chaladóin",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name:         "An Phortaingéil",
 		OfficialName: "Poblacht na Portaingéile",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name:         "Paragua",
 		OfficialName: "Poblacht Pharagua",
 	},
-	Palestine: &Translated{
+	"PS": Translated{
 		Name:         "Palaistíne, Stát na",
 		OfficialName: "Stát na Palaistíne",
 	},
-	FrenchPolynesia: &Translated{
+	"PF": Translated{
 		Name: "Polainéis na Fraince",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name:         "Catar",
 		OfficialName: "Stát Catar",
 	},
-	Reunion: &Translated{
+	"RE": Translated{
 		Name: "Réunion",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "An Rómáin",
 	},
-	RussianFederation: &Translated{
+	"RU": Translated{
 		Name: "Cónaidhm na Rúise",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name:         "Ruanda",
 		OfficialName: "Poblacht Ruanda",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name:         "An Araib Shádach",
 		OfficialName: "Ríocht na hAraibe Sádaí",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name:         "An tSúdáin",
 		OfficialName: "Poblacht na Súdáine",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		Name:         "An tSeineagáil",
 		OfficialName: "Poblacht na Seineagáile",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name:         "Singeapór",
 		OfficialName: "Poblacht Shingeapór",
 	},
-	SouthGeorgiaandtheSouthSandwichIslands: &Translated{
+	"GS": Translated{
 		Name: "An tSeoirsia Theas agus Sandwich Theas",
 	},
-	SaintHelena: &Translated{
+	"SH": Translated{
 		Name: "Saint Helena, Ascension agus Tristan da Cunha",
 	},
-	SvalbardandJanMayen: &Translated{
+	"SJ": Translated{
 		Name: "Svalbard agus Jan Mayen",
 	},
-	SolomonIslands: &Translated{
+	"SB": Translated{
 		Name: "Oileán Solomon",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name:         "Siarra Leon",
 		OfficialName: "Poblacht Shiarra Leon",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		Name:         "An tSalvadóir",
 		OfficialName: "Poblacht na Salvadóire",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name:         "San Mairíne",
 		OfficialName: "Poblacht San Mairíne",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name:         "An tSomáil",
 		OfficialName: "Poblacht Chónaidhme na Gearmáine",
 	},
-	SaintPierreandMiquelon: &Translated{
+	"PM": Translated{
 		Name: "St. Pierre agus Miquelon",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name:         "An tSeirbia",
 		OfficialName: "Poblacht na Seirbia",
 	},
-	SouthSudan: &Translated{
+	"SS": Translated{
 		Name:         "An tSúdáin Theas",
 		OfficialName: "Poblacht na Súdáine Theas",
 	},
-	SaoTomeandPrincipe: &Translated{
+	"ST": Translated{
 		Name:         "Sao Tome agus Principe",
 		OfficialName: "Poblacht Dhaonlathach Sao Tome agus Principe",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name:         "Suranam",
 		OfficialName: "Poblacht Suranam",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name:         "An tSlóvaic",
 		OfficialName: "Poblacht na Slóvaice",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name:         "An tSlóivéin",
 		OfficialName: "Poblacht na Slóivéine",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name:         "An tSualainn",
 		OfficialName: "Ríocht na Sualainne",
 	},
-	Eswatini: &Translated{
+	"SZ": Translated{
 		OfficialName: "Ríocht na Spáinne",
 	},
-	SintMaartenDutchpart: &Translated{
+	"SX": Translated{
 		Name:         "Sint Maarten (ceantar Ollannach)",
 		OfficialName: "Sint Maarten (ceantar Ollannach)",
 	},
-	Seychelles: &Translated{
+	"SC": Translated{
 		Name:         "Na Séiséil",
 		OfficialName: "Poblacht na Séiséil",
 	},
-	SyrianArabRepublic: &Translated{
+	"SY": Translated{
 		Name: "Poblacht Arabach na Siria",
 	},
-	TurksandCaicosIslands: &Translated{
+	"TC": Translated{
 		Name: "Oileáin Turks agus Caicos",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		Name:         "Sead",
 		OfficialName: "Poblacht Sead",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name:         "Tóga",
 		OfficialName: "Poblacht Thóga",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name:         "An Téalainn",
 		OfficialName: "Ríocht na Téalainne",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name:         "An Táidsíceastáin",
 		OfficialName: "Poblacht na Táidsíceastáine",
 	},
-	Tokelau: &Translated{
+	"TK": Translated{
 		Name: "Tócalá",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "An Tuircméanastáin",
 	},
-	TimorLeste: &Translated{
+	"TL": Translated{
 		Name:         "Tíomór Thoir",
 		OfficialName: "Poblacht Dhaonlathach Thíomór Thoir",
 	},
-	Tonga: &Translated{
+	"TO": Translated{
 		Name:         "Tonga",
 		OfficialName: "Ríocht Tonga",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		Name:         "Oileáin na Tríonóide agus Tobága",
 		OfficialName: "Poblacht na Tríonóide agus Tobága",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name:         "An Túinéis",
 		OfficialName: "Poblacht na Túinéise",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name:         "An Tuirc",
 		OfficialName: "Poblacht na Tuirce",
 	},
-	Tuvalu: &Translated{
+	"TV": Translated{
 		Name: "Tuvalú",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		Name:         "An Téaváin, Cúige na Síne",
 		OfficialName: "An Téaváin, Cúige na Síne",
 		CommonName:   "An Téaváin",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		Name:         "An Tansáin",
 		OfficialName: "Poblacht Aontaithe na Tansáine",
 		CommonName:   "An Tansáin",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name:         "Uganda",
 		OfficialName: "Poblacht Uganda",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "An Úcráin",
 	},
-	UnitedStatesMinorOutlyingIslands: &Translated{
+	"UM": Translated{
 		Name: "Mion-Oileáin Imeallacha S.A.M.",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name:         "Uragua",
 		OfficialName: "Poblacht Thoir Uragua",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		Name:         "Na Stáit Aontaithe",
 		OfficialName: "Stáit Aontaithe Mheiriceá",
 	},
-	Uzbekistan: &Translated{
+	"UZ": Translated{
 		Name:         "Úisbéiceastáin",
 		OfficialName: "Poblacht na hÚisbéiceastáine",
 	},
-	HolySeeVaticanCityState: &Translated{
+	"VA": Translated{
 		Name: "Suí Naofa (Stát Chathair na Vatacáine)",
 	},
-	SaintVincentandtheGrenadines: &Translated{
+	"VC": Translated{
 		Name: "Saint Vincent agus na Grenadines",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		Name:         "Veiniséala, Poblacht Bholavarach",
 		OfficialName: "Poblacht Bholavarach Veiniséala",
 		CommonName:   "Veiniséala",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		Name:         "Oileáin Bhriotanacha na Maighdean",
 		OfficialName: "Oileáin Bhriotanacha na Maighdean",
 	},
-	VirginIslands: &Translated{
+	"VI": Translated{
 		Name:         "Oileáin na Maighdean, S.A.M.",
 		OfficialName: "Oileáin na Maighdean, Stáit Aontaithe Mheiriceá",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		Name:         "Vítneam",
 		OfficialName: "Poblacht Shóisialach Vítneam",
 		CommonName:   "Vítneam",
 	},
-	Vanuatu: &Translated{
+	"VU": Translated{
 		Name:         "Vanuatú",
 		OfficialName: "Poblacht Vanuatú",
 	},
-	WallisandFutuna: &Translated{
+	"WF": Translated{
 		Name: "Oileáin Vailís agus Futúna",
 	},
-	Samoa: &Translated{
+	"WS": Translated{
 		Name:         "Samó",
 		OfficialName: "Stát Neamhspleách Samó",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name:         "Éimin",
 		OfficialName: "Poblacht Éimin",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name:         "An Afraic Theas",
 		OfficialName: "Poblacht na hAfraice Theas",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		Name:         "An tSaimbia",
 		OfficialName: "Poblacht na Saimbia",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		Name:         "An tSiombáib",
 		OfficialName: "Poblacht na Siombáibe",
 	},

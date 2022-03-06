@@ -1,615 +1,615 @@
 package countrydb
 
-var Localeba = map[*Country]*Translated{
-	Aruba: &Translated{
+var Localeba = map[string]Translated{
+	"AW": Translated{
 		Name: "Аруба",
 	},
-	Afghanistan: &Translated{
+	"AF": Translated{
 		Name: "Афғанстан",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		Name: "Ангола",
 	},
-	Anguilla: &Translated{
+	"AI": Translated{
 		Name: "Ангилья",
 	},
-	AlandIslands: &Translated{
+	"AX": Translated{
 		Name: "Аланд утрауҙары",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name: "Албания",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name: "Андорра",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "Берләшкән Ғәрәп Әмирлектәре",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name: "Аргентина",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "Әрмәнстан",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "Америка Самоаһы",
 	},
-	AntiguaandBarbuda: &Translated{
+	"AG": Translated{
 		Name: "Антигуа һәм Барбуда",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "Австралия",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "Австрия",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name: "Әзербайжан",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name: "Бурунди",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name: "Бельгия",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name: "Бенин",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "Буркина-Фасо",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name: "Бангладеш",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "Болгария",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name: "Бахрейн",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name: "Босния һәм Герцеговина",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name: "Беларусь",
 	},
-	Belize: &Translated{
+	"BZ": Translated{
 		Name: "Белиз",
 	},
-	Bermuda: &Translated{
+	"BM": Translated{
 		Name: "Бермуд утрауҙары",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		CommonName: "Боливия",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "Бразилия",
 	},
-	Barbados: &Translated{
+	"BB": Translated{
 		Name: "Барбадос",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name: "Бутан",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name: "Ботсвана",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "Үҙәк Африка Республикаһы",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "Канада",
 	},
-	CocosKeelingIslands: &Translated{
+	"CC": Translated{
 		Name: "Кокос утрауҙары",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name: "Швейцария",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name: "Чили",
 	},
-	China: &Translated{
+	"CN": Translated{
 		OfficialName: "Ҡытай",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name: "Камерун",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		OfficialName: "Республика Конго",
 	},
-	CookIslands: &Translated{
+	"CK": Translated{
 		Name: "Кук утрауҙары",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name: "Колумбия",
 	},
-	Comoros: &Translated{
+	"KM": Translated{
 		Name: "Комор",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		Name: "Коста-Рика",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name: "Куба",
 	},
-	Curacao: &Translated{
+	"CW": Translated{
 		Name:         "Кюрасао",
 		OfficialName: "Кюрасао",
 	},
-	CaymanIslands: &Translated{
+	"KY": Translated{
 		Name: "Кайман утрауҙары",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name: "Кипр Республикаһы",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "Чехия",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "Германия",
 	},
-	Djibouti: &Translated{
+	"DJ": Translated{
 		Name: "Джибути",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name: "Доминика",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name: "Дания",
 	},
-	DominicanRepublic: &Translated{
+	"DO": Translated{
 		Name: "Доминика Республикаһы",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name: "Алжир",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name: "Эквадор",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name: "Мысыр",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name: "Эритрея",
 	},
-	WesternSahara: &Translated{
+	"EH": Translated{
 		Name: "Көнбайыш Сахара",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "Испания",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name: "Эфиопия",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "Финляндия",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		Name: "Фиджи",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "Франция",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "Фарер утрауҙары",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		OfficialName: "Микронезия Федератив Штаттары",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name: "Габон",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name: "Бөйөк Британия",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "Грузия",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name: "Гана",
 	},
-	Gibraltar: &Translated{
+	"GI": Translated{
 		Name: "Гибралтар",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		Name: "Гвинея",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		OfficialName: "Республика Конго",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name: "Гвинея-Бисау",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name: "Экватор Гвинеяһы",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name: "Греция",
 	},
-	Grenada: &Translated{
+	"GD": Translated{
 		Name: "Гренада",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name: "Гватемала",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "Гуам",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name: "Гайана",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name: "Гонконг",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		Name: "Гондурас",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name: "Хорватия",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		Name: "Гаити Республикаһы",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Венгрия",
 		OfficialName: "Венгрия",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name: "Индонезия",
 	},
-	IsleofMan: &Translated{
+	"IM": Translated{
 		Name: "Мэн Утрауы",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name: "Һиндостан",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "Ирландия",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name: "Ираҡ",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name: "Исландия",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name: "Израиль",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "Италия",
 	},
-	Jamaica: &Translated{
+	"JM": Translated{
 		Name: "Ямайка",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name: "Иордания",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Япония",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name: "Ҡаҙағстан",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name: "Кения",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name: "Ҡырғыҙстан",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name: "Камбоджа",
 	},
-	Kiribati: &Translated{
+	"KI": Translated{
 		Name: "Кирибати",
 	},
-	SaintKittsandNevis: &Translated{
+	"KN": Translated{
 		Name: "Сент-Китс һәм Невис",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		CommonName: "Көньяҡ Африка Республикаһы",
 	},
-	Kuwait: &Translated{
+	"KW": Translated{
 		Name: "Күвейт",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		Name: "Ливан",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name: "Либерия",
 	},
-	Libya: &Translated{
+	"LY": Translated{
 		Name:         "Ливия",
 		OfficialName: "Ливия",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "Сент-Люсия",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name: "Лихтенштейн",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name: "Шри-Ланка",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		Name: "Лесото",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "Литва",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name: "Люксембург",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name: "Латвия",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name: "Марокко",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name: "Монако",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		CommonName: "Молдова",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name: "Мадагаскар",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name: "Мальдив",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name: "Мексика",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		OfficialName: "Республика Конго",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name: "Мали",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name: "Мальта",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name: "Мьянма",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "Черногория",
 		OfficialName: "Черногория",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "Монголия",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name: "Мозамбик",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name: "Мавритания",
 	},
-	Montserrat: &Translated{
+	"MS": Translated{
 		Name: "Монтсеррат",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name: "Маврикий",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name: "Малави",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "Малайзия",
 	},
-	Namibia: &Translated{
+	"NA": Translated{
 		Name: "Намибия",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		Name: "Нигер",
 	},
-	NorfolkIsland: &Translated{
+	"NF": Translated{
 		Name: "Норфолк",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name: "Нигерия",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name: "Никарагуа",
 	},
-	Niue: &Translated{
+	"NU": Translated{
 		Name:         "Ниуэ",
 		OfficialName: "Ниуэ",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name: "Нидерландтар",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "Норвегия",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name: "Непал",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name: "Науру",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "Яңы Зеландия",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name: "Оман",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name: "Пакистан",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name: "Панама",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name: "Перу",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name: "Филиппин",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		Name: "Палау",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name: "Папуа — Яңы Гвинея",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "Польша",
 	},
-	PuertoRico: &Translated{
+	"PR": Translated{
 		Name: "Пуэрто-Рико",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name: "Португалия",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name: "Парагвай",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name: "Катар",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Румыния",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name: "Руанда",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name: "Сәғүд Ғәрәбстаны",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name: "Судан",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		Name: "Сенегал",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name: "Сингапур",
 	},
-	SouthGeorgiaandtheSouthSandwichIslands: &Translated{
+	"GS": Translated{
 		Name: "Көньяҡ Георгия һәм Көньяҡ Сандвич утрауҙары",
 	},
-	SolomonIslands: &Translated{
+	"SB": Translated{
 		Name: "Соломон Утрауҙары",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name: "Сьерра-Леоне",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		Name: "Сальвадор",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name: "Сан-Марино",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name: "Сомали",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name: "Сербия",
 	},
-	SouthSudan: &Translated{
+	"SS": Translated{
 		Name: "Көньяҡ Судан",
 	},
-	SaoTomeandPrincipe: &Translated{
+	"ST": Translated{
 		Name: "Сан-Томе һәм Принсипи",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name: "Суринам",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name: "Словакия",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name: "Словения",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "Швеция",
 	},
-	Seychelles: &Translated{
+	"SC": Translated{
 		Name: "Сейшель Утрауҙары",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		Name: "Чад",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name: "Того",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name: "Таиланд",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name: "Тажикстан",
 	},
-	Tokelau: &Translated{
+	"TK": Translated{
 		Name: "Токелау",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "Төркмәнстан",
 	},
-	Tonga: &Translated{
+	"TO": Translated{
 		Name: "Тонга",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		Name: "Тринидад һәм Тобаго",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name: "Тунис",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "Төркиә",
 	},
-	Tuvalu: &Translated{
+	"TV": Translated{
 		Name: "Тувалу",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		CommonName: "Ҡытай Республикаһы",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		CommonName: "Танзания",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name: "Уганда",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "Украина",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name: "Уругвай",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "Америка Ҡушма Штаттары",
 	},
-	Uzbekistan: &Translated{
+	"UZ": Translated{
 		Name: "Үзбәкстан",
 	},
-	SaintVincentandtheGrenadines: &Translated{
+	"VC": Translated{
 		Name: "Сент-Винсент һәм Гренадиндар",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		CommonName: "Венесуэла",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		OfficialName: "Британия Виргин утрауҙары",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		CommonName: "Вьетнам",
 	},
-	Vanuatu: &Translated{
+	"VU": Translated{
 		Name: "Вануату",
 	},
-	Samoa: &Translated{
+	"WS": Translated{
 		Name: "Самоа",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name: "Йемен",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name: "Көньяҡ Африка Республикаһы",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		Name: "Замбия",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		Name: "Зимбабве",
 	},
 }

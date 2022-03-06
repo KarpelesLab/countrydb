@@ -1,931 +1,931 @@
 package countrydb
 
-var Localebn = map[*Country]*Translated{
-	Aruba: &Translated{
+var Localebn = map[string]Translated{
+	"AW": Translated{
 		Name: "আরুবা",
 	},
-	Afghanistan: &Translated{
+	"AF": Translated{
 		Name:         "আফগানিস্তান",
 		OfficialName: "আফগানিস্তান ইসলামিক প্রজাতন্ত্র",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		Name:         "অ্যাঙ্গোলা",
 		OfficialName: "অ্যাঙ্গোলা প্রজাতন্ত্র",
 	},
-	Anguilla: &Translated{
+	"AI": Translated{
 		Name: "অ্যাঙ্গিলা",
 	},
-	AlandIslands: &Translated{
+	"AX": Translated{
 		Name: "অ্যাল্যান্ড দ্বীপপুঞ্জ",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name:         "আলবেনিয়া",
 		OfficialName: "আলবেনিয়া প্রজাতন্ত্র",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name:         "অ্যান্ডোরা",
 		OfficialName: "সাংবিধানিক রাজতন্ত্র অ্যান্ডোরা",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "সংযুক্ত আরব আমিরশাহী",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name:         "আর্জেনটিনা",
 		OfficialName: "আর্জেনটিন প্রজাতন্ত্র",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name:         "আর্মেনিয়া",
 		OfficialName: "আর্মেনিয়া প্রজাতন্ত্র",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "আমেরিকান সামোয়া",
 	},
-	Antarctica: &Translated{
+	"AQ": Translated{
 		Name: "আনটার্কটিকা",
 	},
-	FrenchSouthernTerritories: &Translated{
+	"TF": Translated{
 		Name: "ফ্রেঞ্চ দক্ষিণ অঞ্চল",
 	},
-	AntiguaandBarbuda: &Translated{
+	"AG": Translated{
 		Name: "অ্যান্টিগুয়া ও বারবুডা",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "অস্ট্রেলিয়া",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name:         "অস্ট্রিয়া",
 		OfficialName: "অস্ট্রিয়া প্রজাতন্ত্র",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name:         "আজারবাইজান",
 		OfficialName: "আজারবাইজান প্রজাতন্ত্র",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name:         "বুরুন্ডি",
 		OfficialName: "বুরুন্ডি প্রজাতন্ত্র",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name:         "বেলজিয়াম",
 		OfficialName: "বেলগিয়াম রাজ্য",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name:         "বেনিন",
 		OfficialName: "বেনিন প্রজাতন্ত্র",
 	},
-	Bonaire: &Translated{
+	"BQ": Translated{
 		Name:         "বোনাইর, ইসটাটিস এবং সাবা",
 		OfficialName: "বোনাইর, ইসটাটিস এবং সাবা",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "বুর্কিনা ফাসো",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name:         "বাংলাদেশ",
 		OfficialName: "গণপ্রজাতন্ত্রী বাংলাদেশ",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name:         "বুলগারিয়া",
 		OfficialName: "বুলগারিয়া প্রজাতন্ত্র",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name:         "বাহরেইন",
 		OfficialName: "বাহরেইন রাজ্য",
 	},
-	Bahamas: &Translated{
+	"BS": Translated{
 		Name:         "বাহামাস",
 		OfficialName: "বাহামাস রাষ্ট্রমণ্ডল",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name:         "বসনিয়া ও হার্জগোভিনা",
 		OfficialName: "বসনিয়া ও হার্জগোভিনা প্রজাতন্ত্র",
 	},
-	SaintBarthelemy: &Translated{
+	"BL": Translated{
 		Name: "সেন্ট বার্থেলেমি",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name:         "বেলারুস",
 		OfficialName: "বেলারুস প্রজাতন্ত্র",
 	},
-	Belize: &Translated{
+	"BZ": Translated{
 		Name: "বেলিজে",
 	},
-	Bermuda: &Translated{
+	"BM": Translated{
 		Name: "বার্মুডা",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		Name:         "বোলিভিয়া, প্লুরিনেশন্যাল রাষ্ট্র",
 		OfficialName: "প্লুরিনেশন্যাল রাষ্ট্র বোলিভিয়া",
 		CommonName:   "বোলিভিয়া",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name:         "ব্রাজিল",
 		OfficialName: "প্রজাতন্ত্রী যুক্তরাষ্ট্র ব্রাজিল",
 	},
-	Barbados: &Translated{
+	"BB": Translated{
 		Name: "বার্বাডোস",
 	},
-	BruneiDarussalam: &Translated{
+	"BN": Translated{
 		Name: "ব্রুনেই দারুসলাম",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name:         "ভুটান",
 		OfficialName: "ভুটান রাজ্য",
 	},
-	BouvetIsland: &Translated{
+	"BV": Translated{
 		Name: "বুভে দ্বীপ",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name:         "বোটসওয়ানা",
 		OfficialName: "বোটসওয়ানা প্রজাতন্ত্র",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "মধ্য আফ্রিকান প্রজাতন্ত্র",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "কানাডা",
 	},
-	CocosKeelingIslands: &Translated{
+	"CC": Translated{
 		Name: "কোকোস (কিলিং) দ্বীপ",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name:         "সুইৎজারল্যান্ড",
 		OfficialName: "সুইস মৈত্রীসংঘ",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name:         "চিলি",
 		OfficialName: "চিলি প্রজাতন্ত্র",
 	},
-	China: &Translated{
+	"CN": Translated{
 		Name:         "চীন",
 		OfficialName: "গণপ্রজাতন্ত্রী চীন",
 	},
-	CotedIvoire: &Translated{
+	"CI": Translated{
 		Name:         "আইভরি কোস্ট",
 		OfficialName: "আইভরি কোস্ট প্রজাতন্ত্র",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name:         "ক্যামেরুণ",
 		OfficialName: "ক্যামেরুণ প্রজাতন্ত্র",
 	},
-	DemocraticCongo: &Translated{
+	"CD": Translated{
 		Name: "কঙ্গো, গণতান্ত্রিক প্রজাতন্ত্র",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		Name:         "কঙ্গো",
 		OfficialName: "কঙ্গো প্রজাতন্ত্র",
 	},
-	CookIslands: &Translated{
+	"CK": Translated{
 		Name: "কুক দ্বীপপুঞ্জ",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name:         "কোলোম্বিয়া",
 		OfficialName: "কোলোম্বিয়া প্রজাতন্ত্র",
 	},
-	Comoros: &Translated{
+	"KM": Translated{
 		Name:         "কোমোরোস",
 		OfficialName: "সংযুক্ত কোমোরোস",
 	},
-	CaboVerde: &Translated{
+	"CV": Translated{
 		Name:         "কেবো ভার্ডে",
 		OfficialName: "কেবো ভার্ডে প্রজাতন্ত্র",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		Name:         "কোস্টা রিকা",
 		OfficialName: "কোস্টা রিকা প্রজাতন্ত্র",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name:         "কিউবা",
 		OfficialName: "কিউবা প্রজাতন্ত্র",
 	},
-	Curacao: &Translated{
+	"CW": Translated{
 		Name:         "কুরাকাও",
 		OfficialName: "কুরাকাও",
 	},
-	ChristmasIsland: &Translated{
+	"CX": Translated{
 		Name: "ক্রিস্টমাস দ্বীপপুঞ্জ",
 	},
-	CaymanIslands: &Translated{
+	"KY": Translated{
 		Name: "কেম্যান দ্বীপপুঞ্জ",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		Name:         "সাইপ্রাস",
 		OfficialName: "সাইপ্রাস প্রজাতন্ত্র",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		Name:         "চেকিয়া",
 		OfficialName: "চেক প্রজাতন্ত্র",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name:         "জার্মানি",
 		OfficialName: "প্রজাতন্ত্রী যুক্তরাষ্ট্র জার্মানি",
 	},
-	Djibouti: &Translated{
+	"DJ": Translated{
 		Name:         "জিবুতি",
 		OfficialName: "জিবুতি প্রজাতন্ত্র",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name:         "ডোমিনিকা",
 		OfficialName: "ডেমিনিকা রাষ্ট্রমণ্ডল",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name:         "ডেনমার্ক",
 		OfficialName: "ডেনমার্ক রাজ্য",
 	},
-	DominicanRepublic: &Translated{
+	"DO": Translated{
 		Name: "ডোমিনিকান প্রজান্ত্র",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name:         "অ্যালজিরিয়া",
 		OfficialName: "গণতান্ত্রিক গণপ্রজাতন্ত্রী অ্যালজিরিয়া",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name:         "ইকুয়েডোর",
 		OfficialName: "ইকুয়েডোর প্রজাতন্ত্র",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name:         "মিশর",
 		OfficialName: "আরব প্রজাতন্ত্র মিশর",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name:         "এরিট্রিয়া",
 		OfficialName: "ইরিত্রিয়ার রাষ্ট্র",
 	},
-	WesternSahara: &Translated{
+	"EH": Translated{
 		Name: "পশ্চীম সাহারা",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name:         "স্পেন",
 		OfficialName: "স্পেন রাজ্য",
 	},
-	Estonia: &Translated{
+	"EE": Translated{
 		Name:         "এস্তোনিয়া",
 		OfficialName: "এস্তোনিয়া প্রজাতন্ত্র",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name:         "ইথিওপিয়া",
 		OfficialName: "গণতান্ত্রিক প্রজাতন্ত্রী যুক্তরাষ্ট্র ইথিওপিয়া",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name:         "ফিনল্যান্ড",
 		OfficialName: "ফিনল্যান্ড প্রজাতন্ত্র",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		Name:         "ফিজি",
 		OfficialName: "ফিজি প্রজাতন্ত্র",
 	},
-	FalklandIslandsMalvinas: &Translated{
+	"FK": Translated{
 		Name: "ফল্কল্যান্ড দ্বীপপুঞ্জ (মালভিনাস)",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name:         "ফ্রান্স",
 		OfficialName: "ফ্রেঞ্চ প্রজাতন্ত্র",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "ফ্যারো দ্বীপপুঞ্জ",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		Name:         "মাইক্রোনেশিয়া যুক্তরাষ্ট্র",
 		OfficialName: "মাইক্রোনেশিয়া যুক্তরাষ্ট্র",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name:         "গেবন",
 		OfficialName: "গেবনিস প্রজাতন্ত্র",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name:         "যুক্তরাজ্য",
 		OfficialName: "গ্রেট ব্রিটেন ও উত্তর আয়ারল্যান্ড যুক্তরাজ্য",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "জর্জিয়া",
 	},
-	Guernsey: &Translated{
+	"GG": Translated{
 		Name: "গুয়ের্নসে",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name:         "ঘানা",
 		OfficialName: "ঘানা প্রজাতন্ত্র",
 	},
-	Gibraltar: &Translated{
+	"GI": Translated{
 		Name: "জিব্রাল্টার",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		Name:         "গিনি",
 		OfficialName: "গিনি প্রজাতন্ত্র",
 	},
-	Guadeloupe: &Translated{
+	"GP": Translated{
 		Name: "গুয়াডেল্যুপ",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		Name:         "গাম্বিয়া",
 		OfficialName: "গাম্বিয়া প্রজাতন্ত্র",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name:         "গিনি-বিসাউ",
 		OfficialName: "গিনি-বিসাউ প্রজাতন্ত্র",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name:         "ইকুয়েটোরিয়াল গিনি",
 		OfficialName: "ইকুয়েটোরিয়াল গিনি প্রজাতন্ত্র",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name:         "গ্রিস",
 		OfficialName: "হেলেনিক প্রজাতন্ত্র",
 	},
-	Grenada: &Translated{
+	"GD": Translated{
 		Name: "গ্রেনাডা",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "গ্রিনল্যান্ড",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name:         "গুয়াতেমালা",
 		OfficialName: "গুয়াতেমালা প্রজাতন্ত্র",
 	},
-	FrenchGuiana: &Translated{
+	"GF": Translated{
 		Name: "ফ্রেঞ্চ গায়ানা",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "গুয়াম",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name:         "গায়ানা",
 		OfficialName: "গায়ানা প্রজাতন্ত্র",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name:         "হং কং",
 		OfficialName: "হং কং, চীনের বিশেষ প্রশাসনিক অঞ্চল",
 	},
-	HeardIslandandMcDonaldIslands: &Translated{
+	"HM": Translated{
 		Name: "হার্ড দ্বীপ ও ম্যাকডোনাল্ড দ্বীপপুঞ্জ",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		Name:         "হন্ডুরাস",
 		OfficialName: "হন্ডুরাস প্রজাতন্ত্র",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name:         "ক্রোয়েশিয়া",
 		OfficialName: "ক্রোয়েশিয়া প্রজাতন্ত্র",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		Name:         "হাইতি",
 		OfficialName: "হাইতি প্রজাতন্ত্র",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "হাঙ্গেরি",
 		OfficialName: "হাঙ্গেরি",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name:         "ইন্দোনেশিয়া",
 		OfficialName: "ইন্দোনেশিয়া প্রজাতন্ত্র",
 	},
-	IsleofMan: &Translated{
+	"IM": Translated{
 		Name: "আইল অফ ম্যান",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name:         "ভারত",
 		OfficialName: "ভারতীয় প্রজাতন্ত্র",
 	},
-	BritishIndianOceanTerritory: &Translated{
+	"IO": Translated{
 		Name: "ব্রিটিশ ভারতীয় মহাসাগরীয় অঞ্চল",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "আয়ারল্যান্ড",
 	},
-	Iran: &Translated{
+	"IR": Translated{
 		Name:         "ইরান, ইসলামিক প্রজাতন্ত্র",
 		OfficialName: "ইসলামিক প্রজাতন্ত্র ইরান",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name:         "ইরাক",
 		OfficialName: "ইরাক প্রজাতন্ত্র",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name:         "আইসল্যান্ড",
 		OfficialName: "আইসল্যান্ড প্রজাতন্ত্র",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name:         "ইজরাইল",
 		OfficialName: "ইজরাইল রাষ্ট্র",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name:         "ইটালি",
 		OfficialName: "ইটালিয়ান প্রজান্ত্র",
 	},
-	Jamaica: &Translated{
+	"JM": Translated{
 		Name: "জামাইকা",
 	},
-	Jersey: &Translated{
+	"JE": Translated{
 		Name: "জার্সি",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name:         "জর্ডান",
 		OfficialName: "হাশেমাইট রাজ্য জর্ডান",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "জাপান",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name:         "কাজাখস্তান",
 		OfficialName: "কাজাখস্তান প্রজাতন্ত্র",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name:         "কেনিয়া",
 		OfficialName: "কেনিয়া প্রজাতন্ত্র",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name:         "কির্গিজস্তান",
 		OfficialName: "কির্গিজ প্রজাতন্ত্র",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name:         "ক্যাম্বোডিয়া",
 		OfficialName: "ক্যাম্বোডিয়া রাজ্য",
 	},
-	Kiribati: &Translated{
+	"KI": Translated{
 		Name:         "কিরিবাস",
 		OfficialName: "কিরিবাস প্রজাতন্ত্র",
 	},
-	SaintKittsandNevis: &Translated{
+	"KN": Translated{
 		Name: "সেন্ট কিটস ও নেভিস",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		Name:       "কোরিয়া প্রজাতন্ত্র",
 		CommonName: "দক্ষিণ আফ্রিকা",
 	},
-	Kuwait: &Translated{
+	"KW": Translated{
 		Name:         "কুয়েত",
 		OfficialName: "কুয়েত রাষ্ট্র",
 	},
-	LaoPeoplesDemocraticRepublic: &Translated{
+	"LA": Translated{
 		Name: "গণপ্রজাতন্ত্রী লাও",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		Name:         "লেবানন",
 		OfficialName: "লেবানিস প্রজাতন্ত্র",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name:         "লাইবেরিয়া",
 		OfficialName: "লাইবেরিয়া প্রজাতন্ত্র",
 	},
-	Libya: &Translated{
+	"LY": Translated{
 		Name:         "লিবিয়া",
 		OfficialName: "লিবিয়া",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "সেন্ট লুসিয়া",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name:         "লিখতেনস্টাইন",
 		OfficialName: "সাংবিধানিক রাজতন্ত্র লিখতেনস্টাইন",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name:         "শ্রীলঙ্কা",
 		OfficialName: "গণতান্ত্রিক সমাজতান্ত্রিক প্রজাতন্ত্র শ্রীলঙ্কা",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		Name:         "লেসোথো",
 		OfficialName: "লেসোথো রাজ্য",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name:         "লিথুয়ানিয়া",
 		OfficialName: "লিথুয়ানিয়া প্রজাতন্ত্র",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name:         "লাক্সেমবুর্গ",
 		OfficialName: "লাক্সেমবুর্গ গ্র্যান্ড ডাচি",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name:         "লাটভিয়া",
 		OfficialName: "লাটভিয়া প্রজাতন্ত্র",
 	},
-	Macao: &Translated{
+	"MO": Translated{
 		Name:         "ম্যাকাও",
 		OfficialName: "ম্যাকাও, চীনের বিশেষ প্রশাসনিক অঞ্চল",
 	},
-	SaintMartinFrenchpart: &Translated{
+	"MF": Translated{
 		Name: "সেন্ট মার্টিন (ফ্রেঞ্চ অংশ)",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name:         "মরোক্কো",
 		OfficialName: "মরোক্কো রাজ্য",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name:         "মোনাকো",
 		OfficialName: "সাংবিধানিক রাজতন্ত্র মোনাকো",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		Name:         "মোলডোভা, প্রজাতন্ত্র",
 		OfficialName: "মোলডোভা প্রজাতন্ত্র",
 		CommonName:   "মোলডোভা",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name:         "মাদাগাস্কার",
 		OfficialName: "মাদাগাস্কার প্রজাতন্ত্র",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name:         "মালডিভস",
 		OfficialName: "মালডিভস প্রজাতন্ত্র",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name:         "মেক্সিকো",
 		OfficialName: "মেক্সিকান যুক্তরাষ্ট্র",
 	},
-	MarshallIslands: &Translated{
+	"MH": Translated{
 		Name:         "মার্শাল দ্বীপপুঞ্জ",
 		OfficialName: "মার্শাল দ্বীপপুঞ্জ প্রজাতন্ত্র",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		Name:         "উত্তর ম্যাসেডোনিয়া",
 		OfficialName: "উত্তর ম্যাসেডোনিয়া প্রজাতন্ত্র",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name:         "মালি",
 		OfficialName: "মালি প্রজাতন্ত্র",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name:         "মল্টা",
 		OfficialName: "মল্টা প্রজাতন্ত্র",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name:         "মায়ানমার",
 		OfficialName: "মায়ানমার প্রজাতন্ত্র",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "মন্টেনেগ্রো",
 		OfficialName: "মন্টেনেগ্রো",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "মঙ্গোলিয়া",
 	},
-	NorthernMarianaIslands: &Translated{
+	"MP": Translated{
 		Name:         "উত্তর মারিয়ানা দ্বীপ",
 		OfficialName: "উত্তর মারিয়ানা দ্বীপপুঞ্জের রাষ্ট্রমণ্ডল",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name:         "মোজাম্বিক",
 		OfficialName: "মোজাম্বিক প্রজাতন্ত্র",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name:         "মরিটানিয়া",
 		OfficialName: "ইসলামিক প্রজাতন্ত্র মরিটানিয়া",
 	},
-	Montserrat: &Translated{
+	"MS": Translated{
 		Name: "মন্টসেরাত",
 	},
-	Martinique: &Translated{
+	"MQ": Translated{
 		Name: "মার্টিনিক",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name:         "মরিশাস",
 		OfficialName: "মরিশাস প্রজাতন্ত্র",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name:         "মালাউই",
 		OfficialName: "মালাউই প্রজাতন্ত্র",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "মালেশিয়া",
 	},
-	Mayotte: &Translated{
+	"YT": Translated{
 		Name: "মেওতে",
 	},
-	Namibia: &Translated{
+	"NA": Translated{
 		Name:         "নামিবিয়া",
 		OfficialName: "নামিবিয়া প্রজাতন্ত্র",
 	},
-	NewCaledonia: &Translated{
+	"NC": Translated{
 		Name: "নিউ ক্যালেডোনিয়া",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		Name:         "নাইজার",
 		OfficialName: "নাইজার প্রজাতন্ত্র",
 	},
-	NorfolkIsland: &Translated{
+	"NF": Translated{
 		Name: "নরফোল্ক দ্বীপ",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name:         "নাইজেরিয়া",
 		OfficialName: "প্রজাতন্ত্রী যুক্তরাষ্ট্র নেপাল",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name:         "নিকারাগুয়া",
 		OfficialName: "নিকারাগুয়া প্রজাতন্ত্র",
 	},
-	Niue: &Translated{
+	"NU": Translated{
 		Name:         "নিউ",
 		OfficialName: "নিউ",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name:         "নেদারল্যান্ড",
 		OfficialName: "নেদারল্যান্ড রাজ্য",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name:         "নরওয়ে",
 		OfficialName: "নরওয়ে রাজ্য",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name:         "নেপাল",
 		OfficialName: "গণতান্ত্রিক প্রজাতন্ত্রী যুক্তরাষ্ট্র নেপাল",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name:         "নাউরু",
 		OfficialName: "নাউরু প্রজাতন্ত্র",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "নিউজিল্যান্ড",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name:         "ওমান",
 		OfficialName: "ওমান সুলতানেত",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name:         "পাকিস্তান",
 		OfficialName: "ইসলামিক প্রজাতন্ত্র পাকিস্তান",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name:         "পানামা",
 		OfficialName: "পানামা প্রজাতন্ত্র",
 	},
-	Pitcairn: &Translated{
+	"PN": Translated{
 		Name: "পিটকেয়ার্ন",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name:         "পেরু",
 		OfficialName: "পেরু প্রজাতন্ত্র",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name:         "ফিলিপাইনস",
 		OfficialName: "ফিলিপাইনস প্রজাতন্ত্র",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		Name:         "পালাউ",
 		OfficialName: "পালাউ প্রজাতন্ত্র",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name:         "পাপুয়া নিউ গিনি",
 		OfficialName: "স্বতন্ত্র রাষ্ট্র পাপুয়া নিউ গিনি",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name:         "পোল্যান্ড",
 		OfficialName: "পোল্যান্ড প্রজাতন্ত্র",
 	},
-	PuertoRico: &Translated{
+	"PR": Translated{
 		Name: "পুয়ের্তো রিকো",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		Name:         "কোরিয়া, গণতান্ত্রিক গণপ্রজাতন্ত্রী",
 		OfficialName: "গণতান্ত্রিক গণপ্রজাতন্ত্রী কোরিয়া",
 		CommonName:   "উত্তর ম্যাসেডোনিয়া",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name:         "পোর্টুগাল",
 		OfficialName: "পোর্টুগিস প্রজাতন্ত্র",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name:         "প্যারাগুয়ে",
 		OfficialName: "প্যারাগুয়ে প্রজাতন্ত্র",
 	},
-	Palestine: &Translated{
+	"PS": Translated{
 		Name:         "ফিলিস্তিন রাষ্ট্র",
 		OfficialName: "ফিলিস্তিন",
 	},
-	FrenchPolynesia: &Translated{
+	"PF": Translated{
 		Name: "ফ্রেঞ্চ পলিনেশিয়া",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name:         "কাতার",
 		OfficialName: "কাতার রাষ্ট্র",
 	},
-	Reunion: &Translated{
+	"RE": Translated{
 		Name: "রিইউনিয়ান",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "রোমানিয়া",
 	},
-	RussianFederation: &Translated{
+	"RU": Translated{
 		Name: "রুশ যুক্তরাষ্ট্র",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name:         "রওয়ান্ডা",
 		OfficialName: "রওয়ান্ডিস প্রজাতন্ত্র",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name:         "সৌদি আরব",
 		OfficialName: "সৌদি আরব রাজ্য",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name:         "সুদান",
 		OfficialName: "সুদান প্রজাতন্ত্র",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		Name:         "সেনেগাল",
 		OfficialName: "সেনেগাল প্রজাতন্ত্র",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name:         "সিঙ্গাপুর",
 		OfficialName: "সিঙ্গাপুর প্রজাতন্ত্র",
 	},
-	SouthGeorgiaandtheSouthSandwichIslands: &Translated{
+	"GS": Translated{
 		Name: "দক্ষিণ জর্জিয়া ও দক্ষিণ স্যান্ডউইচ দ্বীপপুঞ্জ",
 	},
-	SaintHelena: &Translated{
+	"SH": Translated{
 		Name: "সেইন্ট হেলেনা, অ্যাসেনসিয়ান ও ট্রিস্টান ডা কুনহা",
 	},
-	SvalbardandJanMayen: &Translated{
+	"SJ": Translated{
 		Name: "সয়ালবার্ড ও ইয়ানমায়েন দ্বীপপুঞ্জ",
 	},
-	SolomonIslands: &Translated{
+	"SB": Translated{
 		Name: "সলোমান দ্বীপপুঞ্জ",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name:         "সিয়েরা লিওন",
 		OfficialName: "সিয়েরা লিওন প্রজাতন্ত্র",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		Name:         "এল সালভাডোর",
 		OfficialName: "এল সালভাডোর প্রজাতন্ত্র",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name:         "সান মারিনো",
 		OfficialName: "সান মারিনো প্রজাতন্ত্র",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name:         "সোমালিয়া",
 		OfficialName: "সোমালি প্রজাতন্ত্র",
 	},
-	SaintPierreandMiquelon: &Translated{
+	"PM": Translated{
 		Name: "সেন্ট পিয়ের ও মিকেলন",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name:         "সার্বিয়া",
 		OfficialName: "সার্বিয়া প্রজাতন্ত্র",
 	},
-	SouthSudan: &Translated{
+	"SS": Translated{
 		Name:         "দক্ষিন সুদান",
 		OfficialName: "দক্ষিন সুদান প্রজাতন্ত্র",
 	},
-	SaoTomeandPrincipe: &Translated{
+	"ST": Translated{
 		Name:         "সাও টোমে ও প্রিন্সিপে",
 		OfficialName: "গণতান্ত্রিক প্রজাতন্ত্র সাও টোমে ও প্রিন্সিপে",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name:         "সুরিনাম",
 		OfficialName: "সুরিনাম প্রজাতন্ত্র",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name:         "স্লোভাকিয়া",
 		OfficialName: "স্লোভাক প্রজাতন্ত্র",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name:         "স্লোভেনিয়া",
 		OfficialName: "স্লোভেনিয়া প্রজাতন্ত্র",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name:         "সুইডেন",
 		OfficialName: "সুইডেন রাজ্য",
 	},
-	Eswatini: &Translated{
+	"SZ": Translated{
 		Name:         "এসওয়াতিনি",
 		OfficialName: "এসওয়াতিনি রাজ্য",
 	},
-	SintMaartenDutchpart: &Translated{
+	"SX": Translated{
 		Name:         "সেন্ট মার্টিন (ফ্রেঞ্চ অংশ)",
 		OfficialName: "সেন্ট মার্টিন (ফ্রেঞ্চ অংশ)",
 	},
-	Seychelles: &Translated{
+	"SC": Translated{
 		Name:         "সেশেলস",
 		OfficialName: "সেশেলস প্রজাতন্ত্র",
 	},
-	SyrianArabRepublic: &Translated{
+	"SY": Translated{
 		Name: "সিরিয়ান আরব প্রজাতন্ত্র",
 	},
-	TurksandCaicosIslands: &Translated{
+	"TC": Translated{
 		Name: "টার্কস ও কেইকোস দ্বীপ",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		Name:         "চাড",
 		OfficialName: "চাড প্রজাতন্ত্র",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name:         "টোগো",
 		OfficialName: "টোগোলিস প্রজাতন্ত্র",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name:         "থাইল্যান্ড",
 		OfficialName: "থাইল্যান্ড রাজ্য",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name:         "তাজিকিস্তান",
 		OfficialName: "তাজিকিস্তান প্রজাতন্ত্র",
 	},
-	Tokelau: &Translated{
+	"TK": Translated{
 		Name: "টোকেলাউ",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "তুর্কমেনিস্তান",
 	},
-	TimorLeste: &Translated{
+	"TL": Translated{
 		Name:         "টিমোর-লেস্তে",
 		OfficialName: "গণপ্রজাতন্ত্রী টিমোর-লেস্তে",
 	},
-	Tonga: &Translated{
+	"TO": Translated{
 		Name:         "টোঙ্গা",
 		OfficialName: "টোঙ্গা রাজ্য",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		Name:         "ত্রিনিদাদ ও টোবাগো",
 		OfficialName: "ত্রিনিদাদ ও টোবাগো প্রজাতন্ত্র",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name:         "টিউনিশিয়া",
 		OfficialName: "টিউনিশিয়া প্রজাতন্ত্র",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name:         "তুর্কি",
 		OfficialName: "তুর্কি প্রজাতন্ত্র",
 	},
-	Tuvalu: &Translated{
+	"TV": Translated{
 		Name: "টুভালু",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		Name:         "তাইওয়ান, চীনের প্রদেশ",
 		OfficialName: "তাইওয়ান, চীনের প্রদেশ",
 		CommonName:   "তাইওয়ান",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		Name:         "তানজানিয়া, সংযুক্ত প্রজাতন্ত্র",
 		OfficialName: "সংযুক্ত প্রজাতন্ত্র তানজানিয়া",
 		CommonName:   "তানজানিয়া",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name:         "উগান্ডা",
 		OfficialName: "উগান্ডা প্রজাতন্ত্র",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "ইউক্রেন",
 	},
-	UnitedStatesMinorOutlyingIslands: &Translated{
+	"UM": Translated{
 		Name: "মার্কিন যুক্তরাষ্ট্র বহিস্থিত ক্ষুদ্র দ্বীপপুঞ্জ",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name:         "উরুগুয়ে",
 		OfficialName: "পূর্বীয় প্রজাতন্ত্র উরুগুয়ে",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		Name:         "মার্কিন যুক্তরাষ্ট্র",
 		OfficialName: "আমেরিকা মার্কিন যুক্তরাষ্ট্র",
 	},
-	Uzbekistan: &Translated{
+	"UZ": Translated{
 		Name:         "উজবেকিস্তান",
 		OfficialName: "উজবেকিস্তান প্রজাতন্ত্র",
 	},
-	HolySeeVaticanCityState: &Translated{
+	"VA": Translated{
 		Name: "হোলি সি (ভ্যাটিকান)",
 	},
-	SaintVincentandtheGrenadines: &Translated{
+	"VC": Translated{
 		Name: "সেন্ট ভিনসেন্ট ও গ্রেনাডিনস",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		Name:         "ভেনেজুয়েলা, বোলিভারিয়ান প্রজাতন্ত্র",
 		OfficialName: "বোলিভারিয়ান প্রজাতন্ত্র ভেনেজুয়েলা",
 		CommonName:   "ভেনেজুয়েলা",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		Name:         "ব্রিটিশ ভার্জিন দ্বীপ",
 		OfficialName: "ব্রিটিশ ভার্জিন দ্বীপ",
 	},
-	VirginIslands: &Translated{
+	"VI": Translated{
 		Name:         "মার্কিন যুক্তরাষ্ট্র ভার্জিন দ্বীপ",
 		OfficialName: "মার্কিন যুক্তরাষ্ট্র ভার্জিন দ্বীপ",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		Name:         "ভিয়েতনাম",
 		OfficialName: "সমাজতান্ত্রিক প্রজাতন্ত্র ভিয়েতনাম",
 		CommonName:   "ভিয়েতনাম",
 	},
-	Vanuatu: &Translated{
+	"VU": Translated{
 		Name:         "ভানুয়াটু",
 		OfficialName: "ভানুয়াটু প্রজাতন্ত্র",
 	},
-	WallisandFutuna: &Translated{
+	"WF": Translated{
 		Name: "ওয়ালিস ও ফুটুনা",
 	},
-	Samoa: &Translated{
+	"WS": Translated{
 		Name:         "সামোয়া",
 		OfficialName: "স্বতন্ত্র রাষ্ট্র সামোয়া",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name:         "ইয়েমেন",
 		OfficialName: "ইয়েমেন প্রজাতন্ত্র",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name:         "দক্ষিণ আফ্রিকা",
 		OfficialName: "দক্ষিণ আফ্রিকা প্রজাতন্ত্র",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		Name:         "জাম্বিয়া",
 		OfficialName: "জাম্বিয়া প্রজাতন্ত্র",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		Name:         "জিম্বাবুয়ে",
 		OfficialName: "জিম্বাবুয়ে প্রজাতন্ত্র",
 	},

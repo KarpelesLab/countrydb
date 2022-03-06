@@ -1,630 +1,630 @@
 package countrydb
 
-var Localedv = map[*Country]*Translated{
-	Aruba: &Translated{
+var Localedv = map[string]Translated{
+	"AW": Translated{
 		Name: "އަރޫބާ",
 	},
-	Afghanistan: &Translated{
+	"AF": Translated{
 		Name: "އަފްޣާނިސްތާން",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		Name: "އެންގޯލާ",
 	},
-	Anguilla: &Translated{
+	"AI": Translated{
 		Name: "އަންގީލާ",
 	},
-	Albania: &Translated{
+	"AL": Translated{
 		Name: "އަލްބޭނިއާ",
 	},
-	Andorra: &Translated{
+	"AD": Translated{
 		Name: "އެންޑޯރާ",
 	},
-	UnitedArabEmirates: &Translated{
+	"AE": Translated{
 		Name: "އެކުވެރި ޢަރަބި އިމާރާތު",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name: "އާޖެންޓީނާ",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "އަރުމީނިއާ",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "އެމެރިކަން ސަމޯއާ",
 	},
-	AntiguaandBarbuda: &Translated{
+	"AG": Translated{
 		Name: "އެންޓިގުއާ އަދި ބާބިއުޑާ",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "އޮސްޓަރުލިޔާ",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "އޮސްޓްރިއާ",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name: "އަޒަރުބައިޖާން",
 	},
-	Burundi: &Translated{
+	"BI": Translated{
 		Name: "ބުރުންޑީ",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name: "ބެލްޖިއަމް",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		Name: "ބެނީން",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "ބުރުކީނާ ފާސޯ",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name: "ބަންގާޅު",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "ބަލްގޭރިއާ",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name: "ބަޙްރައިން",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name: "ބޮސްނިޔާ އެންޑް ހެރްޒިގޮވީނާ",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name: "ބެލަރޫސް",
 	},
-	Belize: &Translated{
+	"BZ": Translated{
 		Name: "ބެލީޒު",
 	},
-	Bermuda: &Translated{
+	"BM": Translated{
 		Name: "ބާމިއުޑާ",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		CommonName: "ބޮލީވިއާ",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "ބުރެޒިލް",
 	},
-	Barbados: &Translated{
+	"BB": Translated{
 		Name: "ބާބަޑޮސް",
 	},
-	Bhutan: &Translated{
+	"BT": Translated{
 		Name: "ބޫޓާން",
 	},
-	Botswana: &Translated{
+	"BW": Translated{
 		Name: "ބޮޓުސްވާނާ",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "މެދުތެރޭ އެފްރިކާގެ ޖުމްހޫރިއްޔާ",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "ކެނެޑާ",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name: "ސުވިޒަލޭންޑު",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name: "ޗިލީ",
 	},
-	China: &Translated{
+	"CN": Translated{
 		OfficialName: "ސީނުކަރަ",
 	},
-	Cameroon: &Translated{
+	"CM": Translated{
 		Name: "ކެމަރޫން",
 	},
-	Congo: &Translated{
+	"CG": Translated{
 		OfficialName: "ކޮންގޯ",
 	},
-	CookIslands: &Translated{
+	"CK": Translated{
 		Name: "ކުކް ޖަޒީރާ",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name: "ކޮލަންބިއާ",
 	},
-	Comoros: &Translated{
+	"KM": Translated{
 		Name: "ޖުޒުރުޤަމަރު",
 	},
-	CostaRica: &Translated{
+	"CR": Translated{
 		Name: "ކޮސްޓަރީކާ",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name: "ކިއުބާ",
 	},
-	CaymanIslands: &Translated{
+	"KY": Translated{
 		Name: "ކޭމަން ޖަޒީރާ",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "ޗެކް ޖުމްހޫރިއްޔާ",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "ޖަރުމަނުވިލާތް",
 	},
-	Djibouti: &Translated{
+	"DJ": Translated{
 		Name: "ޖިބުތީ",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name: "ޑޮމިނިކާ",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name: "ޑެންމާކު",
 	},
-	DominicanRepublic: &Translated{
+	"DO": Translated{
 		Name: "ޑޮމިނިކަން ޖުމްހޫރިއްޔާ",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name: "ޖަޒާއިރު",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name: "އިކުއެޑޯރު",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name: "މިޞްރު",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		Name: "އެރިތުރިއާ",
 	},
-	WesternSahara: &Translated{
+	"EH": Translated{
 		Name: "ހުޅަނގު ސަހަރާ",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "އިސްޕެއިން",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name: "ޙަބުޝްކަރަ",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "ފިންލޭންޑު",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		Name: "ފިޖީ",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "ފަރަންސޭސިވިލާތް",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "ފަރޮއޭ ޖަޒީރާ",
 	},
-	Micronesia: &Translated{
+	"FM": Translated{
 		OfficialName: "މައިކްރޮނޭޝިއާ",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		Name: "ގެބޯން",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name: "ޔުނައިޓެޑް ކިންގްޑަމް",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "ޖޯޖިޔާ",
 	},
-	Guernsey: &Translated{
+	"GG": Translated{
 		Name: "ގުއާންސޭ",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name: "ގާނާ",
 	},
-	Gibraltar: &Translated{
+	"GI": Translated{
 		Name: "ޖަބަލްޠާރިޤު",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		Name: "ގީނިއާ",
 	},
-	Guadeloupe: &Translated{
+	"GP": Translated{
 		Name: "ގޯޑިލޫޕު",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		OfficialName: "ކޮންގޯ",
 	},
-	GuineaBissau: &Translated{
+	"GW": Translated{
 		Name: "ގީނީ-ބިސާއޫ",
 	},
-	EquatorialGuinea: &Translated{
+	"GQ": Translated{
 		Name: "އިކުއެޓޯރިއަލް ގިނީ",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name: "ޔޫނާން",
 	},
-	Grenada: &Translated{
+	"GD": Translated{
 		Name: "ގެރެންޑާ",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "ގުރީންލޭންޑު",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name: "ގުއަޓެމާލާ",
 	},
-	FrenchGuiana: &Translated{
+	"GF": Translated{
 		Name: "ފަރަންސޭސި ގީނާ",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "ގުއާމު",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		Name: "ގުޔާނާ",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name: "ހޮންކޮންގު",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		Name: "ހޮންޑިއުރަސް",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name: "ކުރޮއޭޝިއާ",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		Name: "ހެއިޓީ",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "ހަންގޭރީ",
 		OfficialName: "ހަންގޭރީ",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name: "އިންޑޮނޭޝިޔާ",
 	},
-	IsleofMan: &Translated{
+	"IM": Translated{
 		Name: "އައިޒަލް އޮފް މޭން",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name: "އިންޑިޔާ",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "އަޔަލޭންޑުގެ ޖުމްހޫރިއްޔާ",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name: "ޢިރާޤު",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name: "އައިސްލަންޑަން",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name: "އިސްރާއީލު",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "އިޓަލީވިލާތް",
 	},
-	Jamaica: &Translated{
+	"JM": Translated{
 		Name: "ޖެމެއިކާ",
 	},
-	Jersey: &Translated{
+	"JE": Translated{
 		Name: "ޖާސޭ",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name: "އުރުދުން",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "ޖަޕާނު",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name: "ކަޒަކިސްތާން",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		Name: "ކެންޔާ",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		Name: "ކިރިގިސްތާން",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name: "ކެންބޯޑިއާ",
 	},
-	Kiribati: &Translated{
+	"KI": Translated{
 		Name: "ކިރިބަތީ",
 	},
-	SaintKittsandNevis: &Translated{
+	"KN": Translated{
 		Name: "ސަންތި ކިޓަސް އަދި ނޭވީސް",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		CommonName: "ދެކުނު އެފްރިކާ",
 	},
-	Kuwait: &Translated{
+	"KW": Translated{
 		Name: "ކުވެއިތު",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		Name: "ލުބުނާން",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name: "ލައިބީރިއާ",
 	},
-	Libya: &Translated{
+	"LY": Translated{
 		Name:         "ލީބިޔާ",
 		OfficialName: "ލީބިޔާ",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "ސަންތި ލޫސިއާ",
 	},
-	Liechtenstein: &Translated{
+	"LI": Translated{
 		Name: "ލީޝްތެންސްޓީން",
 	},
-	SriLanka: &Translated{
+	"LK": Translated{
 		Name: "އޮޅުދޫކަރަ",
 	},
-	Lesotho: &Translated{
+	"LS": Translated{
 		Name: "ލެސޯތޯ",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "ލިތުއޭނިއާ",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name: "ލެޓުވިއާ",
 	},
-	Morocco: &Translated{
+	"MA": Translated{
 		Name: "މައުރިބު",
 	},
-	Monaco: &Translated{
+	"MC": Translated{
 		Name: "މޮނާކޯ",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		CommonName: "މޮލްޑޯވާ",
 	},
-	Madagascar: &Translated{
+	"MG": Translated{
 		Name: "މަޑަގަސްކަރަ",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name: "ދިވެހިރާއްޖެ",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name: "މެކްސިކޯ",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		Name:         "ނިއު ކެލެޑޯނިއާ",
 		OfficialName: "ކޮންގޯ",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name: "މާލީ",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name: "މޯލްޓާ",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name: "ބަރުމާ",
 	},
-	Montenegro: &Translated{
+	"ME": Translated{
 		Name:         "މޮންޓެނީގުރޯ",
 		OfficialName: "މޮންޓެނީގުރޯ",
 	},
-	Mongolia: &Translated{
+	"MN": Translated{
 		Name: "މޮންގޯލިއާ",
 	},
-	NorthernMarianaIslands: &Translated{
+	"MP": Translated{
 		Name: "އުތުރު މެރިއާނާ ޖަޒީރާ",
 	},
-	Mozambique: &Translated{
+	"MZ": Translated{
 		Name: "މުސިންބީ",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name: "މޮރިޓާނިއާ",
 	},
-	Montserrat: &Translated{
+	"MS": Translated{
 		Name: "މޮންސެރާޓު",
 	},
-	Martinique: &Translated{
+	"MQ": Translated{
 		Name: "މާޓިނީކޫ",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name: "މޮރިޝަސް",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name: "މަލާވީ",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "މެލޭޝިޔާ",
 	},
-	NewCaledonia: &Translated{
+	"NC": Translated{
 		Name: "ނިއު ކެލެޑޯނިއާ",
 	},
-	Niger: &Translated{
+	"NE": Translated{
 		Name: "ނީޖަރު",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name: "ނައިޖީރިއާ",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name: "ނިކަރާގުއާ",
 	},
-	Niue: &Translated{
+	"NU": Translated{
 		Name:         "ނީއު",
 		OfficialName: "ނީއު",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name: "ނެދަލޭންޑު",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "ނޯވޭ",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		Name: "ނޭޕާލް",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		Name: "ނައުރޫ",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "ނިއުޒިލޭންޑު",
 	},
-	Oman: &Translated{
+	"OM": Translated{
 		Name: "ޢުމާން",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name: "ޕާކިސްތާން",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name: "ޕެނަމާ",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name: "ޕެރޫ",
 	},
-	Philippines: &Translated{
+	"PH": Translated{
 		Name: "ފިލިޕީންސް",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		Name: "ޕަލާއޫ",
 	},
-	PapuaNewGuinea: &Translated{
+	"PG": Translated{
 		Name: "ޕަޕުއާ ނިއު ގިނީ",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "ޕޮލެންޑު",
 	},
-	PuertoRico: &Translated{
+	"PR": Translated{
 		Name: "ޕުއެރްތޮ ރީކޯ",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		CommonName: "ނިއު ކެލެޑޯނިއާ",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name: "ޕޯޗުގަލް",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name: "ޕެރަގުއޭ",
 	},
-	FrenchPolynesia: &Translated{
+	"PF": Translated{
 		Name: "ފަރަންސޭސި ޕޮލިނޭޝިއާ",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name: "ޤަޠަރު",
 	},
-	Reunion: &Translated{
+	"RE": Translated{
 		Name: "ރިޔޫނިއަން",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "ރުމޭނިއާ",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name: "ރުވާންޑާ",
 	},
-	SaudiArabia: &Translated{
+	"SA": Translated{
 		Name: "ސައޫދީ އަރަބިއްޔާ",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name: "ސޫދާން",
 	},
-	Senegal: &Translated{
+	"SN": Translated{
 		Name: "ސެނެގާލް",
 	},
-	Singapore: &Translated{
+	"SG": Translated{
 		Name: "ސިންގަޕޫރު",
 	},
-	SolomonIslands: &Translated{
+	"SB": Translated{
 		Name: "ސޮލޮމޮން ޖަޒީރާ",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name: "ސެރެލިއޯން",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		Name: "އެލްސެލްވަޑޯރު",
 	},
-	SanMarino: &Translated{
+	"SM": Translated{
 		Name: "ސަން މަރީނޯ",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name: "ސޯމާލިއާ",
 	},
-	SaintPierreandMiquelon: &Translated{
+	"PM": Translated{
 		Name: "ސަންތި ޕިއޭރޭ އާއި މިކުއެލޯން",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name: "ސާބިއާ",
 	},
-	SaoTomeandPrincipe: &Translated{
+	"ST": Translated{
 		Name: "ސައޮ ތޯމޭ އަދި ޕުރިންސިޕޭ",
 	},
-	Suriname: &Translated{
+	"SR": Translated{
 		Name: "ސުރިނާމް",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name: "ސުލޮވާކިއާ",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name: "ސުލޮވީނިއާ",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "ސުވިޑަން",
 	},
-	Seychelles: &Translated{
+	"SC": Translated{
 		Name: "ތޭންގަދީބު",
 	},
-	TurksandCaicosIslands: &Translated{
+	"TC": Translated{
 		Name: "ޓާކަސް އަދި ކައިކޯ ޖަޒީރާ",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		Name: "ޝާދު",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name: "ޓޯގޯ",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name: "ސިޔާމު",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name: "ތަޖިކިސްތާން",
 	},
-	Tokelau: &Translated{
+	"TK": Translated{
 		Name: "ތޮކެލާއު",
 	},
-	Turkmenistan: &Translated{
+	"TM": Translated{
 		Name: "ތުރުކުމެނިސްތާން",
 	},
-	Tonga: &Translated{
+	"TO": Translated{
 		Name: "ޓޮންގާ",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		Name: "ޓުރިނިޑާޑް ޓޮބޭގޯ",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name: "ތޫނިސް",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "ތުރުކީވިލާތް",
 	},
-	Tuvalu: &Translated{
+	"TV": Translated{
 		Name: "ތުވާލޫ",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		CommonName: "ޖުމްހޫރީ ޗައިނާ",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		CommonName: "ޓެންޒޭނިއާ",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name: "ޔުގެންޑާ",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "ޔުކްރެއިން",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name: "އުރުގުއޭ",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "އެމެރިކާ",
 	},
-	Uzbekistan: &Translated{
+	"UZ": Translated{
 		Name: "އުޒްބެކިސްތާން",
 	},
-	SaintVincentandtheGrenadines: &Translated{
+	"VC": Translated{
 		Name: "ސަންތި ވިސެންޓޭ އަދި ގުރެނާޑީން",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		CommonName: "ވެނެޒުއޭލާ",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		OfficialName: "ބިރިޓިޝް ވާޖިން ޖަޒީރާ",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		CommonName: "ވިއެޓުނާމު",
 	},
-	Vanuatu: &Translated{
+	"VU": Translated{
 		Name: "ވަނުއާޓޫ",
 	},
-	WallisandFutuna: &Translated{
+	"WF": Translated{
 		Name: "ވާލީ އަދި ފުތޫނާ",
 	},
-	Samoa: &Translated{
+	"WS": Translated{
 		Name: "ސަމޯއާ",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		Name: "ޔަމަން",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name: "ދެކުނު އެފްރިކާ",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		Name: "ޒެމްބިއާ",
 	},
-	Zimbabwe: &Translated{
+	"ZW": Translated{
 		Name: "ޒިމްބާބުވޭ",
 	},
 }

@@ -178,7 +178,7 @@ foreach(glob('iso-codes/iso_3166-1/*.po') as $file) {
 	// create file
 	$fp = fopen('lng-'.strtolower(str_replace('_', '', $uniqueName)).'.go', 'w');
 	fwrite($fp, "package countrydb\n\n");
-	fwrite($fp, "var $lngVar = map[*Country]*Translated{\n");
+	fwrite($fp, "var $lngVar = map[string]Translated{\n");
 
 	// analyse which country has which translation
 	$vars = [
@@ -197,7 +197,7 @@ foreach(glob('iso-codes/iso_3166-1/*.po') as $file) {
 		if (!$local) continue; // no translations for this country
 
 		// output translations
-		fwrite($fp, "\t".$country['unique_name'].": &Translated{\n");
+		fwrite($fp, "\t".goescape($country['alpha_2']).": Translated{\n");
 		foreach($local as $k => $v) {
 			fwrite($fp, "\t\t$k: ".goescape($v).",\n");
 		}
@@ -211,7 +211,7 @@ foreach(glob('iso-codes/iso_3166-1/*.po') as $file) {
 // write language index
 $fp = fopen('index-lng.go', 'w');
 fwrite($fp, "package countrydb\n\n");
-fwrite($fp, "var Locale = map[string]map[*Country]*Translated{\n");
+fwrite($fp, "var Locale = map[string]map[string]Translated{\n");
 
 foreach($lngIndex as $k => $v)
 	fwrite($fp, "\t".goescape($k).": $v,\n");

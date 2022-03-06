@@ -1,506 +1,506 @@
 package countrydb
 
-var Localexh = map[*Country]*Translated{
-	Afghanistan: &Translated{
+var Localexh = map[string]Translated{
+	"AF": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Angola: &Translated{
+	"AO": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	AlandIslands: &Translated{
+	"AX": Translated{
 		Name: "Ireland",
 	},
-	Argentina: &Translated{
+	"AR": Translated{
 		Name:         "Argentina",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "Argentina",
 	},
-	AmericanSamoa: &Translated{
+	"AS": Translated{
 		Name: "Melika, Mntla",
 	},
-	AntiguaandBarbuda: &Translated{
+	"AG": Translated{
 		Name: "Antigua no Barbuda",
 	},
-	Australia: &Translated{
+	"AU": Translated{
 		Name: "Australiya",
 	},
-	Austria: &Translated{
+	"AT": Translated{
 		Name: "Austria",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name:         "Azerbaijan",
 		OfficialName: "Azerbaijan",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name: "Belgium",
 	},
-	Benin: &Translated{
+	"BJ": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Bangladesh: &Translated{
+	"BD": Translated{
 		Name: "Bangladesh",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "Bulgaria",
 	},
-	Bahrain: &Translated{
+	"BH": Translated{
 		Name:         "Brazil",
 		OfficialName: "Brazil",
 	},
-	Bahamas: &Translated{
+	"BS": Translated{
 		Name: "Panama",
 	},
-	Belarus: &Translated{
+	"BY": Translated{
 		Name: "Belarus",
 	},
-	Belize: &Translated{
+	"BZ": Translated{
 		Name: "Belgium",
 	},
-	Bolivia: &Translated{
+	"BO": Translated{
 		CommonName: "Bolivia",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "Brazil",
 	},
-	Barbados: &Translated{
+	"BB": Translated{
 		Name: "Barbados",
 	},
-	CentralAfricanRepublic: &Translated{
+	"CF": Translated{
 		Name: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "Canada",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name: "Switzerland",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name:         "Chile",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	China: &Translated{
+	"CN": Translated{
 		Name:         "Tshayina",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	CotedIvoire: &Translated{
+	"CI": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Colombia: &Translated{
+	"CO": Translated{
 		Name: "Columbia",
 	},
-	CaboVerde: &Translated{
+	"CV": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name:         "Columbia",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Cyprus: &Translated{
+	"CY": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Czechia: &Translated{
+	"CZ": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name:         "Jamani",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Dominica: &Translated{
+	"DM": Translated{
 		Name: "Romania",
 	},
-	Denmark: &Translated{
+	"DK": Translated{
 		Name: "Denmark",
 	},
-	DominicanRepublic: &Translated{
+	"DO": Translated{
 		Name: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Algeria: &Translated{
+	"DZ": Translated{
 		Name: "Bulgaria",
 	},
-	Ecuador: &Translated{
+	"EC": Translated{
 		Name: "Equador",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name:         "Amandla",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Eritrea: &Translated{
+	"ER": Translated{
 		OfficialName: "United States ye Melika",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "Spain",
 	},
-	Estonia: &Translated{
+	"EE": Translated{
 		Name: "Estonia",
 	},
-	Ethiopia: &Translated{
+	"ET": Translated{
 		Name: "Estonia",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "Finland",
 	},
-	Fiji: &Translated{
+	"FJ": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name:         "Franisi",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	FaroeIslands: &Translated{
+	"FO": Translated{
 		Name: "Ireland",
 	},
-	Gabon: &Translated{
+	"GA": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Georgia: &Translated{
+	"GE": Translated{
 		Name: "Serbia",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name:         "Tshayina",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Guinea: &Translated{
+	"GN": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		Name:         "Jamaica",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Greece: &Translated{
+	"GR": Translated{
 		Name:         "Greece",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Grenada: &Translated{
+	"GD": Translated{
 		Name: "Grenada",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "Grenada",
 	},
-	Guatemala: &Translated{
+	"GT": Translated{
 		Name:         "Guatemala",
 		OfficialName: "Guatemala",
 	},
-	Guam: &Translated{
+	"GU": Translated{
 		Name: "Guatemala",
 	},
-	Guyana: &Translated{
+	"GY": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Honduras: &Translated{
+	"HN": Translated{
 		Name: "Honduras",
 	},
-	Croatia: &Translated{
+	"HR": Translated{
 		Name: "Croatia",
 	},
-	Haiti: &Translated{
+	"HT": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Hungary: &Translated{
+	"HU": Translated{
 		Name:         "Hungary",
 		OfficialName: "Hungary",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name:         "Indonesia",
 		OfficialName: "Indonesia",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name:         "Indonesia",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Ireland: &Translated{
+	"IE": Translated{
 		Name: "Ireland",
 	},
-	Iran: &Translated{
+	"IR": Translated{
 		Name:         "Ulawulo lokuziphatha kwe Dominican",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name:         "Sirayeli",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name: "Iceland",
 	},
-	Israel: &Translated{
+	"IL": Translated{
 		Name: "Sirayeli",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name:         "Ithali",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Jamaica: &Translated{
+	"JM": Translated{
 		Name: "Jamaica",
 	},
-	Jordan: &Translated{
+	"JO": Translated{
 		Name: "isiKorea",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Japhani",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name:         "Taiwan",
 		OfficialName: "Taiwan",
 	},
-	Kenya: &Translated{
+	"KE": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Kyrgyzstan: &Translated{
+	"KG": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Cambodia: &Translated{
+	"KH": Translated{
 		Name: "Columbia",
 	},
-	SaintKittsandNevis: &Translated{
+	"KN": Translated{
 		Name: "St. Kitts no Nevis",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		Name:       "Ulawulo lokuziphatha kwe Dominican",
 		CommonName: "Mzantsi Afrika",
 	},
-	Lebanon: &Translated{
+	"LB": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Liberia: &Translated{
+	"LR": Translated{
 		Name: "Serbia",
 	},
-	Libya: &Translated{
+	"LY": Translated{
 		Name:         "Serbia",
 		OfficialName: "Serbia",
 	},
-	SaintLucia: &Translated{
+	"LC": Translated{
 		Name: "St. Lucia",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name:         "Lithuania",
 		OfficialName: "Lithuania",
 	},
-	Luxembourg: &Translated{
+	"LU": Translated{
 		Name: "Luxembourg",
 	},
-	Latvia: &Translated{
+	"LV": Translated{
 		Name:         "Latvia",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Macao: &Translated{
+	"MO": Translated{
 		Name: "Malta",
 	},
-	Moldova: &Translated{
+	"MD": Translated{
 		Name: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Maldives: &Translated{
+	"MV": Translated{
 		Name: "Malta",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name:         "Mexico",
 		OfficialName: "United States ye Melika",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		Name:         "Macedonia",
 		OfficialName: "Lithuania",
 	},
-	Mali: &Translated{
+	"ML": Translated{
 		Name:         "Malta",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Malta: &Translated{
+	"MT": Translated{
 		Name:         "Malta",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Myanmar: &Translated{
+	"MM": Translated{
 		Name:         "Panama",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Mauritania: &Translated{
+	"MR": Translated{
 		Name: "Lithuania",
 	},
-	Mauritius: &Translated{
+	"MU": Translated{
 		Name:         "Lithuania",
 		OfficialName: "Lithuania",
 	},
-	Malawi: &Translated{
+	"MW": Translated{
 		Name:         "Malta",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Malaysia: &Translated{
+	"MY": Translated{
 		Name: "Malta",
 	},
-	NewCaledonia: &Translated{
+	"NC": Translated{
 		Name: "Macedonia",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name:         "Serbia",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Nicaragua: &Translated{
+	"NI": Translated{
 		Name:         "Paraguay",
 		OfficialName: "Paraguay",
 	},
-	Netherlands: &Translated{
+	"NL": Translated{
 		Name: "Netherlands",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "Norway",
 	},
-	Nepal: &Translated{
+	"NP": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Nauru: &Translated{
+	"NR": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	NewZealand: &Translated{
+	"NZ": Translated{
 		Name: "New Zealand (izealand entsha)",
 	},
-	Panama: &Translated{
+	"PA": Translated{
 		Name:         "Panama",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name:         "Peru",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Palau: &Translated{
+	"PW": Translated{
 		Name:         "Paraguay",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name:         "Poland",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	NorthKorea: &Translated{
+	"KP": Translated{
 		CommonName: "Macedonia",
 	},
-	Portugal: &Translated{
+	"PT": Translated{
 		Name:         "Portugal",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Paraguay: &Translated{
+	"PY": Translated{
 		Name: "Paraguay",
 	},
-	Palestine: &Translated{
+	"PS": Translated{
 		OfficialName: "United States ye Melika",
 	},
-	Qatar: &Translated{
+	"QA": Translated{
 		Name: "Malta",
 	},
-	Romania: &Translated{
+	"RO": Translated{
 		Name: "Romania",
 	},
-	Rwanda: &Translated{
+	"RW": Translated{
 		Name:         "Canada",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name: "Isandi",
 	},
-	ElSalvador: &Translated{
+	"SV": Translated{
 		Name:         "El Salvador",
 		OfficialName: "El Salvador",
 	},
-	Somalia: &Translated{
+	"SO": Translated{
 		Name:         "Romania",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Serbia: &Translated{
+	"RS": Translated{
 		Name:         "Serbia",
 		OfficialName: "Azerbaijan",
 	},
-	SouthSudan: &Translated{
+	"SS": Translated{
 		Name:         "Mzantsi Afrika",
 		OfficialName: "Mzantsi Afrika",
 	},
-	Slovakia: &Translated{
+	"SK": Translated{
 		Name:         "Slovakia",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Slovenia: &Translated{
+	"SI": Translated{
 		Name: "Slovenia",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "Sweden",
 	},
-	Eswatini: &Translated{
+	"SZ": Translated{
 		OfficialName: "Thailand",
 	},
-	SyrianArabRepublic: &Translated{
+	"SY": Translated{
 		Name: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Chad: &Translated{
+	"TD": Translated{
 		Name:         "Tshayina",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Thailand: &Translated{
+	"TH": Translated{
 		Name: "Thailand",
 	},
-	Tajikistan: &Translated{
+	"TJ": Translated{
 		Name:         "Taiwan",
 		OfficialName: "Taiwan",
 	},
-	TrinidadandTobago: &Translated{
+	"TT": Translated{
 		Name:         "Trinidad ne Tobago",
 		OfficialName: "Trinidad ne Tobago",
 	},
-	Tunisia: &Translated{
+	"TN": Translated{
 		Name: "Rashiya",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name:         "Turkey",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Taiwan: &Translated{
+	"TW": Translated{
 		CommonName: "Taiwan",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		Name: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Uganda: &Translated{
+	"UG": Translated{
 		Name:         "Canada",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "Ukraine",
 	},
-	UnitedStatesMinorOutlyingIslands: &Translated{
+	"UM": Translated{
 		Name: "United States ye Melika",
 	},
-	Uruguay: &Translated{
+	"UY": Translated{
 		Name: "Uruguay",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		Name:         "United States ye Melika",
 		OfficialName: "United States ye Melika",
 	},
-	SaintVincentandtheGrenadines: &Translated{
+	"VC": Translated{
 		Name: "St. Vincent ne Grenadines",
 	},
-	Venezuela: &Translated{
+	"VE": Translated{
 		Name:         "Ulawulo lokuziphatha kwe Dominican",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 		CommonName:   "Venezuela",
 	},
-	BritishVirginIslands: &Translated{
+	"VG": Translated{
 		OfficialName: "Finland",
 	},
-	VirginIslands: &Translated{
+	"VI": Translated{
 		Name:         "Finland",
 		OfficialName: "Finland",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		Name:       "Vietnam",
 		CommonName: "Vietnam",
 	},
-	Yemen: &Translated{
+	"YE": Translated{
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name:         "Mzantsi Afrika",
 		OfficialName: "Mzantsi Afrika",
 	},
-	Zambia: &Translated{
+	"ZM": Translated{
 		Name:         "Jamaica",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},

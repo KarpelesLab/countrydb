@@ -1,6 +1,6 @@
 package countrydb
 
-var Locale = map[string]map[*Country]*Translated{
+var Locale = map[string]map[string]Translated{
 	"ab":         Localeab,
 	"ace":        Localeace,
 	"ach":        Localeach,

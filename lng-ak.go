@@ -1,136 +1,136 @@
 package countrydb
 
-var Localeak = map[*Country]*Translated{
-	Albania: &Translated{
+var Localeak = map[string]Translated{
+	"AL": Translated{
 		Name: "Albania",
 	},
-	Armenia: &Translated{
+	"AM": Translated{
 		Name: "Armenia",
 	},
-	Azerbaijan: &Translated{
+	"AZ": Translated{
 		Name: "Azerbaijan",
 	},
-	Belgium: &Translated{
+	"BE": Translated{
 		Name: "Belgium",
 	},
-	BurkinaFaso: &Translated{
+	"BF": Translated{
 		Name: "Burkina Faso",
 	},
-	Bulgaria: &Translated{
+	"BG": Translated{
 		Name: "Bulgaria",
 	},
-	BosniaandHerzegovina: &Translated{
+	"BA": Translated{
 		Name: "Bosnia and Herzegovina",
 	},
-	Brazil: &Translated{
+	"BR": Translated{
 		Name: "Brazil",
 	},
-	Switzerland: &Translated{
+	"CH": Translated{
 		Name: "Switzerland",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name: "Chile",
 	},
-	China: &Translated{
+	"CN": Translated{
 		OfficialName: "China",
 	},
-	CaymanIslands: &Translated{
+	"KY": Translated{
 		Name: "Cayman Supɔws",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "Germany",
 	},
-	Egypt: &Translated{
+	"EG": Translated{
 		Name: "Misrim",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "Spain",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "Finland",
 	},
-	France: &Translated{
+	"FR": Translated{
 		Name: "France",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name: "United Kingdom",
 	},
-	Ghana: &Translated{
+	"GH": Translated{
 		Name: "Ghana",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		OfficialName: "China",
 	},
-	HongKong: &Translated{
+	"HK": Translated{
 		Name: "Hong Kong",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name: "Indonesia",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name: "India",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name: "Iraq",
 	},
-	Iceland: &Translated{
+	"IS": Translated{
 		Name: "Iceland",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "Italy",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "Japan",
 	},
-	SouthKorea: &Translated{
+	"KR": Translated{
 		CommonName: "Abibir Anaafo",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "Lituania",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		OfficialName: "China",
 	},
-	Nigeria: &Translated{
+	"NG": Translated{
 		Name: "Alata",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "Norway",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name: "Peru",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "Poland",
 	},
-	Sudan: &Translated{
+	"SD": Translated{
 		Name: "Sudan",
 	},
-	SierraLeone: &Translated{
+	"SL": Translated{
 		Name: "Sierra Leone",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "Sweden",
 	},
-	Togo: &Translated{
+	"TG": Translated{
 		Name: "Togo",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "Turki",
 	},
-	Tanzania: &Translated{
+	"TZ": Translated{
 		CommonName: "Tanzania",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "Ukraine",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "Amerika",
 	},
-	Vietnam: &Translated{
+	"VN": Translated{
 		CommonName: "Vietnam",
 	},
-	SouthAfrica: &Translated{
+	"ZA": Translated{
 		Name: "Abibir Anaafo",
 	},
 }

@@ -1,88 +1,88 @@
 package countrydb
 
-var Localeiu = map[*Country]*Translated{
-	Australia: &Translated{
+var Localeiu = map[string]Translated{
+	"AU": Translated{
 		Name: "ᐊᔅᑦᕌᓕᐊ",
 	},
-	Canada: &Translated{
+	"CA": Translated{
 		Name: "ᑲᓇᑕ",
 	},
-	Chile: &Translated{
+	"CL": Translated{
 		Name: "ᓯᓕ",
 	},
-	China: &Translated{
+	"CN": Translated{
 		OfficialName: "China",
 	},
-	Cuba: &Translated{
+	"CU": Translated{
 		Name: "ᖂᐹ/quupaa",
 	},
-	Germany: &Translated{
+	"DE": Translated{
 		Name: "ᔮᒪᓂ",
 	},
-	Spain: &Translated{
+	"ES": Translated{
 		Name: "ᓯᐸᐃᓐ",
 	},
-	Finland: &Translated{
+	"FI": Translated{
 		Name: "ᐃᓐᓚᓐᑦ",
 	},
-	UnitedKingdom: &Translated{
+	"GB": Translated{
 		Name: "ᑐᓗᐃᑦ ᓄᓈᑦ",
 	},
-	Gambia: &Translated{
+	"GM": Translated{
 		OfficialName: "China",
 	},
-	Greenland: &Translated{
+	"GL": Translated{
 		Name: "ᐊᑯᑭᑦᑐᑦ",
 	},
-	Indonesia: &Translated{
+	"ID": Translated{
 		Name: "ᐄᓅᓯᐊ",
 	},
-	India: &Translated{
+	"IN": Translated{
 		Name: "ᐃᓐᑎᐊ",
 	},
-	Iraq: &Translated{
+	"IQ": Translated{
 		Name: "ᐃᕉᒃ",
 	},
-	Italy: &Translated{
+	"IT": Translated{
 		Name: "Italy",
 	},
-	Japan: &Translated{
+	"JP": Translated{
 		Name: "ᓃᑉᐊᓐ",
 	},
-	Kazakhstan: &Translated{
+	"KZ": Translated{
 		Name: "ᑲᓴᒃᖢᓇ ᓄᓇ",
 	},
-	Lithuania: &Translated{
+	"LT": Translated{
 		Name: "ᓕᐋᑐᕙ",
 	},
-	Mexico: &Translated{
+	"MX": Translated{
 		Name: "ᒦᒃᓰᖂ",
 	},
-	NorthMacedonia: &Translated{
+	"MK": Translated{
 		OfficialName: "China",
 	},
-	Norway: &Translated{
+	"NO": Translated{
 		Name: "ᓄᕐᒋ/nurgi",
 	},
-	Pakistan: &Translated{
+	"PK": Translated{
 		Name: "ᐸᑭᔅᑕᓐ",
 	},
-	Peru: &Translated{
+	"PE": Translated{
 		Name: "ᐱᕉ",
 	},
-	Poland: &Translated{
+	"PL": Translated{
 		Name: "ᐳᓚᓐᑦ",
 	},
-	Sweden: &Translated{
+	"SE": Translated{
 		Name: "ᔅᕗᕆᑭ",
 	},
-	Turkey: &Translated{
+	"TR": Translated{
 		Name: "ᑑᕐᑭ",
 	},
-	Ukraine: &Translated{
+	"UA": Translated{
 		Name: "ᑯᑯᓯ ᓄᓇ",
 	},
-	UnitedStates: &Translated{
+	"US": Translated{
 		OfficialName: "ᐊᒥᐊᓕᑲ",
 	},
 }
