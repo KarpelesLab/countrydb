@@ -10,4 +10,5 @@ var SintMaartenDutchpart = &Country{
 	CcTLD:          ".sx",
 	FIPS:           "NN",
 	Currency:       "ANG",
+	ICANN_Region:   "LAC",
 }

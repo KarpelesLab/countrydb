@@ -9,4 +9,5 @@ var CaymanIslands = &Country{
 	CcTLD:          ".ky",
 	FIPS:           "CJ",
 	Currency:       "KYD",
+	ICANN_Region:   "EUR",
 }

@@ -10,4 +10,5 @@ var Macao = &Country{
 	CcTLD:          ".mo",
 	FIPS:           "MC",
 	Currency:       "MOP",
+	ICANN_Region:   "AP",
 }

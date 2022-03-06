@@ -9,4 +9,5 @@ var BurkinaFaso = &Country{
 	CcTLD:          ".bf",
 	FIPS:           "UV",
 	Currency:       "XOF",
+	ICANN_Region:   "AF",
 }

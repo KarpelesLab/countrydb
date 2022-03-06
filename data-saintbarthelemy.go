@@ -9,4 +9,5 @@ var SaintBarthelemy = &Country{
 	CcTLD:          ".bl",
 	FIPS:           "TB",
 	Currency:       "EUR",
+	ICANN_Region:   "LAC",
 }

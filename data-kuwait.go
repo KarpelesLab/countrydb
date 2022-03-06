@@ -10,4 +10,5 @@ var Kuwait = &Country{
 	CcTLD:          ".kw",
 	FIPS:           "KU",
 	Currency:       "KWD",
+	ICANN_Region:   "AP",
 }

@@ -10,4 +10,5 @@ var Iceland = &Country{
 	CcTLD:          ".is",
 	FIPS:           "IC",
 	Currency:       "ISK",
+	ICANN_Region:   "EUR",
 }

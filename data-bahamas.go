@@ -10,4 +10,5 @@ var Bahamas = &Country{
 	CcTLD:          ".bs",
 	FIPS:           "BF",
 	Currency:       "BSD",
+	ICANN_Region:   "LAC",
 }

@@ -9,4 +9,5 @@ var Australia = &Country{
 	CcTLD:          ".au",
 	FIPS:           "CR",
 	Currency:       "AUD",
+	ICANN_Region:   "AP",
 }

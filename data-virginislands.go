@@ -10,4 +10,5 @@ var VirginIslands = &Country{
 	CcTLD:          ".vi",
 	FIPS:           "VQ",
 	Currency:       "USD",
+	ICANN_Region:   "NA",
 }

@@ -10,4 +10,5 @@ var Sweden = &Country{
 	CcTLD:          ".se",
 	FIPS:           "SW",
 	Currency:       "SEK",
+	ICANN_Region:   "EUR",
 }

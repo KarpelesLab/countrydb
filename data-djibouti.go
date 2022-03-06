@@ -10,4 +10,5 @@ var Djibouti = &Country{
 	CcTLD:          ".dj",
 	FIPS:           "DJ",
 	Currency:       "DJF",
+	ICANN_Region:   "AF",
 }

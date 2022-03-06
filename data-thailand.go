@@ -10,4 +10,5 @@ var Thailand = &Country{
 	CcTLD:          ".th",
 	FIPS:           "TH",
 	Currency:       "THB",
+	ICANN_Region:   "AP",
 }

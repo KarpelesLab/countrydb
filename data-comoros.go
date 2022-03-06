@@ -10,4 +10,5 @@ var Comoros = &Country{
 	CcTLD:          ".km",
 	FIPS:           "CN",
 	Currency:       "KMF",
+	ICANN_Region:   "AF",
 }

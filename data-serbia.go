@@ -10,4 +10,5 @@ var Serbia = &Country{
 	CcTLD:          ".rs",
 	FIPS:           "RI",
 	Currency:       "RSD",
+	ICANN_Region:   "EUR",
 }

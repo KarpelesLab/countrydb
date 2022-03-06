@@ -10,4 +10,5 @@ var CaboVerde = &Country{
 	CcTLD:          ".cv",
 	FIPS:           "CV",
 	Currency:       "CVE",
+	ICANN_Region:   "AF",
 }

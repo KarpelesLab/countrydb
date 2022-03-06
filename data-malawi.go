@@ -10,4 +10,5 @@ var Malawi = &Country{
 	CcTLD:          ".mw",
 	FIPS:           "MI",
 	Currency:       "MWK",
+	ICANN_Region:   "AF",
 }

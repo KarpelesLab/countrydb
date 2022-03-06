@@ -10,4 +10,5 @@ var Argentina = &Country{
 	CcTLD:          ".ar",
 	FIPS:           "AR",
 	Currency:       "ARS",
+	ICANN_Region:   "LAC",
 }

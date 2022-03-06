@@ -10,4 +10,5 @@ var BosniaandHerzegovina = &Country{
 	CcTLD:          ".ba",
 	FIPS:           "BK",
 	Currency:       "BAM",
+	ICANN_Region:   "EUR",
 }

@@ -10,4 +10,5 @@ var Pakistan = &Country{
 	CcTLD:          ".pk",
 	FIPS:           "PK",
 	Currency:       "PKR",
+	ICANN_Region:   "AP",
 }

@@ -10,4 +10,5 @@ var Morocco = &Country{
 	CcTLD:          ".ma",
 	FIPS:           "MO",
 	Currency:       "MAD",
+	ICANN_Region:   "AF",
 }

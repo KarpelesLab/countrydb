@@ -9,4 +9,5 @@ var SaintLucia = &Country{
 	CcTLD:          ".lc",
 	FIPS:           "ST",
 	Currency:       "XCD",
+	ICANN_Region:   "LAC",
 }

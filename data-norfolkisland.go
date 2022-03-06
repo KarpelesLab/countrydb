@@ -9,4 +9,5 @@ var NorfolkIsland = &Country{
 	CcTLD:          ".nf",
 	FIPS:           "NF",
 	Currency:       "AUD",
+	ICANN_Region:   "AP",
 }

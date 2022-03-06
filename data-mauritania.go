@@ -10,4 +10,5 @@ var Mauritania = &Country{
 	CcTLD:          ".mr",
 	FIPS:           "MR",
 	Currency:       "MRO",
+	ICANN_Region:   "AF",
 }

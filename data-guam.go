@@ -9,4 +9,5 @@ var Guam = &Country{
 	CcTLD:          ".gu",
 	FIPS:           "GQ",
 	Currency:       "USD",
+	ICANN_Region:   "NA",
 }

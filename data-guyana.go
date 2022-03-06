@@ -10,4 +10,5 @@ var Guyana = &Country{
 	CcTLD:          ".gy",
 	FIPS:           "GY",
 	Currency:       "GYD",
+	ICANN_Region:   "LAC",
 }

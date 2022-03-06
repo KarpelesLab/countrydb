@@ -10,4 +10,5 @@ var SriLanka = &Country{
 	CcTLD:          ".lk",
 	FIPS:           "CE",
 	Currency:       "LKR",
+	ICANN_Region:   "AP",
 }

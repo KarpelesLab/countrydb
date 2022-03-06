@@ -10,4 +10,5 @@ var Eswatini = &Country{
 	CcTLD:          ".sz",
 	FIPS:           "WZ",
 	Currency:       "SZL",
+	ICANN_Region:   "AF",
 }

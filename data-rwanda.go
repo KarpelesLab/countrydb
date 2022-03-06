@@ -10,4 +10,5 @@ var Rwanda = &Country{
 	CcTLD:          ".rw",
 	FIPS:           "RW",
 	Currency:       "RWF",
+	ICANN_Region:   "AF",
 }

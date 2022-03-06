@@ -10,4 +10,5 @@ var Madagascar = &Country{
 	CcTLD:          ".mg",
 	FIPS:           "MA",
 	Currency:       "MGA",
+	ICANN_Region:   "AF",
 }

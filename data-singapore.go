@@ -10,4 +10,5 @@ var Singapore = &Country{
 	CcTLD:          ".sg",
 	FIPS:           "SN",
 	Currency:       "SGD",
+	ICANN_Region:   "AP",
 }

@@ -9,4 +9,5 @@ var Japan = &Country{
 	CcTLD:          ".jp",
 	FIPS:           "JA",
 	Currency:       "JPY",
+	ICANN_Region:   "AP",
 }

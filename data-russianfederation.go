@@ -9,4 +9,5 @@ var RussianFederation = &Country{
 	CcTLD:          ".ru",
 	FIPS:           "RS",
 	Currency:       "RUB",
+	ICANN_Region:   "EUR",
 }

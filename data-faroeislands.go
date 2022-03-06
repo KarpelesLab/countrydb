@@ -9,4 +9,5 @@ var FaroeIslands = &Country{
 	CcTLD:          ".fo",
 	FIPS:           "FO",
 	Currency:       "DKK",
+	ICANN_Region:   "EUR",
 }

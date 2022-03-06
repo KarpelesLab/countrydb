@@ -10,4 +10,5 @@ var CostaRica = &Country{
 	CcTLD:          ".cr",
 	FIPS:           "CS",
 	Currency:       "CRC",
+	ICANN_Region:   "LAC",
 }

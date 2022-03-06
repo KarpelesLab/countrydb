@@ -9,4 +9,5 @@ var FalklandIslandsMalvinas = &Country{
 	CcTLD:          ".fk",
 	FIPS:           "FK",
 	Currency:       "FKP",
+	ICANN_Region:   "EUR",
 }

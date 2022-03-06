@@ -10,4 +10,5 @@ var PapuaNewGuinea = &Country{
 	CcTLD:          ".pg",
 	FIPS:           "PP",
 	Currency:       "PGK",
+	ICANN_Region:   "AP",
 }

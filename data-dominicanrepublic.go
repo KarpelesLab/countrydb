@@ -9,4 +9,5 @@ var DominicanRepublic = &Country{
 	CcTLD:          ".do",
 	FIPS:           "DR",
 	Currency:       "DOP",
+	ICANN_Region:   "LAC",
 }

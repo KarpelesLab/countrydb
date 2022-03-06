@@ -9,4 +9,5 @@ var NewCaledonia = &Country{
 	CcTLD:          ".nc",
 	FIPS:           "NC",
 	Currency:       "XPF",
+	ICANN_Region:   "EUR",
 }

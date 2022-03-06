@@ -10,4 +10,5 @@ var Chad = &Country{
 	CcTLD:          ".td",
 	FIPS:           "CD",
 	Currency:       "XAF",
+	ICANN_Region:   "AF",
 }

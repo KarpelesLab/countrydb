@@ -10,4 +10,5 @@ var Estonia = &Country{
 	CcTLD:          ".ee",
 	FIPS:           "EN",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

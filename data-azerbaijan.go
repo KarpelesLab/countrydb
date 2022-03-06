@@ -10,4 +10,5 @@ var Azerbaijan = &Country{
 	CcTLD:          ".az",
 	FIPS:           "AJ",
 	Currency:       "AZN",
+	ICANN_Region:   "AP",
 }

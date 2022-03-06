@@ -10,4 +10,5 @@ var UnitedStates = &Country{
 	CcTLD:          ".us",
 	FIPS:           "US",
 	Currency:       "USD",
+	ICANN_Region:   "NA",
 }

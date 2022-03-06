@@ -10,4 +10,5 @@ var Eritrea = &Country{
 	CcTLD:          ".er",
 	FIPS:           "ER",
 	Currency:       "ERN",
+	ICANN_Region:   "AF",
 }

@@ -10,4 +10,5 @@ var Montenegro = &Country{
 	CcTLD:          ".me",
 	FIPS:           "MJ",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

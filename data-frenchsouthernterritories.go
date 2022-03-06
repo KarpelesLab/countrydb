@@ -9,4 +9,5 @@ var FrenchSouthernTerritories = &Country{
 	CcTLD:          ".tf",
 	FIPS:           "FS",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

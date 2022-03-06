@@ -8,4 +8,5 @@ var Guernsey = &Country{
 	Numeric:        831,
 	CcTLD:          ".gg",
 	Currency:       "GGP",
+	ICANN_Region:   "EUR",
 }

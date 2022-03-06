@@ -10,4 +10,5 @@ var SouthSudan = &Country{
 	CcTLD:          ".ss",
 	FIPS:           "OD",
 	Currency:       "SSP",
+	ICANN_Region:   "AF",
 }

@@ -9,4 +9,5 @@ var AntiguaandBarbuda = &Country{
 	CcTLD:          ".ag",
 	FIPS:           "AC",
 	Currency:       "XCD",
+	ICANN_Region:   "LAC",
 }

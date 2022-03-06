@@ -10,4 +10,5 @@ var SanMarino = &Country{
 	CcTLD:          ".sm",
 	FIPS:           "SM",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

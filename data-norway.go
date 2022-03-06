@@ -10,4 +10,5 @@ var Norway = &Country{
 	CcTLD:          ".no",
 	FIPS:           "NO",
 	Currency:       "NOK",
+	ICANN_Region:   "EUR",
 }

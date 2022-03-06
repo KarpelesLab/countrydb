@@ -9,4 +9,5 @@ var BruneiDarussalam = &Country{
 	CcTLD:          ".bn",
 	FIPS:           "BX",
 	Currency:       "BND",
+	ICANN_Region:   "AP",
 }

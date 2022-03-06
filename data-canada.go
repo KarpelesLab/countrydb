@@ -9,4 +9,5 @@ var Canada = &Country{
 	CcTLD:          ".ca",
 	FIPS:           "CA",
 	Currency:       "CAD",
+	ICANN_Region:   "NA",
 }

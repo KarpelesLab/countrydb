@@ -10,4 +10,5 @@ var SierraLeone = &Country{
 	CcTLD:          ".sl",
 	FIPS:           "SL",
 	Currency:       "SLL",
+	ICANN_Region:   "AF",
 }

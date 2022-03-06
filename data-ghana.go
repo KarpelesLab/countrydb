@@ -10,4 +10,5 @@ var Ghana = &Country{
 	CcTLD:          ".gh",
 	FIPS:           "GH",
 	Currency:       "GHS",
+	ICANN_Region:   "AF",
 }

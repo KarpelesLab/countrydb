@@ -11,4 +11,5 @@ var Bolivia = &Country{
 	CcTLD:          ".bo",
 	FIPS:           "BL",
 	Currency:       "BOB",
+	ICANN_Region:   "LAC",
 }

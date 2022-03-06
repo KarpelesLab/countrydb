@@ -10,4 +10,5 @@ var Maldives = &Country{
 	CcTLD:          ".mv",
 	FIPS:           "MV",
 	Currency:       "MVR",
+	ICANN_Region:   "AP",
 }

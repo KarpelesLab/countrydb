@@ -11,4 +11,5 @@ var Vietnam = &Country{
 	CcTLD:          ".vn",
 	FIPS:           "VM",
 	Currency:       "VND",
+	ICANN_Region:   "AP",
 }

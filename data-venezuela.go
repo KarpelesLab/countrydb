@@ -11,4 +11,5 @@ var Venezuela = &Country{
 	CcTLD:          ".ve",
 	FIPS:           "VE",
 	Currency:       "VEF",
+	ICANN_Region:   "LAC",
 }

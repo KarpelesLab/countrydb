@@ -10,4 +10,5 @@ var Afghanistan = &Country{
 	CcTLD:          ".af",
 	FIPS:           "AF",
 	Currency:       "AFN",
+	ICANN_Region:   "AP",
 }

@@ -10,4 +10,5 @@ var Palau = &Country{
 	CcTLD:          ".pw",
 	FIPS:           "PS",
 	Currency:       "USD",
+	ICANN_Region:   "AP",
 }

@@ -10,4 +10,5 @@ var ElSalvador = &Country{
 	CcTLD:          ".sv",
 	FIPS:           "ES",
 	Currency:       "USD",
+	ICANN_Region:   "LAC",
 }

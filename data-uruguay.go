@@ -10,4 +10,5 @@ var Uruguay = &Country{
 	CcTLD:          ".uy",
 	FIPS:           "UY",
 	Currency:       "UYU",
+	ICANN_Region:   "LAC",
 }

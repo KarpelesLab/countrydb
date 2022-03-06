@@ -10,4 +10,5 @@ var Guatemala = &Country{
 	CcTLD:          ".gt",
 	FIPS:           "GT",
 	Currency:       "GTQ",
+	ICANN_Region:   "LAC",
 }

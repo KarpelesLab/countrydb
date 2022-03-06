@@ -10,4 +10,5 @@ var Cuba = &Country{
 	CcTLD:          ".cu",
 	FIPS:           "CU",
 	Currency:       "CUP",
+	ICANN_Region:   "LAC",
 }

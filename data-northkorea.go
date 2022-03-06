@@ -11,4 +11,5 @@ var NorthKorea = &Country{
 	CcTLD:          ".kp",
 	FIPS:           "KN",
 	Currency:       "KPW",
+	ICANN_Region:   "AP",
 }

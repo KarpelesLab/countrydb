@@ -9,4 +9,5 @@ var Malaysia = &Country{
 	CcTLD:          ".my",
 	FIPS:           "MY",
 	Currency:       "MYR",
+	ICANN_Region:   "AP",
 }

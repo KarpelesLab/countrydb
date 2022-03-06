@@ -9,4 +9,5 @@ var Jamaica = &Country{
 	CcTLD:          ".jm",
 	FIPS:           "JM",
 	Currency:       "JMD",
+	ICANN_Region:   "LAC",
 }

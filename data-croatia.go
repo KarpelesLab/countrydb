@@ -10,4 +10,5 @@ var Croatia = &Country{
 	CcTLD:          ".hr",
 	FIPS:           "HR",
 	Currency:       "HRK",
+	ICANN_Region:   "EUR",
 }

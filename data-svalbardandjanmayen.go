@@ -9,4 +9,5 @@ var SvalbardandJanMayen = &Country{
 	CcTLD:          ".sj",
 	FIPS:           "SV",
 	Currency:       "NOK",
+	ICANN_Region:   "EUR",
 }

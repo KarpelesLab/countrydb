@@ -10,4 +10,5 @@ var Oman = &Country{
 	CcTLD:          ".om",
 	FIPS:           "MU",
 	Currency:       "OMR",
+	ICANN_Region:   "AP",
 }

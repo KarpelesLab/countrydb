@@ -10,4 +10,5 @@ var GuineaBissau = &Country{
 	CcTLD:          ".gw",
 	FIPS:           "PU",
 	Currency:       "XOF",
+	ICANN_Region:   "AF",
 }

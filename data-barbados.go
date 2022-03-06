@@ -9,4 +9,5 @@ var Barbados = &Country{
 	CcTLD:          ".bb",
 	FIPS:           "BB",
 	Currency:       "BBD",
+	ICANN_Region:   "LAC",
 }

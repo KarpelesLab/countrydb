@@ -10,4 +10,5 @@ var Philippines = &Country{
 	CcTLD:          ".ph",
 	FIPS:           "RP",
 	Currency:       "PHP",
+	ICANN_Region:   "AP",
 }

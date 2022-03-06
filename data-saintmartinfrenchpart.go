@@ -9,4 +9,5 @@ var SaintMartinFrenchpart = &Country{
 	CcTLD:          ".mf",
 	FIPS:           "RN",
 	Currency:       "EUR",
+	ICANN_Region:   "LAC",
 }

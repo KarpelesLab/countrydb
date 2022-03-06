@@ -10,4 +10,5 @@ var Curacao = &Country{
 	CcTLD:          ".cw",
 	FIPS:           "UC",
 	Currency:       "ANG",
+	ICANN_Region:   "EUR",
 }

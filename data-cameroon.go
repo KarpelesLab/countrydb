@@ -10,4 +10,5 @@ var Cameroon = &Country{
 	CcTLD:          ".cm",
 	FIPS:           "CM",
 	Currency:       "XAF",
+	ICANN_Region:   "AF",
 }

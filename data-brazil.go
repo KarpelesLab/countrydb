@@ -10,4 +10,5 @@ var Brazil = &Country{
 	CcTLD:          ".br",
 	FIPS:           "BR",
 	Currency:       "BRL",
+	ICANN_Region:   "LAC",
 }

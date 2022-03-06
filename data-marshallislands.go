@@ -10,4 +10,5 @@ var MarshallIslands = &Country{
 	CcTLD:          ".mh",
 	FIPS:           "RM",
 	Currency:       "USD",
+	ICANN_Region:   "AP",
 }

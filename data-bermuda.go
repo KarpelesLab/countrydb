@@ -9,4 +9,5 @@ var Bermuda = &Country{
 	CcTLD:          ".bm",
 	FIPS:           "BD",
 	Currency:       "BMD",
+	ICANN_Region:   "EUR",
 }

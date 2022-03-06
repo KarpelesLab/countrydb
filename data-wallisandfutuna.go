@@ -9,4 +9,5 @@ var WallisandFutuna = &Country{
 	CcTLD:          ".wf",
 	FIPS:           "WF",
 	Currency:       "XPF",
+	ICANN_Region:   "EUR",
 }

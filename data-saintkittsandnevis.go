@@ -9,4 +9,5 @@ var SaintKittsandNevis = &Country{
 	CcTLD:          ".kn",
 	FIPS:           "SC",
 	Currency:       "XCD",
+	ICANN_Region:   "LAC",
 }

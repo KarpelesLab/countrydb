@@ -10,4 +10,5 @@ var Monaco = &Country{
 	CcTLD:          ".mc",
 	FIPS:           "MN",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

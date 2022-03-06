@@ -10,4 +10,5 @@ var Uzbekistan = &Country{
 	CcTLD:          ".uz",
 	FIPS:           "UZ",
 	Currency:       "UZS",
+	ICANN_Region:   "AP",
 }

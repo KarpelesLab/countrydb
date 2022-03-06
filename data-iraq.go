@@ -10,4 +10,5 @@ var Iraq = &Country{
 	CcTLD:          ".iq",
 	FIPS:           "IZ",
 	Currency:       "IQD",
+	ICANN_Region:   "AP",
 }

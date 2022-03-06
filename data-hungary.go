@@ -10,4 +10,5 @@ var Hungary = &Country{
 	CcTLD:          ".hu",
 	FIPS:           "HU",
 	Currency:       "HUF",
+	ICANN_Region:   "EUR",
 }

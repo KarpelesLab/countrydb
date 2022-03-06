@@ -9,4 +9,5 @@ var Bonaire = &Country{
 	Numeric:        535,
 	CcTLD:          ".bq",
 	Currency:       "USD",
+	ICANN_Region:   "LAC",
 }

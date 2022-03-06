@@ -10,4 +10,5 @@ var Panama = &Country{
 	CcTLD:          ".pa",
 	FIPS:           "PM",
 	Currency:       "PAB",
+	ICANN_Region:   "LAC",
 }

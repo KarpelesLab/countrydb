@@ -9,4 +9,5 @@ var SaintVincentandtheGrenadines = &Country{
 	CcTLD:          ".vc",
 	FIPS:           "VC",
 	Currency:       "XCD",
+	ICANN_Region:   "LAC",
 }

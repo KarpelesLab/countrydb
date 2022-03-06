@@ -9,4 +9,5 @@ var SolomonIslands = &Country{
 	CcTLD:          ".sb",
 	FIPS:           "BP",
 	Currency:       "SBD",
+	ICANN_Region:   "AP",
 }

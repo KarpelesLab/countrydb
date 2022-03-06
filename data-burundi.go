@@ -10,4 +10,5 @@ var Burundi = &Country{
 	CcTLD:          ".bi",
 	FIPS:           "BY",
 	Currency:       "BIF",
+	ICANN_Region:   "AF",
 }

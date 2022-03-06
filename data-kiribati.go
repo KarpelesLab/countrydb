@@ -10,4 +10,5 @@ var Kiribati = &Country{
 	CcTLD:          ".ki",
 	FIPS:           "KR",
 	Currency:       "AUD",
+	ICANN_Region:   "AP",
 }

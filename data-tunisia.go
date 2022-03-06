@@ -10,4 +10,5 @@ var Tunisia = &Country{
 	CcTLD:          ".tn",
 	FIPS:           "TS",
 	Currency:       "TND",
+	ICANN_Region:   "AF",
 }

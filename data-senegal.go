@@ -10,4 +10,5 @@ var Senegal = &Country{
 	CcTLD:          ".sn",
 	FIPS:           "SG",
 	Currency:       "XOF",
+	ICANN_Region:   "AF",
 }

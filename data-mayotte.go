@@ -9,4 +9,5 @@ var Mayotte = &Country{
 	CcTLD:          ".yt",
 	FIPS:           "MF",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

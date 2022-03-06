@@ -9,4 +9,5 @@ var Tokelau = &Country{
 	CcTLD:          ".tk",
 	FIPS:           "TL",
 	Currency:       "NZD",
+	ICANN_Region:   "AP",
 }

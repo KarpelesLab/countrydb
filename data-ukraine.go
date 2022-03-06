@@ -9,4 +9,5 @@ var Ukraine = &Country{
 	CcTLD:          ".ua",
 	FIPS:           "UP",
 	Currency:       "UAH",
+	ICANN_Region:   "EUR",
 }

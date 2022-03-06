@@ -9,4 +9,5 @@ var FrenchPolynesia = &Country{
 	CcTLD:          ".pf",
 	FIPS:           "FP",
 	Currency:       "XPF",
+	ICANN_Region:   "EUR",
 }

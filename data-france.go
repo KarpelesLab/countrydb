@@ -10,4 +10,5 @@ var France = &Country{
 	CcTLD:          ".fr",
 	FIPS:           "FR",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

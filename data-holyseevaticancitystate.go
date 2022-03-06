@@ -9,4 +9,5 @@ var HolySeeVaticanCityState = &Country{
 	CcTLD:          ".va",
 	FIPS:           "VT",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

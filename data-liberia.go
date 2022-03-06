@@ -10,4 +10,5 @@ var Liberia = &Country{
 	CcTLD:          ".lr",
 	FIPS:           "LI",
 	Currency:       "LRD",
+	ICANN_Region:   "AF",
 }

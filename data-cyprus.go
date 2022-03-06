@@ -10,4 +10,5 @@ var Cyprus = &Country{
 	CcTLD:          ".cy",
 	FIPS:           "CY",
 	Currency:       "EUR",
+	ICANN_Region:   "AP",
 }

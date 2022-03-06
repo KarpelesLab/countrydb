@@ -10,4 +10,5 @@ var HongKong = &Country{
 	CcTLD:          ".hk",
 	FIPS:           "HK",
 	Currency:       "HKD",
+	ICANN_Region:   "AP",
 }

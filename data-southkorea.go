@@ -10,4 +10,5 @@ var SouthKorea = &Country{
 	CcTLD:          ".kr",
 	FIPS:           "KS",
 	Currency:       "KRW",
+	ICANN_Region:   "AP",
 }

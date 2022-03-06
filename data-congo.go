@@ -10,4 +10,5 @@ var Congo = &Country{
 	CcTLD:          ".cg",
 	FIPS:           "CF",
 	Currency:       "XAF",
+	ICANN_Region:   "AF",
 }

@@ -9,4 +9,5 @@ var Anguilla = &Country{
 	CcTLD:          ".ai",
 	FIPS:           "AV",
 	Currency:       "XCD",
+	ICANN_Region:   "EUR",
 }

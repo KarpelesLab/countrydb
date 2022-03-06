@@ -9,4 +9,5 @@ var SyrianArabRepublic = &Country{
 	CcTLD:          ".sy",
 	FIPS:           "SY",
 	Currency:       "SYP",
+	ICANN_Region:   "AP",
 }

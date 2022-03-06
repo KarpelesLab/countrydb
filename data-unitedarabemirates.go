@@ -9,4 +9,5 @@ var UnitedArabEmirates = &Country{
 	CcTLD:          ".ae",
 	FIPS:           "AE",
 	Currency:       "AED",
+	ICANN_Region:   "AP",
 }

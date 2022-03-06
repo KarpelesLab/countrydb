@@ -10,4 +10,5 @@ var Jordan = &Country{
 	CcTLD:          ".jo",
 	FIPS:           "JO",
 	Currency:       "JOD",
+	ICANN_Region:   "AP",
 }

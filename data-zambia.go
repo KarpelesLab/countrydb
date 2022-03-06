@@ -10,4 +10,5 @@ var Zambia = &Country{
 	CcTLD:          ".zm",
 	FIPS:           "ZA",
 	Currency:       "ZMW",
+	ICANN_Region:   "AF",
 }

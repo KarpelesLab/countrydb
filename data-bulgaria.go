@@ -10,4 +10,5 @@ var Bulgaria = &Country{
 	CcTLD:          ".bg",
 	FIPS:           "BU",
 	Currency:       "BGN",
+	ICANN_Region:   "EUR",
 }

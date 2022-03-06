@@ -10,4 +10,5 @@ var Tonga = &Country{
 	CcTLD:          ".to",
 	FIPS:           "TN",
 	Currency:       "TOP",
+	ICANN_Region:   "AP",
 }

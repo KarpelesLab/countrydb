@@ -10,4 +10,5 @@ var Cambodia = &Country{
 	CcTLD:          ".kh",
 	FIPS:           "CB",
 	Currency:       "KHR",
+	ICANN_Region:   "AP",
 }

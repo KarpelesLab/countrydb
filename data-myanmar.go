@@ -10,4 +10,5 @@ var Myanmar = &Country{
 	CcTLD:          ".mm",
 	FIPS:           "BM",
 	Currency:       "MMK",
+	ICANN_Region:   "AP",
 }

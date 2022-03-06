@@ -10,4 +10,5 @@ var BritishVirginIslands = &Country{
 	CcTLD:          ".vg",
 	FIPS:           "VI",
 	Currency:       "USD",
+	ICANN_Region:   "EUR",
 }

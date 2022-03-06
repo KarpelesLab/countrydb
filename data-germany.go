@@ -10,4 +10,5 @@ var Germany = &Country{
 	CcTLD:          ".de",
 	FIPS:           "GM",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

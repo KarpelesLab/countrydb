@@ -10,4 +10,5 @@ var Kenya = &Country{
 	CcTLD:          ".ke",
 	FIPS:           "KE",
 	Currency:       "KES",
+	ICANN_Region:   "AF",
 }

@@ -9,4 +9,5 @@ var Aruba = &Country{
 	CcTLD:          ".aw",
 	FIPS:           "AA",
 	Currency:       "AWG",
+	ICANN_Region:   "EUR",
 }

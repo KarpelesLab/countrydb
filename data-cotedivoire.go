@@ -10,4 +10,5 @@ var CotedIvoire = &Country{
 	CcTLD:          ".ci",
 	FIPS:           "IV",
 	Currency:       "XOF",
+	ICANN_Region:   "AF",
 }

@@ -10,4 +10,5 @@ var Haiti = &Country{
 	CcTLD:          ".ht",
 	FIPS:           "HA",
 	Currency:       "HTG",
+	ICANN_Region:   "LAC",
 }

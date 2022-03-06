@@ -9,4 +9,5 @@ var HeardIslandandMcDonaldIslands = &Country{
 	CcTLD:          ".hm",
 	FIPS:           "HM",
 	Currency:       "AUD",
+	ICANN_Region:   "AP",
 }

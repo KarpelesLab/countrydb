@@ -10,4 +10,5 @@ var Vanuatu = &Country{
 	CcTLD:          ".vu",
 	FIPS:           "NH",
 	Currency:       "VUV",
+	ICANN_Region:   "AP",
 }

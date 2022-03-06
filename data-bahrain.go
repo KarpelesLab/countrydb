@@ -10,4 +10,5 @@ var Bahrain = &Country{
 	CcTLD:          ".bh",
 	FIPS:           "BA",
 	Currency:       "BHD",
+	ICANN_Region:   "AP",
 }

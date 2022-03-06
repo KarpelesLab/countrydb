@@ -9,4 +9,5 @@ var Martinique = &Country{
 	CcTLD:          ".mq",
 	FIPS:           "MB",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

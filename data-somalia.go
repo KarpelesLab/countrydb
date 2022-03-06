@@ -10,4 +10,5 @@ var Somalia = &Country{
 	CcTLD:          ".so",
 	FIPS:           "SO",
 	Currency:       "SOS",
+	ICANN_Region:   "AF",
 }

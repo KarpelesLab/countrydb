@@ -10,4 +10,5 @@ var Kazakhstan = &Country{
 	CcTLD:          ".kz",
 	FIPS:           "KZ",
 	Currency:       "KZT",
+	ICANN_Region:   "AP",
 }

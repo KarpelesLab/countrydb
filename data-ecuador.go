@@ -10,4 +10,5 @@ var Ecuador = &Country{
 	CcTLD:          ".ec",
 	FIPS:           "EC",
 	Currency:       "USD",
+	ICANN_Region:   "LAC",
 }

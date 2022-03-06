@@ -10,4 +10,5 @@ var China = &Country{
 	CcTLD:          ".cn",
 	FIPS:           "CH",
 	Currency:       "CNY",
+	ICANN_Region:   "AP",
 }

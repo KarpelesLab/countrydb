@@ -9,4 +9,5 @@ var Grenada = &Country{
 	CcTLD:          ".gd",
 	FIPS:           "GJ",
 	Currency:       "XCD",
+	ICANN_Region:   "LAC",
 }

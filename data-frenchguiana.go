@@ -9,4 +9,5 @@ var FrenchGuiana = &Country{
 	CcTLD:          ".gf",
 	FIPS:           "FG",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

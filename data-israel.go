@@ -10,4 +10,5 @@ var Israel = &Country{
 	CcTLD:          ".il",
 	FIPS:           "IS",
 	Currency:       "ILS",
+	ICANN_Region:   "AP",
 }

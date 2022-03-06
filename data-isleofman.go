@@ -8,4 +8,5 @@ var IsleofMan = &Country{
 	Numeric:        833,
 	CcTLD:          ".im",
 	Currency:       "GBP",
+	ICANN_Region:   "EUR",
 }

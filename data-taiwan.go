@@ -11,4 +11,5 @@ var Taiwan = &Country{
 	CcTLD:          ".tw",
 	FIPS:           "TW",
 	Currency:       "TWD",
+	ICANN_Region:   "AP",
 }

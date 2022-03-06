@@ -10,4 +10,5 @@ var Mozambique = &Country{
 	CcTLD:          ".mz",
 	FIPS:           "MZ",
 	Currency:       "MZN",
+	ICANN_Region:   "AF",
 }

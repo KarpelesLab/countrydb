@@ -10,4 +10,5 @@ var Botswana = &Country{
 	CcTLD:          ".bw",
 	FIPS:           "BC",
 	Currency:       "BWP",
+	ICANN_Region:   "AF",
 }

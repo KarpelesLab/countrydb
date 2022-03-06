@@ -8,4 +8,5 @@ var Jersey = &Country{
 	Numeric:        832,
 	CcTLD:          ".je",
 	Currency:       "GBP",
+	ICANN_Region:   "EUR",
 }

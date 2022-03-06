@@ -10,4 +10,5 @@ var SaoTomeandPrincipe = &Country{
 	CcTLD:          ".st",
 	FIPS:           "TP",
 	Currency:       "STD",
+	ICANN_Region:   "AF",
 }

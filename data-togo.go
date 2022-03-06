@@ -10,4 +10,5 @@ var Togo = &Country{
 	CcTLD:          ".tg",
 	FIPS:           "TO",
 	Currency:       "XOF",
+	ICANN_Region:   "AF",
 }

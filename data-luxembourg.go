@@ -10,4 +10,5 @@ var Luxembourg = &Country{
 	CcTLD:          ".lu",
 	FIPS:           "LU",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

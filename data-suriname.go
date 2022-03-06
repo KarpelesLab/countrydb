@@ -10,4 +10,5 @@ var Suriname = &Country{
 	CcTLD:          ".sr",
 	FIPS:           "NS",
 	Currency:       "SRD",
+	ICANN_Region:   "LAC",
 }

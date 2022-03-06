@@ -10,4 +10,5 @@ var Libya = &Country{
 	CcTLD:          ".ly",
 	FIPS:           "LY",
 	Currency:       "LYD",
+	ICANN_Region:   "AF",
 }

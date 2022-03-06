@@ -10,4 +10,5 @@ var Fiji = &Country{
 	CcTLD:          ".fj",
 	FIPS:           "FJ",
 	Currency:       "FJD",
+	ICANN_Region:   "AP",
 }

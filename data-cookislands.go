@@ -9,4 +9,5 @@ var CookIslands = &Country{
 	CcTLD:          ".ck",
 	FIPS:           "CW",
 	Currency:       "NZD",
+	ICANN_Region:   "AP",
 }

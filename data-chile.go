@@ -10,4 +10,5 @@ var Chile = &Country{
 	CcTLD:          ".cl",
 	FIPS:           "CI",
 	Currency:       "CLP",
+	ICANN_Region:   "LAC",
 }

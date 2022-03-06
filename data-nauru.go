@@ -10,4 +10,5 @@ var Nauru = &Country{
 	CcTLD:          ".nr",
 	FIPS:           "NR",
 	Currency:       "AUD",
+	ICANN_Region:   "AP",
 }

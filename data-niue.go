@@ -10,4 +10,5 @@ var Niue = &Country{
 	CcTLD:          ".nu",
 	FIPS:           "NE",
 	Currency:       "NZD",
+	ICANN_Region:   "AP",
 }

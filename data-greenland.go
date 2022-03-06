@@ -9,4 +9,5 @@ var Greenland = &Country{
 	CcTLD:          ".gl",
 	FIPS:           "GL",
 	Currency:       "DKK",
+	ICANN_Region:   "EUR",
 }

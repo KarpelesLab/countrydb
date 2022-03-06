@@ -10,4 +10,5 @@ var Czechia = &Country{
 	CcTLD:          ".cz",
 	FIPS:           "EZ",
 	Currency:       "CZK",
+	ICANN_Region:   "EUR",
 }

@@ -10,4 +10,5 @@ var EquatorialGuinea = &Country{
 	CcTLD:          ".gq",
 	FIPS:           "EK",
 	Currency:       "XAF",
+	ICANN_Region:   "AF",
 }

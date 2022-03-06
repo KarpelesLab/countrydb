@@ -10,4 +10,5 @@ var Uganda = &Country{
 	CcTLD:          ".ug",
 	FIPS:           "UG",
 	Currency:       "UGX",
+	ICANN_Region:   "AF",
 }

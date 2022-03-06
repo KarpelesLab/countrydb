@@ -10,4 +10,5 @@ var Algeria = &Country{
 	CcTLD:          ".dz",
 	FIPS:           "AG",
 	Currency:       "DZD",
+	ICANN_Region:   "AF",
 }

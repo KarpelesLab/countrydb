@@ -10,4 +10,5 @@ var Qatar = &Country{
 	CcTLD:          ".qa",
 	FIPS:           "QA",
 	Currency:       "QAR",
+	ICANN_Region:   "AP",
 }

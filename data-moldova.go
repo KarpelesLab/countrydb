@@ -11,4 +11,5 @@ var Moldova = &Country{
 	CcTLD:          ".md",
 	FIPS:           "MD",
 	Currency:       "MDL",
+	ICANN_Region:   "EUR",
 }

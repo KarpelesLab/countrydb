@@ -10,4 +10,5 @@ var TimorLeste = &Country{
 	CcTLD:          ".tl",
 	FIPS:           "TT",
 	Currency:       "USD",
+	ICANN_Region:   "AP",
 }

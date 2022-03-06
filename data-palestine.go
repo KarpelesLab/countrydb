@@ -10,4 +10,5 @@ var Palestine = &Country{
 	CcTLD:          ".ps",
 	FIPS:           "WE",
 	Currency:       "JOD",
+	ICANN_Region:   "AP",
 }

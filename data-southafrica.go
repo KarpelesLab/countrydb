@@ -10,4 +10,5 @@ var SouthAfrica = &Country{
 	CcTLD:          ".za",
 	FIPS:           "SF",
 	Currency:       "ZAR",
+	ICANN_Region:   "AF",
 }

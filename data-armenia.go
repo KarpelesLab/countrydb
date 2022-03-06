@@ -10,4 +10,5 @@ var Armenia = &Country{
 	CcTLD:          ".am",
 	FIPS:           "AM",
 	Currency:       "AMD",
+	ICANN_Region:   "AP",
 }

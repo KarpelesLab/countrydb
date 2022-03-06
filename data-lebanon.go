@@ -10,4 +10,5 @@ var Lebanon = &Country{
 	CcTLD:          ".lb",
 	FIPS:           "LE",
 	Currency:       "LBP",
+	ICANN_Region:   "AP",
 }

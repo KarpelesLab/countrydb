@@ -10,4 +10,5 @@ var Micronesia = &Country{
 	CcTLD:          ".fm",
 	FIPS:           "FM",
 	Currency:       "USD",
+	ICANN_Region:   "AP",
 }

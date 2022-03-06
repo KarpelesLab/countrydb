@@ -10,4 +10,5 @@ var Slovenia = &Country{
 	CcTLD:          ".si",
 	FIPS:           "SI",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

@@ -10,4 +10,5 @@ var Seychelles = &Country{
 	CcTLD:          ".sc",
 	FIPS:           "SE",
 	Currency:       "SCR",
+	ICANN_Region:   "AF",
 }

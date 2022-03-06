@@ -9,4 +9,5 @@ var Belize = &Country{
 	CcTLD:          ".bz",
 	FIPS:           "BH",
 	Currency:       "BZD",
+	ICANN_Region:   "LAC",
 }

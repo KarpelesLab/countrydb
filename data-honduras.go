@@ -10,4 +10,5 @@ var Honduras = &Country{
 	CcTLD:          ".hn",
 	FIPS:           "HO",
 	Currency:       "HNL",
+	ICANN_Region:   "LAC",
 }

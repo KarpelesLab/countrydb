@@ -9,4 +9,5 @@ var CocosKeelingIslands = &Country{
 	CcTLD:          ".cc",
 	FIPS:           "CK",
 	Currency:       "AUD",
+	ICANN_Region:   "AP",
 }

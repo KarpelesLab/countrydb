@@ -10,4 +10,5 @@ var Guinea = &Country{
 	CcTLD:          ".gn",
 	FIPS:           "GV",
 	Currency:       "GNF",
+	ICANN_Region:   "AF",
 }

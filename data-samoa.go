@@ -10,4 +10,5 @@ var Samoa = &Country{
 	CcTLD:          ".ws",
 	FIPS:           "WS",
 	Currency:       "EUR",
+	ICANN_Region:   "AP",
 }

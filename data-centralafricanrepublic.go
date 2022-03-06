@@ -9,4 +9,5 @@ var CentralAfricanRepublic = &Country{
 	CcTLD:          ".cf",
 	FIPS:           "CT",
 	Currency:       "XAF",
+	ICANN_Region:   "AF",
 }

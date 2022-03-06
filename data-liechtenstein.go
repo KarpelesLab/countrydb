@@ -10,4 +10,5 @@ var Liechtenstein = &Country{
 	CcTLD:          ".li",
 	FIPS:           "LS",
 	Currency:       "CHF",
+	ICANN_Region:   "EUR",
 }

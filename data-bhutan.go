@@ -10,4 +10,5 @@ var Bhutan = &Country{
 	CcTLD:          ".bt",
 	FIPS:           "BT",
 	Currency:       "INR",
+	ICANN_Region:   "AP",
 }

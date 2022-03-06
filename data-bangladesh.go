@@ -10,4 +10,5 @@ var Bangladesh = &Country{
 	CcTLD:          ".bd",
 	FIPS:           "BG",
 	Currency:       "BDT",
+	ICANN_Region:   "AP",
 }

@@ -10,4 +10,5 @@ var Mali = &Country{
 	CcTLD:          ".ml",
 	FIPS:           "ML",
 	Currency:       "XOF",
+	ICANN_Region:   "AF",
 }

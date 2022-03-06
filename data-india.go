@@ -10,4 +10,5 @@ var India = &Country{
 	CcTLD:          ".in",
 	FIPS:           "IN",
 	Currency:       "INR",
+	ICANN_Region:   "AP",
 }

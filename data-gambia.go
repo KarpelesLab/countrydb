@@ -10,4 +10,5 @@ var Gambia = &Country{
 	CcTLD:          ".gm",
 	FIPS:           "GA",
 	Currency:       "GMD",
+	ICANN_Region:   "AF",
 }

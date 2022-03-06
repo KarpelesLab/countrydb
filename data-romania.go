@@ -9,4 +9,5 @@ var Romania = &Country{
 	CcTLD:          ".ro",
 	FIPS:           "RO",
 	Currency:       "RON",
+	ICANN_Region:   "EUR",
 }

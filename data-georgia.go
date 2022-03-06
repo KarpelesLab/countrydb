@@ -9,4 +9,5 @@ var Georgia = &Country{
 	CcTLD:          ".ge",
 	FIPS:           "GG",
 	Currency:       "GEL",
+	ICANN_Region:   "AP",
 }

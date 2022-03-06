@@ -10,4 +10,5 @@ var Niger = &Country{
 	CcTLD:          ".ne",
 	FIPS:           "NG",
 	Currency:       "XOF",
+	ICANN_Region:   "AF",
 }

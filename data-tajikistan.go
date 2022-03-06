@@ -10,4 +10,5 @@ var Tajikistan = &Country{
 	CcTLD:          ".tj",
 	FIPS:           "TI",
 	Currency:       "TJS",
+	ICANN_Region:   "AP",
 }

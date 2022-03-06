@@ -9,4 +9,5 @@ var Montserrat = &Country{
 	CcTLD:          ".ms",
 	FIPS:           "MH",
 	Currency:       "XCD",
+	ICANN_Region:   "EUR",
 }

@@ -10,4 +10,5 @@ var Iran = &Country{
 	CcTLD:          ".ir",
 	FIPS:           "IR",
 	Currency:       "IRR",
+	ICANN_Region:   "AP",
 }

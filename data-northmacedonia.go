@@ -10,4 +10,5 @@ var NorthMacedonia = &Country{
 	CcTLD:          ".mk",
 	FIPS:           "MK",
 	Currency:       "MKD",
+	ICANN_Region:   "EUR",
 }

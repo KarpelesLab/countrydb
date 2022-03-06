@@ -10,4 +10,5 @@ var Switzerland = &Country{
 	CcTLD:          ".ch",
 	FIPS:           "SZ",
 	Currency:       "CHF",
+	ICANN_Region:   "EUR",
 }

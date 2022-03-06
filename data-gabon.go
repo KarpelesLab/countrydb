@@ -10,4 +10,5 @@ var Gabon = &Country{
 	CcTLD:          ".ga",
 	FIPS:           "GB",
 	Currency:       "XAF",
+	ICANN_Region:   "AF",
 }

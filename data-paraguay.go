@@ -10,4 +10,5 @@ var Paraguay = &Country{
 	CcTLD:          ".py",
 	FIPS:           "PA",
 	Currency:       "PYG",
+	ICANN_Region:   "LAC",
 }

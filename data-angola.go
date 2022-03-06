@@ -10,4 +10,5 @@ var Angola = &Country{
 	CcTLD:          ".ao",
 	FIPS:           "AO",
 	Currency:       "AOA",
+	ICANN_Region:   "AF",
 }

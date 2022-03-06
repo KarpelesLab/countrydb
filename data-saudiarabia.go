@@ -10,4 +10,5 @@ var SaudiArabia = &Country{
 	CcTLD:          ".sa",
 	FIPS:           "SA",
 	Currency:       "SAR",
+	ICANN_Region:   "AP",
 }

@@ -11,4 +11,5 @@ var Tanzania = &Country{
 	CcTLD:          ".tz",
 	FIPS:           "TZ",
 	Currency:       "TZS",
+	ICANN_Region:   "AF",
 }

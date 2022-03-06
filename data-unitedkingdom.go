@@ -10,4 +10,5 @@ var UnitedKingdom = &Country{
 	CcTLD:          ".uk",
 	FIPS:           "UK",
 	Currency:       "GBP",
+	ICANN_Region:   "EUR",
 }

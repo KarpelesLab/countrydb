@@ -10,4 +10,5 @@ var TrinidadandTobago = &Country{
 	CcTLD:          ".tt",
 	FIPS:           "TD",
 	Currency:       "TTD",
+	ICANN_Region:   "LAC",
 }

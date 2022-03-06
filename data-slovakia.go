@@ -10,4 +10,5 @@ var Slovakia = &Country{
 	CcTLD:          ".sk",
 	FIPS:           "LO",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

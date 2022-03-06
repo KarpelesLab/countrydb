@@ -10,4 +10,5 @@ var Sudan = &Country{
 	CcTLD:          ".sd",
 	FIPS:           "SU",
 	Currency:       "SDG",
+	ICANN_Region:   "AF",
 }

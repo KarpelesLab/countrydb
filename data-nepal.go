@@ -10,4 +10,5 @@ var Nepal = &Country{
 	CcTLD:          ".np",
 	FIPS:           "NP",
 	Currency:       "NPR",
+	ICANN_Region:   "AP",
 }

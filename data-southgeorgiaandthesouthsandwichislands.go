@@ -9,4 +9,5 @@ var SouthGeorgiaandtheSouthSandwichIslands = &Country{
 	CcTLD:          ".gs",
 	FIPS:           "SX",
 	Currency:       "GBP",
+	ICANN_Region:   "EUR",
 }

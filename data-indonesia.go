@@ -10,4 +10,5 @@ var Indonesia = &Country{
 	CcTLD:          ".id",
 	FIPS:           "ID",
 	Currency:       "IDR",
+	ICANN_Region:   "AP",
 }

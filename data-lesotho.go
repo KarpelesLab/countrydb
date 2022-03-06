@@ -10,4 +10,5 @@ var Lesotho = &Country{
 	CcTLD:          ".ls",
 	FIPS:           "LT",
 	Currency:       "LSL",
+	ICANN_Region:   "AF",
 }

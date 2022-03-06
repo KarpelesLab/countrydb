@@ -10,4 +10,5 @@ var Kyrgyzstan = &Country{
 	CcTLD:          ".kg",
 	FIPS:           "KG",
 	Currency:       "KGS",
+	ICANN_Region:   "AP",
 }

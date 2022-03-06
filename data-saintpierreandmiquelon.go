@@ -9,4 +9,5 @@ var SaintPierreandMiquelon = &Country{
 	CcTLD:          ".pm",
 	FIPS:           "SB",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

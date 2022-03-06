@@ -9,4 +9,5 @@ var BritishIndianOceanTerritory = &Country{
 	CcTLD:          ".io",
 	FIPS:           "IO",
 	Currency:       "USD",
+	ICANN_Region:   "EUR",
 }

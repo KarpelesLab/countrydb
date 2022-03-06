@@ -10,4 +10,5 @@ var Peru = &Country{
 	CcTLD:          ".pe",
 	FIPS:           "PE",
 	Currency:       "PEN",
+	ICANN_Region:   "LAC",
 }

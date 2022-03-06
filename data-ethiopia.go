@@ -10,4 +10,5 @@ var Ethiopia = &Country{
 	CcTLD:          ".et",
 	FIPS:           "ET",
 	Currency:       "ETB",
+	ICANN_Region:   "AF",
 }

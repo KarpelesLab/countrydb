@@ -10,4 +10,5 @@ var Mexico = &Country{
 	CcTLD:          ".mx",
 	FIPS:           "MX",
 	Currency:       "MXN",
+	ICANN_Region:   "LAC",
 }

@@ -10,4 +10,5 @@ var Nicaragua = &Country{
 	CcTLD:          ".ni",
 	FIPS:           "NU",
 	Currency:       "NIO",
+	ICANN_Region:   "LAC",
 }

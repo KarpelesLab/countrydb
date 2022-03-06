@@ -9,4 +9,5 @@ var SaintHelena = &Country{
 	CcTLD:          ".sh",
 	FIPS:           "SH",
 	Currency:       "SHP",
+	ICANN_Region:   "EUR",
 }

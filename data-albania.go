@@ -10,4 +10,5 @@ var Albania = &Country{
 	CcTLD:          ".al",
 	FIPS:           "AL",
 	Currency:       "ALL",
+	ICANN_Region:   "EUR",
 }

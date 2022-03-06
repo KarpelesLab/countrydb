@@ -9,4 +9,5 @@ var Guadeloupe = &Country{
 	CcTLD:          ".gp",
 	FIPS:           "GP",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

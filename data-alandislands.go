@@ -8,4 +8,5 @@ var AlandIslands = &Country{
 	Numeric:        248,
 	CcTLD:          ".ax",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

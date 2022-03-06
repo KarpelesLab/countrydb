@@ -9,4 +9,5 @@ var PuertoRico = &Country{
 	CcTLD:          ".pr",
 	FIPS:           "RQ",
 	Currency:       "USD",
+	ICANN_Region:   "NA",
 }

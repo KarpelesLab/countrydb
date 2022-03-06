@@ -10,4 +10,5 @@ var Mauritius = &Country{
 	CcTLD:          ".mu",
 	FIPS:           "MP",
 	Currency:       "MUR",
+	ICANN_Region:   "AF",
 }

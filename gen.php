@@ -72,6 +72,19 @@ while(!feof($fp)) {
 }
 fclose($fp);
 
+// icann regions
+$icann_regions = [];
+$fp = fopen('data/icann_regions.csv', 'r');
+while(!feof($fp)) {
+	$lin = fgetcsv($fp);
+	if ($lin === false) break;
+	$icann_regions[$lin[1]] = $lin[0];
+}
+foreach($country_data as &$country) {
+	if (isset($icann_regions[$country['cctld']]))
+		$country['icann_region'] = $icann_regions[$country['cctld']];
+}
+
 // generate files
 foreach($country_data as &$country) {
 	$fp = fopen(strtolower('data-'.strtolower($country['unique_name']).'.go'), 'w');
@@ -87,6 +100,7 @@ foreach($country_data as &$country) {
 	fwrite($fp, "\tCcTLD: ".goescape($country['cctld']).",\n");
 	if (isset($country['fips'])) fwrite($fp, "\tFIPS: ".goescape($country['fips']).",\n");
 	if (isset($country['currency'])) fwrite($fp, "\tCurrency: ".goescape($country['currency']).",\n");
+	if (isset($country['icann_region'])) fwrite($fp, "\tICANN_Region: ".goescape($country['icann_region']).",\n");
 
 	fwrite($fp, "}\n");
 	fclose($fp);

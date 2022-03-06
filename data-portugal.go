@@ -10,4 +10,5 @@ var Portugal = &Country{
 	CcTLD:          ".pt",
 	FIPS:           "PO",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

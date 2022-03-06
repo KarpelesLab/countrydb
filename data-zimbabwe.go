@@ -10,4 +10,5 @@ var Zimbabwe = &Country{
 	CcTLD:          ".zw",
 	FIPS:           "ZI",
 	Currency:       "USD",
+	ICANN_Region:   "AF",
 }

@@ -10,4 +10,5 @@ var Yemen = &Country{
 	CcTLD:          ".ye",
 	FIPS:           "YM",
 	Currency:       "YER",
+	ICANN_Region:   "AP",
 }

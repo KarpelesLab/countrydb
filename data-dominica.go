@@ -10,4 +10,5 @@ var Dominica = &Country{
 	CcTLD:          ".dm",
 	FIPS:           "DO",
 	Currency:       "XCD",
+	ICANN_Region:   "LAC",
 }

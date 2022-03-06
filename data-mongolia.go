@@ -9,4 +9,5 @@ var Mongolia = &Country{
 	CcTLD:          ".mn",
 	FIPS:           "MG",
 	Currency:       "MNT",
+	ICANN_Region:   "AP",
 }

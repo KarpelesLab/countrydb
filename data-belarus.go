@@ -10,4 +10,5 @@ var Belarus = &Country{
 	CcTLD:          ".by",
 	FIPS:           "BO",
 	Currency:       "BYN",
+	ICANN_Region:   "EUR",
 }

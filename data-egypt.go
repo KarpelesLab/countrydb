@@ -10,4 +10,5 @@ var Egypt = &Country{
 	CcTLD:          ".eg",
 	FIPS:           "EG",
 	Currency:       "EGP",
+	ICANN_Region:   "AF",
 }

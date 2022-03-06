@@ -10,4 +10,5 @@ var Colombia = &Country{
 	CcTLD:          ".co",
 	FIPS:           "CO",
 	Currency:       "COP",
+	ICANN_Region:   "LAC",
 }

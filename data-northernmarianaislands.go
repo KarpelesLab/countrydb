@@ -10,4 +10,5 @@ var NorthernMarianaIslands = &Country{
 	CcTLD:          ".mp",
 	FIPS:           "CQ",
 	Currency:       "USD",
+	ICANN_Region:   "NA",
 }

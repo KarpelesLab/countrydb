@@ -9,4 +9,5 @@ var Turkmenistan = &Country{
 	CcTLD:          ".tm",
 	FIPS:           "TX",
 	Currency:       "TMT",
+	ICANN_Region:   "AP",
 }

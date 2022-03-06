@@ -10,4 +10,5 @@ var Malta = &Country{
 	CcTLD:          ".mt",
 	FIPS:           "MT",
 	Currency:       "EUR",
+	ICANN_Region:   "EUR",
 }

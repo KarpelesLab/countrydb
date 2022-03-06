@@ -9,4 +9,5 @@ var LaoPeoplesDemocraticRepublic = &Country{
 	CcTLD:          ".la",
 	FIPS:           "LA",
 	Currency:       "LAK",
+	ICANN_Region:   "AP",
 }

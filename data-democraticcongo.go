@@ -9,4 +9,5 @@ var DemocraticCongo = &Country{
 	CcTLD:          ".cd",
 	FIPS:           "CG",
 	Currency:       "CDF",
+	ICANN_Region:   "AF",
 }

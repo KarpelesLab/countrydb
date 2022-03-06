@@ -8,4 +8,5 @@ var Antarctica = &Country{
 	Numeric:        10,
 	CcTLD:          ".aq",
 	FIPS:           "AY",
+	ICANN_Region:   "AP",
 }

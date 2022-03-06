@@ -9,4 +9,5 @@ var Gibraltar = &Country{
 	CcTLD:          ".gi",
 	FIPS:           "GI",
 	Currency:       "GIP",
+	ICANN_Region:   "EUR",
 }

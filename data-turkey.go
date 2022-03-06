@@ -10,4 +10,5 @@ var Turkey = &Country{
 	CcTLD:          ".tr",
 	FIPS:           "TU",
 	Currency:       "TRY",
+	ICANN_Region:   "AP",
 }

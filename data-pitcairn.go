@@ -9,4 +9,5 @@ var Pitcairn = &Country{
 	CcTLD:          ".pn",
 	FIPS:           "PC",
 	Currency:       "NZD",
+	ICANN_Region:   "EUR",
 }

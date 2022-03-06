@@ -10,4 +10,5 @@ var Namibia = &Country{
 	CcTLD:          ".na",
 	FIPS:           "WA",
 	Currency:       "NAD",
+	ICANN_Region:   "AF",
 }
