@@ -7,4 +7,5 @@ var Bhutan = &Country{
 	ISO3166_Alpha2: "BT",
 	ISO3166_Alpha3: "BTN",
 	Numeric:        64,
+	CcTLD:          ".bt",
 }

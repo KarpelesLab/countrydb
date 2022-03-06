@@ -7,4 +7,5 @@ var HongKong = &Country{
 	ISO3166_Alpha2: "HK",
 	ISO3166_Alpha3: "HKG",
 	Numeric:        344,
+	CcTLD:          ".hk",
 }

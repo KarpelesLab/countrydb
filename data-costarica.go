@@ -7,4 +7,5 @@ var CostaRica = &Country{
 	ISO3166_Alpha2: "CR",
 	ISO3166_Alpha3: "CRI",
 	Numeric:        188,
+	CcTLD:          ".cr",
 }

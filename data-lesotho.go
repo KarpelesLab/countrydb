@@ -7,4 +7,5 @@ var Lesotho = &Country{
 	ISO3166_Alpha2: "LS",
 	ISO3166_Alpha3: "LSO",
 	Numeric:        426,
+	CcTLD:          ".ls",
 }

@@ -7,4 +7,5 @@ var Norway = &Country{
 	ISO3166_Alpha2: "NO",
 	ISO3166_Alpha3: "NOR",
 	Numeric:        578,
+	CcTLD:          ".no",
 }

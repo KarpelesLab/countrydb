@@ -6,4 +6,5 @@ var AlandIslands = &Country{
 	ISO3166_Alpha2: "AX",
 	ISO3166_Alpha3: "ALA",
 	Numeric:        248,
+	CcTLD:          ".ax",
 }

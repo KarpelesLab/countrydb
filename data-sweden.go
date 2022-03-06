@@ -7,4 +7,5 @@ var Sweden = &Country{
 	ISO3166_Alpha2: "SE",
 	ISO3166_Alpha3: "SWE",
 	Numeric:        752,
+	CcTLD:          ".se",
 }

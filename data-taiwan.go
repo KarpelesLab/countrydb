@@ -8,4 +8,5 @@ var Taiwan = &Country{
 	ISO3166_Alpha2: "TW",
 	ISO3166_Alpha3: "TWN",
 	Numeric:        158,
+	CcTLD:          ".tw",
 }

@@ -6,4 +6,5 @@ var Mongolia = &Country{
 	ISO3166_Alpha2: "MN",
 	ISO3166_Alpha3: "MNG",
 	Numeric:        496,
+	CcTLD:          ".mn",
 }

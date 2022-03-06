@@ -7,4 +7,5 @@ var Jordan = &Country{
 	ISO3166_Alpha2: "JO",
 	ISO3166_Alpha3: "JOR",
 	Numeric:        400,
+	CcTLD:          ".jo",
 }

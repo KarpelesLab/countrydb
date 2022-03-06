@@ -7,4 +7,5 @@ var Panama = &Country{
 	ISO3166_Alpha2: "PA",
 	ISO3166_Alpha3: "PAN",
 	Numeric:        591,
+	CcTLD:          ".pa",
 }

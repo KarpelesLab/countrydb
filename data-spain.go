@@ -7,4 +7,5 @@ var Spain = &Country{
 	ISO3166_Alpha2: "ES",
 	ISO3166_Alpha3: "ESP",
 	Numeric:        724,
+	CcTLD:          ".es",
 }

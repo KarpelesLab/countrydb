@@ -7,4 +7,5 @@ var Hungary = &Country{
 	ISO3166_Alpha2: "HU",
 	ISO3166_Alpha3: "HUN",
 	Numeric:        348,
+	CcTLD:          ".hu",
 }

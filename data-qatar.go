@@ -7,4 +7,5 @@ var Qatar = &Country{
 	ISO3166_Alpha2: "QA",
 	ISO3166_Alpha3: "QAT",
 	Numeric:        634,
+	CcTLD:          ".qa",
 }

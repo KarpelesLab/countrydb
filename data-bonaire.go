@@ -7,4 +7,5 @@ var Bonaire = &Country{
 	ISO3166_Alpha2: "BQ",
 	ISO3166_Alpha3: "BES",
 	Numeric:        535,
+	CcTLD:          ".bq",
 }

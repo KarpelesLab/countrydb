@@ -7,4 +7,5 @@ var Bulgaria = &Country{
 	ISO3166_Alpha2: "BG",
 	ISO3166_Alpha3: "BGR",
 	Numeric:        100,
+	CcTLD:          ".bg",
 }

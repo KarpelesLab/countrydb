@@ -6,4 +6,5 @@ var NewZealand = &Country{
 	ISO3166_Alpha2: "NZ",
 	ISO3166_Alpha3: "NZL",
 	Numeric:        554,
+	CcTLD:          ".nz",
 }

@@ -7,4 +7,5 @@ var Monaco = &Country{
 	ISO3166_Alpha2: "MC",
 	ISO3166_Alpha3: "MCO",
 	Numeric:        492,
+	CcTLD:          ".mc",
 }

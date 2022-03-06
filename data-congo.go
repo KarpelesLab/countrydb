@@ -7,4 +7,5 @@ var Congo = &Country{
 	ISO3166_Alpha2: "CG",
 	ISO3166_Alpha3: "COG",
 	Numeric:        178,
+	CcTLD:          ".cg",
 }

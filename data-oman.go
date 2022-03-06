@@ -7,4 +7,5 @@ var Oman = &Country{
 	ISO3166_Alpha2: "OM",
 	ISO3166_Alpha3: "OMN",
 	Numeric:        512,
+	CcTLD:          ".om",
 }

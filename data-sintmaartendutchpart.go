@@ -7,4 +7,5 @@ var SintMaartenDutchpart = &Country{
 	ISO3166_Alpha2: "SX",
 	ISO3166_Alpha3: "SXM",
 	Numeric:        534,
+	CcTLD:          ".sx",
 }

@@ -6,4 +6,5 @@ var UnitedArabEmirates = &Country{
 	ISO3166_Alpha2: "AE",
 	ISO3166_Alpha3: "ARE",
 	Numeric:        784,
+	CcTLD:          ".ae",
 }

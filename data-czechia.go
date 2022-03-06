@@ -7,4 +7,5 @@ var Czechia = &Country{
 	ISO3166_Alpha2: "CZ",
 	ISO3166_Alpha3: "CZE",
 	Numeric:        203,
+	CcTLD:          ".cz",
 }

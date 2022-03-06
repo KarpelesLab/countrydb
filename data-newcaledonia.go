@@ -6,4 +6,5 @@ var NewCaledonia = &Country{
 	ISO3166_Alpha2: "NC",
 	ISO3166_Alpha3: "NCL",
 	Numeric:        540,
+	CcTLD:          ".nc",
 }

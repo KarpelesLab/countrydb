@@ -6,4 +6,5 @@ var TurksandCaicosIslands = &Country{
 	ISO3166_Alpha2: "TC",
 	ISO3166_Alpha3: "TCA",
 	Numeric:        796,
+	CcTLD:          ".tc",
 }

@@ -6,4 +6,5 @@ var IsleofMan = &Country{
 	ISO3166_Alpha2: "IM",
 	ISO3166_Alpha3: "IMN",
 	Numeric:        833,
+	CcTLD:          ".im",
 }

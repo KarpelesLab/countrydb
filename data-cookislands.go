@@ -6,4 +6,5 @@ var CookIslands = &Country{
 	ISO3166_Alpha2: "CK",
 	ISO3166_Alpha3: "COK",
 	Numeric:        184,
+	CcTLD:          ".ck",
 }

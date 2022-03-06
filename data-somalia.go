@@ -7,4 +7,5 @@ var Somalia = &Country{
 	ISO3166_Alpha2: "SO",
 	ISO3166_Alpha3: "SOM",
 	Numeric:        706,
+	CcTLD:          ".so",
 }

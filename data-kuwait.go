@@ -7,4 +7,5 @@ var Kuwait = &Country{
 	ISO3166_Alpha2: "KW",
 	ISO3166_Alpha3: "KWT",
 	Numeric:        414,
+	CcTLD:          ".kw",
 }

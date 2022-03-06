@@ -7,4 +7,5 @@ var Uzbekistan = &Country{
 	ISO3166_Alpha2: "UZ",
 	ISO3166_Alpha3: "UZB",
 	Numeric:        860,
+	CcTLD:          ".uz",
 }

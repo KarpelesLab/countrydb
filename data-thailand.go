@@ -7,4 +7,5 @@ var Thailand = &Country{
 	ISO3166_Alpha2: "TH",
 	ISO3166_Alpha3: "THA",
 	Numeric:        764,
+	CcTLD:          ".th",
 }

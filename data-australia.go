@@ -6,4 +6,5 @@ var Australia = &Country{
 	ISO3166_Alpha2: "AU",
 	ISO3166_Alpha3: "AUS",
 	Numeric:        36,
+	CcTLD:          ".au",
 }

@@ -7,4 +7,5 @@ var MarshallIslands = &Country{
 	ISO3166_Alpha2: "MH",
 	ISO3166_Alpha3: "MHL",
 	Numeric:        584,
+	CcTLD:          ".mh",
 }

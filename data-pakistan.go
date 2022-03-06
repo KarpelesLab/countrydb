@@ -7,4 +7,5 @@ var Pakistan = &Country{
 	ISO3166_Alpha2: "PK",
 	ISO3166_Alpha3: "PAK",
 	Numeric:        586,
+	CcTLD:          ".pk",
 }

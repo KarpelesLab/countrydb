@@ -7,4 +7,5 @@ var Angola = &Country{
 	ISO3166_Alpha2: "AO",
 	ISO3166_Alpha3: "AGO",
 	Numeric:        24,
+	CcTLD:          ".ao",
 }

@@ -7,4 +7,5 @@ var NorthernMarianaIslands = &Country{
 	ISO3166_Alpha2: "MP",
 	ISO3166_Alpha3: "MNP",
 	Numeric:        580,
+	CcTLD:          ".mp",
 }

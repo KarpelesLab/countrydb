@@ -6,4 +6,5 @@ var WallisandFutuna = &Country{
 	ISO3166_Alpha2: "WF",
 	ISO3166_Alpha3: "WLF",
 	Numeric:        876,
+	CcTLD:          ".wf",
 }

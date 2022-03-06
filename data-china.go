@@ -7,4 +7,5 @@ var China = &Country{
 	ISO3166_Alpha2: "CN",
 	ISO3166_Alpha3: "CHN",
 	Numeric:        156,
+	CcTLD:          ".cn",
 }

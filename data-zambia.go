@@ -7,4 +7,5 @@ var Zambia = &Country{
 	ISO3166_Alpha2: "ZM",
 	ISO3166_Alpha3: "ZMB",
 	Numeric:        894,
+	CcTLD:          ".zm",
 }

@@ -7,4 +7,5 @@ var Paraguay = &Country{
 	ISO3166_Alpha2: "PY",
 	ISO3166_Alpha3: "PRY",
 	Numeric:        600,
+	CcTLD:          ".py",
 }

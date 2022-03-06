@@ -7,4 +7,5 @@ var Azerbaijan = &Country{
 	ISO3166_Alpha2: "AZ",
 	ISO3166_Alpha3: "AZE",
 	Numeric:        31,
+	CcTLD:          ".az",
 }

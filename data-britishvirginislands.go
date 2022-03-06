@@ -7,4 +7,5 @@ var BritishVirginIslands = &Country{
 	ISO3166_Alpha2: "VG",
 	ISO3166_Alpha3: "VGB",
 	Numeric:        92,
+	CcTLD:          ".vg",
 }

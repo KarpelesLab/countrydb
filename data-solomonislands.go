@@ -6,4 +6,5 @@ var SolomonIslands = &Country{
 	ISO3166_Alpha2: "SB",
 	ISO3166_Alpha3: "SLB",
 	Numeric:        90,
+	CcTLD:          ".sb",
 }

@@ -6,4 +6,5 @@ var SaintHelena = &Country{
 	ISO3166_Alpha2: "SH",
 	ISO3166_Alpha3: "SHN",
 	Numeric:        654,
+	CcTLD:          ".sh",
 }

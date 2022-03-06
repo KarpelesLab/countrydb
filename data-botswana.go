@@ -7,4 +7,5 @@ var Botswana = &Country{
 	ISO3166_Alpha2: "BW",
 	ISO3166_Alpha3: "BWA",
 	Numeric:        72,
+	CcTLD:          ".bw",
 }

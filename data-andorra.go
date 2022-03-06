@@ -7,4 +7,5 @@ var Andorra = &Country{
 	ISO3166_Alpha2: "AD",
 	ISO3166_Alpha3: "AND",
 	Numeric:        20,
+	CcTLD:          ".ad",
 }

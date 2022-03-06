@@ -6,4 +6,5 @@ var Aruba = &Country{
 	ISO3166_Alpha2: "AW",
 	ISO3166_Alpha3: "ABW",
 	Numeric:        533,
+	CcTLD:          ".aw",
 }

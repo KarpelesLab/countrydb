@@ -7,4 +7,5 @@ var Kyrgyzstan = &Country{
 	ISO3166_Alpha2: "KG",
 	ISO3166_Alpha3: "KGZ",
 	Numeric:        417,
+	CcTLD:          ".kg",
 }

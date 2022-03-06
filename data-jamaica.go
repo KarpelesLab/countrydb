@@ -6,4 +6,5 @@ var Jamaica = &Country{
 	ISO3166_Alpha2: "JM",
 	ISO3166_Alpha3: "JAM",
 	Numeric:        388,
+	CcTLD:          ".jm",
 }

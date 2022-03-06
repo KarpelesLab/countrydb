@@ -6,4 +6,5 @@ var ChristmasIsland = &Country{
 	ISO3166_Alpha2: "CX",
 	ISO3166_Alpha3: "CXR",
 	Numeric:        162,
+	CcTLD:          ".cx",
 }

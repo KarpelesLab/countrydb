@@ -8,4 +8,5 @@ var Moldova = &Country{
 	ISO3166_Alpha2: "MD",
 	ISO3166_Alpha3: "MDA",
 	Numeric:        498,
+	CcTLD:          ".md",
 }

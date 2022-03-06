@@ -7,4 +7,5 @@ var UnitedStates = &Country{
 	ISO3166_Alpha2: "US",
 	ISO3166_Alpha3: "USA",
 	Numeric:        840,
+	CcTLD:          ".us",
 }

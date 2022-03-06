@@ -7,4 +7,5 @@ var Afghanistan = &Country{
 	ISO3166_Alpha2: "AF",
 	ISO3166_Alpha3: "AFG",
 	Numeric:        4,
+	CcTLD:          ".af",
 }

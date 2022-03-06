@@ -7,4 +7,5 @@ var Iceland = &Country{
 	ISO3166_Alpha2: "IS",
 	ISO3166_Alpha3: "ISL",
 	Numeric:        352,
+	CcTLD:          ".is",
 }

@@ -7,4 +7,5 @@ var Togo = &Country{
 	ISO3166_Alpha2: "TG",
 	ISO3166_Alpha3: "TGO",
 	Numeric:        768,
+	CcTLD:          ".tg",
 }

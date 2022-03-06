@@ -6,4 +6,5 @@ var FaroeIslands = &Country{
 	ISO3166_Alpha2: "FO",
 	ISO3166_Alpha3: "FRO",
 	Numeric:        234,
+	CcTLD:          ".fo",
 }

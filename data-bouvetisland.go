@@ -6,4 +6,5 @@ var BouvetIsland = &Country{
 	ISO3166_Alpha2: "BV",
 	ISO3166_Alpha3: "BVT",
 	Numeric:        74,
+	CcTLD:          "",
 }

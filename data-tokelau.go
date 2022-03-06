@@ -6,4 +6,5 @@ var Tokelau = &Country{
 	ISO3166_Alpha2: "TK",
 	ISO3166_Alpha3: "TKL",
 	Numeric:        772,
+	CcTLD:          ".tk",
 }

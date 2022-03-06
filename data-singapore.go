@@ -7,4 +7,5 @@ var Singapore = &Country{
 	ISO3166_Alpha2: "SG",
 	ISO3166_Alpha3: "SGP",
 	Numeric:        702,
+	CcTLD:          ".sg",
 }

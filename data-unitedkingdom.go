@@ -7,4 +7,5 @@ var UnitedKingdom = &Country{
 	ISO3166_Alpha2: "GB",
 	ISO3166_Alpha3: "GBR",
 	Numeric:        826,
+	CcTLD:          ".uk",
 }

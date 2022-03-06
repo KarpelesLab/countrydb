@@ -7,4 +7,5 @@ var Mexico = &Country{
 	ISO3166_Alpha2: "MX",
 	ISO3166_Alpha3: "MEX",
 	Numeric:        484,
+	CcTLD:          ".mx",
 }

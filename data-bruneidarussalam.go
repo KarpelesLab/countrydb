@@ -6,4 +6,5 @@ var BruneiDarussalam = &Country{
 	ISO3166_Alpha2: "BN",
 	ISO3166_Alpha3: "BRN",
 	Numeric:        96,
+	CcTLD:          ".bn",
 }

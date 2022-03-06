@@ -7,4 +7,5 @@ var Liberia = &Country{
 	ISO3166_Alpha2: "LR",
 	ISO3166_Alpha3: "LBR",
 	Numeric:        430,
+	CcTLD:          ".lr",
 }

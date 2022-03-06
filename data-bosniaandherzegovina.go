@@ -7,4 +7,5 @@ var BosniaandHerzegovina = &Country{
 	ISO3166_Alpha2: "BA",
 	ISO3166_Alpha3: "BIH",
 	Numeric:        70,
+	CcTLD:          ".ba",
 }

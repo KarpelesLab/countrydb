@@ -7,4 +7,5 @@ var Eritrea = &Country{
 	ISO3166_Alpha2: "ER",
 	ISO3166_Alpha3: "ERI",
 	Numeric:        232,
+	CcTLD:          ".er",
 }

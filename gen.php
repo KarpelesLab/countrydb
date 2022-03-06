@@ -35,6 +35,18 @@ foreach($country_data as &$country) {
 	$country['unique_name'] = $name;
 }
 
+// ccTLD filling
+foreach($country_data as &$country) {
+	$cctld = '.'.strtolower($country['alpha_2']); // general rule
+	switch($country['alpha_2']) {
+	case 'GB': $cctld = '.uk'; break; // UK exception
+	case 'BV': $cctld = null; break; // Bouvet Island doesn't have an enabled cctld but is part of Norway
+	case 'EH': $cctld = null; break;
+	case 'UM': $cctld = null; break;
+	}
+	$country['cctld'] = $cctld;
+}
+
 // generate files
 foreach($country_data as &$country) {
 	$fp = fopen(strtolower('data-'.strtolower($country['unique_name']).'.go'), 'w');
@@ -47,6 +59,7 @@ foreach($country_data as &$country) {
 	fwrite($fp, "\tISO3166_Alpha2: ".goescape($country['alpha_2']).",\n");
 	fwrite($fp, "\tISO3166_Alpha3: ".goescape($country['alpha_3']).",\n");
 	fwrite($fp, "\tNumeric: ".((int)$country['numeric']).",\n");
+	fwrite($fp, "\tCcTLD: ".goescape($country['cctld']).",\n");
 
 	fwrite($fp, "}\n");
 	fclose($fp);
@@ -58,6 +71,7 @@ $indices = [
 	'ByAlpha3' => 'alpha_3',
 	'ByNumeric' => 'numeric',
 	'ByUniqueName' => 'unique_name',
+	'ByCcTLD' => 'cctld',
 ];
 foreach($indices as $name => $col) {
 	$fp = fopen('index-'.strtolower($name).'.go', 'w');
@@ -67,6 +81,7 @@ foreach($indices as $name => $col) {
 	fwrite($fp, "var $name = map[$type]*Country{\n");
 	foreach($country_data as &$country) {
 		$k = $country[$col];
+		if (is_null($k)) continue;
 		if ($col == 'numeric') {
 			$k = (int)$k;
 		} else {
@@ -84,5 +99,6 @@ function asciify($var) {
 }
 
 function goescape($str) {
+	if (is_null($str)) return '""';
 	return '"'.addcslashes($str, "\0..\37\"").'"';
 }

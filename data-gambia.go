@@ -7,4 +7,5 @@ var Gambia = &Country{
 	ISO3166_Alpha2: "GM",
 	ISO3166_Alpha3: "GMB",
 	Numeric:        270,
+	CcTLD:          ".gm",
 }

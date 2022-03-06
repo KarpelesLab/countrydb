@@ -6,4 +6,5 @@ var CocosKeelingIslands = &Country{
 	ISO3166_Alpha2: "CC",
 	ISO3166_Alpha3: "CCK",
 	Numeric:        166,
+	CcTLD:          ".cc",
 }

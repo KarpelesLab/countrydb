@@ -6,4 +6,5 @@ var Romania = &Country{
 	ISO3166_Alpha2: "RO",
 	ISO3166_Alpha3: "ROU",
 	Numeric:        642,
+	CcTLD:          ".ro",
 }

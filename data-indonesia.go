@@ -7,4 +7,5 @@ var Indonesia = &Country{
 	ISO3166_Alpha2: "ID",
 	ISO3166_Alpha3: "IDN",
 	Numeric:        360,
+	CcTLD:          ".id",
 }

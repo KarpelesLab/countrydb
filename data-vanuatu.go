@@ -7,4 +7,5 @@ var Vanuatu = &Country{
 	ISO3166_Alpha2: "VU",
 	ISO3166_Alpha3: "VUT",
 	Numeric:        548,
+	CcTLD:          ".vu",
 }

@@ -8,4 +8,5 @@ var Venezuela = &Country{
 	ISO3166_Alpha2: "VE",
 	ISO3166_Alpha3: "VEN",
 	Numeric:        862,
+	CcTLD:          ".ve",
 }

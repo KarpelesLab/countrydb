@@ -7,4 +7,5 @@ var Kazakhstan = &Country{
 	ISO3166_Alpha2: "KZ",
 	ISO3166_Alpha3: "KAZ",
 	Numeric:        398,
+	CcTLD:          ".kz",
 }

@@ -7,4 +7,5 @@ var Namibia = &Country{
 	ISO3166_Alpha2: "NA",
 	ISO3166_Alpha3: "NAM",
 	Numeric:        516,
+	CcTLD:          ".na",
 }

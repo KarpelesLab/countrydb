@@ -7,4 +7,5 @@ var Sudan = &Country{
 	ISO3166_Alpha2: "SD",
 	ISO3166_Alpha3: "SDN",
 	Numeric:        729,
+	CcTLD:          ".sd",
 }

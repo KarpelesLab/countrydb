@@ -6,4 +6,5 @@ var Montserrat = &Country{
 	ISO3166_Alpha2: "MS",
 	ISO3166_Alpha3: "MSR",
 	Numeric:        500,
+	CcTLD:          ".ms",
 }

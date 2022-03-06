@@ -7,4 +7,5 @@ var Argentina = &Country{
 	ISO3166_Alpha2: "AR",
 	ISO3166_Alpha3: "ARG",
 	Numeric:        32,
+	CcTLD:          ".ar",
 }

@@ -7,4 +7,5 @@ var CaboVerde = &Country{
 	ISO3166_Alpha2: "CV",
 	ISO3166_Alpha3: "CPV",
 	Numeric:        132,
+	CcTLD:          ".cv",
 }

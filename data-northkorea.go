@@ -8,4 +8,5 @@ var NorthKorea = &Country{
 	ISO3166_Alpha2: "KP",
 	ISO3166_Alpha3: "PRK",
 	Numeric:        408,
+	CcTLD:          ".kp",
 }

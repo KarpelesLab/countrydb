@@ -7,4 +7,5 @@ var SaudiArabia = &Country{
 	ISO3166_Alpha2: "SA",
 	ISO3166_Alpha3: "SAU",
 	Numeric:        682,
+	CcTLD:          ".sa",
 }

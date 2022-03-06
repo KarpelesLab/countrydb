@@ -7,4 +7,5 @@ var Chile = &Country{
 	ISO3166_Alpha2: "CL",
 	ISO3166_Alpha3: "CHL",
 	Numeric:        152,
+	CcTLD:          ".cl",
 }

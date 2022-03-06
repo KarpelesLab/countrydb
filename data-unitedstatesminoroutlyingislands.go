@@ -6,4 +6,5 @@ var UnitedStatesMinorOutlyingIslands = &Country{
 	ISO3166_Alpha2: "UM",
 	ISO3166_Alpha3: "UMI",
 	Numeric:        581,
+	CcTLD:          "",
 }

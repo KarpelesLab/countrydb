@@ -6,4 +6,5 @@ var RussianFederation = &Country{
 	ISO3166_Alpha2: "RU",
 	ISO3166_Alpha3: "RUS",
 	Numeric:        643,
+	CcTLD:          ".ru",
 }

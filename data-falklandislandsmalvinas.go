@@ -6,4 +6,5 @@ var FalklandIslandsMalvinas = &Country{
 	ISO3166_Alpha2: "FK",
 	ISO3166_Alpha3: "FLK",
 	Numeric:        238,
+	CcTLD:          ".fk",
 }

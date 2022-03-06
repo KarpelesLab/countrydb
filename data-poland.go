@@ -7,4 +7,5 @@ var Poland = &Country{
 	ISO3166_Alpha2: "PL",
 	ISO3166_Alpha3: "POL",
 	Numeric:        616,
+	CcTLD:          ".pl",
 }

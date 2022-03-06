@@ -7,4 +7,5 @@ var NorthMacedonia = &Country{
 	ISO3166_Alpha2: "MK",
 	ISO3166_Alpha3: "MKD",
 	Numeric:        807,
+	CcTLD:          ".mk",
 }

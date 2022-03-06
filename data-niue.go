@@ -7,4 +7,5 @@ var Niue = &Country{
 	ISO3166_Alpha2: "NU",
 	ISO3166_Alpha3: "NIU",
 	Numeric:        570,
+	CcTLD:          ".nu",
 }

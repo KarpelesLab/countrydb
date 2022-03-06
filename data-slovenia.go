@@ -7,4 +7,5 @@ var Slovenia = &Country{
 	ISO3166_Alpha2: "SI",
 	ISO3166_Alpha3: "SVN",
 	Numeric:        705,
+	CcTLD:          ".si",
 }

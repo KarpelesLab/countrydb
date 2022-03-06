@@ -8,4 +8,5 @@ type Country struct {
 	ISO3166_Alpha2 string
 	ISO3166_Alpha3 string
 	Numeric        int
+	CcTLD          string
 }

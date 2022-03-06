@@ -7,4 +7,5 @@ var Gabon = &Country{
 	ISO3166_Alpha2: "GA",
 	ISO3166_Alpha3: "GAB",
 	Numeric:        266,
+	CcTLD:          ".ga",
 }

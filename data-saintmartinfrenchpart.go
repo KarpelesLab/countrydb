@@ -6,4 +6,5 @@ var SaintMartinFrenchpart = &Country{
 	ISO3166_Alpha2: "MF",
 	ISO3166_Alpha3: "MAF",
 	Numeric:        663,
+	CcTLD:          ".mf",
 }

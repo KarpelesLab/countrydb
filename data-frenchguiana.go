@@ -6,4 +6,5 @@ var FrenchGuiana = &Country{
 	ISO3166_Alpha2: "GF",
 	ISO3166_Alpha3: "GUF",
 	Numeric:        254,
+	CcTLD:          ".gf",
 }

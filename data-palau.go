@@ -7,4 +7,5 @@ var Palau = &Country{
 	ISO3166_Alpha2: "PW",
 	ISO3166_Alpha3: "PLW",
 	Numeric:        585,
+	CcTLD:          ".pw",
 }

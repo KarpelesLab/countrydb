@@ -7,4 +7,5 @@ var Myanmar = &Country{
 	ISO3166_Alpha2: "MM",
 	ISO3166_Alpha3: "MMR",
 	Numeric:        104,
+	CcTLD:          ".mm",
 }
