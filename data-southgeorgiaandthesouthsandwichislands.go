@@ -10,4 +10,5 @@ var SouthGeorgiaandtheSouthSandwichIslands = &Country{
 	FIPS:           "SX",
 	Currency:       "GBP",
 	ICANN_Region:   "EUR",
+	PhonePrefix:    "500",
 }
