@@ -449,7 +449,7 @@ var Localeeu = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Korea, Errepublika",
-		CommonName: "Hegoafrika",
+		CommonName: "Hego Korea",
 	},
 	"KW": Translated{
 		Name:         "Kuwait",
@@ -674,7 +674,7 @@ var Localeeu = map[string]Translated{
 	"KP": Translated{
 		Name:         "Korea, Herri Errepublika Demokratikoa",
 		OfficialName: "Koreako Herri Errepublika Demokratikoa",
-		CommonName:   "Ipar Mazedonia",
+		CommonName:   "Ipar Korea",
 	},
 	"PT": Translated{
 		Name:         "Portugal",

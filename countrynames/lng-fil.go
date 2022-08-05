@@ -19,8 +19,8 @@ var Filipino = map[string]Translated{
 		Name: "Kapuluan ng Åland",
 	},
 	"AL": Translated{
-		Name:         "Albanya",
-		OfficialName: "Republic ng Albanya",
+		Name:         "Albania",
+		OfficialName: "Republika ng Albania",
 	},
 	"AD": Translated{
 		Name:         "Andorra",
@@ -30,8 +30,8 @@ var Filipino = map[string]Translated{
 		Name: "Nagkakaisang Emiratong Arabo",
 	},
 	"AR": Translated{
-		Name:         "Arhentina",
-		OfficialName: "Republika ng Arhentina",
+		Name:         "Argentina",
+		OfficialName: "Republika ng Argentina",
 	},
 	"AM": Translated{
 		Name:         "Armenia",
@@ -41,7 +41,7 @@ var Filipino = map[string]Translated{
 		Name: "Amerikanong Samoa",
 	},
 	"AQ": Translated{
-		Name: "Antartika",
+		Name: "Antarctica",
 	},
 	"TF": Translated{
 		Name: "Mga Katimugang Teritoryo ng Pransiya",
@@ -50,7 +50,7 @@ var Filipino = map[string]Translated{
 		Name: "Antigua at Barbuda",
 	},
 	"AU": Translated{
-		Name: "Australya",
+		Name: "Australia",
 	},
 	"AT": Translated{
 		Name:         "Austria",
@@ -65,8 +65,8 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Burundi",
 	},
 	"BE": Translated{
-		Name:         "Belhika",
-		OfficialName: "Kaharian ng Belhika",
+		Name:         "Belgium",
+		OfficialName: "Kaharian ng Belgium",
 	},
 	"BJ": Translated{
 		Name:         "Benin",
@@ -118,8 +118,8 @@ var Filipino = map[string]Translated{
 		CommonName:   "Bolivia",
 	},
 	"BR": Translated{
-		Name:         "Brasil",
-		OfficialName: "Republikang Pederal ng Brasil",
+		Name:         "Brazil",
+		OfficialName: "Republikang Pederal ng Brazil",
 	},
 	"BB": Translated{
 		Name: "Barbados",
@@ -148,8 +148,8 @@ var Filipino = map[string]Translated{
 		Name: "Kapuluan ng Cocos (Keeling)",
 	},
 	"CH": Translated{
-		Name:         "Suwisa",
-		OfficialName: "Konpederasyon ng Suwisa",
+		Name:         "Switzerland",
+		OfficialName: "Kompederasyon ng Switzerland",
 	},
 	"CL": Translated{
 		Name:         "Chile",
@@ -168,11 +168,11 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Cameroon",
 	},
 	"CD": Translated{
-		Name: "Kongo, Ang Republikang Demokratiko ng",
+		Name: "Congo, Republikang Demokratiko ng",
 	},
 	"CG": Translated{
-		Name:         "Kongo",
-		OfficialName: "Republika ng Kongo",
+		Name:         "Congo",
+		OfficialName: "Republika ng Congo",
 	},
 	"CK": Translated{
 		Name: "Kapuluan ng Cook",
@@ -208,12 +208,12 @@ var Filipino = map[string]Translated{
 		Name: "Kapuluan ng Cayman",
 	},
 	"CY": Translated{
-		Name:         "Tsipre",
-		OfficialName: "Republika ng Tsipre",
+		Name:         "Cyprus",
+		OfficialName: "Republika ng Cyprus",
 	},
 	"CZ": Translated{
 		Name:         "Czechia",
-		OfficialName: "Republikang Tseko",
+		OfficialName: "Republikang Czech",
 	},
 	"DE": Translated{
 		Name:         "Alemanya",
@@ -224,23 +224,23 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Djibouti",
 	},
 	"DM": Translated{
-		Name:         "Dominika",
-		OfficialName: "Komonwelt ng Dominika",
+		Name:         "Dominica",
+		OfficialName: "Komonwelt ng Dominica",
 	},
 	"DK": Translated{
-		Name:         "Dinamarka",
-		OfficialName: "Kaharian ng Dinamarka",
+		Name:         "Denmark",
+		OfficialName: "Kaharian ng Denmark",
 	},
 	"DO": Translated{
 		Name: "Republikang Dominikano",
 	},
 	"DZ": Translated{
-		Name:         "Algerya",
+		Name:         "Algeria",
 		OfficialName: "Demokratikong Republikang Bayan ng Algeria",
 	},
 	"EC": Translated{
-		Name:         "Ekwador",
-		OfficialName: "Republika ng Ekwador",
+		Name:         "Ecuador",
+		OfficialName: "Republika ng Ecuador",
 	},
 	"EG": Translated{
 		Name:         "Ehipto",
@@ -248,10 +248,10 @@ var Filipino = map[string]Translated{
 	},
 	"ER": Translated{
 		Name:         "Eritrea",
-		OfficialName: "Ang Estado ng Eritrea",
+		OfficialName: "Estado ng Eritrea",
 	},
 	"EH": Translated{
-		Name: "Kanluran Sahara",
+		Name: "Kanlurang Sahara",
 	},
 	"ES": Translated{
 		Name:         "Espanya",
@@ -266,8 +266,8 @@ var Filipino = map[string]Translated{
 		OfficialName: "Demokratikong Republikang Pederal ng Ethiopia",
 	},
 	"FI": Translated{
-		Name:         "Pinlandiya",
-		OfficialName: "Republika ng Pinlandiya",
+		Name:         "Finland",
+		OfficialName: "Republika ng Finland",
 	},
 	"FJ": Translated{
 		Name:         "Fiji",
@@ -278,22 +278,22 @@ var Filipino = map[string]Translated{
 	},
 	"FR": Translated{
 		Name:         "Pransiya",
-		OfficialName: "Republikang Pranses",
+		OfficialName: "Republika ng Pransiya",
 	},
 	"FO": Translated{
 		Name: "Kapuluan ng Faroe",
 	},
 	"FM": Translated{
-		Name:         "Mikronesya, Mga Estadong Pederal ng",
-		OfficialName: "Mga Estadong Pederal ng Mikronesya",
+		Name:         "Micronesia, Estadong Pederal ng",
+		OfficialName: "Estadong Pederal ng Micronesia",
 	},
 	"GA": Translated{
 		Name:         "Gabon",
-		OfficialName: "Republikang Gabones",
+		OfficialName: "Republika ng Gabon",
 	},
 	"GB": Translated{
-		Name:         "Reyno Unido",
-		OfficialName: "Reyno Unido ng Gran Britanya at Hilagang Irlandiya",
+		Name:         "Gran Britanya",
+		OfficialName: "Nagkakaisang Kaharian ng Gran Britanya at Hilagang Ireland",
 	},
 	"GE": Translated{
 		Name: "Georgia",
@@ -324,8 +324,8 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Guinea-Bissau",
 	},
 	"GQ": Translated{
-		Name:         "Ekwatoryal na Guinea",
-		OfficialName: "Republika ng Ekwatoryal na Guinea",
+		Name:         "Equatorial Guinea",
+		OfficialName: "Republika ng Equatorial Guinea",
 	},
 	"GR": Translated{
 		Name:         "Gresya",
@@ -353,7 +353,7 @@ var Filipino = map[string]Translated{
 	},
 	"HK": Translated{
 		Name:         "Hong Kong",
-		OfficialName: "Espesyal na Rehiyong Administratibo ng Hong Kong ng Tsina",
+		OfficialName: "Natatanging Rehiyong Administratibo ng Hong Kong ng Tsina",
 	},
 	"HM": Translated{
 		Name: "Isla ng Heard at Kapuluan ng McDonald",
@@ -363,33 +363,33 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Honduras",
 	},
 	"HR": Translated{
-		Name:         "Kroasya",
-		OfficialName: "Republika ng Kroasya",
+		Name:         "Croatia",
+		OfficialName: "Republika ng Croatia",
 	},
 	"HT": Translated{
 		Name:         "Haiti",
 		OfficialName: "Republika ng Haiti",
 	},
 	"HU": Translated{
-		Name:         "Unggaro",
-		OfficialName: "Unggaro",
+		Name:         "Hungary",
+		OfficialName: "Hungary",
 	},
 	"ID": Translated{
-		Name:         "Indonesya",
-		OfficialName: "Republika ng Indonesya",
+		Name:         "Indonesia",
+		OfficialName: "Republika ng Indonesia",
 	},
 	"IM": Translated{
-		Name: "Isla ng Tao",
+		Name: "Isle of Man",
 	},
 	"IN": Translated{
-		Name:         "Indiya",
-		OfficialName: "Republika ng Indiya",
+		Name:         "India",
+		OfficialName: "Republika ng India",
 	},
 	"IO": Translated{
-		Name: "Teritoryong Ingles sa Karagatang Indiyano",
+		Name: "Teritoryo sa Karagatang Indiyano ng Britanya",
 	},
 	"IE": Translated{
-		Name: "Irlandiya",
+		Name: "Ireland",
 	},
 	"IR": Translated{
 		Name:         "Iran, Republikang Islam ng",
@@ -400,8 +400,8 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Iraq",
 	},
 	"IS": Translated{
-		Name:         "Islandiya",
-		OfficialName: "Republika ng Islandiya",
+		Name:         "Iceland",
+		OfficialName: "Republika ng Iceland",
 	},
 	"IL": Translated{
 		Name:         "Israel",
@@ -409,7 +409,7 @@ var Filipino = map[string]Translated{
 	},
 	"IT": Translated{
 		Name:         "Italya",
-		OfficialName: "Republikang Italyano",
+		OfficialName: "Republika ng Italya",
 	},
 	"JM": Translated{
 		Name: "Jamaica",
@@ -419,7 +419,7 @@ var Filipino = map[string]Translated{
 	},
 	"JO": Translated{
 		Name:         "Jordan",
-		OfficialName: "Kahariang Hashim ng Jordan",
+		OfficialName: "Kahariang Hashemite ng Jordan",
 	},
 	"JP": Translated{
 		Name: "Hapon",
@@ -449,18 +449,18 @@ var Filipino = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Korea, Republika ng",
-		CommonName: "Timog Aprika",
+		CommonName: "Timog Korea",
 	},
 	"KW": Translated{
 		Name:         "Kuwait",
 		OfficialName: "Estado ng Kuwait",
 	},
 	"LA": Translated{
-		Name: "Demokratikong Republikang Bayan ng mga Lao",
+		Name: "Demokratikong Republikang Bayan ng Laos",
 	},
 	"LB": Translated{
 		Name:         "Lebanon",
-		OfficialName: "Republikang Lebanes",
+		OfficialName: "Republika ng Lebanon",
 	},
 	"LR": Translated{
 		Name:         "Liberia",
@@ -498,8 +498,8 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Latvia",
 	},
 	"MO": Translated{
-		Name:         "Macau",
-		OfficialName: "Espesyal na Rehiyong Administratibo ng Tsina sa Macau",
+		Name:         "Macao",
+		OfficialName: "Natatanging Rehiyong Administratibo ng Macao ng Tsina",
 	},
 	"MF": Translated{
 		Name: "San Martin (sakop ng Pransiya)",
@@ -527,7 +527,7 @@ var Filipino = map[string]Translated{
 	},
 	"MX": Translated{
 		Name:         "Mehiko",
-		OfficialName: "Mehikanong Estados Unidos",
+		OfficialName: "Nagkakaisang Estadong Mehikano",
 	},
 	"MH": Translated{
 		Name:         "Kapuluan ng Marshall",
@@ -593,7 +593,7 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Namibia",
 	},
 	"NC": Translated{
-		Name: "Bagong Caledonia",
+		Name: "New Caledonia",
 	},
 	"NE": Translated{
 		Name:         "Niger",
@@ -619,8 +619,8 @@ var Filipino = map[string]Translated{
 		OfficialName: "Kaharian ng Netherlands",
 	},
 	"NO": Translated{
-		Name:         "Norwega",
-		OfficialName: "Kaharian ng Norwega",
+		Name:         "Norway",
+		OfficialName: "Kaharian ng Norway",
 	},
 	"NP": Translated{
 		Name:         "Nepal",
@@ -631,7 +631,7 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Nauru",
 	},
 	"NZ": Translated{
-		Name: "Bagong Silandiya",
+		Name: "New Zealand",
 	},
 	"OM": Translated{
 		Name:         "Oman",
@@ -665,8 +665,8 @@ var Filipino = map[string]Translated{
 		OfficialName: "Malayang Estado ng Papua New Guinea",
 	},
 	"PL": Translated{
-		Name:         "Polonya",
-		OfficialName: "Republika ng Polonya",
+		Name:         "Poland",
+		OfficialName: "Republika ng Poland",
 	},
 	"PR": Translated{
 		Name: "Puerto Rico",
@@ -674,11 +674,11 @@ var Filipino = map[string]Translated{
 	"KP": Translated{
 		Name:         "Korea, Demokratikong Republikang Bayan ng",
 		OfficialName: "Demokratikong Republikang Bayan ng Korea",
-		CommonName:   "Hilagang Macedonia",
+		CommonName:   "Hilagang Korea",
 	},
 	"PT": Translated{
 		Name:         "Portugal",
-		OfficialName: "Republikang Portuges",
+		OfficialName: "Republika ng Portugal",
 	},
 	"PY": Translated{
 		Name:         "Paraguay",
@@ -689,7 +689,7 @@ var Filipino = map[string]Translated{
 		OfficialName: "Estado ng Palestina",
 	},
 	"PF": Translated{
-		Name: "Polynesia Pranses",
+		Name: "Pranses na Polynesia",
 	},
 	"QA": Translated{
 		Name:         "Qatar",
@@ -706,7 +706,7 @@ var Filipino = map[string]Translated{
 	},
 	"RW": Translated{
 		Name:         "Rwanda",
-		OfficialName: "Republikang Ruwandes",
+		OfficialName: "Republika ng Rwanda",
 	},
 	"SA": Translated{
 		Name:         "Saudi Arabia",
@@ -725,7 +725,7 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Singapore",
 	},
 	"GS": Translated{
-		Name: "Timog Georgia and ang Kapuluan ng Timog Sandwich",
+		Name: "Timog Georgia at ang Kapuluan ng Timog Sandwich",
 	},
 	"SH": Translated{
 		Name: "San Helena, Ascension, at Tristan da Cunha",
@@ -773,15 +773,15 @@ var Filipino = map[string]Translated{
 	},
 	"SK": Translated{
 		Name:         "Slovakia",
-		OfficialName: "Republikang Slovak",
+		OfficialName: "Republika ng Slovakia",
 	},
 	"SI": Translated{
 		Name:         "Slovenia",
 		OfficialName: "Republika ng Slovenia",
 	},
 	"SE": Translated{
-		Name:         "Suwesya",
-		OfficialName: "Kaharian ng Suwesya",
+		Name:         "Sweden",
+		OfficialName: "Kaharian ng Sweden",
 	},
 	"SZ": Translated{
 		Name:         "Eswatini",
@@ -807,7 +807,7 @@ var Filipino = map[string]Translated{
 	},
 	"TG": Translated{
 		Name:         "Togo",
-		OfficialName: "Republikang Togoles",
+		OfficialName: "Republika ng Togo",
 	},
 	"TH": Translated{
 		Name:         "Thailand",
@@ -847,13 +847,13 @@ var Filipino = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Probinsiya ng Tsina",
-		OfficialName: "Taiwan, Probinsiya ng Tsina",
+		Name:         "Taiwan, Lalawigan ng Tsina",
+		OfficialName: "Taiwan, Lalawigan ng Tsina",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
-		Name:         "Tanzania, Pinagkaisang Republika ng",
-		OfficialName: "Pinagkaisang Republika ng Tanzania",
+		Name:         "Tanzania, Nagkakaisang Republika ng",
+		OfficialName: "Nagkakaisang Republika ng Tanzania",
 		CommonName:   "Tanzania",
 	},
 	"UG": Translated{
@@ -864,7 +864,7 @@ var Filipino = map[string]Translated{
 		Name: "Ukraine",
 	},
 	"UM": Translated{
-		Name: "Mga Islang Maliliit sa Labas ng Estados Unidos",
+		Name: "Mga Minor Outlying Island ng Estados Unidos",
 	},
 	"UY": Translated{
 		Name:         "Uruguay",
@@ -872,7 +872,7 @@ var Filipino = map[string]Translated{
 	},
 	"US": Translated{
 		Name:         "Estados Unidos",
-		OfficialName: "Estados Unidos ng Amerika",
+		OfficialName: "Nagkakaisang Estado ng Amerika",
 	},
 	"UZ": Translated{
 		Name:         "Uzbekistan",
@@ -882,7 +882,7 @@ var Filipino = map[string]Translated{
 		Name: "Banal na Luklukan (Estado ng Lungsod Vatican)",
 	},
 	"VC": Translated{
-		Name: "San Vicente at ang Granadinas",
+		Name: "San Vicente at ang Grenadines",
 	},
 	"VE": Translated{
 		Name:         "Venezuela, Republikang Bolivar ng",
@@ -890,8 +890,8 @@ var Filipino = map[string]Translated{
 		CommonName:   "Venezuela",
 	},
 	"VG": Translated{
-		Name:         "Kapuluan ng Birhen, Ingles",
-		OfficialName: "Kapuluang Birhen ng Ingles",
+		Name:         "Kapuluan ng Birhen, Britanya",
+		OfficialName: "Kapuluang Birhen ng Britanya",
 	},
 	"VI": Translated{
 		Name:         "Kapuluang Birhen, Amerika",

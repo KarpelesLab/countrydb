@@ -685,7 +685,7 @@ var Albanian = map[string]Translated{
 		OfficialName: "Republika e Paraguait",
 	},
 	"PS": Translated{
-		Name:         "Palestinë, Shteti i ",
+		Name:         "Palestinë, Shteti i",
 		OfficialName: "Shteti i Palestinës",
 	},
 	"PF": Translated{

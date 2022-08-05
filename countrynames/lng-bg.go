@@ -186,8 +186,8 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Съюз на Комори",
 	},
 	"CV": Translated{
-		Name:         "Кейп Верде",
-		OfficialName: "Република Кейп Верде",
+		Name:         "Кабо Верде",
+		OfficialName: "Република Кабо Верде",
 	},
 	"CR": Translated{
 		Name:         "Коста Рика",
@@ -212,6 +212,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република Кипър",
 	},
 	"CZ": Translated{
+		Name:         "Чехия",
 		OfficialName: "Чешка република",
 	},
 	"DE": Translated{
@@ -316,7 +317,7 @@ var Bulgarian = map[string]Translated{
 	},
 	"GM": Translated{
 		Name:         "Гамбия",
-		OfficialName: "Република Замбия",
+		OfficialName: "Република Гамбия",
 	},
 	"GW": Translated{
 		Name:         "Гвинея-Бисау",
@@ -448,7 +449,7 @@ var Bulgarian = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Корея, Република",
-		CommonName: "Южна Африка",
+		CommonName: "Южна Корея",
 	},
 	"KW": Translated{
 		Name:         "Кувейт",
@@ -533,8 +534,8 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република на маршалските острови",
 	},
 	"MK": Translated{
-		Name:         "Нова Каледония",
-		OfficialName: "Република Литва",
+		Name:         "Северна Македония",
+		OfficialName: "Република Северна Македония",
 	},
 	"ML": Translated{
 		Name:         "Мали",
@@ -673,7 +674,7 @@ var Bulgarian = map[string]Translated{
 	"KP": Translated{
 		Name:         "Корея, Демократична народна република",
 		OfficialName: "Демократична народна република Корея",
-		CommonName:   "Нова Каледония",
+		CommonName:   "Северна Корея",
 	},
 	"PT": Translated{
 		Name:         "Португалия",
@@ -783,7 +784,8 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Кралство Швеция",
 	},
 	"SZ": Translated{
-		OfficialName: "Кралство Испания",
+		Name:         "Есватини",
+		OfficialName: "Кралство Есватини",
 	},
 	"SX": Translated{
 		Name:         "Синт Мартен (холандска част)",

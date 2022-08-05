@@ -16,7 +16,7 @@ var Localeoc = map[string]Translated{
 		Name: "Anguilla",
 	},
 	"AX": Translated{
-		Name: "Åland",
+		Name: "llas Åland",
 	},
 	"AL": Translated{
 		Name:         "Albania",
@@ -354,6 +354,9 @@ var Localeoc = map[string]Translated{
 	"HK": Translated{
 		Name:         "Hong Kong",
 		OfficialName: "Region administrativa especiala chinesa de Honk Hong",
+	},
+	"HM": Translated{
+		Name: "Illas Heard e McDonald",
 	},
 	"HN": Translated{
 		Name:         "Honduras",
@@ -780,6 +783,7 @@ var Localeoc = map[string]Translated{
 		OfficialName: "Reialme de Suècia",
 	},
 	"SZ": Translated{
+		Name:         "Eswatini",
 		OfficialName: "Reialme d'Eswatini",
 	},
 	"SX": Translated{
@@ -812,8 +816,14 @@ var Localeoc = map[string]Translated{
 		Name:         "Tatgiquistan",
 		OfficialName: "Republica de Tatgiquistan",
 	},
+	"TK": Translated{
+		Name: "Tokelau",
+	},
 	"TM": Translated{
 		Name: "Turcmenistan",
+	},
+	"TL": Translated{
+		Name: "Timòr Èst",
 	},
 	"TO": Translated{
 		Name:         "Tònga",

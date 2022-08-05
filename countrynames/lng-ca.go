@@ -247,7 +247,8 @@ var Catalan = map[string]Translated{
 		OfficialName: "República Àrab d'Egipte",
 	},
 	"ER": Translated{
-		Name: "Eritrea",
+		Name:         "Eritrea",
+		OfficialName: "Estat d'eritrea",
 	},
 	"EH": Translated{
 		Name: "Sàhara Occidental",
@@ -448,7 +449,7 @@ var Catalan = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Corea del Sud",
-		CommonName: "Sudàfrica",
+		CommonName: "Corea del Sud",
 	},
 	"KW": Translated{
 		Name:         "Kuwait",
@@ -533,8 +534,8 @@ var Catalan = map[string]Translated{
 		OfficialName: "República de les Illes Marshall",
 	},
 	"MK": Translated{
-		Name:         "Nova Caledònia",
-		OfficialName: "República de Lituània",
+		Name:         "Macedònia del Nord",
+		OfficialName: "República de Lituània del Nord",
 	},
 	"ML": Translated{
 		Name:         "Mali",
@@ -673,7 +674,7 @@ var Catalan = map[string]Translated{
 	"KP": Translated{
 		Name:         "Corea del Nord",
 		OfficialName: "República Democràtica Popular de Corea",
-		CommonName:   "Nova Caledònia",
+		CommonName:   "Corea del Nord",
 	},
 	"PT": Translated{
 		Name:         "Portugal",
@@ -684,7 +685,8 @@ var Catalan = map[string]Translated{
 		OfficialName: "República de Paraguai",
 	},
 	"PS": Translated{
-		OfficialName: "Estats Units d'Amèrica",
+		Name:         "Palestina, Estat de",
+		OfficialName: "Estat de Palestina",
 	},
 	"PF": Translated{
 		Name: "Polinèsia francesa",

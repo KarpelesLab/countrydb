@@ -448,7 +448,7 @@ var Polish = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Korea Południowa",
-		CommonName: "Republika Południowej Afryki",
+		CommonName: "Korea Południowa",
 	},
 	"KW": Translated{
 		Name:         "Kuwejt",
@@ -673,7 +673,7 @@ var Polish = map[string]Translated{
 	"KP": Translated{
 		Name:         "Korea Północna",
 		OfficialName: "Koreańska Republika Ludowo-Demokratyczna",
-		CommonName:   "Macedonia Północna",
+		CommonName:   "Korea Północna",
 	},
 	"PT": Translated{
 		Name:         "Portugalia",

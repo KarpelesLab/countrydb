@@ -145,7 +145,7 @@ var Dutch = map[string]Translated{
 		Name: "Canada",
 	},
 	"CC": Translated{
-		Name: "Cocoseilanden",
+		Name: "Cocoseilanden (Keelingeilanden)",
 	},
 	"CH": Translated{
 		Name:         "Zwitserland",
@@ -248,7 +248,7 @@ var Dutch = map[string]Translated{
 	},
 	"ER": Translated{
 		Name:         "Eritrea",
-		OfficialName: "de Staat Eritrea",
+		OfficialName: "Staat Eritrea",
 	},
 	"EH": Translated{
 		Name: "Westelijke Sahara",
@@ -274,7 +274,7 @@ var Dutch = map[string]Translated{
 		OfficialName: "Republiek Fiji",
 	},
 	"FK": Translated{
-		Name: "Falklandeilanden",
+		Name: "Falklandeilanden (Malvinas)",
 	},
 	"FR": Translated{
 		Name:         "Frankrijk",
@@ -448,7 +448,7 @@ var Dutch = map[string]Translated{
 		Name: "Saint Kitts en Nevis",
 	},
 	"KR": Translated{
-		Name:       "Zuid-Korea",
+		Name:       "Korea, Republiek",
 		CommonName: "Zuid-Korea",
 	},
 	"KW": Translated{
@@ -502,7 +502,7 @@ var Dutch = map[string]Translated{
 		OfficialName: "Speciale Administratieve Regio Macau van de Volksrepubliek China",
 	},
 	"MF": Translated{
-		Name: "Sint-Maarten",
+		Name: "Sint-Maarten (Frans deel)",
 	},
 	"MA": Translated{
 		Name:         "Marokko",
@@ -662,7 +662,7 @@ var Dutch = map[string]Translated{
 	},
 	"PG": Translated{
 		Name:         "Papoea-Nieuw-Guinea",
-		OfficialName: "Onafhankelijke staat Papua Nieuw Guinea",
+		OfficialName: "Onafhankelijke Staat Papua Nieuw Guinea",
 	},
 	"PL": Translated{
 		Name:         "Polen",
@@ -672,7 +672,7 @@ var Dutch = map[string]Translated{
 		Name: "Puerto Rico",
 	},
 	"KP": Translated{
-		Name:         "Noord-Korea",
+		Name:         "Korea, Democratische Volksrepubliek",
 		OfficialName: "Democratische Volksrepubliek Korea",
 		CommonName:   "Noord-Korea",
 	},
@@ -685,7 +685,7 @@ var Dutch = map[string]Translated{
 		OfficialName: "Republiek Paraguay",
 	},
 	"PS": Translated{
-		Name:         "Palestina",
+		Name:         "Palestina, Staat",
 		OfficialName: "Staat Palestina",
 	},
 	"PF": Translated{
@@ -879,7 +879,7 @@ var Dutch = map[string]Translated{
 		OfficialName: "Republiek Oezbekistan",
 	},
 	"VA": Translated{
-		Name: "Vaticaanstad",
+		Name: "Vaticaanstad, Staat",
 	},
 	"VC": Translated{
 		Name: "Saint Vincent en de Grenadines",
@@ -895,7 +895,7 @@ var Dutch = map[string]Translated{
 	},
 	"VI": Translated{
 		Name:         "Maagdeneilanden, Amerikaanse",
-		OfficialName: "Territorium de Maagdeneilanden",
+		OfficialName: "Amerikaanse Maagdeneilanden",
 	},
 	"VN": Translated{
 		Name:         "Vietnam",

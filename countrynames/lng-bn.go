@@ -449,7 +449,7 @@ var Bengali = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "কোরিয়া প্রজাতন্ত্র",
-		CommonName: "দক্ষিণ আফ্রিকা",
+		CommonName: "দক্ষিণ কোরিয়া",
 	},
 	"KW": Translated{
 		Name:         "কুয়েত",
@@ -674,7 +674,7 @@ var Bengali = map[string]Translated{
 	"KP": Translated{
 		Name:         "কোরিয়া, গণতান্ত্রিক গণপ্রজাতন্ত্রী",
 		OfficialName: "গণতান্ত্রিক গণপ্রজাতন্ত্রী কোরিয়া",
-		CommonName:   "উত্তর ম্যাসেডোনিয়া",
+		CommonName:   "উত্তর কোরিয়া",
 	},
 	"PT": Translated{
 		Name:         "পোর্টুগাল",
@@ -894,7 +894,7 @@ var Bengali = map[string]Translated{
 		OfficialName: "ব্রিটিশ ভার্জিন দ্বীপ",
 	},
 	"VI": Translated{
-		Name:         "মার্কিন যুক্তরাষ্ট্র ভার্জিন দ্বীপ",
+		Name:         "ভার্জিন দ্বীপ, মার্কিন যুক্তরাষ্ট্র",
 		OfficialName: "মার্কিন যুক্তরাষ্ট্র ভার্জিন দ্বীপ",
 	},
 	"VN": Translated{
