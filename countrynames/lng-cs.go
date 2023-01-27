@@ -449,7 +449,7 @@ var Czech = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Korea, republika",
-		CommonName: "Jihoafrická republika",
+		CommonName: "Jižní Korea",
 	},
 	"KW": Translated{
 		Name:         "Kuvajt",
@@ -674,7 +674,7 @@ var Czech = map[string]Translated{
 	"KP": Translated{
 		Name:         "Korea, lidově demokratická republika",
 		OfficialName: "Korejská lidově demokratická republika",
-		CommonName:   "Severní Makedonie",
+		CommonName:   "Severní Korea",
 	},
 	"PT": Translated{
 		Name:         "Portugalsko",
@@ -847,8 +847,8 @@ var Czech = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tchaj-wan, provincie Číny",
-		OfficialName: "Tchaj-wan, provincie Číny",
+		Name:         "Tchaj-wan",
+		OfficialName: "Tchaj-wan",
 		CommonName:   "Tchaj-wan",
 	},
 	"TZ": Translated{

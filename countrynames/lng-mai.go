@@ -203,10 +203,12 @@ var Localemai = map[string]Translated{
 		Name: "तुर्कमेनिस्तान",
 	},
 	"TR": Translated{
-		Name: "टर्की",
+		OfficialName: "चीन",
 	},
 	"TW": Translated{
-		CommonName: "ताइवान",
+		Name:         "ताइवान",
+		OfficialName: "ताइवान",
+		CommonName:   "ताइवान",
 	},
 	"UA": Translated{
 		Name: "यूक्रेन",

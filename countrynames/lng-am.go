@@ -649,14 +649,15 @@ var Amharic = map[string]Translated{
 		Name: "ቱኒፑ።",
 	},
 	"TR": Translated{
-		Name:         "ቱሴጤ",
 		OfficialName: "ሰሣን ጥሱ።",
 	},
 	"TV": Translated{
 		Name: "ቱቫሉ",
 	},
 	"TW": Translated{
-		CommonName: "ታ፤ሒን፥",
+		Name:         "ታ፤ሒን፥",
+		OfficialName: "ታ፤ሒን፥",
+		CommonName:   "ታ፤ሒን፥",
 	},
 	"TZ": Translated{
 		Name:         "ታንፒኒ።",

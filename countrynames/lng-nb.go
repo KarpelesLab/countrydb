@@ -840,15 +840,14 @@ var Localenb = map[string]Translated{
 		OfficialName: "Republikken Tunisia",
 	},
 	"TR": Translated{
-		Name:         "Tyrkia",
 		OfficialName: "Republikken Tyrkia",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Den kinesiske provins",
-		OfficialName: "Taiwan, Den kinesiske provins",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

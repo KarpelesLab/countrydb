@@ -729,14 +729,15 @@ var Localetk = map[string]Translated{
 		OfficialName: "Tunis Respublikasy",
 	},
 	"TR": Translated{
-		Name:         "Türk",
 		OfficialName: "Türk Respublikasy",
 	},
 	"TV": Translated{
 		Name: "Tuwalu",
 	},
 	"TW": Translated{
-		CommonName: "Taýwan",
+		Name:         "Taýwan",
+		OfficialName: "Taýwan",
+		CommonName:   "Taýwan",
 	},
 	"TZ": Translated{
 		Name:         "Tanzaniýa",

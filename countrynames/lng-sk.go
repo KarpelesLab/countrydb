@@ -839,15 +839,14 @@ var Slovak = map[string]Translated{
 		OfficialName: "Tuniská republika",
 	},
 	"TR": Translated{
-		Name:         "Turecko",
 		OfficialName: "Turecká republika",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, provincia Číny",
-		OfficialName: "Taiwan, provincia Číny",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

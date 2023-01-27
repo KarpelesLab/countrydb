@@ -811,15 +811,14 @@ var Localerw = map[string]Translated{
 		OfficialName: "Repubulika ya Tunisiya",
 	},
 	"TR": Translated{
-		Name:         "Turukiya",
 		OfficialName: "Repubulika ya Turukiya",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tayiwani, Porovensi y'Ubushinwa",
-		OfficialName: "Tayiwani, Porovensi y'Ubushinwa",
+		Name:         "Tayiwani",
+		OfficialName: "Tayiwani",
 		CommonName:   "Tayiwani",
 	},
 	"TZ": Translated{

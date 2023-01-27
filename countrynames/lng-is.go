@@ -847,8 +847,8 @@ var Icelandic = map[string]Translated{
 		Name: "Túvalú",
 	},
 	"TW": Translated{
-		Name:         "Tævan, hérað í Kína",
-		OfficialName: "Tævan, hérað í Kína",
+		Name:         "Tævan",
+		OfficialName: "Tævan",
 		CommonName:   "Tævan",
 	},
 	"TZ": Translated{

@@ -840,15 +840,15 @@ var English = map[string]Translated{
 		OfficialName: "Republic of Tunisia",
 	},
 	"TR": Translated{
-		Name:         "Turkey",
-		OfficialName: "Republic of Turkey",
+		Name:         "Türkiye",
+		OfficialName: "Republic of Türkiye",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Province of China",
-		OfficialName: "Taiwan, Province of China",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

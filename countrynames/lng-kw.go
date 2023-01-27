@@ -592,13 +592,15 @@ var Localekw = map[string]Translated{
 		Name: "Tunisi",
 	},
 	"TR": Translated{
-		Name: "Turki",
+		OfficialName: "Repoblek Kongo",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Taywan",
+		Name:         "Taywan",
+		OfficialName: "Taywan",
+		CommonName:   "Taywan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

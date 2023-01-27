@@ -135,7 +135,7 @@ var Localeab = map[string]Translated{
 		Name: "Шьамтәыла",
 	},
 	"TR": Translated{
-		Name: "Ҭырқәтәыла",
+		OfficialName: "Ачынҭатәи Ажәлартә Республика",
 	},
 	"UA": Translated{
 		Name: "Украина",

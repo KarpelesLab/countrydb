@@ -444,14 +444,13 @@ var Localepi = map[string]Translated{
 	"TN": Translated{
 		Name: "टुनिशिया",
 	},
-	"TR": Translated{
-		Name: "तुर्किये",
-	},
 	"TV": Translated{
 		Name: "टुवालु",
 	},
 	"TW": Translated{
-		CommonName: "तैवान",
+		Name:         "तैवान",
+		OfficialName: "तैवान",
+		CommonName:   "तैवान",
 	},
 	"TZ": Translated{
 		CommonName: "टंजानिया",

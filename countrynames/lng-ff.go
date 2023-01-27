@@ -244,7 +244,7 @@ var Localeff = map[string]Translated{
 		Name: "Tailannde",
 	},
 	"TR": Translated{
-		Name: "Türkiye",
+		OfficialName: "Ciina",
 	},
 	"UA": Translated{
 		Name: "Ukrayiina",

@@ -847,8 +847,8 @@ var Localesc = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Provìntzia de sa Tzina",
-		OfficialName: "Taiwan, Provìntzia de sa Tzina",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

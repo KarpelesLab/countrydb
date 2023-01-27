@@ -248,7 +248,7 @@ var Catalan = map[string]Translated{
 	},
 	"ER": Translated{
 		Name:         "Eritrea",
-		OfficialName: "Estat d'eritrea",
+		OfficialName: "Estat d'Eritrea",
 	},
 	"EH": Translated{
 		Name: "Sàhara Occidental",
@@ -784,7 +784,8 @@ var Catalan = map[string]Translated{
 		OfficialName: "Regne de Suècia",
 	},
 	"SZ": Translated{
-		OfficialName: "Regne d'Espanya",
+		Name:         "Eswatini",
+		OfficialName: "Regne d'Eswatini",
 	},
 	"SX": Translated{
 		Name:         "Sint Maarten (part neerlandesa)",
@@ -846,8 +847,8 @@ var Catalan = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Província de Xina",
-		OfficialName: "Taiwan, Província de Xina",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

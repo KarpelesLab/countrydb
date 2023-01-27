@@ -847,8 +847,8 @@ var BrazilianPortuguese = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Província da China",
-		OfficialName: "Taiwan, Província da China",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

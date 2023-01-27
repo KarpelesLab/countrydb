@@ -434,13 +434,15 @@ var Localena = map[string]Translated{
 		Name: "Tonga",
 	},
 	"TR": Translated{
-		Name: "Terki",
+		OfficialName: "Ripubrikin Kongo",
 	},
 	"TV": Translated{
 		Name: "Tubaru",
 	},
 	"TW": Translated{
-		CommonName: "Republik Tsiene",
+		Name:         "Republik Tsiene",
+		OfficialName: "Republik Tsiene",
+		CommonName:   "Republik Tsiene",
 	},
 	"UA": Translated{
 		Name: "Ukraine",

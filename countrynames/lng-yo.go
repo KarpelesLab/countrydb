@@ -614,13 +614,15 @@ var Localeyo = map[string]Translated{
 		Name: "Tùnísíà",
 	},
 	"TR": Translated{
-		Name: "Túrkì",
+		OfficialName: "Orílẹ̀-èdè Olómìnira ilẹ̀ Kóngò",
 	},
 	"TV": Translated{
 		Name: "Tufalu",
 	},
 	"TW": Translated{
-		CommonName: "Orílẹ̀-èdè Olómìnira ilẹ̀ Ṣáínà",
+		Name:         "Orílẹ̀-èdè Olómìnira ilẹ̀ Ṣáínà",
+		OfficialName: "Orílẹ̀-èdè Olómìnira ilẹ̀ Ṣáínà",
+		CommonName:   "Orílẹ̀-èdè Olómìnira ilẹ̀ Ṣáínà",
 	},
 	"TZ": Translated{
 		CommonName: "Tànsáníà",

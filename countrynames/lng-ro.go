@@ -839,7 +839,6 @@ var Romanian = map[string]Translated{
 		OfficialName: "Republica Tunisia",
 	},
 	"TR": Translated{
-		Name:         "Turcia",
 		OfficialName: "Republica Turcia",
 	},
 	"TV": Translated{

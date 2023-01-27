@@ -840,15 +840,14 @@ var Hungarian = map[string]Translated{
 		OfficialName: "Tunéziai Köztársaság",
 	},
 	"TR": Translated{
-		Name:         "Törökország",
 		OfficialName: "Török Köztársaság",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tajvan, kínai tartomány",
-		OfficialName: "Tajvan, kínai tartomány",
+		Name:         "Tajvan",
+		OfficialName: "Tajvan",
 		CommonName:   "Tajvan",
 	},
 	"TZ": Translated{

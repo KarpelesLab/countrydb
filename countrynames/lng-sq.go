@@ -449,7 +449,7 @@ var Albanian = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Korea, Republika e",
-		CommonName: "Afrikë e Jugut",
+		CommonName: "Koreja e Jugut",
 	},
 	"KW": Translated{
 		Name:         "Kuvajt",
@@ -674,7 +674,7 @@ var Albanian = map[string]Translated{
 	"KP": Translated{
 		Name:         "Korea, Republika Popullore Demokratike e",
 		OfficialName: "Republika Popullore Demokratike e Koresë",
-		CommonName:   "Maqedonia e Veriut",
+		CommonName:   "Koreja e Veriut",
 	},
 	"PT": Translated{
 		Name:         "Portugali",
@@ -847,8 +847,8 @@ var Albanian = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tajvan, Provincë e Kinës",
-		OfficialName: "Tajvan, Provincë e Kinës",
+		Name:         "Tajvan",
+		OfficialName: "Tajvan",
 		CommonName:   "Tajvan",
 	},
 	"TZ": Translated{

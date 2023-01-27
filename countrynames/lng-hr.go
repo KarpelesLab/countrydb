@@ -847,8 +847,8 @@ var Croatian = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tajvan (provincija, NR Kina)",
-		OfficialName: "Tajvan (provincija, NR Kina)",
+		Name:         "Tajvan",
+		OfficialName: "Tajvan",
 		CommonName:   "Tajvan",
 	},
 	"TZ": Translated{

@@ -556,13 +556,15 @@ var Localeba = map[string]Translated{
 		Name: "Тунис",
 	},
 	"TR": Translated{
-		Name: "Төркиә",
+		OfficialName: "Республика Конго",
 	},
 	"TV": Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		CommonName: "Ҡытай Республикаһы",
+		Name:         "Ҡытай Республикаһы",
+		OfficialName: "Ҡытай Республикаһы",
+		CommonName:   "Ҡытай Республикаһы",
 	},
 	"TZ": Translated{
 		CommonName: "Танзания",

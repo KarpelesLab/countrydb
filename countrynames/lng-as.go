@@ -829,15 +829,14 @@ var Localeas = map[string]Translated{
 		OfficialName: "টিউনিছিয়া প্ৰজাতন্ত্ৰ",
 	},
 	"TR": Translated{
-		Name:         "তুৰস্ক",
 		OfficialName: "তুৰস্ক প্ৰজাতন্ত্ৰ",
 	},
 	"TV": Translated{
 		Name: "টুভালু",
 	},
 	"TW": Translated{
-		Name:         "তাইৱান, চীনৰ প্ৰদেশ",
-		OfficialName: "তাইৱান, চীনৰ প্ৰদেশ",
+		Name:         "তাইৱান",
+		OfficialName: "তাইৱান",
 		CommonName:   "তাইৱান",
 	},
 	"TZ": Translated{

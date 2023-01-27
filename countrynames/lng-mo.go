@@ -75,9 +75,6 @@ var Localemo = map[string]Translated{
 	"TH": Translated{
 		Name: "Tailândia",
 	},
-	"TR": Translated{
-		Name: "Турчия",
-	},
 	"UA": Translated{
 		Name: "Украина",
 	},

@@ -399,7 +399,7 @@ var Localekab = map[string]Translated{
 		Name: "Tunes",
 	},
 	"TR": Translated{
-		Name: "Tturk",
+		OfficialName: "Tagduda n Albanya",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",

@@ -840,15 +840,14 @@ var Serbian = map[string]Translated{
 		OfficialName: "Република Тунис",
 	},
 	"TR": Translated{
-		Name:         "Турска",
 		OfficialName: "Република Турска",
 	},
 	"TV": Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		Name:         "Тајван, Кинеска Провинција",
-		OfficialName: "Тајван, Кинеска Провинција",
+		Name:         "Тајван",
+		OfficialName: "Тајван",
 		CommonName:   "Тајван",
 	},
 	"TZ": Translated{

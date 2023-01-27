@@ -423,10 +423,12 @@ var Localeps = map[string]Translated{
 		Name: "تونس",
 	},
 	"TR": Translated{
-		Name: "تورکيه",
+		OfficialName: "د کانګو جمهوريت",
 	},
 	"TW": Translated{
-		CommonName: "د چین جمهوریت",
+		Name:         "د چین جمهوریت",
+		OfficialName: "د چین جمهوریت",
+		CommonName:   "د چین جمهوریت",
 	},
 	"TZ": Translated{
 		CommonName: "تانزانیه",

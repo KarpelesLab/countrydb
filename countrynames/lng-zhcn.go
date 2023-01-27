@@ -840,15 +840,15 @@ var SimplifiedChinese = map[string]Translated{
 		OfficialName: "突尼斯共和国",
 	},
 	"TR": Translated{
-		Name:         "土耳其",
+		Name:         "土耳其的",
 		OfficialName: "土耳其共和国",
 	},
 	"TV": Translated{
 		Name: "图瓦卢",
 	},
 	"TW": Translated{
-		Name:         "中国台湾省",
-		OfficialName: "中国台湾省",
+		Name:         "台湾",
+		OfficialName: "台湾",
 		CommonName:   "台湾",
 	},
 	"TZ": Translated{

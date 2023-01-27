@@ -838,15 +838,14 @@ var Lithuanian = map[string]Translated{
 		OfficialName: "Tuniso Respublika",
 	},
 	"TR": Translated{
-		Name:         "Turkija",
 		OfficialName: "Turkijos Respublika",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taivanas, Kinijos provincija",
-		OfficialName: "Taivanas, Kinijos provincija",
+		Name:         "Taivanas",
+		OfficialName: "Taivanas",
 		CommonName:   "Taivanas",
 	},
 	"TZ": Translated{

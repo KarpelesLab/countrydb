@@ -1,7 +1,7 @@
 package countrydb
 
 var Taiwan = &Country{
-	Name:           "Taiwan, Province of China",
+	Name:           "Taiwan",
 	UniqueName:     "Taiwan",
 	ISO3166_Alpha2: "TW",
 	ISO3166_Alpha3: "TWN",

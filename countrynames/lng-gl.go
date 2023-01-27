@@ -840,15 +840,14 @@ var Localegl = map[string]Translated{
 		OfficialName: "República de Tunicia",
 	},
 	"TR": Translated{
-		Name:         "Turquía",
 		OfficialName: "República de Turquía",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwán, Provincia de China",
-		OfficialName: "Taiwán, Provincia de China",
+		Name:         "Taiwán",
+		OfficialName: "Taiwán",
 		CommonName:   "Taiwán",
 	},
 	"TZ": Translated{

@@ -46,6 +46,7 @@ class CountryGenerator {
 		$special = [
 			'CD' => 'DemocraticCongo',
 			'VG' => 'BritishVirginIslands',
+			'TR' => 'Turkey',
 		];
 
 		foreach($this->country_data as &$country) {
@@ -57,6 +58,11 @@ class CountryGenerator {
 				$name = $country['name'];
 				list($name) = explode(',', $name);
 				$name = preg_replace('/[^a-zA-Z]/', '', self::asciify($name));
+			}
+			if ($country['alpha_2'] == 'TW') {
+				// Fix TW's name
+				$country['official_name'] = $country['common_name'];
+				$country['name'] = $country['common_name'];
 			}
 			if (isset($unique_names[strtolower($name)])) die("name not unique: $name\n");
 			$unique_names[strtolower($name)] = true;

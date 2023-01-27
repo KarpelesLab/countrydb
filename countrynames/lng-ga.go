@@ -838,15 +838,14 @@ var Localega = map[string]Translated{
 		OfficialName: "Poblacht na Túinéise",
 	},
 	"TR": Translated{
-		Name:         "An Tuirc",
 		OfficialName: "Poblacht na Tuirce",
 	},
 	"TV": Translated{
 		Name: "Tuvalú",
 	},
 	"TW": Translated{
-		Name:         "An Téaváin, Cúige na Síne",
-		OfficialName: "An Téaváin, Cúige na Síne",
+		Name:         "An Téaváin",
+		OfficialName: "An Téaváin",
 		CommonName:   "An Téaváin",
 	},
 	"TZ": Translated{

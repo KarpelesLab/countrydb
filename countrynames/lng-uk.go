@@ -847,8 +847,8 @@ var Ukrainian = map[string]Translated{
 		Name: "тувалу",
 	},
 	"TW": Translated{
-		Name:         "Тайвань, провінція Китаю",
-		OfficialName: "Тайвань, провінція Китаю",
+		Name:         "Тайвань",
+		OfficialName: "Тайвань",
 		CommonName:   "Тайвань",
 	},
 	"TZ": Translated{

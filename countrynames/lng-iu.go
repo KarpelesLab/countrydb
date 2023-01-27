@@ -77,7 +77,7 @@ var Localeiu = map[string]Translated{
 		Name: "ᔅᕗᕆᑭ",
 	},
 	"TR": Translated{
-		Name: "ᑑᕐᑭ",
+		OfficialName: "China",
 	},
 	"UA": Translated{
 		Name: "ᑯᑯᓯ ᓄᓇ",

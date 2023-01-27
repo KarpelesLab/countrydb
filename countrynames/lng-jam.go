@@ -530,13 +530,15 @@ var Localejam = map[string]Translated{
 		Name: "Tunisia",
 	},
 	"TR": Translated{
-		Name: "Torki",
+		OfficialName: "Kanggo",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

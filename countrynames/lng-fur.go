@@ -840,15 +840,14 @@ var Localefur = map[string]Translated{
 		OfficialName: "Republiche Tunisine",
 	},
 	"TR": Translated{
-		Name:         "Turchie",
 		OfficialName: "Republiche di Turchie",
 	},
 	"TV": Translated{
 		Name: "Tuvaluan",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Republiche di Cine",
-		OfficialName: "Taiwan, Republiche di Cine",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

@@ -347,7 +347,7 @@ var Localeha = map[string]Translated{
 		Name: "Turkmenistan",
 	},
 	"TR": Translated{
-		Name: "Turkiyya",
+		OfficialName: "Sin",
 	},
 	"UG": Translated{
 		Name: "Uganda",

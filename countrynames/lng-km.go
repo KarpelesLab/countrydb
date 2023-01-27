@@ -839,15 +839,14 @@ var Khmer = map[string]Translated{
 		OfficialName: "សាធារណរដ្ឋ​ទុយណេស៊ី",
 	},
 	"TR": Translated{
-		Name:         "ទួរគី",
 		OfficialName: "សាធារណរដ្ឋទួរគី​",
 	},
 	"TV": Translated{
 		Name: "ទុយវ៉ាលុយ",
 	},
 	"TW": Translated{
-		Name:         "តៃវ៉ាន់​ ខេត្ត​នៃ​ប្រទេស​ចិន",
-		OfficialName: "តៃវ៉ាន់​ ខេត្ត​នៃ​ប្រទេស​ចិន",
+		Name:         "តៃវ៉ាន់",
+		OfficialName: "តៃវ៉ាន់",
 		CommonName:   "តៃវ៉ាន់",
 	},
 	"TZ": Translated{

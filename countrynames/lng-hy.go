@@ -838,15 +838,14 @@ var Armenian = map[string]Translated{
 		OfficialName: "Թունիսի Հանրապետություն",
 	},
 	"TR": Translated{
-		Name:         "Թուրքիա",
 		OfficialName: "Թուրքիայի Հանրապետություն",
 	},
 	"TV": Translated{
 		Name: "Տուվալու",
 	},
 	"TW": Translated{
-		Name:         "Թայան, Չինաստանի Նահանգ",
-		OfficialName: "Թայան, Չինաստանի Նահանգ",
+		Name:         "Թայվան",
+		OfficialName: "Թայվան",
 		CommonName:   "Թայվան",
 	},
 	"TZ": Translated{

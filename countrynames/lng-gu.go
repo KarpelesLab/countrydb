@@ -840,15 +840,14 @@ var Gujarati = map[string]Translated{
 		OfficialName: "રીપબ્લિક ઓફ ટ્યુનિશિયા",
 	},
 	"TR": Translated{
-		Name:         "તુર્કી",
 		OfficialName: "રીપબ્લિક ઓફ તુર્કી",
 	},
 	"TV": Translated{
 		Name: "ટુવાલુ",
 	},
 	"TW": Translated{
-		Name:         "તાઇવાન, પ્રોવિનન્સ ઓફ ચાઇના",
-		OfficialName: "તાઇવાન, પ્રોવિનન્સ ઓફ ચાઇના",
+		Name:         "તાઇવાન",
+		OfficialName: "તાઇવાન",
 		CommonName:   "તાઇવાન",
 	},
 	"TZ": Translated{

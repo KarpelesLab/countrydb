@@ -824,15 +824,14 @@ var Tamil = map[string]Translated{
 		OfficialName: "துனீசியா குடியரசு",
 	},
 	"TR": Translated{
-		Name:         "துருக்கி",
 		OfficialName: "துருக்கி குடியரசு",
 	},
 	"TV": Translated{
 		Name: "துவாலு",
 	},
 	"TW": Translated{
-		Name:         "தாய்வான் சீன மாநிலம்",
-		OfficialName: "தாய்வான் சீன மாநிலம்",
+		Name:         "தாய்வான்",
+		OfficialName: "தாய்வான்",
 		CommonName:   "தாய்வான்",
 	},
 	"TZ": Translated{

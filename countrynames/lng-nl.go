@@ -491,7 +491,7 @@ var Dutch = map[string]Translated{
 	},
 	"LU": Translated{
 		Name:         "Luxemburg",
-		OfficialName: "Groot-Hertogdom Luxemburg",
+		OfficialName: "Groothertogdom Luxemburg",
 	},
 	"LV": Translated{
 		Name:         "Letland",
@@ -519,7 +519,7 @@ var Dutch = map[string]Translated{
 	},
 	"MG": Translated{
 		Name:         "Madagaskar",
-		OfficialName: "Republiek Madagascar",
+		OfficialName: "Republiek Madagaskar",
 	},
 	"MV": Translated{
 		Name:         "Maldiven",

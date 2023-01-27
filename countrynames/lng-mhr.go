@@ -304,10 +304,12 @@ var Localemhr = map[string]Translated{
 		Name: "Тринидад да Тобаго",
 	},
 	"TR": Translated{
-		Name: "Турций",
+		OfficialName: "Китай",
 	},
 	"TW": Translated{
-		CommonName: "Тайван",
+		Name:         "Тайван",
+		OfficialName: "Тайван",
+		CommonName:   "Тайван",
 	},
 	"UG": Translated{
 		Name: "Уганде",

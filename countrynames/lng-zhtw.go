@@ -840,15 +840,14 @@ var TraditionalChinese = map[string]Translated{
 		OfficialName: "突尼西亞共和國",
 	},
 	"TR": Translated{
-		Name:         "土耳其",
 		OfficialName: "土耳其共和國",
 	},
 	"TV": Translated{
 		Name: "吐瓦魯",
 	},
 	"TW": Translated{
-		Name:         "中華民國",
-		OfficialName: "中華民國",
+		Name:         "臺灣",
+		OfficialName: "臺灣",
 		CommonName:   "臺灣",
 	},
 	"TZ": Translated{

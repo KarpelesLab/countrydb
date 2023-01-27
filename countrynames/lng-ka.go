@@ -27,14 +27,14 @@ var Georgian = map[string]Translated{
 		OfficialName: "ანდორას სამთავრო",
 	},
 	"AE": Translated{
-		Name: "არაბეთის გაერთიანებული ემირატები",
+		Name: "არაბთა გაერთიანებული საამიროები",
 	},
 	"AR": Translated{
 		Name:         "არგენტინა",
 		OfficialName: "არგენტინის რესპუბლიკა",
 	},
 	"AM": Translated{
-		Name:         "სასომხეთი",
+		Name:         "სომხეთი",
 		OfficialName: "სომხეთის რესპუბლიკა",
 	},
 	"AS": Translated{
@@ -72,6 +72,10 @@ var Georgian = map[string]Translated{
 		Name:         "ბენინი",
 		OfficialName: "ბენინის რესპუბლიკა",
 	},
+	"BQ": Translated{
+		Name:         "ბონერი, სენტ ევსტატუსი და საბა",
+		OfficialName: "ბონერი, სენტ ევსტატუსი და საბა",
+	},
 	"BF": Translated{
 		Name: "ბურკინა-ფასო",
 	},
@@ -99,7 +103,7 @@ var Georgian = map[string]Translated{
 		Name: "სენ-ბართლემი",
 	},
 	"BY": Translated{
-		Name:         "ბელორუსია",
+		Name:         "ბელარუსი",
 		OfficialName: "ბელარუსიის რესპუბლიკა",
 	},
 	"BZ": Translated{
@@ -109,7 +113,9 @@ var Georgian = map[string]Translated{
 		Name: "ბერმუდა",
 	},
 	"BO": Translated{
-		CommonName: "ბოლივია",
+		Name:         "პლურინაციონალური ქვეყანა ბოლივია",
+		OfficialName: "ბოლივიის მრავლობითი სახელმწიფო",
+		CommonName:   "ბოლივია",
 	},
 	"BR": Translated{
 		Name:         "ბრაზილია",
@@ -139,14 +145,14 @@ var Georgian = map[string]Translated{
 		Name: "კანადა",
 	},
 	"CC": Translated{
-		Name: "ქოქოსის კუნძული",
+		Name: "ქოქოსის კუნძულები",
 	},
 	"CH": Translated{
 		Name:         "შვეიცარია",
 		OfficialName: "შვეიცარიის კონფედერაცია",
 	},
 	"CL": Translated{
-		Name:         "ჩილი",
+		Name:         "ჩილე",
 		OfficialName: "ჩილეს რესპუბლიკა",
 	},
 	"CN": Translated{
@@ -176,12 +182,12 @@ var Georgian = map[string]Translated{
 		OfficialName: "კოლუმბიის რესპუბლიკა",
 	},
 	"KM": Translated{
-		Name:         "კომორის კუნძულები",
+		Name:         "კომორის კუნძულების კავშირი",
 		OfficialName: "კომოროს კავშირი",
 	},
 	"CV": Translated{
 		Name:         "კაბო-ვერდე",
-		OfficialName: "კეიპ-ვერდეს რესპუბლიკა",
+		OfficialName: "კაბო-ვერდეს რესპუბლიკა",
 	},
 	"CR": Translated{
 		Name:         "კოსტა-რიკა",
@@ -191,17 +197,22 @@ var Georgian = map[string]Translated{
 		Name:         "კუბა",
 		OfficialName: "კუბის რესპუბლიკა",
 	},
+	"CW": Translated{
+		Name:         "კიურასაო",
+		OfficialName: "კიურასაო",
+	},
 	"CX": Translated{
 		Name: "შობის კუნძული",
 	},
 	"KY": Translated{
-		Name: "კაიამანის კუნძულები",
+		Name: "კაიმანის კუნძულები",
 	},
 	"CY": Translated{
 		Name:         "კვიპროსი",
 		OfficialName: "კვიპროსის რესპუბლიკა",
 	},
 	"CZ": Translated{
+		Name:         "ჩეხეთი",
 		OfficialName: "ჩეხეთის რესპუბლიკა",
 	},
 	"DE": Translated{
@@ -221,7 +232,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "დანიის სამეფო",
 	},
 	"DO": Translated{
-		Name: "დომინიკანის რესპუბლიკა",
+		Name: "დომინიკის რესპუბლიკა",
 	},
 	"DZ": Translated{
 		Name:         "ალჟირი",
@@ -237,7 +248,7 @@ var Georgian = map[string]Translated{
 	},
 	"ER": Translated{
 		Name:         "ერიტრეა",
-		OfficialName: "ამერიკის შეერთებული შტატები",
+		OfficialName: "სახელმწიფო ერიტრეა",
 	},
 	"EH": Translated{
 		Name: "დასავლეთი საჰარა",
@@ -260,7 +271,7 @@ var Georgian = map[string]Translated{
 	},
 	"FJ": Translated{
 		Name:         "ფიჯი",
-		OfficialName: "ჰაიტის რესპუბლიკა",
+		OfficialName: "ფიჯის რესპუბლიკა",
 	},
 	"FK": Translated{
 		Name: "ფოლკლენდის კუნძულები",
@@ -270,7 +281,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "საფრანგეთის რესპუბლიკა",
 	},
 	"FO": Translated{
-		Name: "ფაროეს კუნძულები",
+		Name: "ფაროს კუნძულები",
 	},
 	"FM": Translated{
 		Name:         "მიკრონეზიის ფედერალური შტატები",
@@ -288,7 +299,7 @@ var Georgian = map[string]Translated{
 		Name: "საქართველო",
 	},
 	"GG": Translated{
-		Name: "გუერნსი",
+		Name: "გერნსი",
 	},
 	"GH": Translated{
 		Name:         "განა",
@@ -302,11 +313,11 @@ var Georgian = map[string]Translated{
 		OfficialName: "გვინეას რესპუბლიკა",
 	},
 	"GP": Translated{
-		Name: "გვადალუპე",
+		Name: "გვადელუპა",
 	},
 	"GM": Translated{
 		Name:         "გამბია",
-		OfficialName: "ზამბიის რესპუბლიკა",
+		OfficialName: "გამბიის რესპუბლიკა",
 	},
 	"GW": Translated{
 		Name:         "გვინეა-ბისაუ",
@@ -324,14 +335,14 @@ var Georgian = map[string]Translated{
 		Name: "გრენადა",
 	},
 	"GL": Translated{
-		Name: "გრინლანდია",
+		Name: "გრენლანდია",
 	},
 	"GT": Translated{
 		Name:         "გვატემალა",
 		OfficialName: "გვატემალას რესპუბლიკა",
 	},
 	"GF": Translated{
-		Name: "ფრანგული გუიანა",
+		Name: "საფრანგეთის გვიანა",
 	},
 	"GU": Translated{
 		Name: "გუამი",
@@ -341,7 +352,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "გაიანას რესპუბლიკა",
 	},
 	"HK": Translated{
-		Name:         "ჰონკონგი",
+		Name:         "ჰონგ-კონგი",
 		OfficialName: "ჰონგ-კონგის სპეციალური ადმინისტრაციული რეგიონი ჩინეთში",
 	},
 	"HM": Translated{
@@ -352,7 +363,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "ჰონდურასის რესპუბლიკა",
 	},
 	"HR": Translated{
-		Name:         "ჰორვატია",
+		Name:         "ხორვატია",
 		OfficialName: "ხორვატიის რესპუბლიკა",
 	},
 	"HT": Translated{
@@ -438,10 +449,10 @@ var Georgian = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "კორეა, რესპუბლიკა",
-		CommonName: "სამხრეთ აფრიკა",
+		CommonName: "სამხრეთ კორეა",
 	},
 	"KW": Translated{
-		Name:         "კუვეიტი",
+		Name:         "ქუვეითი",
 		OfficialName: "ქუვეითი",
 	},
 	"LA": Translated{
@@ -456,8 +467,8 @@ var Georgian = map[string]Translated{
 		OfficialName: "ლიბერიის რესპუბლიკა",
 	},
 	"LY": Translated{
-		Name:         "ლიბერია",
-		OfficialName: "ლიბერია",
+		Name:         "ლიბია",
+		OfficialName: "ლიბია",
 	},
 	"LC": Translated{
 		Name: "სენტ-ლუსია",
@@ -471,7 +482,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "შრი-ლანკას დემოკრატიული სოციალისტური რესპუბლიკა",
 	},
 	"LS": Translated{
-		Name:         "ლესოტო",
+		Name:         "ლესოთო",
 		OfficialName: "ლესოთოს სამეფო",
 	},
 	"LT": Translated{
@@ -502,7 +513,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "მონაკოს სამთავრო",
 	},
 	"MD": Translated{
-		Name:         "მაკედონიის რესპუბლიკა",
+		Name:         "მოლდოვის რესპუბლიკა",
 		OfficialName: "მოლდოვას რესპუბლიკა",
 		CommonName:   "მოლდოვა",
 	},
@@ -511,7 +522,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "მადაგასკარის რესპუბლიკა",
 	},
 	"MV": Translated{
-		Name:         "მალდივის კუნძულები",
+		Name:         "მალდივები",
 		OfficialName: "მალდივების რესპუბლიკა",
 	},
 	"MX": Translated{
@@ -523,8 +534,8 @@ var Georgian = map[string]Translated{
 		OfficialName: "მარშალის კუნძულების რესპუბლიკა",
 	},
 	"MK": Translated{
-		Name:         "ახალი კალედონია",
-		OfficialName: "ლიტვის რესპუბლიკა",
+		Name:         "ჩრდილოეთ მაკედონია",
+		OfficialName: "ჩრდილოეთ მაკედონიის რესპუბლიკა",
 	},
 	"ML": Translated{
 		Name:         "მალი",
@@ -536,7 +547,7 @@ var Georgian = map[string]Translated{
 	},
 	"MM": Translated{
 		Name:         "მიანმარი",
-		OfficialName: "გაიანას რესპუბლიკა",
+		OfficialName: "მიანმარის რესპუბლიკა",
 	},
 	"ME": Translated{
 		Name:         "მონტენეგრო",
@@ -546,7 +557,7 @@ var Georgian = map[string]Translated{
 		Name: "მონღოლეთი",
 	},
 	"MP": Translated{
-		Name:         "ჩრდილო მარიანას კუნძულები",
+		Name:         "ჩრდილოეთ მარიანას კუნძულები",
 		OfficialName: "ჩრდილო მარიანას კუნძულების თანამეგობრობა",
 	},
 	"MZ": Translated{
@@ -561,10 +572,10 @@ var Georgian = map[string]Translated{
 		Name: "მონსერატი",
 	},
 	"MQ": Translated{
-		Name: "მარტინიკი",
+		Name: "მარტინიკა",
 	},
 	"MU": Translated{
-		Name:         "მავრიკია",
+		Name:         "მავრიკი",
 		OfficialName: "მავრიკის რესპუბლიკა",
 	},
 	"MW": Translated{
@@ -575,7 +586,7 @@ var Georgian = map[string]Translated{
 		Name: "მალაიზია",
 	},
 	"YT": Translated{
-		Name: "მეიოტი",
+		Name: "მაიოტა",
 	},
 	"NA": Translated{
 		Name:         "ნამიბია",
@@ -589,7 +600,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "ნიგერის რესპუბლიკა",
 	},
 	"NF": Translated{
-		Name: "ნორფოლკის კუნძული",
+		Name: "ნორფოლკი",
 	},
 	"NG": Translated{
 		Name:         "ნიგერია",
@@ -613,7 +624,7 @@ var Georgian = map[string]Translated{
 	},
 	"NP": Translated{
 		Name:         "ნეპალი",
-		OfficialName: "ეთიოპიის ფედერალური დემოკრატიული რესპუბლიკა",
+		OfficialName: "ნეპალის ფედერალური დემოკრატიული რესპუბლიკა",
 	},
 	"NR": Translated{
 		Name:         "ნაურუ",
@@ -651,7 +662,7 @@ var Georgian = map[string]Translated{
 	},
 	"PG": Translated{
 		Name:         "პაპუა-ახალი გვინეა",
-		OfficialName: "სამოას დამოუკიდებელი სახელმწიფო",
+		OfficialName: "პაპუა ახალი გვინეას დამოუკიდებელი სახელმწიფო",
 	},
 	"PL": Translated{
 		Name:         "პოლონეთი",
@@ -663,7 +674,7 @@ var Georgian = map[string]Translated{
 	"KP": Translated{
 		Name:         "კორეის სახალხო-დემოკრატიული რესპუბლიკა",
 		OfficialName: "კორეის სახალხო-დემოკრატიული რესპუბლიკა",
-		CommonName:   "ახალი კალედონია",
+		CommonName:   "ჩრდილოეთი კორეა",
 	},
 	"PT": Translated{
 		Name:         "პორტუგალია",
@@ -674,17 +685,18 @@ var Georgian = map[string]Translated{
 		OfficialName: "პარაგვაის რესპუბლიკა",
 	},
 	"PS": Translated{
-		OfficialName: "ამერიკის შეერთებული შტატები",
+		Name:         "პალესტინის სახელმწიფო",
+		OfficialName: "პალესტინის სახელმწიფო",
 	},
 	"PF": Translated{
-		Name: "ფრანგული პოლინეზია",
+		Name: "საფრანგეთის პოლინეზია",
 	},
 	"QA": Translated{
 		Name:         "კატარი",
 		OfficialName: "კატარის სახელმწიფო",
 	},
 	"RE": Translated{
-		Name: "რეუნიონი",
+		Name: "რეიუნიონი",
 	},
 	"RO": Translated{
 		Name: "რუმინეთი",
@@ -715,8 +727,11 @@ var Georgian = map[string]Translated{
 	"GS": Translated{
 		Name: "სამხრეთ ჯორჯია და სამხრეთ სენდვიჩის კუნძულები",
 	},
+	"SH": Translated{
+		Name: "სენტ ჰელენა, ასცენსიონი და ტრისტან და კუნჰა",
+	},
 	"SJ": Translated{
-		Name: "სვალბარდი და ჟან მაენი",
+		Name: "შპიცბერგენი და იან-მაიენი",
 	},
 	"SB": Translated{
 		Name: "სოლომონის კუნძულები",
@@ -735,18 +750,18 @@ var Georgian = map[string]Translated{
 	},
 	"SO": Translated{
 		Name:         "სომალი",
-		OfficialName: "გერმანიის ფედერალური რესპუბლიკა",
+		OfficialName: "სომალიის ფედერალური რესპუბლიკა",
 	},
 	"PM": Translated{
 		Name: "სენ-პიერი და მიქელონი",
 	},
 	"RS": Translated{
-		Name:         "სერბია",
+		Name:         "სერბეთი",
 		OfficialName: "სერბეთის რესპუბლიკა",
 	},
 	"SS": Translated{
-		Name:         "სუდანის რესპუბლიკა",
-		OfficialName: "სუდანის რესპუბლიკა",
+		Name:         "სამხრეთ სუდანი",
+		OfficialName: "სამხრეთ სუდანის რესპუბლიკა",
 	},
 	"ST": Translated{
 		Name:         "საო-ტომე და პრინსიპი",
@@ -765,15 +780,16 @@ var Georgian = map[string]Translated{
 		OfficialName: "სლოვენიის რესპუბლიკა",
 	},
 	"SE": Translated{
-		Name:         "შვეცია",
+		Name:         "შვედეთი",
 		OfficialName: "შვედეთის სამეფო",
 	},
 	"SZ": Translated{
-		OfficialName: "ესპანეთის სამეფო",
+		Name:         "ესვატინი",
+		OfficialName: "ესვატინის სამეფო",
 	},
 	"SX": Translated{
-		Name:         "სენ-მარტინი (ფრანგული ნაწილი)",
-		OfficialName: "სენ-მარტინი (ფრანგული ნაწილი)",
+		Name:         "სენ-მარტინი (დანიური ნაწილი)",
+		OfficialName: "სენ-მარტინი (დანიური ნაწილი)",
 	},
 	"SC": Translated{
 		Name:         "სეიშელის კუნძულები",
@@ -783,7 +799,7 @@ var Georgian = map[string]Translated{
 		Name: "სირიის არაბული რესპუბლიკა",
 	},
 	"TC": Translated{
-		Name: "ტერკის და კაიკოს კუნძულები",
+		Name: "ტერქსისა და კაიკოსის კუნძულები",
 	},
 	"TD": Translated{
 		Name:         "ჩადი",
@@ -831,13 +847,14 @@ var Georgian = map[string]Translated{
 		Name: "ტუვალუ",
 	},
 	"TW": Translated{
-		Name:         "ტაივანი, ჩინეთის პროვინცია",
-		OfficialName: "ტაივანი, ჩინეთის პროვინცია",
+		Name:         "ტაივანი",
+		OfficialName: "ტაივანი",
 		CommonName:   "ტაივანი",
 	},
 	"TZ": Translated{
 		Name:         "ტანზანიის გაერთიანებული რესპუბლიკა",
 		OfficialName: "ტანზანიის გაერთიანებული რესპუბლიკა",
+		CommonName:   "ტანზანია",
 	},
 	"UG": Translated{
 		Name:         "უგანდა",
@@ -847,7 +864,7 @@ var Georgian = map[string]Translated{
 		Name: "უკრაინა",
 	},
 	"UM": Translated{
-		Name: "შეერთებული შტატების გარე მცირე კუნძულები",
+		Name: "აშშ-ის მიმდებარე მცირე კუნძულები",
 	},
 	"UY": Translated{
 		Name:         "ურუგვაი",
@@ -858,7 +875,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "ამერიკის შეერთებული შტატები",
 	},
 	"UZ": Translated{
-		Name:         "უზბაკეთი",
+		Name:         "უზბეკეთი",
 		OfficialName: "უზბეკეთის რესპუბლიკა",
 	},
 	"VA": Translated{
@@ -877,20 +894,20 @@ var Georgian = map[string]Translated{
 		OfficialName: "ბრიტანეთის ვირჯინის კუნძულები",
 	},
 	"VI": Translated{
-		Name:         "ვირჯინის კუნძულები, აშშ-ის",
+		Name:         "ვირჯინის კუნძულები, ა.შ.შ.",
 		OfficialName: "შეერთებული შტატების ვირჯინის კუნძულები",
 	},
 	"VN": Translated{
 		Name:         "ვიეტ-ნამი",
 		OfficialName: "ვიეტ-ნამის სოციალისტური რესპუბლიკა",
-		CommonName:   "ვიეტ-ნამი",
+		CommonName:   "ვიეტნამი",
 	},
 	"VU": Translated{
 		Name:         "ვანუატუ",
 		OfficialName: "ვანუატუს რესპუბლიკა",
 	},
 	"WF": Translated{
-		Name: "ვალისი და ფუტუნა",
+		Name: "უოლისი და ფუტუნა",
 	},
 	"WS": Translated{
 		Name:         "სამოა",
@@ -901,7 +918,7 @@ var Georgian = map[string]Translated{
 		OfficialName: "იემენის რესპუბლიკა",
 	},
 	"ZA": Translated{
-		Name:         "სამხრეთ აფრიკა",
+		Name:         "სამხრეთ აფრიკის რესპუბლიკა",
 		OfficialName: "სამხრეთ აფრიკის რესპუბლიკა",
 	},
 	"ZM": Translated{

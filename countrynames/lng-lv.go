@@ -838,15 +838,14 @@ var Latvian = map[string]Translated{
 		OfficialName: "Tunisijas Republika",
 	},
 	"TR": Translated{
-		Name:         "Turcija",
 		OfficialName: "Turcijas Republika",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taivāna, Ķīnas Republika",
-		OfficialName: "Taivāna, Ķīnas Republika",
+		Name:         "Taivāna",
+		OfficialName: "Taivāna",
 		CommonName:   "Taivāna",
 	},
 	"TZ": Translated{

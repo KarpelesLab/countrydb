@@ -592,14 +592,13 @@ var Localegn = map[string]Translated{
 	"TN": Translated{
 		Name: "Tunisia",
 	},
-	"TR": Translated{
-		Name: "Turkey",
-	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

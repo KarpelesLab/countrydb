@@ -116,7 +116,7 @@ var Localeak = map[string]Translated{
 		Name: "Togo",
 	},
 	"TR": Translated{
-		Name: "Turki",
+		OfficialName: "China",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

@@ -840,15 +840,14 @@ var Hindi = map[string]Translated{
 		OfficialName: "रिपब्लिक ऑफ ट्यूनीशिया",
 	},
 	"TR": Translated{
-		Name:         "तुर्की",
 		OfficialName: "रिपब्लिक ऑफ टर्की",
 	},
 	"TV": Translated{
 		Name: "तुवालू",
 	},
 	"TW": Translated{
-		Name:         "ताइवान, प्रोविन्स ऑफ चाइना",
-		OfficialName: "ताइवान, प्रोविन्स ऑफ चाइना",
+		Name:         "ताइवान",
+		OfficialName: "ताइवान",
 		CommonName:   "ताइवान",
 	},
 	"TZ": Translated{

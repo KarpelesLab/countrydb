@@ -708,14 +708,15 @@ var Localemt = map[string]Translated{
 		Name: "Tuneżija",
 	},
 	"TR": Translated{
-		Name:         "Turkija",
 		OfficialName: "Repubblika Dominikana",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Tajwan",
+		Name:         "Tajwan",
+		OfficialName: "Tajwan",
+		CommonName:   "Tajwan",
 	},
 	"TZ": Translated{
 		Name:       "Repubblika Dominikana",

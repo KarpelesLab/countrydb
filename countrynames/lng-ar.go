@@ -840,15 +840,14 @@ var Arabic = map[string]Translated{
 		OfficialName: "الجمهورية التونسية",
 	},
 	"TR": Translated{
-		Name:         "تركيّا",
 		OfficialName: "جمهوريّة تركيّا",
 	},
 	"TV": Translated{
 		Name: "توفالو",
 	},
 	"TW": Translated{
-		Name:         "تايوان، محافظة صينيّة",
-		OfficialName: "تايوان، محافظة صينيّة",
+		Name:         "تايوان",
+		OfficialName: "تايوان",
 		CommonName:   "تايوان",
 	},
 	"TZ": Translated{

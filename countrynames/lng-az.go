@@ -6,11 +6,11 @@ var Azerbaijani = map[string]Translated{
 	},
 	"AF": Translated{
 		Name:         "Əfqanıstan",
-		OfficialName: "Koreya, Respublika",
+		OfficialName: "Əfqanıstan İslam Respublikası",
 	},
 	"AO": Translated{
 		Name:         "Anqola",
-		OfficialName: "Respublika Anqola",
+		OfficialName: "Anqola Respublikası",
 	},
 	"AI": Translated{
 		Name: "Anquilla",
@@ -105,6 +105,7 @@ var Azerbaijani = map[string]Translated{
 		Name: "Bermuda",
 	},
 	"BO": Translated{
+		Name:       "Boliviya Çoxmillətli Dövləti",
 		CommonName: "Boliviya",
 	},
 	"BR": Translated{
@@ -172,7 +173,8 @@ var Azerbaijani = map[string]Translated{
 		OfficialName: "Kolumbiya",
 	},
 	"KM": Translated{
-		Name: "Komor",
+		Name:         "Komor",
+		OfficialName: "Qəmər Adaları İttifaqı",
 	},
 	"CV": Translated{
 		Name:         "Keyp Verde",
@@ -476,7 +478,8 @@ var Azerbaijani = map[string]Translated{
 		OfficialName: "Litva",
 	},
 	"LU": Translated{
-		Name: "Lüksemburq",
+		Name:         "Lüksemburq",
+		OfficialName: "Lüksemburq Böyük Hersoqluğu",
 	},
 	"LV": Translated{
 		Name:         "Latviya",
@@ -821,13 +824,15 @@ var Azerbaijani = map[string]Translated{
 	},
 	"TR": Translated{
 		Name:         "Türkiyə",
-		OfficialName: "Türkiyə",
+		OfficialName: "Türkiyə Respublikası",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Tayvan",
+		Name:         "Tayvan",
+		OfficialName: "Tayvan",
+		CommonName:   "Tayvan",
 	},
 	"TZ": Translated{
 		Name:         "Tanzaniya",

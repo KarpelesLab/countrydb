@@ -344,7 +344,7 @@ var Localegez = map[string]Translated{
 		Name: "ቱኒዚያ",
 	},
 	"TR": Translated{
-		Name: "ቱርክ",
+		OfficialName: "ዶሚኒክ፡ሪፑብሊክ",
 	},
 	"UG": Translated{
 		Name: "ዩጋንዳ",

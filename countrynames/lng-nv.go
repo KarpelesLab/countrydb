@@ -247,7 +247,7 @@ var Localenv = map[string]Translated{
 		Name: "Tʼóokmen Bikéyah",
 	},
 	"TR": Translated{
-		Name: "Tʼóok Bikéyah",
+		OfficialName: "Kéyah Káango Náhookǫsjí Siʼánígíí",
 	},
 	"UA": Translated{
 		Name: "Yóókwein",

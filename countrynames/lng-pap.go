@@ -504,13 +504,15 @@ var Localepap = map[string]Translated{
 		Name: "Tunesia",
 	},
 	"TR": Translated{
-		Name: "Turkia",
+		OfficialName: "Republika di Kongo",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Republika di China",
+		Name:         "Republika di China",
+		OfficialName: "Republika di China",
+		CommonName:   "Republika di China",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

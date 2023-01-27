@@ -837,15 +837,14 @@ var Nepali = map[string]Translated{
 		OfficialName: "टुनिसियाको गणराज्य",
 	},
 	"TR": Translated{
-		Name:         "टर्की",
 		OfficialName: "टर्की गणराज्य",
 	},
 	"TV": Translated{
 		Name: "टुवालु",
 	},
 	"TW": Translated{
-		Name:         "ताइवान, चीनको प्रान्तन",
-		OfficialName: "ताइवान, चीनको प्रान्तन",
+		Name:         "ताइवान",
+		OfficialName: "ताइवान",
 		CommonName:   "ताइवान",
 	},
 	"TZ": Translated{

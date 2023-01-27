@@ -824,15 +824,14 @@ var Malayalam = map[string]Translated{
 		OfficialName: "ടുണീഷ്യന്‍ റിപ്പബ്ലിക്",
 	},
 	"TR": Translated{
-		Name:         "തുര്‍ക്കി",
 		OfficialName: "തുര്‍ക്കി റിപ്പബ്ലിക്",
 	},
 	"TV": Translated{
 		Name: "ടുവാലു",
 	},
 	"TW": Translated{
-		Name:         "തായ്‌വാന്‍ , പ്രൊവിന്‍സ് ഓഫ് ചൈന",
-		OfficialName: "തായ്‌വാന്‍ , പ്രൊവിന്‍സ് ഓഫ് ചൈന",
+		Name:         "തായ്‌വാന്‍",
+		OfficialName: "തായ്‌വാന്‍",
 		CommonName:   "തായ്‌വാന്‍",
 	},
 	"TZ": Translated{

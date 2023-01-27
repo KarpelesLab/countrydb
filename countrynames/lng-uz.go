@@ -558,13 +558,15 @@ var Uzbek = map[string]Translated{
 		Name: "Tunis",
 	},
 	"TR": Translated{
-		Name: "Turkiya",
+		OfficialName: "Kongo Respublikasi",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Xitoy Respublikasi",
+		Name:         "Xitoy Respublikasi",
+		OfficialName: "Xitoy Respublikasi",
+		CommonName:   "Xitoy Respublikasi",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzaniya",

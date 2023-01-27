@@ -695,13 +695,15 @@ var Malay = map[string]Translated{
 		Name: "Tunisia",
 	},
 	"TR": Translated{
-		Name: "Turki",
+		OfficialName: "Republik Chile",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

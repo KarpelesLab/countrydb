@@ -683,14 +683,15 @@ var Localeve = map[string]Translated{
 		Name: "Tunisia",
 	},
 	"TR": Translated{
-		Name:         "Turkey",
 		OfficialName: "Czech Republic",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		Name:         "Czech Republic",

@@ -539,13 +539,15 @@ var Localeckb = map[string]Translated{
 		Name: "توونس",
 	},
 	"TR": Translated{
-		Name: "تورکیا",
+		OfficialName: "کۆماری ئەرمەنستان",
 	},
 	"TV": Translated{
 		Name: "تووڤالوو",
 	},
 	"TW": Translated{
-		CommonName: "کۆماری چین",
+		Name:         "کۆماری چین",
+		OfficialName: "کۆماری چین",
+		CommonName:   "کۆماری چین",
 	},
 	"TZ": Translated{
 		CommonName: "تانزانیا",

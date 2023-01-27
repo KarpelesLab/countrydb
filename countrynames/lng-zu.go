@@ -549,11 +549,12 @@ var Zulu = map[string]Translated{
 		Name: "ITunisia",
 	},
 	"TR": Translated{
-		Name:         "ITheki",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominikhani",
 	},
 	"TW": Translated{
-		CommonName: "I-Tayiwani",
+		Name:         "I-Tayiwani",
+		OfficialName: "I-Tayiwani",
+		CommonName:   "I-Tayiwani",
 	},
 	"TZ": Translated{
 		Name:       "Ulawulo lokuziphatha kwe Dominikhani",

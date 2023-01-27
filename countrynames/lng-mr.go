@@ -840,15 +840,14 @@ var Marathi = map[string]Translated{
 		OfficialName: "रिपब्लिक ऑफ ट्युनिशिया",
 	},
 	"TR": Translated{
-		Name:         "तुर्की",
 		OfficialName: "रिपब्लिक ऑफ तुर्की",
 	},
 	"TV": Translated{
 		Name: "तुव्हालु",
 	},
 	"TW": Translated{
-		Name:         "तैवान, प्रोव्हिअन्स ऑफ चायना",
-		OfficialName: "तैवान, प्रोव्हिअन्स ऑफ चायना",
+		Name:         "तैवान",
+		OfficialName: "तैवान",
 		CommonName:   "तैवान",
 	},
 	"TZ": Translated{

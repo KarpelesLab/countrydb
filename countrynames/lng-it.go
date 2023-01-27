@@ -81,7 +81,7 @@ var Italian = map[string]Translated{
 	},
 	"BD": Translated{
 		Name:         "Bangladesh",
-		OfficialName: "Repubblica popolare del Bangladesh",
+		OfficialName: "Repubblica Popolare del Bangladesh",
 	},
 	"BG": Translated{
 		Name:         "Bulgaria",
@@ -100,7 +100,7 @@ var Italian = map[string]Translated{
 		OfficialName: "Bosnia ed Erzegovina",
 	},
 	"BL": Translated{
-		Name: "Saint Barts",
+		Name: "Saint-Barthélemy",
 	},
 	"BY": Translated{
 		Name:         "Bielorussia",
@@ -448,7 +448,7 @@ var Italian = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Corea del sud",
-		CommonName: "Sudafrica",
+		CommonName: "Corea del Sud",
 	},
 	"KW": Translated{
 		Name:         "Kuwait",
@@ -672,7 +672,7 @@ var Italian = map[string]Translated{
 	"KP": Translated{
 		Name:         "Corea del Nord",
 		OfficialName: "Repubblica democratica popolare di Corea",
-		CommonName:   "Macedonia del Nord",
+		CommonName:   "Corea del Nord",
 	},
 	"PT": Translated{
 		Name:         "Portogallo",
@@ -838,15 +838,14 @@ var Italian = map[string]Translated{
 		OfficialName: "Repubblica tunisina",
 	},
 	"TR": Translated{
-		Name:         "Turchia",
 		OfficialName: "Repubblica di Turchia",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Repubblica di Cina",
-		OfficialName: "Taiwan, Repubblica di Cina",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

@@ -840,15 +840,14 @@ var Filipino = map[string]Translated{
 		OfficialName: "Republika ng Tunisia",
 	},
 	"TR": Translated{
-		Name:         "Turkey",
 		OfficialName: "Repulika ng Turkey",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Lalawigan ng Tsina",
-		OfficialName: "Taiwan, Lalawigan ng Tsina",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

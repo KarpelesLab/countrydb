@@ -820,7 +820,6 @@ var Localenn = map[string]Translated{
 		OfficialName: "Republikken Tunisia",
 	},
 	"TR": Translated{
-		Name:         "Tyrkia",
 		OfficialName: "Republikken Tyrkia",
 	},
 	"TV": Translated{

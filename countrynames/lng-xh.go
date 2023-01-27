@@ -448,11 +448,12 @@ var Localexh = map[string]Translated{
 		Name: "Rashiya",
 	},
 	"TR": Translated{
-		Name:         "Turkey",
 		OfficialName: "Ulawulo lokuziphatha kwe Dominican",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		Name: "Ulawulo lokuziphatha kwe Dominican",

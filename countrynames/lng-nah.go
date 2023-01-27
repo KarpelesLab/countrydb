@@ -506,13 +506,15 @@ var Localenah = map[string]Translated{
 		Name: "Tunez",
 	},
 	"TR": Translated{
-		Name: "Turquia",
+		OfficialName: "Tlācatlahtohcāyōtl in Congo",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Taihuan",
+		Name:         "Taihuan",
+		OfficialName: "Taihuan",
+		CommonName:   "Taihuan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

@@ -840,15 +840,14 @@ var Danish = map[string]Translated{
 		OfficialName: "Den Tunesiske Republik",
 	},
 	"TR": Translated{
-		Name:         "Tyrkiet",
 		OfficialName: "Republikken Tyrkiet",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Den Kinesiske Provins",
-		OfficialName: "Taiwan, Den Kinesiske Provins",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

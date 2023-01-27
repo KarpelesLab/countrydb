@@ -212,6 +212,7 @@ var Kazakh = map[string]Translated{
 		OfficialName: "Кипр Республикасы",
 	},
 	"CZ": Translated{
+		Name:         "Чехия",
 		OfficialName: "Чехия",
 	},
 	"DE": Translated{
@@ -247,7 +248,7 @@ var Kazakh = map[string]Translated{
 	},
 	"ER": Translated{
 		Name:         "Эритрея",
-		OfficialName: "Эритрея",
+		OfficialName: "Эритрея мемлекеті",
 	},
 	"EH": Translated{
 		Name: "Батыс Сахара",
@@ -316,7 +317,7 @@ var Kazakh = map[string]Translated{
 	},
 	"GM": Translated{
 		Name:         "Гамбия",
-		OfficialName: "Замбия Республикасы",
+		OfficialName: "Гамбия Республикасы",
 	},
 	"GW": Translated{
 		Name:         "Гвинея-Бисау",
@@ -448,7 +449,7 @@ var Kazakh = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Корея Республикасы",
-		CommonName: "Оңтүстік Африка",
+		CommonName: "Оңтүстік Корея",
 	},
 	"KW": Translated{
 		Name:         "Кувейт",
@@ -533,8 +534,8 @@ var Kazakh = map[string]Translated{
 		OfficialName: "Маршалл Аралдары Республикасы",
 	},
 	"MK": Translated{
-		Name:         "Жаңа Каледония",
-		OfficialName: "Литва Республикасы",
+		Name:         "Солтүстік Македония",
+		OfficialName: "Солтүстік Македония Республикасы",
 	},
 	"ML": Translated{
 		Name:         "Мали",
@@ -673,7 +674,7 @@ var Kazakh = map[string]Translated{
 	"KP": Translated{
 		Name:         "Корея (Солтүстік)",
 		OfficialName: "Корей Халық Демократиялық Республикасы",
-		CommonName:   "Жаңа Каледония",
+		CommonName:   "Солтүстік Корея",
 	},
 	"PT": Translated{
 		Name:         "Португалия",
@@ -685,7 +686,7 @@ var Kazakh = map[string]Translated{
 	},
 	"PS": Translated{
 		Name:         "Палестина мемлекеті",
-		OfficialName: "Палестина",
+		OfficialName: "Палестина мемлекеті",
 	},
 	"PF": Translated{
 		Name: "Францияның Полинезиясы",
@@ -783,7 +784,8 @@ var Kazakh = map[string]Translated{
 		OfficialName: "Швеция Патшалығы",
 	},
 	"SZ": Translated{
-		OfficialName: "Испания Патшалығы",
+		Name:         "Эсватини",
+		OfficialName: "Эсватини патшалығы",
 	},
 	"SX": Translated{
 		Name:         "Синт-Мартен (Голландия аймағы)",
@@ -845,13 +847,14 @@ var Kazakh = map[string]Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		Name:         "Тайвань Қытай Провинциясы",
-		OfficialName: "Тайвань Қытай Провинциясы",
+		Name:         "Тайвань аралы",
+		OfficialName: "Тайвань аралы",
 		CommonName:   "Тайвань аралы",
 	},
 	"TZ": Translated{
 		Name:         "Танзания",
 		OfficialName: "Танзания Біріккен Республикасы",
+		CommonName:   "Танзания",
 	},
 	"UG": Translated{
 		Name:         "Уганда",

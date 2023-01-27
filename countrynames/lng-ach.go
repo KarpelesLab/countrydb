@@ -592,14 +592,13 @@ var Localeach = map[string]Translated{
 	"TN": Translated{
 		Name: "Tunicia",
 	},
-	"TR": Translated{
-		Name: "Taki",
-	},
 	"TV": Translated{
 		Name: "Tubalu",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanjania",

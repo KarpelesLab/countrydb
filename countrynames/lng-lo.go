@@ -225,10 +225,12 @@ var Lao = map[string]Translated{
 		Name: "ປະເທດໄທ",
 	},
 	"TR": Translated{
-		Name: "ປະເທດຕວກກີ",
+		OfficialName: "ປະເທດຈີນ",
 	},
 	"TW": Translated{
-		CommonName: "Tâi-oân",
+		Name:         "Tâi-oân",
+		OfficialName: "Tâi-oân",
+		CommonName:   "Tâi-oân",
 	},
 	"UA": Translated{
 		Name: "ປະເທດອູກະແລນ",

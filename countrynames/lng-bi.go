@@ -226,7 +226,7 @@ var Localebi = map[string]Translated{
 		Name: "Thailand",
 	},
 	"TR": Translated{
-		Name: "Turkey",
+		OfficialName: "China",
 	},
 	"UA": Translated{
 		Name: "Ukraine",

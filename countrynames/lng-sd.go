@@ -209,6 +209,9 @@ var Localesd = map[string]Translated{
 	"TM": Translated{
 		Name: "ترڪمانستان",
 	},
+	"TR": Translated{
+		OfficialName: "چين",
+	},
 	"UA": Translated{
 		Name: "يوڪرين",
 	},

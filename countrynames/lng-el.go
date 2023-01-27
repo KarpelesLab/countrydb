@@ -840,15 +840,14 @@ var Greek = map[string]Translated{
 		OfficialName: "Δημοκρατία της Τυνησίας",
 	},
 	"TR": Translated{
-		Name:         "Τουρκία",
 		OfficialName: "Δημοκρατία της Τουρκίας",
 	},
 	"TV": Translated{
 		Name: "Τουβαλού",
 	},
 	"TW": Translated{
-		Name:         "Ταϊβάν, Επαρχία της Κίνας",
-		OfficialName: "Ταϊβάν, Επαρχία της Κίνας",
+		Name:         "Ταϊβάν",
+		OfficialName: "Ταϊβάν",
 		CommonName:   "Ταϊβάν",
 	},
 	"TZ": Translated{

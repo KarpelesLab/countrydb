@@ -516,13 +516,15 @@ var Burmese = map[string]Translated{
 		Name: "တူနီးရှားနိုင်ငံ",
 	},
 	"TR": Translated{
-		Name: "တူရကီနိုင်ငံ",
+		OfficialName: "ကွန်ဂိုသမ္မတနိုင်ငံ",
 	},
 	"TV": Translated{
 		Name: "တူဗားလူနိုင်ငံ",
 	},
 	"TW": Translated{
-		CommonName: "တရုတ်သမ္မတနိုင်ငံ",
+		Name:         "တရုတ်သမ္မတနိုင်ငံ",
+		OfficialName: "တရုတ်သမ္မတနိုင်ငံ",
+		CommonName:   "တရုတ်သမ္မတနိုင်ငံ",
 	},
 	"TZ": Translated{
 		CommonName: "တန်ဇေးနီးယားနိုင်ငံ",

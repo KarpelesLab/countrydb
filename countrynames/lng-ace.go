@@ -499,13 +499,15 @@ var Localeace = map[string]Translated{
 		Name: "Tunisia",
 	},
 	"TR": Translated{
-		Name: "Tureuki",
+		OfficialName: "Rèpublik Rakyat Cina",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Taywan",
+		Name:         "Taywan",
+		OfficialName: "Taywan",
+		CommonName:   "Taywan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

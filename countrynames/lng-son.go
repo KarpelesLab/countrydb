@@ -592,14 +592,13 @@ var Localeson = map[string]Translated{
 	"TN": Translated{
 		Name: "Tiniizi",
 	},
-	"TR": Translated{
-		Name: "Turki",
-	},
 	"TV": Translated{
 		Name: "Tuwaalu",
 	},
 	"TW": Translated{
-		CommonName: "Taywan",
+		Name:         "Taywan",
+		OfficialName: "Taywan",
+		CommonName:   "Taywan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzaani",

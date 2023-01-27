@@ -647,14 +647,15 @@ var Mongolian = map[string]Translated{
 		Name: "Тунгус",
 	},
 	"TR": Translated{
-		Name:         "Турк",
 		OfficialName: "Солонгос ард улс",
 	},
 	"TV": Translated{
 		Name: "Тували",
 	},
 	"TW": Translated{
-		CommonName: "Тайван",
+		Name:         "Тайван",
+		OfficialName: "Тайван",
+		CommonName:   "Тайван",
 	},
 	"TZ": Translated{
 		Name:       "Солонгос ард улс",

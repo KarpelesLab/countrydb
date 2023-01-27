@@ -847,8 +847,8 @@ var Swedish = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, provins i Kina",
-		OfficialName: "Taiwan, provins i Kina",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
@@ -864,7 +864,7 @@ var Swedish = map[string]Translated{
 		Name: "Ukraina",
 	},
 	"UM": Translated{
-		Name: "USA:s avlägsna mindre öar",
+		Name: "Förenta staternas mindre öar i Oceanien och Västindien",
 	},
 	"UY": Translated{
 		Name:         "Uruguay",

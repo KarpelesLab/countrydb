@@ -762,15 +762,14 @@ var Localettiqtelif = map[string]Translated{
 		OfficialName: "Tunisia Cömhüriäte",
 	},
 	"TR": Translated{
-		Name:         "Törkiä",
 		OfficialName: "Törkiä Cömhüriäte",
 	},
 	"TV": Translated{
 		Name: "Tuvaluça",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Çin Töbäge",
-		OfficialName: "Taiwan, Çin Töbäge",
+		Name:         "Taywan",
+		OfficialName: "Taywan",
 		CommonName:   "Taywan",
 	},
 	"TZ": Translated{

@@ -606,14 +606,15 @@ var Localemi = map[string]Translated{
 		OfficialName: "Tūwehe Tūnihia",
 	},
 	"TR": Translated{
-		Name:         "Tākei",
 		OfficialName: "Tūwehe Tākei",
 	},
 	"TV": Translated{
 		Name: "Tūwaru",
 	},
 	"TW": Translated{
-		CommonName: "Taiwana",
+		Name:         "Taiwana",
+		OfficialName: "Taiwana",
+		CommonName:   "Taiwana",
 	},
 	"TZ": Translated{
 		Name:         "Tānahia",

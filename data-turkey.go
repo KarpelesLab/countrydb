@@ -1,7 +1,7 @@
 package countrydb
 
 var Turkey = &Country{
-	Name:           "Turkey",
+	Name:           "Türkiye",
 	UniqueName:     "Turkey",
 	ISO3166_Alpha2: "TR",
 	ISO3166_Alpha3: "TUR",

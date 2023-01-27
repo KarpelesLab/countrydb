@@ -813,15 +813,14 @@ var Localetl = map[string]Translated{
 		OfficialName: "Republika ng Tunisia",
 	},
 	"TR": Translated{
-		Name:         "Turkey",
 		OfficialName: "Republika ng Turkey",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Prubinsiya ng China",
-		OfficialName: "Taiwan, Prubinsiya ng China",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

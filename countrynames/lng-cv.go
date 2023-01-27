@@ -565,13 +565,15 @@ var Localecv = map[string]Translated{
 		Name: "Тунис",
 	},
 	"TR": Translated{
-		Name: "Турци",
+		OfficialName: "Конго Пачхьалкх",
 	},
 	"TV": Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		CommonName: "Тайвань",
+		Name:         "Тайвань",
+		OfficialName: "Тайвань",
+		CommonName:   "Тайвань",
 	},
 	"TZ": Translated{
 		CommonName: "Танзани",

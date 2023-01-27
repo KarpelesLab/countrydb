@@ -189,7 +189,7 @@ var Localeay = map[string]Translated{
 		Name: "Trinidad wan Tubagu",
 	},
 	"TR": Translated{
-		Name: "Turkiya",
+		OfficialName: "Markani Republika China",
 	},
 	"UA": Translated{
 		Name: "Ukraniya",

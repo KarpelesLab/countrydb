@@ -617,13 +617,15 @@ var Urdu = map[string]Translated{
 		Name: "تونس",
 	},
 	"TR": Translated{
-		Name: "ترکی",
+		OfficialName: "جمہوریہ البانیہ",
 	},
 	"TV": Translated{
 		Name: "تووالو",
 	},
 	"TW": Translated{
-		CommonName: "جمہوریۂ چین",
+		Name:         "جمہوریۂ چین",
+		OfficialName: "جمہوریۂ چین",
+		CommonName:   "جمہوریۂ چین",
 	},
 	"TZ": Translated{
 		CommonName: "تنزانیہ",

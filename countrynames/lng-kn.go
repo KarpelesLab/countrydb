@@ -813,15 +813,14 @@ var Kannada = map[string]Translated{
 		OfficialName: "ಟ್ಯುನಿಸಿಯಾ ಗಣರಾಜ್ಯ",
 	},
 	"TR": Translated{
-		Name:         "ಟರ್ಕಿ",
 		OfficialName: "ಟರ್ಕಿ ಗಣರಾಜ್ಯ",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "ಟೈವಾನ್ , ಚೈನಾದ ಪ್ರಾಂತ",
-		OfficialName: "ಟೈವಾನ್ , ಚೈನಾದ ಪ್ರಾಂತ",
+		Name:         "ಟೈವಾನ್",
+		OfficialName: "ಟೈವಾನ್",
 		CommonName:   "ಟೈವಾನ್",
 	},
 	"TZ": Translated{

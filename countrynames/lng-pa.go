@@ -840,15 +840,14 @@ var Punjabi = map[string]Translated{
 		OfficialName: "ਟਿਊਨੀਸ਼ੀਆ ਗਣਰਾਜ",
 	},
 	"TR": Translated{
-		Name:         "ਤੁਰਕੀ",
 		OfficialName: "ਤੁਰਕ ਗਣਰਾਜ",
 	},
 	"TV": Translated{
 		Name: "ਟੂਵਾਲੂ",
 	},
 	"TW": Translated{
-		Name:         "ਤਾਈਵਾਨ, ਚੀਨੀ ਖੇਤਰ",
-		OfficialName: "ਤਾਈਵਾਨ, ਚੀਨੀ ਖੇਤਰ",
+		Name:         "ਤਾਈਵਾਨ",
+		OfficialName: "ਤਾਈਵਾਨ",
 		CommonName:   "ਤਾਈਵਾਨ",
 	},
 	"TZ": Translated{

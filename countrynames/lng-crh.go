@@ -824,15 +824,10 @@ var Localecrh = map[string]Translated{
 		OfficialName: "Tunus Cumhuriyeti",
 	},
 	"TR": Translated{
-		Name:         "Türkiye",
 		OfficialName: "Türkiye Cumhuriyeti",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
-	},
-	"TW": Translated{
-		Name:         "Tayvan, Çin Eyaleti",
-		OfficialName: "Tayvan, Çin Eyaleti",
 	},
 	"TZ": Translated{
 		Name:         "Tanzanya, Birleşik Cumhuriyeti",

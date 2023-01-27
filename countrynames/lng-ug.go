@@ -840,7 +840,6 @@ var Localeug = map[string]Translated{
 		OfficialName: "تۇنىس جۇمھۇرىيىتى",
 	},
 	"TR": Translated{
-		Name:         "تۈركىيە",
 		OfficialName: "تۈركىيە جۇمھۇرىيىتى",
 	},
 	"TV": Translated{

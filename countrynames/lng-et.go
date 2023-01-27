@@ -847,8 +847,8 @@ var Estonian = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan",
-		OfficialName: "Taiwan",
+		Name:         "Hiina Vabariik",
+		OfficialName: "Hiina Vabariik",
 		CommonName:   "Hiina Vabariik",
 	},
 	"TZ": Translated{

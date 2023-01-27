@@ -837,15 +837,14 @@ var Localebs = map[string]Translated{
 		OfficialName: "Republika Tunis",
 	},
 	"TR": Translated{
-		Name:         "Turska",
 		OfficialName: "Republika Turska",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Kineska Provincija Tajvan",
-		OfficialName: "Kineska Provincija Tajvan",
+		Name:         "Tajvan",
+		OfficialName: "Tajvan",
 		CommonName:   "Tajvan",
 	},
 	"TZ": Translated{

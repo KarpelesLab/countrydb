@@ -438,10 +438,12 @@ var Localebar = map[string]Translated{
 		Name: "Trinidad und Tobago",
 	},
 	"TR": Translated{
-		Name: "Tiakei",
+		OfficialName: "Kina",
 	},
 	"TW": Translated{
-		CommonName: "Republik China (Taiwan)",
+		Name:         "Republik China (Taiwan)",
+		OfficialName: "Republik China (Taiwan)",
+		CommonName:   "Republik China (Taiwan)",
 	},
 	"UA": Translated{
 		Name: "Ukraine",

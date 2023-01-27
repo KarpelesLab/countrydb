@@ -568,13 +568,15 @@ var Localedv = map[string]Translated{
 		Name: "ތޫނިސް",
 	},
 	"TR": Translated{
-		Name: "ތުރުކީވިލާތް",
+		OfficialName: "ކޮންގޯ",
 	},
 	"TV": Translated{
 		Name: "ތުވާލޫ",
 	},
 	"TW": Translated{
-		CommonName: "ޖުމްހޫރީ ޗައިނާ",
+		Name:         "ޖުމްހޫރީ ޗައިނާ",
+		OfficialName: "ޖުމްހޫރީ ޗައިނާ",
+		CommonName:   "ޖުމްހޫރީ ޗައިނާ",
 	},
 	"TZ": Translated{
 		CommonName: "ޓެންޒޭނިއާ",

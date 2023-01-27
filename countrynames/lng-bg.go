@@ -16,7 +16,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Ангила",
 	},
 	"AX": Translated{
-		Name: "Аландски острови",
+		Name: "Оландски острови",
 	},
 	"AL": Translated{
 		Name:         "Албания",
@@ -110,7 +110,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Белиз",
 	},
 	"BM": Translated{
-		Name: "Бермуда",
+		Name: "Бермудски острови",
 	},
 	"BO": Translated{
 		Name:         "Боливия, Многонационална държава",
@@ -135,7 +135,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Остров Буве",
 	},
 	"BW": Translated{
-		Name:         "Ботсуана",
+		Name:         "Ботсвана",
 		OfficialName: "Република Ботсуана",
 	},
 	"CF": Translated{
@@ -157,7 +157,7 @@ var Bulgarian = map[string]Translated{
 	},
 	"CN": Translated{
 		Name:         "Китай",
-		OfficialName: "Народна република Китай",
+		OfficialName: "Китайска народна република",
 	},
 	"CI": Translated{
 		Name:         "Кот д'Ивоар",
@@ -182,7 +182,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република Колумбия",
 	},
 	"KM": Translated{
-		Name:         "Комори",
+		Name:         "Коморски острови",
 		OfficialName: "Съюз на Комори",
 	},
 	"CV": Translated{
@@ -281,7 +281,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Френска република",
 	},
 	"FO": Translated{
-		Name: "Острови Фаро",
+		Name: "Фарьорски острови",
 	},
 	"FM": Translated{
 		Name:         "Микронезия, Обединени щати",
@@ -299,7 +299,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Грузия",
 	},
 	"GG": Translated{
-		Name: "Гърнсей",
+		Name: "Гърнси",
 	},
 	"GH": Translated{
 		Name:         "Гана",
@@ -348,11 +348,11 @@ var Bulgarian = map[string]Translated{
 		Name: "Гуам",
 	},
 	"GY": Translated{
-		Name:         "Гияна",
+		Name:         "Гвиана",
 		OfficialName: "Република Гияна",
 	},
 	"HK": Translated{
-		Name:         "Хонг Конг",
+		Name:         "Хонконг",
 		OfficialName: "Специален административен регион на Китай Хонг Конг",
 	},
 	"HM": Translated{
@@ -386,7 +386,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република Индия",
 	},
 	"IO": Translated{
-		Name: "Английски територии в индийския океан",
+		Name: "Британска индоокеанска територия",
 	},
 	"IE": Translated{
 		Name: "Ирландия",
@@ -445,7 +445,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република Кирибати",
 	},
 	"KN": Translated{
-		Name: "Свети Китс и Невис",
+		Name: "Сейнт Китс и Невис",
 	},
 	"KR": Translated{
 		Name:       "Корея, Република",
@@ -459,7 +459,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Демократична република на народа на Лао",
 	},
 	"LB": Translated{
-		Name:         "Лебанон",
+		Name:         "Ливан",
 		OfficialName: "Лебанска република",
 	},
 	"LR": Translated{
@@ -471,7 +471,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Либия",
 	},
 	"LC": Translated{
-		Name: "Санта Лучия",
+		Name: "Сейнт Лусия",
 	},
 	"LI": Translated{
 		Name:         "Лихтенщайн",
@@ -546,7 +546,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република Малта",
 	},
 	"MM": Translated{
-		Name:         "Мянмар",
+		Name:         "Мианмар",
 		OfficialName: "Република Мианмар",
 	},
 	"ME": Translated{
@@ -557,7 +557,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Монголия",
 	},
 	"MP": Translated{
-		Name:         "Северни марианови Острови",
+		Name:         "Северни Мариански острови",
 		OfficialName: "Обединение на северните марианови острови",
 	},
 	"MZ": Translated{
@@ -611,11 +611,11 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република Никарагуа",
 	},
 	"NU": Translated{
-		Name:         "Нию",
-		OfficialName: "Нию",
+		Name:         "Ниуе",
+		OfficialName: "Ниуе",
 	},
 	"NL": Translated{
-		Name:         "Холандия",
+		Name:         "Нидерландия",
 		OfficialName: "Кралство Холандия",
 	},
 	"NO": Translated{
@@ -696,7 +696,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Катарска държава",
 	},
 	"RE": Translated{
-		Name: "Риюниън",
+		Name: "Реюнион",
 	},
 	"RO": Translated{
 		Name: "Румъния",
@@ -741,7 +741,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република Сиера Леоне",
 	},
 	"SV": Translated{
-		Name:         "Ел Салвадор",
+		Name:         "Салвадор",
 		OfficialName: "Република Ел Салвадор",
 	},
 	"SM": Translated{
@@ -753,7 +753,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Федерална република Сомалия",
 	},
 	"PM": Translated{
-		Name: "Свети Пиер и Микелон",
+		Name: "Сен Пиер и Микелон",
 	},
 	"RS": Translated{
 		Name:         "Сърбия",
@@ -799,7 +799,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Сирийска арабска република",
 	},
 	"TC": Translated{
-		Name: "Острови Тюрк и Кайкос",
+		Name: "Търкс и Кайкос",
 	},
 	"TD": Translated{
 		Name:         "Чад",
@@ -847,8 +847,8 @@ var Bulgarian = map[string]Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		Name:         "Тайван, Китайска провинция",
-		OfficialName: "Тайван, Китайска провинция",
+		Name:         "Тайван",
+		OfficialName: "Тайван",
 		CommonName:   "Тайван",
 	},
 	"TZ": Translated{
@@ -864,7 +864,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Украйна",
 	},
 	"UM": Translated{
-		Name: "Обединени малки острови по крайбрежието на САЩ",
+		Name: "Малки далечни острови на САЩ",
 	},
 	"UY": Translated{
 		Name:         "Уругвай",
@@ -882,7 +882,7 @@ var Bulgarian = map[string]Translated{
 		Name: "Ватикана",
 	},
 	"VC": Translated{
-		Name: "Свети Винсент и Гренадин",
+		Name: "Сейнт Винсент и Гренадини",
 	},
 	"VE": Translated{
 		Name:         "Венецуела, Боливарска република",
@@ -907,7 +907,7 @@ var Bulgarian = map[string]Translated{
 		OfficialName: "Република Вануату",
 	},
 	"WF": Translated{
-		Name: "Острови Уолис и Футуна",
+		Name: "Уолис и Футуна",
 	},
 	"WS": Translated{
 		Name:         "Самоа",

@@ -837,15 +837,14 @@ var Localewa = map[string]Translated{
 		OfficialName: "Republike di Tunizeye",
 	},
 	"TR": Translated{
-		Name:         "Turkeye",
 		OfficialName: "Republike di Turkeye",
 	},
 	"TV": Translated{
 		Name: "Touvalou",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Province di Chine",
-		OfficialName: "Taiwan, Province di Chine",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

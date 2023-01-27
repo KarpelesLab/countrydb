@@ -837,15 +837,14 @@ var Macedonian = map[string]Translated{
 		OfficialName: "Република Тунис",
 	},
 	"TR": Translated{
-		Name:         "Турција",
 		OfficialName: "Република Турција",
 	},
 	"TV": Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		Name:         "Тајван, Кинеска провинција",
-		OfficialName: "Тајван, Кинеска провинција",
+		Name:         "Тајван",
+		OfficialName: "Тајван",
 		CommonName:   "Тајван",
 	},
 	"TZ": Translated{

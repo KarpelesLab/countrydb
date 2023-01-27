@@ -840,15 +840,14 @@ var Localeeo = map[string]Translated{
 		OfficialName: "Respubliko Tunizio",
 	},
 	"TR": Translated{
-		Name:         "Turkio",
 		OfficialName: "Respubliko Turkio",
 	},
 	"TV": Translated{
 		Name: "Tuvalo",
 	},
 	"TW": Translated{
-		Name:         "Tajvano, Provinco de Ĉinio",
-		OfficialName: "Tajvano, Provinco de Ĉinio",
+		Name:         "Tajvano",
+		OfficialName: "Tajvano",
 		CommonName:   "Tajvano",
 	},
 	"TZ": Translated{

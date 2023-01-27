@@ -61,9 +61,6 @@ var Localech = map[string]Translated{
 	"PL": Translated{
 		Name: "Polaki",
 	},
-	"TR": Translated{
-		Name: "Turkey",
-	},
 	"US": Translated{
 		OfficialName: "Estados Unidus",
 	},

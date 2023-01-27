@@ -840,14 +840,14 @@ var Polish = map[string]Translated{
 	},
 	"TR": Translated{
 		Name:         "Turcja",
-		OfficialName: "Republika Turecka",
+		OfficialName: "Republika Turcji",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tajwan, Prowincja Chińska",
-		OfficialName: "Tajwan, Prowincja Chińska",
+		Name:         "Tajwan",
+		OfficialName: "Tajwan",
 		CommonName:   "Tajwan",
 	},
 	"TZ": Translated{

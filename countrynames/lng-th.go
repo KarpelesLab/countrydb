@@ -839,15 +839,14 @@ var Thai = map[string]Translated{
 		OfficialName: "สาธารณรัฐตูนิเซีย",
 	},
 	"TR": Translated{
-		Name:         "ตุรกี",
 		OfficialName: "สาธารณรัฐตุรกี",
 	},
 	"TV": Translated{
 		Name: "ตูวาลู",
 	},
 	"TW": Translated{
-		Name:         "ไต้หวัน, จังหวัดของจีน",
-		OfficialName: "ไต้หวัน, จังหวัดของจีน",
+		Name:         "ไต้หวัน",
+		OfficialName: "ไต้หวัน",
 		CommonName:   "ไต้หวัน",
 	},
 	"TZ": Translated{

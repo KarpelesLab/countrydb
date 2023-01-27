@@ -840,15 +840,14 @@ var Korean = map[string]Translated{
 		OfficialName: "튀니지 공화국",
 	},
 	"TR": Translated{
-		Name:         "터키",
 		OfficialName: "터키 공화국",
 	},
 	"TV": Translated{
 		Name: "투발루",
 	},
 	"TW": Translated{
-		Name:         "타이완, 중국령",
-		OfficialName: "타이완, 중국령",
+		Name:         "타이완",
+		OfficialName: "타이완",
 		CommonName:   "타이완",
 	},
 	"TZ": Translated{

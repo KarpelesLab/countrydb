@@ -838,15 +838,14 @@ var Slovenian = map[string]Translated{
 		OfficialName: "Republika Tunizija",
 	},
 	"TR": Translated{
-		Name:         "Turčija",
 		OfficialName: "Republika Turčija",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tajvan, provinca Kitajske",
-		OfficialName: "Tajvan, provinca Kitajske",
+		Name:         "Tajvan",
+		OfficialName: "Tajvan",
 		CommonName:   "Tajvan",
 	},
 	"TZ": Translated{

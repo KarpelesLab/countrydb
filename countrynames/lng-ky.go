@@ -839,15 +839,14 @@ var Kirghiz = map[string]Translated{
 		OfficialName: "Тунис Республикасы",
 	},
 	"TR": Translated{
-		Name:         "Түркия Республикасы",
 		OfficialName: "Түрк Республикасы",
 	},
 	"TV": Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		Name:         "Тайвань Кытай Провинциясы",
-		OfficialName: "Тайвань Кытай Провинциясы",
+		Name:         "Тайвань",
+		OfficialName: "Тайвань",
 		CommonName:   "Тайвань",
 	},
 	"TZ": Translated{

@@ -840,15 +840,14 @@ var Localeor = map[string]Translated{
 		OfficialName: "ଟ୍ଯୁନୀଶିୟା ଗଣତନ୍ତ୍ର",
 	},
 	"TR": Translated{
-		Name:         "ତୁର୍କୀ",
 		OfficialName: "ତୁର୍କୀ ଗଣତନ୍ତ୍ର",
 	},
 	"TV": Translated{
 		Name: "ତୁଭାଲୂ",
 	},
 	"TW": Translated{
-		Name:         "ତାଇୱାନ, ଚୀନ ଅଧିକୃତ",
-		OfficialName: "ତାଇୱାନ, ଚୀନ ଅଧିକୃତ",
+		Name:         "ତାଇଓ୍ବାନ",
+		OfficialName: "ତାଇଓ୍ବାନ",
 		CommonName:   "ତାଇଓ୍ବାନ",
 	},
 	"TZ": Translated{

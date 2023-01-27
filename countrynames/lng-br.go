@@ -640,13 +640,15 @@ var Localebr = map[string]Translated{
 		Name: "Tunizia",
 	},
 	"TR": Translated{
-		Name: "Turkia",
+		OfficialName: "Republik Lituania",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

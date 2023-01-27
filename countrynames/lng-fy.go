@@ -592,13 +592,15 @@ var Localefy = map[string]Translated{
 		Name: "Tuneezje",
 	},
 	"TR": Translated{
-		Name: "Turkije",
+		OfficialName: "Republyk Kongo",
 	},
 	"TV": Translated{
 		Name: "Tûvalû",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

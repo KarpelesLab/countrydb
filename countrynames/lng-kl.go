@@ -272,7 +272,7 @@ var Localekl = map[string]Translated{
 		Name: "Thailandi",
 	},
 	"TR": Translated{
-		Name: "Tyrkia",
+		OfficialName: "Kina",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

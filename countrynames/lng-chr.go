@@ -292,7 +292,7 @@ var Localechr = map[string]Translated{
 		Name: "ᏔᏥᎩᏍᏔᏂ",
 	},
 	"TR": Translated{
-		Name: "ᎬᏂᏱ",
+		OfficialName: "ᏥᎾ",
 	},
 	"UA": Translated{
 		Name: "ᏳᎧᏪᏂ",

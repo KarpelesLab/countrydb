@@ -268,10 +268,12 @@ var Localecsb = map[string]Translated{
 		Name: "Tunicia",
 	},
 	"TR": Translated{
-		Name: "Tëreckô",
+		OfficialName: "Chińskô Lëdowô Repùblika",
 	},
 	"TW": Translated{
-		CommonName: "Tajwan",
+		Name:         "Tajwan",
+		OfficialName: "Tajwan",
+		CommonName:   "Tajwan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzaniô",

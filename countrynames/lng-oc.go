@@ -838,15 +838,14 @@ var Localeoc = map[string]Translated{
 		OfficialName: "Republica tunisiana",
 	},
 	"TR": Translated{
-		Name:         "Turquia",
 		OfficialName: "Republica de Turquia",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, província de China",
-		OfficialName: "Taiwan, província de China",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

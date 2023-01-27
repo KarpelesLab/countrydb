@@ -518,14 +518,13 @@ var Localeht = map[string]Translated{
 	"TN": Translated{
 		Name: "Tinizi",
 	},
-	"TR": Translated{
-		Name: "Tiki",
-	},
 	"TV": Translated{
 		Name: "Touvalou",
 	},
 	"TW": Translated{
-		CommonName: "Taywann",
+		Name:         "Taywann",
+		OfficialName: "Taywann",
+		CommonName:   "Taywann",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzani",

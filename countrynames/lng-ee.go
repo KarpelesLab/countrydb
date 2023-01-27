@@ -413,10 +413,12 @@ var Localeee = map[string]Translated{
 		Name: "Tunisia",
 	},
 	"TR": Translated{
-		Name: "Turkey",
+		OfficialName: "Republic of the Congo",
 	},
 	"TW": Translated{
-		CommonName: "Taiwan",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
+		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

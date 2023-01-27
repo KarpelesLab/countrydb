@@ -827,15 +827,14 @@ var Telugu = map[string]Translated{
 		OfficialName: "రిపబ్లిక్ ఆఫ్ తునిశియా",
 	},
 	"TR": Translated{
-		Name:         "టర్కీ",
 		OfficialName: "రిపబ్లిక్ ఆఫ్ టర్కీ",
 	},
 	"TV": Translated{
 		Name: "तुव्हालु",
 	},
 	"TW": Translated{
-		Name:         "తైవాన్, ప్రోవియన్స్ ఆఫ్ చైనా",
-		OfficialName: "తైవాన్, ప్రోవియన్స్ ఆఫ్ చైనా",
+		Name:         "తైవాన్",
+		OfficialName: "తైవాన్",
 		CommonName:   "తైవాన్",
 	},
 	"TZ": Translated{

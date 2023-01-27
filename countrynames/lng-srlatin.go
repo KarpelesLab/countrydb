@@ -840,15 +840,14 @@ var SerbianLatin = map[string]Translated{
 		OfficialName: "Republika Tunis",
 	},
 	"TR": Translated{
-		Name:         "Turska",
 		OfficialName: "Republika Turska",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tajvan, Kineska Provincija",
-		OfficialName: "Tajvan, Kineska Provincija",
+		Name:         "Tajvan",
+		OfficialName: "Tajvan",
 		CommonName:   "Tajvan",
 	},
 	"TZ": Translated{

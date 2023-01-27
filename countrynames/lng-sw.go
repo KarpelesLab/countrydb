@@ -551,8 +551,7 @@ var Swahili = map[string]Translated{
 		Name:         "Chad",
 		OfficialName: "Jamhuri ya Chad",
 	},
-	"TW": Translated{
-		Name:         "China",
-		OfficialName: "China",
+	"TR": Translated{
+		OfficialName: "Jamhuri ya Chile",
 	},
 }

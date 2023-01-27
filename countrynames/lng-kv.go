@@ -319,7 +319,7 @@ var Localekv = map[string]Translated{
 		Name: "Туркменистан",
 	},
 	"TR": Translated{
-		Name: "Турция",
+		OfficialName: "Китай",
 	},
 	"UA": Translated{
 		Name: "Украина",

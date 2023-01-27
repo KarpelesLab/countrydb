@@ -835,15 +835,14 @@ var Localekmr = map[string]Translated{
 		OfficialName: "Komara Tûnis",
 	},
 	"TR": Translated{
-		Name:         "Tirkiye",
 		OfficialName: "Komara Tirkiye",
 	},
 	"TV": Translated{
 		Name: "Tûvalû",
 	},
 	"TW": Translated{
-		Name:         "Tayvan, Eyaleta Çîn",
-		OfficialName: "Tayvan, Eyaleta Çîn",
+		Name:         "Taywan",
+		OfficialName: "Taywan",
 		CommonName:   "Taywan",
 	},
 	"TZ": Translated{

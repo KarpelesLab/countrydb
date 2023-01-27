@@ -829,15 +829,14 @@ var Localedz = map[string]Translated{
 		OfficialName: "ཊུ་ནི་སི་ཡ་ མི་སེར་རྒྱལ་ཁབ།",
 	},
 	"TR": Translated{
-		Name:         "ཊར་ཀི།",
 		OfficialName: "ཊར་ཀི་ མི་སེར་རྒྱལ་ཁབ།",
 	},
 	"TV": Translated{
 		Name: "ཊུ་བ་ལུ།",
 	},
 	"TW": Translated{
-		Name:         "ཏ་ཡེ་ཝཱན་ ཅ་ཡེ་ནའི་མངའ་རིས།",
-		OfficialName: "ཏ་ཡེ་ཝཱན་ ཅ་ཡེ་ནའི་མངའ་རིས།",
+		Name:         "ཏ་ཡེ་ཝཱན།",
+		OfficialName: "ཏ་ཡེ་ཝཱན།",
 		CommonName:   "ཏ་ཡེ་ཝཱན།",
 	},
 	"TZ": Translated{

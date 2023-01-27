@@ -847,8 +847,8 @@ var Turkish = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Tayvan, Çin Eyaleti",
-		OfficialName: "Tayvan, Çin Eyaleti",
+		Name:         "Tayvan",
+		OfficialName: "Tayvan",
 		CommonName:   "Tayvan",
 	},
 	"TZ": Translated{

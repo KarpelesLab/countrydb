@@ -571,13 +571,15 @@ var Localefrp = map[string]Translated{
 		Name: "Tunisie",
 	},
 	"TR": Translated{
-		Name: "Turquie",
+		OfficialName: "Rèpublica du Congô",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Rèpublica de Ch·ina",
+		Name:         "Rèpublica de Ch·ina",
+		OfficialName: "Rèpublica de Ch·ina",
+		CommonName:   "Rèpublica de Ch·ina",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzanie",

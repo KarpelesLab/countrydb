@@ -840,15 +840,14 @@ var LocalezhHK = map[string]Translated{
 		OfficialName: "突尼斯共和國",
 	},
 	"TR": Translated{
-		Name:         "土耳其",
 		OfficialName: "土耳其共和國",
 	},
 	"TV": Translated{
 		Name: "圖瓦盧",
 	},
 	"TW": Translated{
-		Name:         "中華民國",
-		OfficialName: "中華民國",
+		Name:         "台灣",
+		OfficialName: "台灣",
 		CommonName:   "台灣",
 	},
 	"TZ": Translated{

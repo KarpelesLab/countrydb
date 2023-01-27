@@ -370,10 +370,12 @@ var Localefo = map[string]Translated{
 		Name: "Tunesia",
 	},
 	"TR": Translated{
-		Name: "Turkaland",
+		OfficialName: "Domingo lýðveldið",
 	},
 	"TW": Translated{
-		CommonName: "Teivan",
+		Name:         "Teivan",
+		OfficialName: "Teivan",
+		CommonName:   "Teivan",
 	},
 	"UA": Translated{
 		Name: "Ukreina",

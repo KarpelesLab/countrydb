@@ -837,15 +837,14 @@ var Finnish = map[string]Translated{
 		OfficialName: "Tunisian tasavalta",
 	},
 	"TR": Translated{
-		Name:         "Turkki",
 		OfficialName: "Turkin tasavalta",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Kiinan provinssi",
-		OfficialName: "Taiwan, Kiinan provinssi",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

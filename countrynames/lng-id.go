@@ -847,8 +847,8 @@ var Indonesian = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Provinsi China",
-		OfficialName: "Taiwan, Provinsi China",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
@@ -894,7 +894,7 @@ var Indonesian = map[string]Translated{
 		OfficialName: "Kepulauan Virgin Britania Raya",
 	},
 	"VI": Translated{
-		Name:         "Kepulauan Virgin Amerika Serikat",
+		Name:         "Kepulauan Virgin, A.S.",
 		OfficialName: "Kepulauan Virgin Amerika Serikat",
 	},
 	"VN": Translated{

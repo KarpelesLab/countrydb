@@ -838,15 +838,14 @@ var Vietnamese = map[string]Translated{
 		OfficialName: "Cộng hoà Tu-ni-xi-a",
 	},
 	"TR": Translated{
-		Name:         "Thổ Nhĩ Kỳ",
 		OfficialName: "Nước Cộng Hoà Thổ Nhĩ Kỳ",
 	},
 	"TV": Translated{
 		Name: "Tu-va-lu",
 	},
 	"TW": Translated{
-		Name:         "Đài Loan, Tỉnh Trung Quốc",
-		OfficialName: "Đài Loan, Tỉnh Trung Quốc",
+		Name:         "Đài Loan",
+		OfficialName: "Đài Loan",
 		CommonName:   "Đài Loan",
 	},
 	"TZ": Translated{

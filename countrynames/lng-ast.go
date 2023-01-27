@@ -837,15 +837,14 @@ var Localeast = map[string]Translated{
 		OfficialName: "República de Tunicia",
 	},
 	"TR": Translated{
-		Name:         "Turquía",
 		OfficialName: "República de Turquía",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Provincia de China",
-		OfficialName: "Taiwan, Provincia de China",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

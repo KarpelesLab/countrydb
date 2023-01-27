@@ -328,7 +328,7 @@ var Localeki = map[string]Translated{
 		Name: "Tunisia",
 	},
 	"TR": Translated{
-		Name: "Turkey",
+		OfficialName: "Republic of the Congo",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

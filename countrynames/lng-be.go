@@ -449,7 +449,7 @@ var Localebe = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Карэя, Рэспубліка",
-		CommonName: "Паўднёва-Афрыканская Рэспубліка",
+		CommonName: "Паўднёвая Карэя",
 	},
 	"KW": Translated{
 		Name:         "Кувейт",
@@ -674,7 +674,7 @@ var Localebe = map[string]Translated{
 	"KP": Translated{
 		Name:         "Карэя, Народна-Дэмакратычная Рэспубліка",
 		OfficialName: "Карэйская Народна-Дэмакратычная Рэспубліка",
-		CommonName:   "Паўночная Македонія",
+		CommonName:   "Паўночная Карэя",
 	},
 	"PT": Translated{
 		Name:         "Партугалія",
@@ -841,14 +841,14 @@ var Localebe = map[string]Translated{
 	},
 	"TR": Translated{
 		Name:         "Турцыя",
-		OfficialName: "Рэспубліка Турцыя",
+		OfficialName: "Турэцкая Рэспубліка",
 	},
 	"TV": Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		Name:         "Тайвань, правінцыя Кітая",
-		OfficialName: "Тайвань, правінцыя Кітая",
+		Name:         "Тайвань",
+		OfficialName: "Тайвань",
 		CommonName:   "Тайвань",
 	},
 	"TZ": Translated{

@@ -847,8 +847,8 @@ var Hebrew = map[string]Translated{
 		Name: "טובאלו",
 	},
 	"TW": Translated{
-		Name:         "טאייואן, מחוז של סין",
-		OfficialName: "טאייואן, מחוז של סין",
+		Name:         "טאיוואן",
+		OfficialName: "טאיוואן",
 		CommonName:   "טאיוואן",
 	},
 	"TZ": Translated{

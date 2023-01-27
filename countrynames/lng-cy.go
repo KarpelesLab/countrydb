@@ -840,15 +840,14 @@ var Localecy = map[string]Translated{
 		OfficialName: "Gweriniaeth Twnisia",
 	},
 	"TR": Translated{
-		Name:         "Twrci",
 		OfficialName: "Gweriniaeth Twrci",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Talaith o Tseina",
-		OfficialName: "Taiwan, Talaith o Tseina",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

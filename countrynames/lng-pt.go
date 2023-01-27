@@ -449,7 +449,7 @@ var Portuguese = map[string]Translated{
 	},
 	"KR": Translated{
 		Name:       "Coreia, República da",
-		CommonName: "África do Sul",
+		CommonName: "Coreia do Sul",
 	},
 	"KW": Translated{
 		Name:         "Kuwait",
@@ -674,7 +674,7 @@ var Portuguese = map[string]Translated{
 	"KP": Translated{
 		Name:         "Coreia, República Popular Democrática da",
 		OfficialName: "República Popular Democrática da Coreia",
-		CommonName:   "Macedónia do Norte",
+		CommonName:   "Coreia do Norte",
 	},
 	"PT": Translated{
 		Name:         "Portugal",
@@ -847,8 +847,8 @@ var Portuguese = map[string]Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Província da China",
-		OfficialName: "Taiwan, Província da China",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{

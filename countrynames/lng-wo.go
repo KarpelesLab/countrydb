@@ -824,15 +824,14 @@ var Localewo = map[string]Translated{
 		OfficialName: "Republik bu Tiniisi",
 	},
 	"TR": Translated{
-		Name:         "Turki",
 		OfficialName: "Republik bu Turki",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		Name:         "Taaywaa, porowees bu Ciin",
-		OfficialName: "Taaywaa, porowees bu Ciin",
+		Name:         "Taaywaan",
+		OfficialName: "Taaywaan",
 		CommonName:   "Taaywaan",
 	},
 	"TZ": Translated{

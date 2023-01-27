@@ -840,15 +840,14 @@ var Localetg = map[string]Translated{
 		OfficialName: "Ҷумҳурии Тунис",
 	},
 	"TR": Translated{
-		Name:         "Туркия",
 		OfficialName: "Ҷумҳурии Туркия",
 	},
 	"TV": Translated{
 		Name: "Тувалу",
 	},
 	"TW": Translated{
-		Name:         "Тайван, Музофоти Чин",
-		OfficialName: "Тайван, Музофоти Чин",
+		Name:         "Тайван",
+		OfficialName: "Тайван",
 		CommonName:   "Тайван",
 	},
 	"TZ": Translated{

@@ -840,15 +840,14 @@ var LocalebnIN = map[string]Translated{
 		OfficialName: "টিউনিশিয়া প্রজাতন্ত্র",
 	},
 	"TR": Translated{
-		Name:         "তুর্কি",
 		OfficialName: "তুর্কি প্রজাতন্ত্র",
 	},
 	"TV": Translated{
 		Name: "টুভালু",
 	},
 	"TW": Translated{
-		Name:         "তাইওয়ান, চীনের প্রদেশ",
-		OfficialName: "তাইওয়ান, চীনের প্রদেশ",
+		Name:         "তাইওয়ান",
+		OfficialName: "তাইওয়ান",
 		CommonName:   "তাইওয়ান",
 	},
 	"TZ": Translated{

@@ -437,10 +437,12 @@ var Localeso = map[string]Translated{
 		Name: "Tuniisiya",
 	},
 	"TR": Translated{
-		Name: "Turki",
+		OfficialName: "Indoneesiya",
 	},
 	"TW": Translated{
-		CommonName: "Taylaand",
+		Name:         "Taylaand",
+		OfficialName: "Taylaand",
+		CommonName:   "Taylaand",
 	},
 	"TZ": Translated{
 		Name:         "Tansaaniya",

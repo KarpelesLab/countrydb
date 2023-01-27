@@ -838,15 +838,14 @@ var Japanese = map[string]Translated{
 		OfficialName: "チュニジア共和国",
 	},
 	"TR": Translated{
-		Name:         "トルコ",
 		OfficialName: "トルコ共和国",
 	},
 	"TV": Translated{
 		Name: "ツバル",
 	},
 	"TW": Translated{
-		Name:         "中国領・台湾",
-		OfficialName: "中国領・台湾",
+		Name:         "台湾",
+		OfficialName: "台湾",
 		CommonName:   "台湾",
 	},
 	"TZ": Translated{

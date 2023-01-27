@@ -5,20 +5,29 @@ var Localeti = map[string]Translated{
 		Name: "ኣሩባ",
 	},
 	"AF": Translated{
-		Name: "ኣፍጋኒስታን",
+		Name:         "ኣፍጋኒስታን",
+		OfficialName: "እስላማዊ ሪፓብሊክ ኣፍጋኒስታን",
 	},
 	"AO": Translated{
 		Name:         "ኣንጎላ",
 		OfficialName: "ሪፓብሊክ ኣንጎላ",
 	},
+	"AI": Translated{
+		Name: "አንጉኢላ",
+	},
+	"AX": Translated{
+		Name: "አላንድ ደሴታት",
+	},
 	"AL": Translated{
-		Name: "አልባኒያ",
+		Name:         "ኣልባንያ",
+		OfficialName: "ሪፓብሊክ አልባኒያ",
 	},
 	"AD": Translated{
-		Name: "አንዶራ",
+		Name:         "አንዶራ",
+		OfficialName: "ስርዓት ኣንድራ",
 	},
 	"AE": Translated{
-		Name: "የተባበሩት አረብ ኤምሬትስ",
+		Name: "ሕቡራት ኢማራት ዓረብ",
 	},
 	"AR": Translated{
 		Name:         "ኣርጀንቲና",
@@ -495,11 +504,12 @@ var Localeti = map[string]Translated{
 		OfficialName: "ሪፓብሊክ ቱኒዝያ",
 	},
 	"TR": Translated{
-		Name:         "ቱርኪ",
 		OfficialName: "ሪፓብሊክ ቱርኪ",
 	},
 	"TW": Translated{
-		CommonName: "ታይዋን",
+		Name:         "ታይዋን",
+		OfficialName: "ታይዋን",
+		CommonName:   "ታይዋን",
 	},
 	"TZ": Translated{
 		CommonName: "ታንዛንያ",

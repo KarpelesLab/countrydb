@@ -589,13 +589,15 @@ var Localeio = map[string]Translated{
 		Name: "Tunizia",
 	},
 	"TR": Translated{
-		Name: "Turkia",
+		OfficialName: "Republiko Kongo",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Republiko di Chinia",
+		Name:         "Republiko di Chinia",
+		OfficialName: "Republiko di Chinia",
+		CommonName:   "Republiko di Chinia",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

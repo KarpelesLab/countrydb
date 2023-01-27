@@ -628,13 +628,15 @@ var Localean = map[string]Translated{
 		Name: "Tunicia",
 	},
 	"TR": Translated{
-		Name: "Turquía",
+		OfficialName: "Republica d'Armenia",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Republica de China",
+		Name:         "Republica de China",
+		OfficialName: "Republica de China",
+		CommonName:   "Republica de China",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

@@ -840,15 +840,14 @@ var Persian = map[string]Translated{
 		OfficialName: "جمهوری تونس",
 	},
 	"TR": Translated{
-		Name:         "ترکیه",
 		OfficialName: "جمهوری ترکیه",
 	},
 	"TV": Translated{
 		Name: "تووالو",
 	},
 	"TW": Translated{
-		Name:         "تایوان ، استانی از چین",
-		OfficialName: "تایوان ، استانی از چین",
+		Name:         "تایوان",
+		OfficialName: "تایوان",
 		CommonName:   "تایوان",
 	},
 	"TZ": Translated{

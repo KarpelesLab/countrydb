@@ -762,15 +762,14 @@ var Localett = map[string]Translated{
 		OfficialName: "Тунисиа Җөмһүриәте",
 	},
 	"TR": Translated{
-		Name:         "Төркиә",
 		OfficialName: "Төркиә Җөмһүриәте",
 	},
 	"TV": Translated{
 		Name: "Тувалуча",
 	},
 	"TW": Translated{
-		Name:         "Таиван, Чин Төбәgе",
-		OfficialName: "Таиван, Чин Төбәgе",
+		Name:         "Тайван",
+		OfficialName: "Тайван",
 		CommonName:   "Тайван",
 	},
 	"TZ": Translated{

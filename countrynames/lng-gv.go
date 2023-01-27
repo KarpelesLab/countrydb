@@ -534,13 +534,15 @@ var Localegv = map[string]Translated{
 		Name: "Yn Tooneesh",
 	},
 	"TR": Translated{
-		Name: "Yn Turkee",
+		OfficialName: "Pobblaght ny Congo",
 	},
 	"TV": Translated{
 		Name: "Tuvalu",
 	},
 	"TW": Translated{
-		CommonName: "Pobblaght ny Sheen",
+		Name:         "Pobblaght ny Sheen",
+		OfficialName: "Pobblaght ny Sheen",
+		CommonName:   "Pobblaght ny Sheen",
 	},
 	"TZ": Translated{
 		CommonName: "Tanzania",

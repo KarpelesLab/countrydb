@@ -294,11 +294,10 @@ var Localehaw = map[string]Translated{
 	"TN": Translated{
 		Name: "Tunisia",
 	},
-	"TR": Translated{
-		Name: "Tureke",
-	},
 	"TW": Translated{
-		CommonName: "Taiuana",
+		Name:         "Taiuana",
+		OfficialName: "Taiuana",
+		CommonName:   "Taiuana",
 	},
 	"UA": Translated{
 		Name: "ʻUkelena",

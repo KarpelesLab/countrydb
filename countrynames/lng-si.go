@@ -837,15 +837,14 @@ var Sinhala = map[string]Translated{
 		OfficialName: "ටියුනීසියා ජනරජය",
 	},
 	"TR": Translated{
-		Name:         "තුර්කිය",
 		OfficialName: "තුර්කි ජනරජය",
 	},
 	"TV": Translated{
 		Name: "ටුවාලු",
 	},
 	"TW": Translated{
-		Name:         "චීනයේ තායිවාන ප්‍රදේශය",
-		OfficialName: "චීනයේ තායිවාන ප්‍රදේශය",
+		Name:         "තායිවානය",
+		OfficialName: "තායිවානය",
 		CommonName:   "තායිවානය",
 	},
 	"TZ": Translated{

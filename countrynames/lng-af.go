@@ -828,15 +828,14 @@ var Afrikaans = map[string]Translated{
 		OfficialName: "Republiek van Tunisië",
 	},
 	"TR": Translated{
-		Name:         "Turkye",
 		OfficialName: "Republiek van Turkye",
 	},
 	"TV": Translated{
 		Name: "Toewaloe",
 	},
 	"TW": Translated{
-		Name:         "Taiwan, Provinsie van Sjina",
-		OfficialName: "Taiwan, Provinsie van Sjina",
+		Name:         "Taiwan",
+		OfficialName: "Taiwan",
 		CommonName:   "Taiwan",
 	},
 	"TZ": Translated{
